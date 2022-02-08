@@ -10,56 +10,46 @@
             </div>
         </div>
         <br><br>
-        <div class="row">
-            <div class="ec-common-wrapper">
-                <div class="ec-contact-leftside">
-                    <div class="ec-contact-container">
-                        <div class="ec-contact-form">
-                            <form action="#" method="post">
-                                <span class="ec-contact-wrap">
-                                    <label>Adınız*</label>
-                                    <input type="text" name="firstname" placeholder="Adınızı giriniz" required />
-                                </span>
-                                <span class="ec-contact-wrap">
-                                    <label>Soyadınız*</label>
-                                    <input type="text" name="lastname" placeholder="Soyadınızı giriniz" required />
-                                </span>
-                                <span class="ec-contact-wrap">
-                                    <label>E-posta*</label>
-                                    <input type="email" name="email" placeholder="E-posta adresinizi giriniz" required />
-                                </span>
-                                <span class="ec-contact-wrap">
-                                    <label>Telefon Numarası*</label>
-                                    <input type="text" name="phonenumber" placeholder="Teelfon numaranızı giriniz" required />
-                                </span>
-                                <span class="ec-contact-wrap">
-                                    <label>Yorumlar / Sorular *</label>
-                                    <textarea name="address" placeholder="Lütfen buraya yorumlarınızı bırakın.." required></textarea>
-                                </span>
-                                <span class="ec-contact-wrap ec-contact-btn">
-                                    <button class="btn btn-primary" type="submit" id="sifresifirla" name="con_send" value="1">Gönder</button>
-                                </span>
-                            </form>
-                        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-4">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label class="mt-3" for="firstname">Adınız <span class="text-danger">*</span></label>
+                        <input class="form-control" type="text" name="firstname" id="firstname" placeholder="Adınızı giriniz" required>
                     </div>
-                </div>
-                <div class="ec-contact-rightside">
-                    <div class="ec_contact_map">
-                        <div class="ec_map_canvas">
-                            <iframe id="ec_map_canvas" src="<?= $settings->iletisim_harita ?>"></iframe>
-                        </div>
+                    <div class="form-group">
+                        <label class="mt-3" for="lastname">Soyadınız <span class="text-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Soyadınızı giriniz" required>
                     </div>
-                    <div class="ec_contact_info">
-                        <h1 class="ec_contact_info_head">İletişim</h1>
-                        <ul class="align-items-center">
-                            <li class="ec-contact-item"><i class="ecicon eci-map-marker" aria-hidden="true"></i><span>Adres :</span><?= $settings->iletisim_adres ?></li>
-                            <li class="ec-contact-item align-items-center"><i class="ecicon eci-phone" aria-hidden="true"></i><span>Telefon :</span><a href="tel:<?= $settings->iletisim_telefon ?>"><?= $settings->iletisim_telefon ?></a></li>
-                            <li class="ec-contact-item align-items-center"><i class="ecicon eci-envelope" aria-hidden="true"></i><span>E-posta :</span><a href="mailto:<?= $settings->iletisim_mail ?>"><?= $settings->iletisim_mail ?></a></li>
-                        </ul>
+                    <div class="form-group">
+                        <label class="mt-3" for="email">E-posta <span class="text-danger">*</span></label>
+                        <input class="form-control" type="email" name="email" id="email" placeholder="E-posta adresinizi giriniz" required>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label class="mt-3" for="phonenumber">Telefon Numarası <span class="text-danger">*</span></label>
+                        <input class="form-control" type="text" name="phonenumber" id="phonenumber" placeholder="Teelfon numaranızı giriniz" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="mt-3" for="address">Yorumlar / Sorular <span class="text-danger">*</span></label>
+                        <textarea class="form-control" name="address" id="address" placeholder="Lütfen buraya yorumlarınızı bırakın.." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="button" class="btn btn-primary mt-3 w-50" id="sifresifirla" name="con_send" value="Gönder">
+                    </div>
+                </form>
             </div>
+            <div class="col-md-7">
+                <iframe class="w-100 h-75" src="<?= $settings->iletisim_harita ?>"></iframe>
+                <ul class="mt-4">
+                    <li class="ec-contact-item"><b><i class="ecicon eci-map-marker" aria-hidden="true"></i><span> Adres : </span></b> <?= $settings->iletisim_adres ?></li>
+                    <li class="ec-contact-item"><b><i class="ecicon eci-phone" aria-hidden="true"></i><span> Telefon : </span></b> <a href="tel:<?= $settings->iletisim_telefon ?>"><?= $settings->iletisim_telefon ?></a></li>
+                    <li class="ec-contact-item"><b><i class="ecicon eci-envelope" aria-hidden="true"></i><span> E-posta : </span></b><a href="mailto:<?= $settings->iletisim_mail ?>"><?= $settings->iletisim_mail ?></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around">
         </div>
     </div>
 </section>
 <?= $this->endSection()  ?>
+
