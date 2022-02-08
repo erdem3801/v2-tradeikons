@@ -13,3 +13,8 @@
  *
  * @see: https://codeigniter4.github.io/CodeIgniter4/
  */
+function print_d($data){
+    echo '<pre>';
+    print_r($data);
+    die();
+}

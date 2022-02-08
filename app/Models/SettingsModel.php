@@ -11,30 +11,30 @@ class SettingsModel extends Model
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
-    protected $returnType       = 'array';
+    protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'id', 
-        'site_url', 
-        'kategori_url', 
-        'urun_kategori_url', 
-        'urun_url', 
-        'urun_gorsel_url', 
-        'site_baslik', 
-        'site_title', 
-        'site_keywords', 
-        'site_description', 
-        'facebook', 
-        'instagram', 
-        'twitter', 
-        'linkedin', 
-        'ust_aciklama', 
-        'copyright', 
-        'iletisim_telefon', 
-        'iletisim_mail', 
-        'iletisim_adres', 
-        'iletisim_harita', 
+        'id',
+        'site_url',
+        'kategori_url',
+        'urun_kategori_url',
+        'urun_url',
+        'urun_gorsel_url',
+        'site_baslik',
+        'site_title',
+        'site_keywords',
+        'site_description',
+        'facebook',
+        'instagram',
+        'twitter',
+        'linkedin',
+        'ust_aciklama',
+        'copyright',
+        'iletisim_telefon',
+        'iletisim_mail',
+        'iletisim_adres',
+        'iletisim_harita',
         'whatsapp'
     ];
 
@@ -61,4 +61,22 @@ class SettingsModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getCategories()
+    {
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://www.pazarfin.com/pazarfin/urunler/veri/kategori_veri_bilsevpazarlama_515.json',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+        ));
+        $response = json_decode(curl_exec($curl), true);
+        curl_close($curl);
+        return $response;
+    }
 }
