@@ -32,6 +32,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('hakkimizda', 'InformationController::about');
+$routes->get('sss', 'InformationController::sss');
+$routes->get('iletisim', 'InformationController::contact');
+$routes->get('(:segment)/(:any)', 'CategoriesController::list/$1/$2');
+$routes->get('(:segment)/(:any)/(:any)', 'CategoriesController::list/$1/$2/$3');
 
 /*
  * --------------------------------------------------------------------
