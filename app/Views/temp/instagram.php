@@ -17,36 +17,28 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/1.jpg"
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/1.jpg"
                                         alt="insta"></a>
                             </div>
                         </div>
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/2.jpg"
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/2.jpg"
                                         alt="insta"></a>
                             </div>
                         </div>
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/3.jpg"
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/3.jpg"
                                         alt="insta"></a>
                             </div>
                         </div>
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/4.jpg"
-                                        alt="insta"></a>
-                            </div>
-                        </div>
-                        <!-- instagram item -->
-                        <!-- instagram item -->
-                        <div class="ec-insta-item">
-                            <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/5.jpg"
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/4.jpg"
                                         alt="insta"></a>
                             </div>
                         </div>
@@ -54,7 +46,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/6.jpg"
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/5.jpg"
                                         alt="insta"></a>
                             </div>
                         </div>
@@ -62,7 +54,15 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="public/assets/images/instragram-image/7.jpg"
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/6.jpg"
+                                        alt="insta"></a>
+                            </div>
+                        </div>
+                        <!-- instagram item -->
+                        <!-- instagram item -->
+                        <div class="ec-insta-item">
+                            <div class="ec-insta-inner">
+                                <a href="#" target="_blank"><img src="<?= base_url('public')  ?>/assets/images/instragram-image/7.jpg"
                                         alt="insta"></a>
                             </div>
                         </div>

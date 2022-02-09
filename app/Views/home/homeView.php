@@ -1,5 +1,13 @@
  <?= $this->extend('temp/tempHome')  ?>
 
+ <?= $this->section('style')  ?>
+ <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/demo1.css" />
+ <?= $this->endSection()  ?>
+ 
+ <?= $this->section('script')  ?>
+<script src="<?= base_url('public')  ?>/assets/js/vendor/index.js"></script>
+<?= $this->endSection()  ?>
+
  <?= $this->section('content')  ?>
  <!-- Product tab Area Start -->
  <div class="sticky-header-next-sec ec-main-slider section section-space-pb">
@@ -81,15 +89,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/6_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/6_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -110,8 +118,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_1.jpg" data-src-hover="public/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_2.jpg" data-src-hover="public/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -132,17 +140,17 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/7_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/7_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" alt="Product" />
                                              </a>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -163,8 +171,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/7_1.jpg" data-src-hover="public/assets/images/product-image/7_1.jpg" data-tooltip="Gray"><span style="background-color:#01f1f1;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/7_2.jpg" data-src-hover="public/assets/images/product-image/7_2.jpg" data-tooltip="Orange"><span style="background-color:#b89df8;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" data-tooltip="Gray"><span style="background-color:#01f1f1;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" data-tooltip="Orange"><span style="background-color:#b89df8;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -185,14 +193,14 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/1_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/1_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/1_2.jpg" alt="Product" />
                                              </a>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -213,10 +221,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_1.jpg" data-src-hover="public/assets/images/product-image/1_1.jpg" data-tooltip="Gray"><span style="background-color:#90cdf7;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_2.jpg" data-src-hover="public/assets/images/product-image/1_2.jpg" data-tooltip="Orange"><span style="background-color:#ff3b66;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_3.jpg" data-src-hover="public/assets/images/product-image/1_3.jpg" data-tooltip="Green"><span style="background-color:#ffc476;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_4.jpg" data-src-hover="public/assets/images/product-image/1_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#1af0ba;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" data-tooltip="Gray"><span style="background-color:#90cdf7;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_2.jpg" data-tooltip="Orange"><span style="background-color:#ff3b66;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_3.jpg" data-tooltip="Green"><span style="background-color:#ffc476;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#1af0ba;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -235,17 +243,17 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/2_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/2_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/2_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/2_2.jpg" alt="Product" />
                                              </a>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -266,7 +274,7 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/2_1.jpg" data-src-hover="public/assets/images/product-image/2_2.jpg" data-tooltip="Gray"><span style="background-color:#fdbf04;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/2_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/2_2.jpg" data-tooltip="Gray"><span style="background-color:#fdbf04;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -278,15 +286,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/3_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/3_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">15%</span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -307,10 +315,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_1.jpg" data-src-hover="public/assets/images/product-image/3_1.jpg" data-tooltip="Gray"><span style="background-color:#75e3ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_2.jpg" data-src-hover="public/assets/images/product-image/3_2.jpg" data-tooltip="Orange"><span style="background-color:#11f7d8;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_3.jpg" data-src-hover="public/assets/images/product-image/3_3.jpg" data-tooltip="Green"><span style="background-color:#acff7c;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_5.jpg" data-src-hover="public/assets/images/product-image/3_5.jpg" data-tooltip="Sky Blue"><span style="background-color:#e996fa;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" data-tooltip="Gray"><span style="background-color:#75e3ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" data-tooltip="Orange"><span style="background-color:#11f7d8;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" data-tooltip="Green"><span style="background-color:#acff7c;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" data-tooltip="Sky Blue"><span style="background-color:#e996fa;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -322,14 +330,14 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/4_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/4_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/4_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/4_2.jpg" alt="Product" />
                                              </a>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -350,10 +358,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_1.jpg" data-src-hover="public/assets/images/product-image/4_1.jpg" data-tooltip="Gray"><span style="background-color:#ebbf60;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_2.jpg" data-src-hover="public/assets/images/product-image/4_2.jpg" data-tooltip="Orange"><span style="background-color:#b4fc57;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_3.jpg" data-src-hover="public/assets/images/product-image/4_3.jpg" data-tooltip="Green"><span style="background-color:#2ea1cd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_4.jpg" data-src-hover="public/assets/images/product-image/4_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#c1a1fd;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_1.jpg" data-tooltip="Gray"><span style="background-color:#ebbf60;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_2.jpg" data-tooltip="Orange"><span style="background-color:#b4fc57;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_3.jpg" data-tooltip="Green"><span style="background-color:#2ea1cd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#c1a1fd;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -365,17 +373,17 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/5_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/5_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/5_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/5_2.jpg" alt="Product" />
                                              </a>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -396,8 +404,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/5_1.jpg" data-src-hover="public/assets/images/product-image/5_1.jpg" data-tooltip="Gray"><span style="background-color:#9e9e9e;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/5_2.jpg" data-src-hover="public/assets/images/product-image/5_2.jpg" data-tooltip="Orange"><span style="background-color:#eb8e76;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/5_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/5_1.jpg" data-tooltip="Gray"><span style="background-color:#9e9e9e;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/5_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/5_2.jpg" data-tooltip="Orange"><span style="background-color:#eb8e76;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -417,18 +425,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/8_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/8_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">35%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -449,9 +457,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_2.jpg" data-src-hover="public/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_3.jpg" data-src-hover="public/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_4.jpg" data-src-hover="public/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -472,15 +480,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/6_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/6_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -501,8 +509,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_1.jpg" data-src-hover="public/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_2.jpg" data-src-hover="public/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -523,18 +531,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/7_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/7_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -555,8 +563,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/7_1.jpg" data-src-hover="public/assets/images/product-image/7_1.jpg" data-tooltip="Gray"><span style="background-color:#01f1f1;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/7_2.jpg" data-src-hover="public/assets/images/product-image/7_2.jpg" data-tooltip="Orange"><span style="background-color:#b89df8;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" data-tooltip="Gray"><span style="background-color:#01f1f1;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" data-tooltip="Orange"><span style="background-color:#b89df8;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -577,18 +585,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/2_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/2_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/2_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/2_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -609,7 +617,7 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/2_1.jpg" data-src-hover="public/assets/images/product-image/2_2.jpg" data-tooltip="Gray"><span style="background-color:#fdbf04;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/2_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/2_2.jpg" data-tooltip="Gray"><span style="background-color:#fdbf04;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -621,14 +629,14 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/4_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/4_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/4_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/4_2.jpg" alt="Product" />
                                              </a>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -649,10 +657,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_1.jpg" data-src-hover="public/assets/images/product-image/4_1.jpg" data-tooltip="Gray"><span style="background-color:#ebbf60;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_2.jpg" data-src-hover="public/assets/images/product-image/4_2.jpg" data-tooltip="Orange"><span style="background-color:#b4fc57;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_3.jpg" data-src-hover="public/assets/images/product-image/4_3.jpg" data-tooltip="Green"><span style="background-color:#2ea1cd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/4_4.jpg" data-src-hover="public/assets/images/product-image/4_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#c1a1fd;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_1.jpg" data-tooltip="Gray"><span style="background-color:#ebbf60;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_2.jpg" data-tooltip="Orange"><span style="background-color:#b4fc57;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_3.jpg" data-tooltip="Green"><span style="background-color:#2ea1cd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/4_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/4_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#c1a1fd;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -664,17 +672,17 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/5_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/5_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/5_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/5_2.jpg" alt="Product" />
                                              </a>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -695,8 +703,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/5_1.jpg" data-src-hover="public/assets/images/product-image/5_1.jpg" data-tooltip="Gray"><span style="background-color:#9e9e9e;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/5_2.jpg" data-src-hover="public/assets/images/product-image/5_2.jpg" data-tooltip="Orange"><span style="background-color:#eb8e76;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/5_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/5_1.jpg" data-tooltip="Gray"><span style="background-color:#9e9e9e;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/5_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/5_2.jpg" data-tooltip="Orange"><span style="background-color:#eb8e76;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -716,18 +724,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/8_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/8_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -748,9 +756,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_2.jpg" data-src-hover="public/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_3.jpg" data-src-hover="public/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_4.jpg" data-src-hover="public/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -762,18 +770,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/10_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/10_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/10_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/10_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -794,10 +802,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/10_1.jpg" data-src-hover="public/assets/images/product-image/10_1.jpg" data-tooltip="Gray"><span style="background-color:#41d49c;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/10_2.jpg" data-src-hover="public/assets/images/product-image/10_2.jpg" data-tooltip="Orange"><span style="background-color:#fc8484;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/10_3.jpg" data-src-hover="public/assets/images/product-image/10_3.jpg" data-tooltip="Green"><span style="background-color:#db94f7;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/10_4.jpg" data-src-hover="public/assets/images/product-image/10_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#24da0c;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/10_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/10_1.jpg" data-tooltip="Gray"><span style="background-color:#41d49c;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/10_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/10_2.jpg" data-tooltip="Orange"><span style="background-color:#fc8484;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/10_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/10_3.jpg" data-tooltip="Green"><span style="background-color:#db94f7;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/10_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/10_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#24da0c;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -818,18 +826,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/9_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/9_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -850,9 +858,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_1.jpg" data-src-hover="public/assets/images/product-image/9_1.jpg" data-tooltip="Gray"><span style="background-color:#21b7fc;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_2.jpg" data-src-hover="public/assets/images/product-image/9_2.jpg" data-tooltip="Orange"><span style="background-color:#1df0ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_3.jpg" data-src-hover="public/assets/images/product-image/9_3.jpg" data-tooltip="Green"><span style="background-color:#94f7a1;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-tooltip="Gray"><span style="background-color:#21b7fc;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-tooltip="Orange"><span style="background-color:#1df0ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-tooltip="Green"><span style="background-color:#94f7a1;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -881,18 +889,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/9_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/9_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -913,9 +921,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_1.jpg" data-src-hover="public/assets/images/product-image/9_1.jpg" data-tooltip="Gray"><span style="background-color:#21b7fc;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_2.jpg" data-src-hover="public/assets/images/product-image/9_2.jpg" data-tooltip="Orange"><span style="background-color:#1df0ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_3.jpg" data-src-hover="public/assets/images/product-image/9_3.jpg" data-tooltip="Green"><span style="background-color:#94f7a1;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-tooltip="Gray"><span style="background-color:#21b7fc;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-tooltip="Orange"><span style="background-color:#1df0ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-tooltip="Green"><span style="background-color:#94f7a1;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -936,15 +944,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/6_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/6_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -965,8 +973,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_1.jpg" data-src-hover="public/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_2.jpg" data-src-hover="public/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -987,18 +995,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/8_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/8_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1019,9 +1027,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_2.jpg" data-src-hover="public/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_3.jpg" data-src-hover="public/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_4.jpg" data-src-hover="public/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1033,18 +1041,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/3_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/3_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1065,10 +1073,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_1.jpg" data-src-hover="public/assets/images/product-image/3_1.jpg" data-tooltip="Gray"><span style="background-color:#75e3ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_2.jpg" data-src-hover="public/assets/images/product-image/3_2.jpg" data-tooltip="Orange"><span style="background-color:#11f7d8;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_3.jpg" data-src-hover="public/assets/images/product-image/3_3.jpg" data-tooltip="Green"><span style="background-color:#acff7c;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_5.jpg" data-src-hover="public/assets/images/product-image/3_5.jpg" data-tooltip="Sky Blue"><span style="background-color:#e996fa;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" data-tooltip="Gray"><span style="background-color:#75e3ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" data-tooltip="Orange"><span style="background-color:#11f7d8;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" data-tooltip="Green"><span style="background-color:#acff7c;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" data-tooltip="Sky Blue"><span style="background-color:#e996fa;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1080,19 +1088,19 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/11_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/11_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/11_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/11_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                                      Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1113,12 +1121,12 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_1.jpg" data-src-hover="public/assets/images/product-image/11_1.jpg" data-tooltip="Gray"><span style="background-color:#dba4ff;"></span></a>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_1.jpg" data-tooltip="Gray"><span style="background-color:#dba4ff;"></span></a>
                                                      </li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_2.jpg" data-src-hover="public/assets/images/product-image/11_2.jpg" data-tooltip="Orange"><span style="background-color:#ff4a77;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_3.jpg" data-src-hover="public/assets/images/product-image/11_3.jpg" data-tooltip="Green"><span style="background-color:#c9ff55;"></span></a>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_2.jpg" data-tooltip="Orange"><span style="background-color:#ff4a77;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_3.jpg" data-tooltip="Green"><span style="background-color:#c9ff55;"></span></a>
                                                      </li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_4.jpg" data-src-hover="public/assets/images/product-image/11_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#ffcc5e;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#ffcc5e;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1130,19 +1138,19 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/12_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/12_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/12_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/12_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                                      Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1163,12 +1171,12 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_1.jpg" data-src-hover="public/assets/images/product-image/12_1.jpg" data-tooltip="Gray"><span style="background-color:#db9dff;"></span></a>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_1.jpg" data-tooltip="Gray"><span style="background-color:#db9dff;"></span></a>
                                                      </li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_2.jpg" data-src-hover="public/assets/images/product-image/12_2.jpg" data-tooltip="Orange"><span style="background-color:#00ffff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_3.jpg" data-src-hover="public/assets/images/product-image/12_3.jpg" data-tooltip="Green"><span style="background-color:#ffa7f3;"></span></a>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_2.jpg" data-tooltip="Orange"><span style="background-color:#00ffff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_3.jpg" data-tooltip="Green"><span style="background-color:#ffa7f3;"></span></a>
                                                      </li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_4.jpg" data-src-hover="public/assets/images/product-image/12_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#89ff7e;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#89ff7e;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -1189,15 +1197,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/13_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/13_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/13_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/13_2.jpg" alt="Product" />
                                              </a>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                                      Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1218,12 +1226,12 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_1.jpg" data-src-hover="public/assets/images/product-image/13_1.jpg" data-tooltip="Gray"><span style="background-color:#deffa4;"></span></a>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_1.jpg" data-tooltip="Gray"><span style="background-color:#deffa4;"></span></a>
                                                      </li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_2.jpg" data-src-hover="public/assets/images/product-image/13_2.jpg" data-tooltip="Orange"><span style="background-color:#ffcdbe;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_3.jpg" data-src-hover="public/assets/images/product-image/13_3.jpg" data-tooltip="Green"><span style="background-color:#ff94df;"></span></a>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_2.jpg" data-tooltip="Orange"><span style="background-color:#ffcdbe;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_3.jpg" data-tooltip="Green"><span style="background-color:#ff94df;"></span></a>
                                                      </li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_4.jpg" data-src-hover="public/assets/images/product-image/13_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#dd9bfc;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#dd9bfc;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1235,15 +1243,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/14_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/14_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/14_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/14_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1264,10 +1272,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/14_1.jpg" data-src-hover="public/assets/images/product-image/14_1.jpg" data-tooltip="Gray"><span style="background-color:#bb8641;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/14_2.jpg" data-src-hover="public/assets/images/product-image/14_2.jpg" data-tooltip="Orange"><span style="background-color:#5dd677;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/14_3.jpg" data-src-hover="public/assets/images/product-image/14_3.jpg" data-tooltip="Green"><span style="background-color:#32ffdd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/14_4.jpg" data-src-hover="public/assets/images/product-image/14_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#56ccfa;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/14_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/14_1.jpg" data-tooltip="Gray"><span style="background-color:#bb8641;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/14_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/14_2.jpg" data-tooltip="Orange"><span style="background-color:#5dd677;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/14_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/14_3.jpg" data-tooltip="Green"><span style="background-color:#32ffdd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/14_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/14_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#56ccfa;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -1297,18 +1305,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/1_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/1_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/1_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1329,10 +1337,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_1.jpg" data-src-hover="public/assets/images/product-image/1_1.jpg" data-tooltip="Gray"><span style="background-color:#90cdf7;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_2.jpg" data-src-hover="public/assets/images/product-image/1_2.jpg" data-tooltip="Orange"><span style="background-color:#ff3b66;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_3.jpg" data-src-hover="public/assets/images/product-image/1_3.jpg" data-tooltip="Green"><span style="background-color:#ffc476;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/1_4.jpg" data-src-hover="public/assets/images/product-image/1_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#1af0ba;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" data-tooltip="Gray"><span style="background-color:#90cdf7;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_2.jpg" data-tooltip="Orange"><span style="background-color:#ff3b66;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_3.jpg" data-tooltip="Green"><span style="background-color:#ffc476;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/1_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/1_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#1af0ba;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -1351,18 +1359,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/15_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/15_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/15_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/15_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1384,10 +1392,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/15_1.jpg" data-src-hover="public/assets/images/product-image/15_1.jpg" data-tooltip="Gray"><span style="background-color:#ffacfb;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/15_2.jpg" data-src-hover="public/assets/images/product-image/15_2.jpg" data-tooltip="Orange"><span style="background-color:#90dfff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/15_3.jpg" data-src-hover="public/assets/images/product-image/15_3.jpg" data-tooltip="Green"><span style="background-color:#c6ff4a;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/15_4.jpg" data-src-hover="public/assets/images/product-image/15_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#ffb158;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/15_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/15_1.jpg" data-tooltip="Gray"><span style="background-color:#ffacfb;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/15_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/15_2.jpg" data-tooltip="Orange"><span style="background-color:#90dfff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/15_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/15_3.jpg" data-tooltip="Green"><span style="background-color:#c6ff4a;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/15_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/15_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#ffb158;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -1408,18 +1416,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/16_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/16_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/16_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/16_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1440,10 +1448,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/16_1.jpg" data-src-hover="public/assets/images/product-image/16_1.jpg" data-tooltip="Gray"><span style="background-color:#6ee9ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/16_2.jpg" data-src-hover="public/assets/images/product-image/16_2.jpg" data-tooltip="Orange"><span style="background-color:#eb99ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/16_3.jpg" data-src-hover="public/assets/images/product-image/16_3.jpg" data-tooltip="Green"><span style="background-color:#ff6464;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/16_4.jpg" data-src-hover="public/assets/images/product-image/16_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#e476ff;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/16_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/16_1.jpg" data-tooltip="Gray"><span style="background-color:#6ee9ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/16_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/16_2.jpg" data-tooltip="Orange"><span style="background-color:#eb99ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/16_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/16_3.jpg" data-tooltip="Green"><span style="background-color:#ff6464;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/16_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/16_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#e476ff;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1455,18 +1463,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/17_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/17_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/17_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/17_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1487,10 +1495,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/17_1.jpg" data-src-hover="public/assets/images/product-image/17_1.jpg" data-tooltip="Gray"><span style="background-color:#8ad2fc;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/17_2.jpg" data-src-hover="public/assets/images/product-image/17_2.jpg" data-tooltip="Orange"><span style="background-color:#ff8ef6;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/17_3.jpg" data-src-hover="public/assets/images/product-image/17_3.jpg" data-tooltip="Green"><span style="background-color:#ffbe31;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/17_4.jpg" data-src-hover="public/assets/images/product-image/17_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#a3ffba;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/17_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/17_1.jpg" data-tooltip="Gray"><span style="background-color:#8ad2fc;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/17_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/17_2.jpg" data-tooltip="Orange"><span style="background-color:#ff8ef6;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/17_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/17_3.jpg" data-tooltip="Green"><span style="background-color:#ffbe31;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/17_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/17_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#a3ffba;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1502,18 +1510,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/9_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/9_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="sale">Sale</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1534,9 +1542,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_1.jpg" data-src-hover="public/assets/images/product-image/9_1.jpg" data-tooltip="Gray"><span style="background-color:#21b7fc;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_2.jpg" data-src-hover="public/assets/images/product-image/9_2.jpg" data-tooltip="Orange"><span style="background-color:#1df0ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_3.jpg" data-src-hover="public/assets/images/product-image/9_3.jpg" data-tooltip="Green"><span style="background-color:#94f7a1;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-tooltip="Gray"><span style="background-color:#21b7fc;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-tooltip="Orange"><span style="background-color:#1df0ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-tooltip="Green"><span style="background-color:#94f7a1;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -1557,15 +1565,15 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/6_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/6_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1586,8 +1594,8 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_1.jpg" data-src-hover="public/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/6_2.jpg" data-src-hover="public/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
                                                  </ul>
                                              </div>
                                              <div class="ec-pro-size">
@@ -1608,18 +1616,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/8_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/8_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1640,9 +1648,9 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_2.jpg" data-src-hover="public/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_3.jpg" data-src-hover="public/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/8_4.jpg" data-src-hover="public/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_2.jpg" data-tooltip="Gray"><span style="background-color:#e9dddd;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_3.jpg" data-tooltip="Orange"><span style="background-color:#ffd5cb;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/8_4.jpg" data-tooltip="Green"><span style="background-color:#92e4fd;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1654,18 +1662,18 @@
                                      <div class="ec-pro-image-outer">
                                          <div class="ec-pro-image">
                                              <a href="product-left-sidebar.html" class="image">
-                                                 <img class="main-image" src="public/assets/images/product-image/3_1.jpg" alt="Product" />
-                                                 <img class="hover-image" src="public/assets/images/product-image/3_2.jpg" alt="Product" />
+                                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="Product" />
+                                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="Product" />
                                              </a>
                                              <span class="percentage">20%</span>
                                              <span class="flags">
                                                  <span class="new">New</span>
                                              </span>
-                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                              <div class="ec-pro-actions">
-                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                              </div>
                                          </div>
                                      </div>
@@ -1686,10 +1694,10 @@
                                              <div class="ec-pro-color">
                                                  <span class="ec-pro-opt-label">Color</span>
                                                  <ul class="ec-opt-swatch ec-change-img">
-                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_1.jpg" data-src-hover="public/assets/images/product-image/3_1.jpg" data-tooltip="Gray"><span style="background-color:#75e3ff;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_2.jpg" data-src-hover="public/assets/images/product-image/3_2.jpg" data-tooltip="Orange"><span style="background-color:#11f7d8;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_3.jpg" data-src-hover="public/assets/images/product-image/3_3.jpg" data-tooltip="Green"><span style="background-color:#acff7c;"></span></a></li>
-                                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/3_5.jpg" data-src-hover="public/assets/images/product-image/3_5.jpg" data-tooltip="Sky Blue"><span style="background-color:#e996fa;"></span></a></li>
+                                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" data-tooltip="Gray"><span style="background-color:#75e3ff;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" data-tooltip="Orange"><span style="background-color:#11f7d8;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" data-tooltip="Green"><span style="background-color:#acff7c;"></span></a></li>
+                                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" data-tooltip="Sky Blue"><span style="background-color:#e996fa;"></span></a></li>
                                                  </ul>
                                              </div>
                                          </div>
@@ -1719,7 +1727,7 @@
                  <div class="row">
                      <div class="banner-block col-lg-6 col-md-12 margin-b-30" data-animation="slideInRight">
                          <div class="bnr-overlay">
-                             <img src="public/assets/images/banner/2.jpg" alt="" />
+                             <img src="<?= base_url('public')  ?>/assets/images/banner/2.jpg" alt="" />
                              <div class="banner-text">
                                  <span class="ec-banner-stitle">New Arrivals</span>
                                  <span class="ec-banner-title">mens<br> Sport shoes</span>
@@ -1732,7 +1740,7 @@
                      </div>
                      <div class="banner-block col-lg-6 col-md-12" data-animation="slideInLeft">
                          <div class="bnr-overlay">
-                             <img src="public/assets/images/banner/3.jpg" alt="" />
+                             <img src="<?= base_url('public')  ?>/assets/images/banner/3.jpg" alt="" />
                              <div class="banner-text">
                                  <span class="ec-banner-stitle">New Trending</span>
                                  <span class="ec-banner-title">Smart<br> watches</span>
@@ -1770,19 +1778,19 @@
              <div class="col-lg-3">
                  <ul class="ec-cat-tab-nav nav">
                      <li class="cat-item"><a class="cat-link active" data-bs-toggle="tab" href="#tab-cat-1">
-                             <div class="cat-icons"><img class="cat-icon" src="public/assets/images/icons/cat_1.png" alt="cat-icon"><img class="cat-icon-hover" src="public/assets/images/icons/cat_1_1.png" alt="cat-icon"></div>
+                             <div class="cat-icons"><img class="cat-icon" src="<?= base_url('public')  ?>/assets/images/icons/cat_1.png" alt="cat-icon"><img class="cat-icon-hover" src="<?= base_url('public')  ?>/assets/images/icons/cat_1_1.png" alt="cat-icon"></div>
                              <div class="cat-desc"><span>Clothes</span><span>440 Products</span></div>
                          </a></li>
                      <li class="cat-item"><a class="cat-link" data-bs-toggle="tab" href="#tab-cat-2">
-                             <div class="cat-icons"><img class="cat-icon" src="public/assets/images/icons/cat_2.png" alt="cat-icon"><img class="cat-icon-hover" src="public/assets/images/icons/cat_2_1.png" alt="cat-icon"></div>
+                             <div class="cat-icons"><img class="cat-icon" src="<?= base_url('public')  ?>/assets/images/icons/cat_2.png" alt="cat-icon"><img class="cat-icon-hover" src="<?= base_url('public')  ?>/assets/images/icons/cat_2_1.png" alt="cat-icon"></div>
                              <div class="cat-desc"><span>Watches</span><span>510 Products</span></div>
                          </a></li>
                      <li class="cat-item"><a class="cat-link" data-bs-toggle="tab" href="#tab-cat-3">
-                             <div class="cat-icons"><img class="cat-icon" src="public/assets/images/icons/cat_3.png" alt="cat-icon"><img class="cat-icon-hover" src="public/assets/images/icons/cat_3_1.png" alt="cat-icon"></div>
+                             <div class="cat-icons"><img class="cat-icon" src="<?= base_url('public')  ?>/assets/images/icons/cat_3.png" alt="cat-icon"><img class="cat-icon-hover" src="<?= base_url('public')  ?>/assets/images/icons/cat_3_1.png" alt="cat-icon"></div>
                              <div class="cat-desc"><span>Bags</span><span>620 Products</span></div>
                          </a></li>
                      <li class="cat-item"><a class="cat-link" data-bs-toggle="tab" href="#tab-cat-4">
-                             <div class="cat-icons"><img class="cat-icon" src="public/assets/images/icons/cat_4.png" alt="cat-icon"><img class="cat-icon-hover" src="public/assets/images/icons/cat_4_1.png" alt="cat-icon"></div>
+                             <div class="cat-icons"><img class="cat-icon" src="<?= base_url('public')  ?>/assets/images/icons/cat_4.png" alt="cat-icon"><img class="cat-icon-hover" src="<?= base_url('public')  ?>/assets/images/icons/cat_4_1.png" alt="cat-icon"></div>
                              <div class="cat-desc"><span>Shoes</span><span>320 Products</span></div>
                          </a></li>
                  </ul>
@@ -1795,7 +1803,7 @@
                      <!-- 1st Category tab end -->
                      <div class="tab-pane fade show active" id="tab-cat-1">
                          <div class="row">
-                             <img src="public/assets/images/cat-banner/1.jpg" alt="" />
+                             <img src="<?= base_url('public')  ?>/assets/images/cat-banner/1.jpg" alt="" />
                          </div>
                          <span class="panel-overlay">
                              <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -1804,7 +1812,7 @@
                      <!-- 1st Category tab end -->
                      <div class="tab-pane fade" id="tab-cat-2">
                          <div class="row">
-                             <img src="public/assets/images/cat-banner/2.jpg" alt="" />
+                             <img src="<?= base_url('public')  ?>/assets/images/cat-banner/2.jpg" alt="" />
                          </div>
                          <span class="panel-overlay">
                              <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -1814,7 +1822,7 @@
                      <!-- 3rd Category tab start -->
                      <div class="tab-pane fade" id="tab-cat-3">
                          <div class="row">
-                             <img src="public/assets/images/cat-banner/3.jpg" alt="" />
+                             <img src="<?= base_url('public')  ?>/assets/images/cat-banner/3.jpg" alt="" />
                          </div>
                          <span class="panel-overlay">
                              <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -1824,7 +1832,7 @@
                      <!-- 4th Category tab start -->
                      <div class="tab-pane fade" id="tab-cat-4">
                          <div class="row">
-                             <img src="public/assets/images/cat-banner/4.jpg" alt="" />
+                             <img src="<?= base_url('public')  ?>/assets/images/cat-banner/4.jpg" alt="" />
                          </div>
                          <span class="panel-overlay">
                              <a href="shop-left-sidebar-col-3.html" class="btn btn-primary">View All</a>
@@ -1857,8 +1865,8 @@
                          <div class="ec-fs-pro-inner">
                              <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                  <div class="ec-fs-pro-image">
-                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="public/assets/images/product-image/1_1.jpg" alt="Product" /></a>
-                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/1_1.jpg" alt="Product" /></a>
+                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                  </div>
                              </div>
                              <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
@@ -1895,8 +1903,8 @@
                          <div class="ec-fs-pro-inner">
                              <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                  <div class="ec-fs-pro-image">
-                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="public/assets/images/product-image/3_1.jpg" alt="Product" /></a>
-                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="Product" /></a>
+                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                  </div>
                              </div>
                              <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
@@ -1946,8 +1954,8 @@
                          <div class="ec-fs-pro-inner">
                              <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                  <div class="ec-fs-pro-image">
-                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="public/assets/images/product-image/8_1.jpg" alt="Product" /></a>
-                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/8_1.jpg" alt="Product" /></a>
+                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                  </div>
                              </div>
                              <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
@@ -1983,8 +1991,8 @@
                          <div class="ec-fs-pro-inner">
                              <div class="ec-fs-pro-image-outer col-lg-6 col-md-6 col-sm-6">
                                  <div class="ec-fs-pro-image">
-                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="public/assets/images/product-image/10_1.jpg" alt="Product" /></a>
-                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                     <a href="product-left-sidebar.html" class="image"><img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/10_1.jpg" alt="Product" /></a>
+                                     <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                                  </div>
                              </div>
                              <div class="ec-fs-pro-content col-lg-6 col-md-6 col-sm-6">
@@ -2033,7 +2041,7 @@
              <div class="ec_ser_content ec_ser_content_1 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
                  <div class="ec_ser_inner">
                      <div class="ec-service-image">
-                         <img src="public/assets/images/icons/service_1.svg" class="svg_img" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/icons/service_1.svg" class="svg_img" alt="" />
                      </div>
                      <div class="ec-service-desc">
                          <h2>Free Shipping</h2>
@@ -2044,7 +2052,7 @@
              <div class="ec_ser_content ec_ser_content_2 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
                  <div class="ec_ser_inner">
                      <div class="ec-service-image">
-                         <img src="public/assets/images/icons/service_2.svg" class="svg_img" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/icons/service_2.svg" class="svg_img" alt="" />
                      </div>
                      <div class="ec-service-desc">
                          <h2>24X7 Support</h2>
@@ -2055,7 +2063,7 @@
              <div class="ec_ser_content ec_ser_content_3 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
                  <div class="ec_ser_inner">
                      <div class="ec-service-image">
-                         <img src="public/assets/images/icons/service_3.svg" class="svg_img" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/icons/service_3.svg" class="svg_img" alt="" />
                      </div>
                      <div class="ec-service-desc">
                          <h2>30 Days Return</h2>
@@ -2066,7 +2074,7 @@
              <div class="ec_ser_content ec_ser_content_4 col-sm-12 col-md-6 col-lg-3" data-animation="zoomIn">
                  <div class="ec_ser_inner">
                      <div class="ec-service-image">
-                         <img src="public/assets/images/icons/service_4.svg" class="svg_img" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/icons/service_4.svg" class="svg_img" alt="" />
                      </div>
                      <div class="ec-service-desc">
                          <h2>Payment Secure</h2>
@@ -2087,7 +2095,7 @@
              <div class="col-xl-6 col-lg-7 col-md-7 col-sm-7 align-self-center ec-offer-content">
                  <h2 class="ec-offer-title">Sunglasses</h2>
                  <h3 class="ec-offer-stitle" data-animation="slideInDown">Super Offer</h3>
-                 <span class="ec-offer-img" data-animation="zoomIn"><img src="public/assets/images/offer-image/1.png" alt="offer image" /></span>
+                 <span class="ec-offer-img" data-animation="zoomIn"><img src="<?= base_url('public')  ?>/assets/images/offer-image/1.png" alt="offer image" /></span>
                  <span class="ec-offer-desc">Acetate Frame Sunglasses</span>
                  <span class="ec-offer-price">$40.00 Only</span>
                  <a class="btn btn-primary" href="shop-left-sidebar-col-3.html" data-animation="zoomIn">Shop Now</a>
@@ -2116,18 +2124,18 @@
                      <div class="ec-pro-image-outer">
                          <div class="ec-pro-image">
                              <a href="product-left-sidebar.html" class="image">
-                                 <img class="main-image" src="public/assets/images/product-image/9_1.jpg" alt="Product" />
-                                 <img class="hover-image" src="public/assets/images/product-image/9_2.jpg" alt="Product" />
+                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" alt="Product" />
+                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" alt="Product" />
                              </a>
                              <span class="flags">
                                  <span class="sale">Sale</span>
                              </span>
-                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                              <div class="ec-pro-actions">
-                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                      Cart</button>
-                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                              </div>
                          </div>
                      </div>
@@ -2148,10 +2156,10 @@
                              <div class="ec-pro-color">
                                  <span class="ec-pro-opt-label">Color</span>
                                  <ul class="ec-opt-swatch ec-change-img">
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_1.jpg" data-src-hover="public/assets/images/product-image/9_1.jpg" data-tooltip="Orange"><span style="background-color:#74c7ff;"></span></a></li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_2.jpg" data-src-hover="public/assets/images/product-image/9_2.jpg" data-tooltip="Green"><span style="background-color:#7af6ff;"></span></a>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_1.jpg" data-tooltip="Orange"><span style="background-color:#74c7ff;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_2.jpg" data-tooltip="Green"><span style="background-color:#7af6ff;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/9_3.jpg" data-src-hover="public/assets/images/product-image/9_3.jpg" data-tooltip="Sky Blue"><span style="background-color:#85ffeb;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/9_3.jpg" data-tooltip="Sky Blue"><span style="background-color:#85ffeb;"></span></a></li>
                                  </ul>
                              </div>
                              <div class="ec-pro-size">
@@ -2172,18 +2180,18 @@
                      <div class="ec-pro-image-outer">
                          <div class="ec-pro-image">
                              <a href="product-left-sidebar.html" class="image">
-                                 <img class="main-image" src="public/assets/images/product-image/11_1.jpg" alt="Product" />
-                                 <img class="hover-image" src="public/assets/images/product-image/11_2.jpg" alt="Product" />
+                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/11_1.jpg" alt="Product" />
+                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/11_2.jpg" alt="Product" />
                              </a>
                              <span class="flags">
                                  <span class="new">New</span>
                              </span>
-                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                              <div class="ec-pro-actions">
-                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                      Cart</button>
-                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                              </div>
                          </div>
                      </div>
@@ -2204,12 +2212,12 @@
                              <div class="ec-pro-color">
                                  <span class="ec-pro-opt-label">Color</span>
                                  <ul class="ec-opt-swatch ec-change-img">
-                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_1.jpg" data-src-hover="public/assets/images/product-image/11_1.jpg" data-tooltip="Gray"><span style="background-color:#dba4ff;"></span></a>
+                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_1.jpg" data-tooltip="Gray"><span style="background-color:#dba4ff;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_2.jpg" data-src-hover="public/assets/images/product-image/11_2.jpg" data-tooltip="Orange"><span style="background-color:#ff4a77;"></span></a></li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_3.jpg" data-src-hover="public/assets/images/product-image/11_3.jpg" data-tooltip="Green"><span style="background-color:#c9ff55;"></span></a>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_2.jpg" data-tooltip="Orange"><span style="background-color:#ff4a77;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_3.jpg" data-tooltip="Green"><span style="background-color:#c9ff55;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/11_4.jpg" data-src-hover="public/assets/images/product-image/11_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#ffcc5e;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/11_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/11_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#ffcc5e;"></span></a></li>
                                  </ul>
                              </div>
                          </div>
@@ -2221,16 +2229,16 @@
                      <div class="ec-pro-image-outer">
                          <div class="ec-pro-image">
                              <a href="product-left-sidebar.html" class="image">
-                                 <img class="main-image" src="public/assets/images/product-image/12_1.jpg" alt="Product" />
-                                 <img class="hover-image" src="public/assets/images/product-image/12_2.jpg" alt="Product" />
+                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/12_1.jpg" alt="Product" />
+                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/12_2.jpg" alt="Product" />
                              </a>
                              <span class="percentage">5%</span>
-                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                              <div class="ec-pro-actions">
-                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                      Cart</button>
-                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                              </div>
                          </div>
                      </div>
@@ -2251,12 +2259,12 @@
                              <div class="ec-pro-color">
                                  <span class="ec-pro-opt-label">Color</span>
                                  <ul class="ec-opt-swatch ec-change-img">
-                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_1.jpg" data-src-hover="public/assets/images/product-image/12_1.jpg" data-tooltip="Gray"><span style="background-color:#db9dff;"></span></a>
+                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_1.jpg" data-tooltip="Gray"><span style="background-color:#db9dff;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_2.jpg" data-src-hover="public/assets/images/product-image/12_2.jpg" data-tooltip="Orange"><span style="background-color:#00ffff;"></span></a></li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_3.jpg" data-src-hover="public/assets/images/product-image/12_3.jpg" data-tooltip="Green"><span style="background-color:#ffa7f3;"></span></a>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_2.jpg" data-tooltip="Orange"><span style="background-color:#00ffff;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_3.jpg" data-tooltip="Green"><span style="background-color:#ffa7f3;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/12_4.jpg" data-src-hover="public/assets/images/product-image/12_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#89ff7e;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/12_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/12_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#89ff7e;"></span></a></li>
                                  </ul>
                              </div>
                              <div class="ec-pro-size">
@@ -2277,15 +2285,15 @@
                      <div class="ec-pro-image-outer">
                          <div class="ec-pro-image">
                              <a href="product-left-sidebar.html" class="image">
-                                 <img class="main-image" src="public/assets/images/product-image/13_1.jpg" alt="Product" />
-                                 <img class="hover-image" src="public/assets/images/product-image/13_2.jpg" alt="Product" />
+                                 <img class="main-image" src="<?= base_url('public')  ?>/assets/images/product-image/13_1.jpg" alt="Product" />
+                                 <img class="hover-image" src="<?= base_url('public')  ?>/assets/images/product-image/13_2.jpg" alt="Product" />
                              </a>
-                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="public/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                             <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
                              <div class="ec-pro-actions">
-                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="public/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                 <button title="Add To Cart" class="add-to-cart"><img src="public/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
+                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To
                                      Cart</button>
-                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="public/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                              </div>
                          </div>
                      </div>
@@ -2306,12 +2314,12 @@
                              <div class="ec-pro-color">
                                  <span class="ec-pro-opt-label">Color</span>
                                  <ul class="ec-opt-swatch ec-change-img">
-                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_1.jpg" data-src-hover="public/assets/images/product-image/13_1.jpg" data-tooltip="Gray"><span style="background-color:#deffa4;"></span></a>
+                                     <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_1.jpg" data-tooltip="Gray"><span style="background-color:#deffa4;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_2.jpg" data-src-hover="public/assets/images/product-image/13_2.jpg" data-tooltip="Orange"><span style="background-color:#ffcdbe;"></span></a></li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_3.jpg" data-src-hover="public/assets/images/product-image/13_3.jpg" data-tooltip="Green"><span style="background-color:#ff94df;"></span></a>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_2.jpg" data-tooltip="Orange"><span style="background-color:#ffcdbe;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_3.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_3.jpg" data-tooltip="Green"><span style="background-color:#ff94df;"></span></a>
                                      </li>
-                                     <li><a href="#" class="ec-opt-clr-img" data-src="public/assets/images/product-image/13_4.jpg" data-src-hover="public/assets/images/product-image/13_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#dd9bfc;"></span></a></li>
+                                     <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/13_4.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/13_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#dd9bfc;"></span></a></li>
                                  </ul>
                              </div>
                          </div>
@@ -2341,9 +2349,9 @@
              <div class="ec-test-outer">
                  <ul id="ec-testimonial-slider">
                      <li class="ec-test-item">
-                         <img src="public/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="" />
                          <div class="ec-test-inner">
-                             <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="public/assets/images/testimonial/1.jpg" /></div>
+                             <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="<?= base_url('public')  ?>/assets/images/testimonial/1.jpg" /></div>
                              <div class="ec-test-content">
                                  <div class="ec-test-desc">Lorem Ipsum is simply dummy text of the printing and
                                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -2360,12 +2368,12 @@
                                  </div>
                              </div>
                          </div>
-                         <img src="public/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="" />
                      </li>
                      <li class="ec-test-item ">
-                         <img src="public/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="" />
                          <div class="ec-test-inner">
-                             <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="public/assets/images/testimonial/2.jpg" /></div>
+                             <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="<?= base_url('public')  ?>/assets/images/testimonial/2.jpg" /></div>
                              <div class="ec-test-content">
                                  <div class="ec-test-desc">Lorem Ipsum is simply dummy text of the printing and
                                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -2382,12 +2390,12 @@
                                  </div>
                              </div>
                          </div>
-                         <img src="public/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="" />
                      </li>
                      <li class="ec-test-item">
-                         <img src="public/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/testimonial/top-quotes.svg" class="svg_img test_svg top" alt="" />
                          <div class="ec-test-inner">
-                             <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="public/assets/images/testimonial/3.jpg" /></div>
+                             <div class="ec-test-img"><img alt="testimonial" title="testimonial" src="<?= base_url('public')  ?>/assets/images/testimonial/3.jpg" /></div>
                              <div class="ec-test-content">
                                  <div class="ec-test-desc">Lorem Ipsum is simply dummy text of the printing and
                                      typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -2404,7 +2412,7 @@
                                  </div>
                              </div>
                          </div>
-                         <img src="public/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="" />
+                         <img src="<?= base_url('public')  ?>/assets/images/testimonial/bottom-quotes.svg" class="svg_img test_svg bottom" alt="" />
                      </li>
                  </ul>
              </div>
@@ -2421,28 +2429,28 @@
              <div class="ec-brand-outer">
                  <ul id="ec-brand-slider">
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/1.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/1.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/2.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/2.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/3.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/3.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/4.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/4.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/5.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/5.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/6.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/6.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/7.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/7.png" /></a></div>
                      </li>
                      <li class="ec-brand-item" data-animation="zoomIn">
-                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="public/assets/images/brand-image/8.png" /></a></div>
+                         <div class="ec-brand-img"><a href="#"><img alt="brand" title="brand" src="<?= base_url('public')  ?>/assets/images/brand-image/8.png" /></a></div>
                      </li>
                  </ul>
              </div>

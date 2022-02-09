@@ -6,7 +6,7 @@
                     <div class="col-sm-12 col-lg-3 ec-footer-contact">
                         <div class="ec-footer-widget">
                             <div class="ec-footer-logo">
-                                <a href="#"><img src="public/assets/images/logo/footer-logo.png" alt="footer-logo"><img class="dark-footer-logo" src="public/assets/images/logo/dark-logo.png" alt="Site Logo" style="display: none;" /></a>
+                                <a href="#"><img src="<?= base_url('public')  ?>/assets/images/logo/footer-logo.png" alt="footer-logo"><img class="dark-footer-logo" src="<?= base_url('public')  ?>/assets/images/logo/dark-logo.png" alt="Site Logo" style="display: none;" /></a>
                             </div>
                             <h4 class="ec-footer-heading">İletişim</h4>
                             <div class="ec-footer-links">
@@ -126,7 +126,7 @@
                     <div class="col footer-bottom-right">
                         <div class="footer-bottom-payment d-flex justify-content-end">
                             <div class="payment-link">
-                                <img src="public/assets/images/icons/payment.png" alt="payment">
+                                <img src="<?= base_url('public')  ?>/assets/images/icons/payment.png" alt="payment">
                             </div>
                         </div>
                     </div>

@@ -41,7 +41,7 @@
                     <div class="ec-header-bottons">
                         <!-- Header User Start -->
                         <div class="ec-header-user dropdown">
-                            <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="public/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
+                            <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li><a class="dropdown-item" href="register.html">Register</a></li>
                                 <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
@@ -51,19 +51,19 @@
                         <!-- Header User End -->
                         <!-- Header Cart Start -->
                         <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
-                            <div class="header-icon"><img src="public/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="" /></div>
+                            <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="" /></div>
                             <span class="ec-header-count">4</span>
                         </a>
                         <!-- Header Cart End -->
                         <!-- Header Cart Start -->
                         <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
-                            <div class="header-icon"><img src="public/assets/images/icons/cart.svg" class="svg_img header_svg" alt="" /></div>
+                            <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="" /></div>
                             <span class="ec-header-count cart-count-lable">3</span>
                         </a>
                         <!-- Header Cart End -->
                         <!-- Header menu Start -->
                         <a href="#ec-mobile-menu" class="ec-header-btn ec-side-toggle d-lg-none">
-                            <img src="public/assets/images/icons/menu.svg" class="svg_img header_svg" alt="icon" />
+                            <img src="<?= base_url('public')  ?>/assets/images/icons/menu.svg" class="svg_img header_svg" alt="icon" />
                         </a>
                         <!-- Header menu End -->
                     </div>
@@ -81,7 +81,7 @@
                     <!-- Ec Header Logo Start -->
                     <div class="align-self-center">
                         <div class="header-logo">
-                            <a href="index.html"><img src="public/assets/images/logo/logo.png" alt="Site Logo" /><img class="dark-logo" src="public/assets/images/logo/dark-logo.png" alt="Site Logo" style="display: none;" /></a>
+                            <a href="<?= base_url() ?>"><img src="<?= base_url('public')  ?>/assets/images/logo/logo.png" alt="Site Logo" /><img class="dark-logo" src="<?= base_url('public')  ?>/assets/images/logo/dark-logo.png" alt="Site Logo" style="display: none;" /></a>
                         </div>
                     </div>
                     <!-- Ec Header Logo End -->
@@ -91,7 +91,7 @@
                         <div class="header-search">
                             <form class="ec-btn-group-form" action="#">
                                 <input class="form-control" placeholder="Enter Your Product Name..." type="text">
-                                <button class="submit" type="submit"><img src="public/assets/images/icons/search.svg" class="svg_img header_svg" alt="" /></button>
+                                <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="" /></button>
                             </form>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
 
                             <!-- Header User Start -->
                             <div class="ec-header-user dropdown">
-                                <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="public/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
+                                <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a class="dropdown-item" href="register.html">Register</a></li>
                                     <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
@@ -113,13 +113,13 @@
                             <!-- Header User End -->
                             <!-- Header wishlist Start -->
                             <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
-                                <div class="header-icon"><img src="public/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="" /></div>
+                                <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="" /></div>
                                 <span class="ec-header-count">4</span>
                             </a>
                             <!-- Header wishlist End -->
                             <!-- Header Cart Start -->
                             <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
-                                <div class="header-icon"><img src="public/assets/images/icons/cart.svg" class="svg_img header_svg" alt="" /></div>
+                                <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="" /></div>
                                 <span class="ec-header-count cart-count-lable">3</span>
                             </a>
                             <!-- Header Cart End -->
@@ -138,7 +138,7 @@
                 <!-- Ec Header Logo Start -->
                 <div class="col">
                     <div class="header-logo">
-                        <a href="index.html"><img src="public/assets/images/logo/logo.png" alt="Site Logo" /><img class="dark-logo" src="public/assets/images/logo/dark-logo.png" alt="Site Logo" style="display: none;" /></a>
+                        <a href="<?= base_url() ?>"><img src="<?= base_url('public')  ?>/assets/images/logo/logo.png" alt="Site Logo" /><img class="dark-logo" src="<?= base_url('public')  ?>/assets/images/logo/dark-logo.png" alt="Site Logo" style="display: none;" /></a>
                     </div>
                 </div>
                 <!-- Ec Header Logo End -->
@@ -147,7 +147,7 @@
                     <div class="header-search">
                         <form class="ec-btn-group-form" action="#">
                             <input class="form-control" placeholder="Enter Your Product Name..." type="text">
-                            <button class="submit" type="submit"><img src="public/assets/images/icons/search.svg" class="svg_img header_svg" alt="icon" /></button>
+                            <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="icon" /></button>
                         </form>
                     </div>
                 </div>
@@ -163,23 +163,23 @@
                 <div class="col-md-12 align-self-center">
                     <div class="ec-main-menu">
                         <ul>
-                            <?php foreach ($categories as $key => $main) : ?>
-                                <li class="dropdown position-static"><a href="javascript:void(0)"><?= $main["ad"] ?></a>
+                            <?php foreach ($categories as $key => $main) :  ?>
+                                <li class="dropdown position-static"><a href="javascript:void(0)"><?= $main["category_title"] ?></a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
-                                            <?php if (isset($main["listelenecek_kategoriler"])) : ?>
-                                                <?php foreach ($main["listelenecek_kategoriler"] as $key => $submain) : ?>
+                                            <?php if (isset($main["nodes"])) : ?>
+                                                <?php foreach ($main["nodes"] as $key => $submain) : ?>
                                                     <ul class="d-block">
-                                                        <li class="menu_title"><a href="<?= url_title($main["ad"]) ?>/<?=  url_title($submain["ad"]) ?>"><?= $submain["ad"] ?></a></li>
-                                                        <?php if (isset($submain["listelenecek_kategoriler"])) :  $say = 0; ?>
-                                                            <?php foreach ($submain["listelenecek_kategoriler"] as $key1 => $categorie) : $say++;  ?>
-                                                                <li><a href="<?= url_title($main["ad"]) ?>/<?=  url_title($submain["ad"]) ?>/<?= url_title($categorie["ad"]) ?>"><?= $categorie["ad"] ?></a></li>
+                                                        <li class="menu_title"><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>"><?= $submain["category_title"] ?></a></li>
+                                                        <?php if (isset($submain["nodes"])) :  $say = 0; ?>
+                                                            <?php foreach ($submain["nodes"] as $key1 => $categorie) : $say++;  ?>
+                                                                <li><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>/<?= $categorie["category_slug"] ?>"><?= $categorie["category_title"] ?></a></li>
                                                             <?php endforeach ?>
                                                         <?php endif ?>
                                                         <?php for ($i_1 = 0; $i_1 <= 6 - $say; $i_1++) : ?>
                                                             <li><a href="#"><span style="color:white;">Deneme</span></a></li>
                                                         <?php endfor ?>
-                                                        <li><a class="p-0 " href="<?= url_title($main["ad"]) ?>/<?=  url_title($submain["ad"]) ?>"><img class="img-responsive" src="public/assets/images/menu-banner/<?= $submain["gorsel"] ?>" alt="<?= $submain["ad"] ?>"></a></li>
+                                                        <li><a class="p-0 " href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>"><img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/menu-banner/<?= $submain["category_image"] ?>" alt="<?= $submain["category_title"] ?>"></a></li>
                                                     </ul>
                                                 <?php endforeach ?>
                                             <?php endif ?>
@@ -203,7 +203,7 @@
         <div class="ec-menu-inner">
             <div class="ec-menu-content">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="<?= base_url() ?>">Home</a></li>
                     <li><a href="javascript:void(0)">Categories</a>
                         <ul class="sub-menu">
                             <li>
@@ -250,7 +250,7 @@
                                     <li><a href="shop-list-full-col-2.html">Full width 2 columns</a></li>
                                 </ul>
                             </li>
-                            <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive" src="public/assets/images/menu-banner/1.jpg" alt=""></a>
+                            <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/menu-banner/1.jpg" alt=""></a>
                             </li>
                         </ul>
                     </li>

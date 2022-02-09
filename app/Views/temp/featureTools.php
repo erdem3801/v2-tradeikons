@@ -4,7 +4,7 @@
         <h3>Features</h3>
     </div>
     <a href="#" class="ec-tools-sidebar-toggle in-out">
-        <img alt="icon" src="public/assets/images/common/settings.png">
+        <img alt="icon" src="<?= base_url('public')  ?>/assets/images/common/settings.png">
     </a>
     <div class="ec-tools-detail">
         <div class="ec-tools-sidebar-content ec-change-color ec-color-desc">

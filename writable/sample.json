@@ -1,0 +1,77 @@
+{
+    "urun_id": 1,
+    "urun_adi": "Andoutdoor TM9608 Plaj \u00c7antas\u0131",
+    "urun_kategori": "85",
+    "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->C\u00fczdan, Bel, El ve Omuz \u00c7antalar\u0131->Bel \u00c7antalar\u0131",
+    "urun_aciklama": "Andoutdoor Plaj \u00c7antas\u0131  ",
+    "urun_varyant_durumu": 0,
+    "urun_varyant_kod": 4676404983,
+    "urun_varyant_statu": 1,
+    "urun_fiyati": {
+        "urun_kdv_orani": "8",
+        "urun_alis_fiyati": "84.46",
+        "urun_satis_fiyati": 118.24,
+        "urun_para_birimi": "TRY",
+        "urun_indirim": 0,
+        "urun_sepet_indirim": 0,
+        "urun_kampanya": 0,
+        "ty_fiyati": {
+            "fiyat_tipi": 0,
+            "liste_fiyati_orani": 58,
+            "satis_fiyati_orani": 56,
+            "kargo_fiyati": 16.5,
+            "komisyon_durumu": 1
+        }
+    },
+    "xml_kod": "100381",
+    "xml_barkod": "8697512655563",
+    "urun_stok_kodu": "100381",
+    "urun_barkod": "8697512655563",
+    "urun_renk": "Tek Renk",
+    "urun_beden": [],
+    "urun_stok": "138",
+    "urun_desi": "1",
+    "urun_gorsel": [
+        "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-tm9608-plaj-cantasi-8102.jpg"
+    ],
+   
+    "urun_durumu": 0,
+    "urun_seo": {
+        "urun_seo_baslik": "andoutdoor-tm9608-plaj-cantasi369",
+        "urun_seo_etiket": "",
+        "urun_seo_key": "",
+        "urun_seo_des": ""
+    },
+    "urun_gonderim_sekli": [
+        {
+            "gonderim_secenegi": "1",
+            "kargo_firmasi_id": 0,
+            "kargoya_verme_suresi": 2,
+            "kargo_odeyecek_taraf": "0"
+        }
+    ],
+    "urun_markasi": "Andoutdoor",
+    "urun_mensei": "T\u00fcrkiye",
+    "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+    "urun_satis_durum": {
+        "e_ticaret": 1,
+        "ty": 1,
+        "hb": 1,
+        "cs": 2
+    },
+    "islem_tarihi": [
+        {
+            "islem_tipi": "ekleme",
+            "islem_tarihi": "10.11.2021 15: 24: 30",
+            "islemi_yapan": "1"
+        }
+    ],
+    "satis_fiyati_orani": 1.4,
+    "ty_marka_id": "7912",
+    "ty_kargo_id": "4",
+    "pazaryeri_kod": "PRA-3167241-649053",
+    "e_ticaret_gorsel": [
+        "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9875029-andoutdoor-tm9608-plaj-cantasi-8102.webp"
+    ],
+    "gitin": 9987049781975
+}

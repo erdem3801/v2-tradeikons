@@ -1,5 +1,5 @@
 <div class="recent-purchase">
-    <img src="public/assets/images/product-image/1.jpg" alt="payment image">
+    <img src="<?= base_url('public')  ?>/assets/images/product-image/1.jpg" alt="payment image">
     <div class="detail">
         <p>Someone in new just bought</p>
         <h6>stylish baby shoes</h6>

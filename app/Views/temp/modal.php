@@ -8,36 +8,36 @@
                             <!-- Swiper -->
                             <div class="qty-product-cover">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_1.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_2.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_3.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_4.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_4.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_5.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" alt="">
                                 </div>
                             </div>
                             <div class="qty-nav-thumb">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_1.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_2.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_3.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_4.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_4.jpg" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="public/assets/images/product-image/3_5.jpg" alt="">
+                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                                         <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
                                     </div>
                                     <div class="ec-quickview-cart ">
-                                        <button class="btn btn-primary"><img src="public/assets/images/icons/cart.svg"
+                                        <button class="btn btn-primary"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg"
                                                 class="svg_img pro_svg" alt="" /> Add To Cart</button>
                                     </div>
                                 </div>

@@ -1,0 +1,266 @@
+{
+    "category_id": "1",
+    "category_title": "Kad\u0131n",
+    "category_slug": "kadin",
+    "category_image": "",
+    "category_parent": "0",
+    "nodes": [
+        {
+            "category_id": "2",
+            "category_title": "Giyim",
+            "category_slug": "giyim",
+            "category_image": "giyim.webp",
+            "category_parent": "1",
+            "nodes": [
+                {
+                    "category_id": "3",
+                    "category_title": "T-shirt & Bluz & Sweat",
+                    "category_slug": "t-shirt-bluz-sweat",
+                    "category_image": "",
+                    "category_parent": "2"
+                },
+                {
+                    "category_id": "4",
+                    "category_title": "Pantolon & Etek",
+                    "category_slug": "pantolon-etek",
+                    "category_image": "",
+                    "category_parent": "2"
+                },
+                {
+                    "category_id": "5",
+                    "category_title": "Mont&Kaban",
+                    "category_slug": "montkaban",
+                    "category_image": "",
+                    "category_parent": "2"
+                },
+                {
+                    "category_id": "6",
+                    "category_title": "Abiye&G\u00fcnl\u00fck Elbise",
+                    "category_slug": "abiyeguenluek-elbise",
+                    "category_image": "",
+                    "category_parent": "2"
+                },
+                {
+                    "category_id": "7",
+                    "category_title": "\u0130\u00e7 Giyim",
+                    "category_slug": "ic-giyim",
+                    "category_image": "",
+                    "category_parent": "2"
+                },
+                {
+                    "category_id": "8",
+                    "category_title": "G\u00f6mlek&H\u0131rka&Kazak",
+                    "category_slug": "goemlekhirkakazak",
+                    "category_image": "",
+                    "category_parent": "2"
+                }
+            ]
+        },
+        {
+            "category_id": "9",
+            "category_title": "Ayakkab\u0131",
+            "category_slug": "ayakkabi",
+            "category_image": "ayakkabi.webp",
+            "category_parent": "1",
+            "nodes": [
+                {
+                    "category_id": "10",
+                    "category_title": "G\u00fcnl\u00fck Ayakkab\u0131",
+                    "category_slug": "guenluek-ayakkabi",
+                    "category_image": "",
+                    "category_parent": "9"
+                },
+                {
+                    "category_id": "11",
+                    "category_title": "Spor Ayakkab\u0131",
+                    "category_slug": "spor-ayakkabi",
+                    "category_image": "",
+                    "category_parent": "9"
+                },
+                {
+                    "category_id": "12",
+                    "category_title": "Topuklu Ayakkab\u0131",
+                    "category_slug": "topuklu-ayakkabi",
+                    "category_image": "",
+                    "category_parent": "9"
+                },
+                {
+                    "category_id": "13",
+                    "category_title": "Bot&\u00c7izme",
+                    "category_slug": "botcizme",
+                    "category_image": "",
+                    "category_parent": "9"
+                },
+                {
+                    "category_id": "14",
+                    "category_title": "Babet&Terlik&Sandalet",
+                    "category_slug": "babetterliksandalet",
+                    "category_image": "",
+                    "category_parent": "9"
+                },
+                {
+                    "category_id": "15",
+                    "category_title": "Ev Ayakkab\u0131lar\u0131",
+                    "category_slug": "ev-ayakkabilari",
+                    "category_image": "",
+                    "category_parent": "9"
+                }
+            ]
+        },
+        {
+            "category_id": "16",
+            "category_title": "\u00c7anta",
+            "category_slug": "canta",
+            "category_image": "canta.webp",
+            "category_parent": "1",
+            "nodes": [
+                {
+                    "category_id": "17",
+                    "category_title": "S\u0131rt \u00c7antas\u0131",
+                    "category_slug": "sirt-cantasi",
+                    "category_image": "",
+                    "category_parent": "16"
+                },
+                {
+                    "category_id": "18",
+                    "category_title": "Omuz \u00c7antas\u0131",
+                    "category_slug": "omuz-cantasi",
+                    "category_image": "",
+                    "category_parent": "16"
+                },
+                {
+                    "category_id": "19",
+                    "category_title": "C\u00fczdan&Kartl\u0131k",
+                    "category_slug": "cuezdankartlik",
+                    "category_image": "",
+                    "category_parent": "16"
+                },
+                {
+                    "category_id": "20",
+                    "category_title": "El \u00c7antas\u0131",
+                    "category_slug": "el-cantasi",
+                    "category_image": "",
+                    "category_parent": "16"
+                }
+            ]
+        },
+        {
+            "category_id": "21",
+            "category_title": "\u0130\u00e7 Giyim",
+            "category_slug": "ic-giyim-1",
+            "category_image": "ic_giyim.webp",
+            "category_parent": "1",
+            "nodes": [
+                {
+                    "category_id": "22",
+                    "category_title": "Pijama Tak\u0131m\u0131",
+                    "category_slug": "pijama-takimi",
+                    "category_image": "",
+                    "category_parent": "21"
+                },
+                {
+                    "category_id": "23",
+                    "category_title": "\u00c7orap",
+                    "category_slug": "corap",
+                    "category_image": "",
+                    "category_parent": "21"
+                },
+                {
+                    "category_id": "24",
+                    "category_title": "Gecelik",
+                    "category_slug": "gecelik",
+                    "category_image": "",
+                    "category_parent": "21"
+                },
+                {
+                    "category_id": "25",
+                    "category_title": "S\u00fctyen",
+                    "category_slug": "suetyen",
+                    "category_image": "",
+                    "category_parent": "21"
+                },
+                {
+                    "category_id": "26",
+                    "category_title": "Fantezi Giyim",
+                    "category_slug": "fantezi-giyim",
+                    "category_image": "",
+                    "category_parent": "21"
+                },
+                {
+                    "category_id": "27",
+                    "category_title": "Hamile Giyim",
+                    "category_slug": "hamile-giyim",
+                    "category_image": "",
+                    "category_parent": "21"
+                }
+            ]
+        },
+        {
+            "category_id": "28",
+            "category_title": "Ki\u015fisel Bak\u0131m&Kozmetik",
+            "category_slug": "kisisel-bakimkozmetik",
+            "category_image": "kisisel_bakim.webp",
+            "category_parent": "1",
+            "nodes": [
+                {
+                    "category_id": "29",
+                    "category_title": "Makyaj",
+                    "category_slug": "makyaj",
+                    "category_image": "",
+                    "category_parent": "28"
+                },
+                {
+                    "category_id": "30",
+                    "category_title": "Cilt Bak\u0131m",
+                    "category_slug": "cilt-bakim",
+                    "category_image": "",
+                    "category_parent": "28"
+                },
+                {
+                    "category_id": "31",
+                    "category_title": "Epilasyon \u00dcr\u00fcnleri",
+                    "category_slug": "epilasyon-ueruenleri",
+                    "category_image": "",
+                    "category_parent": "28"
+                }
+            ]
+        },
+        {
+            "category_id": "32",
+            "category_title": "Spor&Outdoor",
+            "category_slug": "sporoutdoor",
+            "category_image": "spor.webp",
+            "category_parent": "1",
+            "nodes": [
+                {
+                    "category_id": "33",
+                    "category_title": "E\u015fofman",
+                    "category_slug": "esofman",
+                    "category_image": "",
+                    "category_parent": "32"
+                },
+                {
+                    "category_id": "34",
+                    "category_title": "Tayt",
+                    "category_slug": "tayt",
+                    "category_image": "",
+                    "category_parent": "32"
+                },
+                {
+                    "category_id": "35",
+                    "category_title": "Spor Ekipmanlar\u0131",
+                    "category_slug": "spor-ekipmanlari",
+                    "category_image": "",
+                    "category_parent": "32"
+                },
+                {
+                    "category_id": "36",
+                    "category_title": "Outdoor Ayakkab\u0131",
+                    "category_slug": "outdoor-ayakkabi",
+                    "category_image": "",
+                    "category_parent": "32"
+                }
+            ]
+        }
+    ]
+}

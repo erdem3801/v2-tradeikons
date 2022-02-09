@@ -3,7 +3,7 @@
         <div id="ec-popnews-close"><i class="ecicon eci-close"></i></div>
         <div class="row">
             <div class="col-md-6 disp-no-767">
-                <img src="public/assets/images/banner/newsletter.png" alt="newsletter">
+                <img src="<?= base_url('public')  ?>/assets/images/banner/newsletter.png" alt="newsletter">
             </div>
             <div class="col-md-6">
                 <div id="ec-popnews-box-content">
