@@ -31,9 +31,13 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('api', 'ApiController::index');
-$routes->get('test', 'ApiController::create');
+
+
+$routes->post('auth','UserController::auth');
+ 
+$routes->presenter('user',['controller' => 'UserController']);
+
+$routes->get('/', 'Home::index'); 
 
 $routes->get('hakkimizda', 'InformationController::about');
 $routes->get('sss', 'InformationController::sss');

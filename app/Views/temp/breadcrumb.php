@@ -13,7 +13,7 @@
                             <li class="ec-breadcrumb-item"><a href="<?php base_url()  ?>">Ana Sayfa</a></li>
                             
                             <?php foreach ($baslik as $key => $value) : ?>
-                                <li class="ec-breadcrumb-item <?= (count($baslik)-1) == $key ? 'active' : '' ?>"><a href="<?= $value['url']  ?>"><?= $value['title']  ?></a></li>
+                                <li class="ec-breadcrumb-item <?= (count($baslik)-1) == $key ? 'active' : '' ?>"><a href="<?= base_url($value['url'])  ?>"><?= $value['title']  ?></a></li>
                             <?php endforeach  ?>
                         </ul>
                         <!-- ec-breadcrumb-list end -->
