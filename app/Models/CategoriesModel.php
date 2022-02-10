@@ -44,36 +44,21 @@ class CategoriesModel extends Model
     protected $afterDelete    = [];
     public function getCategoryTree($elements, $parentID = 0)
     {
+        $branch = array();
+        foreach ($elements as $key => $element) {
+            if ($element['category_parent'] == $parentID) {
+               
 
-        // foreach ($elements as $key => &$value) {
-        //     $output[$value["category_id"]] = &$value;
-        // }
-        // foreach ($elements as $key => &$value) {
-        //     if ($value["category_parent"] && isset($output[$value["category_parent"]])) {
-        //         $output[$value["category_parent"]]["category_nodes"][] = &$value;
-        //     }
-        // }
-        // foreach ($elements as $key => &$value) {
-        //     if ($value["category_id"] && isset($output[$value["category_id"]])) { 
-        //         unset($elements[$key]);
-        //     }
-        // }
-        $result = array();
-        foreach($elements as $cat){
-            if($cat['category_parent'] && array_key_exists($cat['category_parent'], $result)){
-                $result[$cat['category_parent']]['sub_categories'][] = $cat;
+                $node = $this->getCategoryTree($elements, $element['category_id']);
+                if ($node) {
+                    $element['node'] = $node;
+                } else {
+                    $element['node'] = array();
+                }
+                $branch[] = $element;
             }
-            else{
-                $result[$cat['category_id']] = $cat;
-            }
-        }
+        }      
+        return $branch;
+    }
  
-        print_d($result); 
-    }
-
-
-    // Menu builder function, parentId 0 is the root
-    function build_category_menu($parentID, $menu)
-    {
-    }
 }

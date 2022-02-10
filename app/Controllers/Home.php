@@ -31,15 +31,7 @@ class Home extends BaseController
     }
     public function index()
     {
-        echo '<pre>';
-        foreach ($this->viewData['categories'] as $key => $value) {
-            print_r($value['category_title']);
-            echo '<br>';
-          
-            # code...
-        }
-        print_d($this->viewData['categories']);
-        die();
+        
         return view('home/homeView', $this->viewData);
     }
 }

@@ -167,12 +167,12 @@
                                 <li class="dropdown position-static"><a href="javascript:void(0)"><?= $main["category_title"] ?></a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
-                                            <?php if (isset($main["nodes"])) : ?>
-                                                <?php foreach ($main["nodes"] as $key => $submain) : ?>
+                                            <?php if (isset($main["node"])) : ?>
+                                                <?php foreach ($main["node"] as $key => $submain) : ?>
                                                     <ul class="d-block">
                                                         <li class="menu_title"><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>"><?= $submain["category_title"] ?></a></li>
-                                                        <?php if (isset($submain["nodes"])) :  $say = 0; ?>
-                                                            <?php foreach ($submain["nodes"] as $key1 => $categorie) : $say++;  ?>
+                                                        <?php if (isset($submain["node"])) :  $say = 0; ?>
+                                                            <?php foreach ($submain["node"] as $key1 => $categorie) : $say++;  ?>
                                                                 <li><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>/<?= $categorie["category_slug"] ?>"><?= $categorie["category_title"] ?></a></li>
                                                             <?php endforeach ?>
                                                         <?php endif ?>
