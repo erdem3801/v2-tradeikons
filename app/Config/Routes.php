@@ -38,6 +38,7 @@ $routes->post('auth','UserController::auth');
 $routes->presenter('user',['controller' => 'UserController']);
 
 $routes->get('/', 'Home::index'); 
+$routes->get('api', 'ApiController::index'); 
 
 $routes->get('hakkimizda', 'InformationController::about');
 $routes->get('sss', 'InformationController::sss');

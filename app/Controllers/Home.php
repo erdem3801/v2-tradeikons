@@ -18,8 +18,8 @@ class Home extends BaseController
         $this->categoryModel = model('CategoriesModel');
         if (!$categories = $cache->get('categories')) {
             $category = $this->categoryModel->orderBy('category_parent', 'ASC')->findAll();
-            $categoriesTree = $this->categoryModel->getCategoryTree($category);
-            $cache->save('categories', $categoriesTree, 3000);
+            $categories = $this->categoryModel->getCategoryTree($category);
+            $cache->save('categories', $categories, 3000);
         }
         if (!$settings = $cache->get('settings')) {
             $settings = $this->settingsModel->first();

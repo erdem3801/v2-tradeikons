@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <div id="ec-overlay"><span class="loader_img"></span></div>
+    <!-- TODO <div id="ec-overlay"><span class="loader_img"></span></div> -->
 
     <!-- Header start  -->
     <?= $this->include('temp/ec-header')  ?>

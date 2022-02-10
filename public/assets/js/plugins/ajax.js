@@ -1,9 +1,9 @@
-$(function(){
-    $.ajax({
-        url : 'http://localhost/github/v2-tradeikons/api',
-        success : function(res){
-            console.log('res: ', res);
-
-        }
-    })
+$(function () {
+    
+    $.getJSON('https://www.pazarfin.com/pazarfin/urunler/veri/urun_veri_bilsevpazarlama_515.json', function (data) {
+        data.forEach(element => {
+            console.log(element);
+        });
+        // JSON result in `data` variable
+    });
 })

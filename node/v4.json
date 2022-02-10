@@ -1,0 +1,1811 @@
+[
+    {
+        "urun_id": 60,
+        "urun_adi": "Jr Gear Su Ge\u00e7irmez U\u00e7ak Kesesi",
+        "urun_kategori": "84",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->Su Ge\u00e7irmez \u00c7antalar->Su Ge\u00e7irmez \u00c7anta",
+        "urun_aciklama": "Jr&nbsp;Gear&nbsp;Su&nbsp;Ge\u00e7irmez&nbsp;U\u00e7ak&nbsp;Kesesi<br>\n<br>\n2&nbsp;adet&nbsp;50ml&nbsp;<br>\n3&nbsp;adet&nbsp;100ml<br>\nHavayolu&nbsp;g\u00fcvenlik&nbsp;ihtiyac\u0131n\u0131&nbsp;kar\u015f\u0131lamak&nbsp;\u00fczere&nbsp;tasarlanm\u0131\u015f<br>\nM\u00fckemmel&nbsp;su&nbsp;ge\u00e7irmezlik&nbsp;i\u00e7in&nbsp;tomloc&nbsp;kapatma<br>\ndelinme&nbsp;ve&nbsp;y\u0131pranmaya&nbsp;kar\u015f\u0131&nbsp;sa\u011flam&nbsp;malzeme",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 8930949837,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "53.46",
+            "urun_satis_fiyati": 74.84,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202812",
+        "xml_barkod": "4897028446912",
+        "urun_stok_kodu": "202812",
+        "urun_barkod": "4897028446912",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "209",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/jr-gear-su-gecirmez-ucak-kesesi-sise-dahil-2593.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "jr-gear-su-gecirmez-ucak-kesesi403",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Jr Gear",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31521",
+        "ty_kargo_id": "10",
+        "pazaryeri_kod": "pzrfn167312343926",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7676213-jr-gear-su-gecirmez-ucak-kesesi-sise-dahil-2593.webp"
+        ],
+        "gitin": 7093971036122
+    },
+    {
+        "urun_id": 61,
+        "urun_adi": "Jr Gear Map Case Orta Harita Koruyucu",
+        "urun_kategori": "120",
+        "urun_xml_kategori": "Outdoor Kamp->Seyahat \u00dcr\u00fcnleri->K\u0131l\u0131flar->K\u0131l\u0131f",
+        "urun_aciklama": "Jr&nbsp;Gear&nbsp;Map&nbsp;Case&nbsp;Orta&nbsp;Harita&nbsp;Koruyucu<br>\nSu&nbsp;Ge\u00e7irmez&nbsp;Harita&nbsp;Koruyucu&nbsp;Kit",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 911870224,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "165.55",
+            "urun_satis_fiyati": 231.77,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202814",
+        "xml_barkod": "4897028446592",
+        "urun_stok_kodu": "202814",
+        "urun_barkod": "4897028446592",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "57",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/jr-gear-map-case-orta-harita-koruyucu-2595.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "jr-gear-map-case-orta-harita-koruyucu143",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Jr Gear",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31521",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn167857815021",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5650859-jr-gear-map-case-orta-harita-koruyucu-2595.webp"
+        ],
+        "gitin": 8063258877732
+    },
+    {
+        "urun_id": 62,
+        "urun_adi": "Andoutdoor 12210 Kid Grizzly Little Sahara \u00c7ocuk Uyku Tulumu",
+        "urun_kategori": "3379",
+        "urun_xml_kategori": "Outdoor Kamp->Uyku Tulumu->3 Mevsim->3 Mevsim",
+        "urun_aciklama": "\u00c7ocuk&nbsp;Uyku&nbsp;Tulumu&nbsp;-&nbsp;Little&nbsp;Sahara&nbsp;12210<br>\n&nbsp;<br>\n\u00d6l\u00e7\u00fcler&nbsp;:&nbsp;140&nbsp;x&nbsp;70&nbsp;x&nbsp;66cm<br>\nKonfor&nbsp;s\u0131cakl\u0131k:&nbsp;+35&nbsp;C<br>\nD\u0131\u015f&nbsp;y\u00fczey:&nbsp;Y\u0131rt\u0131lmaz&nbsp;kuma\u015f<br>\nAstar&nbsp;:&nbsp;Pamuk&nbsp;kuma\u015f",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 8872226617,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "310.5",
+            "urun_satis_fiyati": 434.7,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200421",
+        "xml_barkod": "690768300612",
+        "urun_stok_kodu": "200421",
+        "urun_barkod": "690768300612",
+        "urun_renk": "Gri",
+        "urun_beden": [],
+        "urun_stok": "34",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-12210-kid-grizzly-little-sahara-cocuk-uyku-tulumu-1740.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Gri"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-12210-kid-grizzly-little-sahara-cocuk-uyku-tulumu706",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn960802918647",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9602488-andoutdoor-12210-kid-grizzly-little-sahara-cocuk-uyku-tulumu-1740.webp"
+        ],
+        "gitin": 5443993758886
+    },
+    {
+        "urun_id": 63,
+        "urun_adi": "Bestway 67403 \u00c7ift Ki\u015filik 2 Katl\u0131 Pompal\u0131 \u015ei\u015fme Yatak 220V",
+        "urun_kategori": "3375",
+        "urun_xml_kategori": "Outdoor Kamp->Oturma, Dinlenme,Yataklar->\u015ei\u015fme Yataklar->\u015ei\u015fme Yataklar",
+        "urun_aciklama": "Bestway&nbsp;67403&nbsp;\u00c7ift&nbsp;ki\u015filik&nbsp;\u015fi\u015fme&nbsp;yatak&nbsp;kolay&nbsp;kullan\u0131m\u0131&nbsp;ve&nbsp;kolay&nbsp;ta\u015f\u0131nmas\u0131&nbsp;sayesinde&nbsp;seyahatta&nbsp;ve&nbsp;misafirirleriniz&nbsp;i\u00e7in&nbsp;rahat\u00e7a&nbsp;kullan\u0131labilen&nbsp;bir&nbsp;yatakt\u0131r.<br>\n<br>\nBoyutlar:<br>\n<br>\nUzunluk&nbsp;:&nbsp;203&nbsp;cm<br>\n<br>\nGeni\u015flik&nbsp;:&nbsp;152&nbsp;cm<br>\n<br>\nY\u00fckseklik&nbsp;:&nbsp;46&nbsp;cm.<br>\n<br>\nDahili&nbsp;pompas\u0131&nbsp;ile&nbsp;240&nbsp;sn&nbsp;i\u00e7inde&nbsp;\u015fi\u015ferek&nbsp;kullan\u0131ma&nbsp;haz\u0131r&nbsp;olur.<br>\n<br>\nAyn\u0131&nbsp;s\u00fcrede&nbsp;havas\u0131n\u0131&nbsp;bo\u015falt\u0131p&nbsp;ta\u015f\u0131ma&nbsp;\u00e7antas\u0131na&nbsp;koyabilirsiniz<br>\n<br>\n\u00dczeri&nbsp;terleme&nbsp;yapmayan&nbsp;ve&nbsp;kir&nbsp;tutmayan&nbsp;\u00f6zel&nbsp;malzemeden&nbsp;yap\u0131lm\u0131\u015ft\u0131r.<br>\n<br>\n\u00dcst&nbsp;k\u0131sm\u0131&nbsp;yast\u0131kl\u0131d\u0131r.&nbsp;&nbsp;Yatt\u0131\u011f\u0131n\u0131z&nbsp;yerden&nbsp;daha&nbsp;y\u00fcksektir.<br>\n<br>\nErgonomik&nbsp;yap\u0131s\u0131&nbsp;sayesinde&nbsp;masaj&nbsp;rahatl\u0131\u011f\u0131&nbsp;sa\u011flar.<br>\n<br>\nMaksimum&nbsp;Ta\u015f\u0131ma&nbsp;kapasitesi&nbsp;295&nbsp;kg",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7858934085,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "793.85",
+            "urun_satis_fiyati": 1111.39,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200469",
+        "xml_barkod": "6942138915945",
+        "urun_stok_kodu": "200469",
+        "urun_barkod": "6942138915945",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "673",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/bestway-67403-cift-kisilik-2-katli-pompali-sisme-yatak-220v-1753.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 846,
+                    "ozellik_ad": "Pompa Durumu",
+                    "deger_id": 417958,
+                    "deger_ad": "Pompa dahildir"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "bestway-67403-cift-kisilik-2-katli-pompali-sisme-yatak-220v855",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Bestway",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "8469",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn510771584953",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5287561-bestway-67403-cift-kisilik-2-katli-pompali-sisme-yatak-220v-1753.webp"
+        ],
+        "gitin": 4428933724663
+    },
+    {
+        "urun_id": 64,
+        "urun_adi": "Igloo Iggy 5In1 Kapaks\u0131z Termos 0.33 Litre",
+        "urun_kategori": "3358",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Termoslar->Termos",
+        "urun_aciklama": "Igloo Iggy 5In1 Kapaks\u0131z Termos 0.33 Litre",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6918877008,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "0",
+            "urun_satis_fiyati": 0,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200769",
+        "xml_barkod": "034223354046",
+        "urun_stok_kodu": "200769",
+        "urun_barkod": "034223354046",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "51",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/igloo-iggy-5-in-1-kapaksiz-termos-0-33-lt-1784.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 184,
+                    "ozellik_ad": "Kapasite",
+                    "deger_id": 2062,
+                    "deger_ad": "250-350 ml"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "igloo-iggy-5in1-kapaksiz-termos-033-litre930",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 3,
+            "hb": 3,
+            "cs": 2
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9842185-igloo-iggy-5-in-1-kapaksiz-termos-0-33-lt-1784.webp"
+        ],
+        "pazaryeri_kod": "pzrfn355618409830"
+    },
+    {
+        "urun_id": 65,
+        "urun_adi": "Fizan Compact 3 Section Pole Ye\u015fil Baton",
+        "urun_kategori": "3410",
+        "urun_xml_kategori": "Do\u011fa Sporlar\u0131->Da\u011fc\u0131l\u0131k->Batonlar->Baton",
+        "urun_aciklama": "Fizan Compact 3 Section Pole Ye\u015fil Baton",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 815407621,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "678.5",
+            "urun_satis_fiyati": 949.9,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201149",
+        "xml_barkod": "8032909134519",
+        "urun_stok_kodu": "201149",
+        "urun_barkod": "8032909134519",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "75",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/fizan-compact-3-section-pole-yesil-baton-1828.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "fizan-compact-3-section-pole-yesil-baton469",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Fizan",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31548",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2863642-fizan-compact-3-section-pole-yesil-baton-1828.webp"
+        ],
+        "gitin": 9059671729964,
+        "pazaryeri_kod": "pzrfn105134587012"
+    },
+    {
+        "urun_id": 66,
+        "urun_adi": "Nitecore EA4 El Feneri",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "Nitecore EA4 El Feneri",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 5717686823,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "846.9",
+            "urun_satis_fiyati": 1185.66,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201350",
+        "xml_barkod": "6952506400874",
+        "urun_stok_kodu": "201350",
+        "urun_barkod": "6952506400874",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "41",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/nitecore-ea4-el-feneri-8111.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/nitecore-ea4-el-feneri-8109.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/nitecore-ea4-el-feneri-8112.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/nitecore-ea4-el-feneri-8113.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "nitecore-ea4-el-feneri953",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Nitecore",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "16531",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/811337-nitecore-ea4-el-feneri-8111.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7617136-nitecore-ea4-el-feneri-8109.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/541266-nitecore-ea4-el-feneri-8112.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9155434-nitecore-ea4-el-feneri-8113.webp"
+        ],
+        "gitin": 6513180953221,
+        "pazaryeri_kod": "pzrfn684626678320"
+    },
+    {
+        "urun_id": 67,
+        "urun_adi": "Nitecore SENS AA2 El Feneri",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "Nitecore SENS AA2 El Feneri",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2153242859,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "461.07",
+            "urun_satis_fiyati": 645.5,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201354",
+        "xml_barkod": "6952506400867",
+        "urun_stok_kodu": "201354",
+        "urun_barkod": "6952506400867",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "20",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/nitecore-sens-aa2-el-feneri-8114.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/nitecore-sens-aa2-el-feneri-8110.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "nitecore-sens-aa2-el-feneri888",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Nitecore",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "16531",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6803748-nitecore-sens-aa2-el-feneri-8114.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8629083-nitecore-sens-aa2-el-feneri-8110.webp"
+        ],
+        "gitin": 6514609972741,
+        "pazaryeri_kod": "pzrfn353781998896"
+    },
+    {
+        "urun_id": 68,
+        "urun_adi": "Fizan NW Runner Light Mavi C40 Pole Baton",
+        "urun_kategori": "3410",
+        "urun_xml_kategori": "Do\u011fa Sporlar\u0131->Da\u011fc\u0131l\u0131k->Batonlar->Baton",
+        "urun_aciklama": "Fizan NW Runner Light Mavi C40 Pole Baton",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4166225892,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "586.22",
+            "urun_satis_fiyati": 820.71,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201435",
+        "xml_barkod": "8032909135134",
+        "urun_stok_kodu": "201435",
+        "urun_barkod": "8032909135134",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "7",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/fizan-nw-runner-light-mavi-c40-pole-baton-1901.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "fizan-nw-runner-light-mavi-c40-pole-baton793",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Fizan",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31548",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4497808-fizan-nw-runner-light-mavi-c40-pole-baton-1901.webp"
+        ],
+        "gitin": 5543819756296,
+        "pazaryeri_kod": "pzrfn140829690009"
+    },
+    {
+        "urun_id": 69,
+        "urun_adi": "BearGrylls Rapid 3 Mevsim 6 Ki\u015filik Kamp \u00c7ad\u0131r\u0131",
+        "urun_kategori": "3377",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->3 Mevsim->3 Mevsim",
+        "urun_aciklama": "BearGrylls Rapid 3 Mevsim 6 Ki\u015filik Kamp \u00c7ad\u0131r\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6733149748,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "3634.05",
+            "urun_satis_fiyati": 5087.67,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201532",
+        "xml_barkod": "817573014620",
+        "urun_stok_kodu": "201532",
+        "urun_barkod": "817573014620",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "5",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8065.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8064.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8066.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8067.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri501",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Bear Grylls",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1773669-beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8065.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5060350-beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8064.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5019141-beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8066.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6808176-beargrylls-rapid-3-mevsim-6-kisilik-kamp-cadiri-8067.webp"
+        ],
+        "gitin": 5477002668494,
+        "pazaryeri_kod": "pzrfn987615702979"
+    },
+    {
+        "urun_id": 70,
+        "urun_adi": "FreeCamp Jersey Termos 500ml",
+        "urun_kategori": "3358",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Termoslar->Termos",
+        "urun_aciklama": "FreeCamp&nbsp;Jersey&nbsp;Termos<br>\n<br>\nHacim:&nbsp;500ml&nbsp;<br>\nBardak&nbsp;olarak&nbsp;kullan\u0131labilir&nbsp;kapak<br>\n\u00c7ift&nbsp;katmanl\u0131&nbsp;vakum&nbsp;\u015fi\u015fe.&nbsp;&nbsp;<br>\nDisplay&nbsp;Kutu&nbsp;\u00f6l\u00e7\u00fcleri:&nbsp;61&nbsp;x&nbsp;40.5&nbsp;x&nbsp;25.5cm<br>\nA\u011f\u0131rl\u0131k:320g",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6227563242,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "137.12",
+            "urun_satis_fiyati": 191.97,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201752",
+        "xml_barkod": "8697512064969",
+        "urun_stok_kodu": "201752",
+        "urun_barkod": "8697512064969",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "346",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-jersey-termos-500-ml-2162.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-jersey-termos-500-ml-2163.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 184,
+                    "ozellik_ad": "Kapasite",
+                    "deger_id": 2062,
+                    "deger_ad": "250-350 ml"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-jersey-termos-500ml878",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn747132863084",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6777430-freecamp-jersey-termos-500-ml-2162.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1335578-freecamp-jersey-termos-500-ml-2163.webp"
+        ],
+        "gitin": 6625850993221
+    },
+    {
+        "urun_id": 71,
+        "urun_adi": "Hawke Endurance 2.5-10x50 (30\/30) 30mm T\u00fcfek D\u00fcrb\u00fcn\u00fc",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "Ola\u011fan\u00fcst\u00fc&nbsp;netlik&nbsp;i\u00e7in&nbsp;16&nbsp;kat&nbsp;tam&nbsp;multi-coated&nbsp;optik<br>\n\u00dcst\u00fcn&nbsp;mukavemet&nbsp;i\u00e7in&nbsp;30mm&nbsp;mono&nbsp;t\u00fcp&nbsp;\u015fasi<br>\nK\u0131rm\u0131z\u0131&nbsp;ayd\u0131nlatmal\u0131&nbsp;cam&nbsp;oymal\u0131&nbsp;retik\u00fcl<br>\nKademesiz&nbsp;rheostat,&nbsp;toplam&nbsp;parlakl\u0131k&nbsp;kontrol\u00fc&nbsp;sunar<br>\n\u00bc&nbsp;MOA&nbsp;al\u00e7ak&nbsp;profilli&nbsp;'\u00e7\u0131k\u0131nt\u0131&nbsp;yok'&nbsp;parmak&nbsp;ucu&nbsp;taretleri<br>\nH\u0131zl\u0131&nbsp;odaklama&nbsp;g\u00f6zl\u00fc\u011f\u00fc&nbsp;ve&nbsp;y\u00fcksek&nbsp;torklu&nbsp;zumlu&nbsp;halka<br>\nVidal\u0131&nbsp;metal&nbsp;yukar\u0131&nbsp;a\u00e7\u0131labilir&nbsp;lens&nbsp;kapaklar\u0131<br>\n<br>\nModel:&nbsp;16221<br>\nBarkod:&nbsp;5054492162215<br>\n<br>\nGENEL&nbsp;BAKI\u015e<br>\n\u015easi:&nbsp;30mm&nbsp;Mono&nbsp;t\u00fcp<br>\nOptik&nbsp;Sistem:&nbsp;2.5-10&nbsp;\u00d7<br>\nObjektif:&nbsp;50mm<br>\nRetik\u00fcl:&nbsp;30\/30&nbsp;Center&nbsp;Cross<br>\nI\u015f\u0131kland\u0131rma:&nbsp;K\u0131rm\u0131z\u0131&nbsp;-&nbsp;Kademesiz<br>\nOdak&nbsp;\/&nbsp;Parallaks:&nbsp;Sabit&nbsp;-&nbsp;91m&nbsp;\/&nbsp;100yds<br>\nG\u00f6r\u00fc\u015f&nbsp;Alan\u0131:&nbsp;m&nbsp;@&nbsp;100m&nbsp;\/&nbsp;ft&nbsp;@&nbsp;100yds&nbsp;12.4&nbsp;-&nbsp;3.1m&nbsp;\/&nbsp;37.2&nbsp;-&nbsp;9.4ft<br>\nBak\u0131\u015f&nbsp;Mesafesi:&nbsp;102mm&nbsp;\/&nbsp;4&nbsp;\"<br>\nUzunluk:&nbsp;340mm&nbsp;\/&nbsp;13.4&nbsp;\"<br>\nA\u011f\u0131rl\u0131k:&nbsp;638g&nbsp;\/&nbsp;22.5oz<br>\nSu&nbsp;ge\u00e7irmez,&nbsp;Darbeye&nbsp;Dayan\u0131kl\u0131,&nbsp;Azot&nbsp;dolumlu.<br>\n<br>\n\u00d6ZELL\u0130KLER<br>\nMalzeme:&nbsp;Al\u00fcminyum<br>\n\u00c7\u0131k\u0131\u015f&nbsp;G\u00f6zbebe\u011fi:&nbsp;20&nbsp;-&nbsp;5mm&nbsp;\/&nbsp;0.8&nbsp;-&nbsp;0.2&nbsp;\"<br>\nOk\u00fcler&nbsp;Tip:&nbsp;H\u0131zl\u0131&nbsp;Odak<br>\nLens&nbsp;Kaplama:&nbsp;Tam&nbsp;\u00c7ok&nbsp;Katl\u0131&nbsp;-&nbsp;16&nbsp;Katmanl\u0131<br>\nG\u00fc\u00e7&nbsp;Se\u00e7ici&nbsp;Stil:&nbsp;Kau\u00e7uk&nbsp;Kapl\u0131&nbsp;Poz-Grip<br>\nGaranti:&nbsp;Hawke&nbsp;D\u00fcnya&nbsp;\u00c7ap\u0131nda&nbsp;Garanti<br>\nY\u00fckseklik&nbsp;Art\u0131\u015f\u0131:&nbsp;\u00bc&nbsp;MOA<br>\nY\u00fckseklik&nbsp;Ayar&nbsp;Aral\u0131\u011f\u0131:&nbsp;135&nbsp;MOA<br>\nWindage&nbsp;Art\u0131\u015f\u0131:&nbsp;\u00bc&nbsp;MOA<br>\nR\u00fczgar&nbsp;Ayar&nbsp;Aral\u0131\u011f\u0131:&nbsp;135&nbsp;MOA<br>\nTaret&nbsp;Kapaklar\u0131:&nbsp;Var<br>\nTaret&nbsp;T\u00fcr\u00fc:&nbsp;D\u00fc\u015f\u00fck&nbsp;Profil<br>\n<br>\nD\u0130\u011eER&nbsp;KUTU&nbsp;\u0130\u00c7ER\u0130\u011e\u0130<br>\n4&nbsp;\"Vidal\u0131&nbsp;G\u00fcne\u015flik<br>\nMetal&nbsp;Yukar\u0131&nbsp;Kald\u0131r\u0131labilir&nbsp;Kapaklar<br>\nLens&nbsp;\u00d6rt\u00fcs\u00fc<br>\nCR2032&nbsp;Pil",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 157476459,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "7408.09",
+            "urun_satis_fiyati": 10371.33,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "203129",
+        "xml_barkod": "5054492162215",
+        "urun_stok_kodu": "203129",
+        "urun_barkod": "5054492162215",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "3",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-endurance-2-5-10x50-30-30-30mm-tufek-durbunu-2720.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-endurance-25-10x50-30-30-30mm-tufek-durbunu671",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn879699079017",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9145031-hawke-endurance-2-5-10x50-30-30-30mm-tufek-durbunu-2720.webp"
+        ],
+        "gitin": 8392151651086
+    },
+    {
+        "urun_id": 72,
+        "urun_adi": "N-Rit Ultrafine Mikrofiber Sporcu Havlusu",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "\u00dcr\u00fcn&nbsp;\u00d6zellikleri<br>\nUltra&nbsp;mikro&nbsp;fiberlerin&nbsp;g\u00fc\u00e7l\u00fc&nbsp;emicilik&nbsp;\u00f6zelli\u011fi.<br>\nSudaki&nbsp;a\u011f\u0131rl\u0131\u011f\u0131n\u0131n&nbsp;4&nbsp;kat\u0131&nbsp;emer<br>\nDi\u011fer&nbsp;havlular\u0131n&nbsp;yakla\u015f\u0131k&nbsp;1&nbsp;\/&nbsp;2'si<br>\n\u00c7abuk&nbsp;kuruyan<br>\nS\u0131kma&nbsp;i\u015fleminden&nbsp;hemen&nbsp;sonra&nbsp;m\u00fckemmel&nbsp;emilim&nbsp;sa\u011flar.<br>\nYumu\u015fak&nbsp;hafif&nbsp;ve&nbsp;uzun&nbsp;\u00f6m\u00fcrl\u00fc&nbsp;-&nbsp;ekonomiktir.<br>\nM\u00fckemmel&nbsp;yumu\u015fakl\u0131k&nbsp;ve&nbsp;dayan\u0131kl\u0131l\u0131\u011fa&nbsp;sahip&nbsp;havlu,&nbsp;y\u00fczlerce&nbsp;y\u0131kamadan&nbsp;sonra&nbsp;bile&nbsp;zarar&nbsp;g\u00f6rmez.<br>\nY\u00fcksek&nbsp;oranda&nbsp;antibakteriyel&nbsp;tedavi&nbsp;ile&nbsp;koku&nbsp;almayan.<br>\nHassas&nbsp;cilde&nbsp;bile&nbsp;zarars\u0131zd\u0131r.<br>\nMalzeme:%&nbsp;85&nbsp;poluester,%&nbsp;15&nbsp;naylon<br>\nEbat:&nbsp;40x80&nbsp;cm.<br>\n<br>\nHer&nbsp;t\u00fcrl\u00fc&nbsp;spor:&nbsp;y\u00fczme,&nbsp;futbol,&nbsp;beyzbol,&nbsp;fitness&nbsp;egzersizi,&nbsp;golf&nbsp;vb.<br>\nY\u00fcr\u00fcy\u00fc\u015f,&nbsp;bal\u0131k&nbsp;tutma&nbsp;ve&nbsp;daha&nbsp;fazlas\u0131&nbsp;gibi&nbsp;t\u00fcm&nbsp;bo\u015f&nbsp;zaman&nbsp;etkinlikleri&nbsp;...<br>\nY\u0131kand\u0131ktan&nbsp;sonra&nbsp;\u0131slak&nbsp;bir&nbsp;y\u00fcz&nbsp;ve&nbsp;sa\u00e7\u0131&nbsp;h\u0131zla&nbsp;kurudu\u011fundan&nbsp;kozmetik&nbsp;bir&nbsp;havlu&nbsp;olarak&nbsp;kullan\u0131m&nbsp;i\u00e7in&nbsp;idealdir.<br>\n\u0130nce&nbsp;derili&nbsp;bebekler&nbsp;ve&nbsp;hastalar&nbsp;i\u00e7in&nbsp;uygundur.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 9016851227,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "91.91",
+            "urun_satis_fiyati": 128.67,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202304",
+        "xml_barkod": "8809132935813",
+        "urun_stok_kodu": "202304",
+        "urun_barkod": "8809132935813",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "887",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultrafine-mikrofiber-sporcu-havlusu-8385.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-ultrafine-mikrofiber-sporcu-havlusu683",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn467981183452",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2296824-n-rit-ultrafine-mikrofiber-sporcu-havlusu-8385.webp"
+        ],
+        "gitin": 2594751182557
+    },
+    {
+        "urun_id": 73,
+        "urun_adi": "FreeCamp Ampolleta 16 Led Lamba",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "Stok&nbsp;kodu:&nbsp;202531<br>\nRenk&nbsp;:&nbsp;Beyaz<br>\n<br>\n\u00f6zellikler&nbsp;:&nbsp;<br>\n<br>\nduya&nbsp;tak\u0131l\u0131&nbsp;oldu\u011funda&nbsp;\u015farj&nbsp;olabilir&nbsp;elektrikler&nbsp;kesildi\u011finde&nbsp;depolad\u0131\u011f\u0131&nbsp;enerjiyle,&nbsp;kendi&nbsp;uzuktan&nbsp;kumandas\u0131&nbsp;yada&nbsp;elle&nbsp;\u00e7al\u0131\u015ft\u0131rabilmektedir.<br>\n<br>\nled&nbsp;say\u0131s\u0131&nbsp;:&nbsp;16&nbsp;led<br>\nlumen&nbsp;:&nbsp;480&nbsp;lumen<br>\nled&nbsp;\u00f6mr\u00fc&nbsp;:&nbsp;50,000&nbsp;saat<br>\nelektrik&nbsp;\u015farj&nbsp;s\u00fcresi&nbsp;:&nbsp;12&nbsp;saat<br>\nyanma&nbsp;s\u00fcresi&nbsp;:&nbsp;6-8&nbsp;saat<br>\nDuy&nbsp;tipi&nbsp;:&nbsp;E-27<br>\n<br>\nebat-a\u011f\u0131rl\u0131k:<br>\n<br>\nuzunluk&nbsp;:&nbsp;13cm&nbsp;<br>\nen&nbsp;:&nbsp;&nbsp;8cm<br>\na\u011f\u0131rl\u0131k&nbsp;:&nbsp;0,180gram<br>\npaket&nbsp;i\u00e7eri\u011fi&nbsp;:&nbsp;ayd\u0131nlatma&nbsp;+&nbsp;uzaktan&nbsp;kumanda<br>\nkutulu&nbsp;a\u011f\u0131rl\u0131\u011f\u0131&nbsp;:&nbsp;0,398&nbsp;gram<br>\n<br>\nkutu&nbsp;\u00f6l\u00e7\u00fcleri:<br>\n<br>\nen&nbsp;:&nbsp;9cm<br>\ny\u00fckseklik&nbsp;:&nbsp;13,5cm",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4487787882,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "81.42",
+            "urun_satis_fiyati": 113.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202531",
+        "xml_barkod": "8697512091088",
+        "urun_stok_kodu": "202531",
+        "urun_barkod": "8697512091088",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "581",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-ampolleta-16-led-lamba-2423.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-ampolleta-16-led-lamba875",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn184288750575",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6397733-freecamp-ampolleta-16-led-lamba-2423.webp"
+        ],
+        "gitin": 7102121689464
+    },
+    {
+        "urun_id": 74,
+        "urun_adi": "Andoutdoor Monodome 2 Ki\u015filik Canvas Kamp \u00c7ad\u0131r\u0131",
+        "urun_kategori": "3377",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->3 Mevsim->3 Mevsim",
+        "urun_aciklama": "Andoutdoor&nbsp;Monodome&nbsp;2&nbsp;Ki\u015filik&nbsp;\u00c7ad\u0131r<br>\n<br>\nA\u00e7\u0131k&nbsp;\u00d6l\u00e7\u00fcler:&nbsp;220&nbsp;x&nbsp;130&nbsp;x&nbsp;110&nbsp;cm<br>\nKapal\u0131&nbsp;\u00d6l\u00e7\u00fcler:&nbsp;60&nbsp;x&nbsp;15&nbsp;x15&nbsp;cm<br>\nA\u011f\u0131rl\u0131k:&nbsp;3460&nbsp;g<br>\nKuma\u015f:&nbsp;Canvas&nbsp;300&nbsp;x&nbsp;600&nbsp;D&nbsp;oxford,&nbsp;pvc&nbsp;kaplamal\u0131,&nbsp;nefes&nbsp;alabilir&nbsp;kuma\u015f<br>\nZemin:&nbsp;PE,&nbsp;Su&nbsp;ge\u00e7irmez<br>\nPole:&nbsp;Fiber&nbsp;Glass",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 1763606255,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "351.52",
+            "urun_satis_fiyati": 492.13,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "204444",
+        "xml_barkod": "6923744005343",
+        "urun_stok_kodu": "204444",
+        "urun_barkod": "6923744005343",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "14",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-monodome-2-kisilik-canvas-kamp-cadiri-3235.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-monodome-2-kisilik-canvas-kamp-cadiri294",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn128075373067",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4384498-andoutdoor-monodome-2-kisilik-canvas-kamp-cadiri-3235.webp"
+        ],
+        "gitin": 8148604213944
+    },
+    {
+        "urun_id": 75,
+        "urun_adi": "FreeCamp Calcus Kamp Lambas\u0131",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "FreeCamp Calcus Kamp Lambas\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3555343719,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "195.41",
+            "urun_satis_fiyati": 273.57,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202557",
+        "xml_barkod": "8697512091439",
+        "urun_stok_kodu": "202557",
+        "urun_barkod": "8697512091439",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "20",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-calcus-kamp-lambasi-2446.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-calcus-kamp-lambasi161",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4688730-freecamp-calcus-kamp-lambasi-2446.webp"
+        ],
+        "gitin": 8436753711016,
+        "pazaryeri_kod": "pzrfn483499500849"
+    },
+    {
+        "urun_id": 76,
+        "urun_adi": "Wildland Mini Moon Nest 200 3 Mevsim 2 Ki\u015filik Kamp \u00c7ad\u0131r\u0131",
+        "urun_kategori": "3377",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->3 Mevsim->3 Mevsim",
+        "urun_aciklama": "Wildland&nbsp;Mini&nbsp;Moon&nbsp;Nest&nbsp;200&nbsp;3&nbsp;Mevsim&nbsp;2&nbsp;Ki\u015filik&nbsp;Kamp&nbsp;\u00c7ad\u0131r\u0131<br>\n<br>\nQ-Yield&nbsp;Flash&nbsp;Touch&nbsp;Mekanizmas\u0131&nbsp;ile&nbsp;k\u0131sa&nbsp;s\u00fcrede&nbsp;kolay&nbsp;kurulum&nbsp;ve&nbsp;toparlama<br>\n1&nbsp;adet&nbsp;D&nbsp;\u015fekli&nbsp;verilmi\u015f&nbsp;i\u00e7&nbsp;kap\u0131&nbsp;olup&nbsp;i\u00e7eride&nbsp;a\u011f&nbsp;paneller&nbsp;mevcuttur.&nbsp;<br>\n1&nbsp;adet&nbsp;dikd\u00f6rtgen&nbsp;d\u0131\u015f&nbsp;giri\u015f,<br>\n2&nbsp;adet&nbsp;havaland\u0131rma&nbsp;bo\u015flu\u011fu&nbsp;bulunmaktad\u0131r.&nbsp;<br>\n<br>\nmateryal:<br>\npol&nbsp;\u00e7ubuklar\u0131:&nbsp;flash&nbsp;touch&nbsp;mekanizmal\u0131&nbsp;fiberglas&nbsp;poller<br>\nd\u0131\u015f&nbsp;tente:&nbsp;190t&nbsp;polyeste&nbsp;pu&nbsp;2000mm&nbsp;<br>\ni\u00e7&nbsp;tente:&nbsp;nefes&nbsp;alabilen&nbsp;polyester&nbsp;kuma\u015f&nbsp;&&nbsp;g\u00f6r\u00fcnmez&nbsp;sineklik&nbsp;<br>\ntaban&nbsp;kuma\u015f\u0131:&nbsp;PE&nbsp;120g<br>\n<br>\n\u00f6zellikleri<br>\nki\u015fi&nbsp;say\u0131s\u0131:2&nbsp;<br>\ntente&nbsp;boyutlar\u0131:&nbsp;150&nbsp;x&nbsp;220&nbsp;x&nbsp;110cm<br>\nambalaj&nbsp;boyutlar\u0131:&nbsp;70&nbsp;x&nbsp;17&nbsp;x&nbsp;17cm<br>\na\u011f\u0131rl\u0131k:&nbsp;3.8&nbsp;-&nbsp;4.3kg",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2221695925,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "1172.45",
+            "urun_satis_fiyati": 1641.43,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202571",
+        "xml_barkod": "8697512091583",
+        "urun_stok_kodu": "202571",
+        "urun_barkod": "8697512091583",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "294",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2461.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2462.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2463.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2464.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri203",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Wildland",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31798",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn872610834360",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2536422-wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2461.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9223415-wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2462.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9564803-wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2463.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1540368-wildland-mini-moon-nest-200-3-mevsim-2-kisilik-kamp-cadiri-2464.webp"
+        ],
+        "gitin": 7294731537727
+    },
+    {
+        "urun_id": 77,
+        "urun_adi": "Wildland Magnetic Mini Kamp Lambas\u0131",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "Wildland&nbsp;Magnetic&nbsp;Mini&nbsp;Kamp&nbsp;Lambas\u0131<br>\n<br>\nHer&nbsp;t\u00fcrl\u00fc&nbsp;\u00e7ad\u0131ra&nbsp;uygun&nbsp;manyetik&nbsp;ask\u0131s\u0131&nbsp;vard\u0131r<br>\nD\u00f6rt&nbsp;farkl\u0131&nbsp;\u0131\u015f\u0131k&nbsp;modlar\u0131:&nbsp;me\u015fale,&nbsp;gece&nbsp;lambas\u0131&nbsp;(lo\u015f&nbsp;\u0131\u015f\u0131k),&nbsp;yan\u0131p&nbsp;s\u00f6nen&nbsp;SOS&nbsp;\u0131\u015f\u0131\u011f\u0131<br>\n19pcs&nbsp;SMD&nbsp;LED&nbsp;ayd\u0131nlatma<br>\n3x2A&nbsp;piller&nbsp;16&nbsp;saate&nbsp;kadar&nbsp;dayan\u0131r<br>\n\u0131s\u0131&nbsp;\u00e7al\u0131\u015fma&nbsp;aral\u0131\u011f\u0131&nbsp;40&nbsp;\u00b0&nbsp;-20&nbsp;\u00b0<br>\ng\u00fcc\u00fc:&nbsp;3w",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 1624936044,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "58.41",
+            "urun_satis_fiyati": 81.77,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202578",
+        "xml_barkod": "8697512091651",
+        "urun_stok_kodu": "202578",
+        "urun_barkod": "8697512091651",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "345",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-magnetic-mini-kamp-lambasi-2485.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-magnetic-mini-kamp-lambasi-2486.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-magnetic-mini-kamp-lambasi-11884.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-magnetic-mini-kamp-lambasi-2487.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "wildland-magnetic-mini-kamp-lambasi691",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Wildland",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31798",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn161259380643",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4740040-wildland-magnetic-mini-kamp-lambasi-2485.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9545285-wildland-magnetic-mini-kamp-lambasi-2486.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1038836-wildland-magnetic-mini-kamp-lambasi-11884.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5519490-wildland-magnetic-mini-kamp-lambasi-2487.webp"
+        ],
+        "gitin": 4099791522719
+    },
+    {
+        "urun_id": 78,
+        "urun_adi": "Andoutdoor Fotokapan Koruyucu Kasa",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->Fotokapanlar->Fotokapan",
+        "urun_aciklama": "Fotokapan&nbsp;Koruyucu&nbsp;Kasa",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4973850062,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "405.04",
+            "urun_satis_fiyati": 567.06,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202604",
+        "xml_barkod": "8697512092061",
+        "urun_stok_kodu": "202604",
+        "urun_barkod": "8697512092061",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "140",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-fotokapan-koruyucu-kasa-2492.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-fotokapan-koruyucu-kasa566",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn139199777562",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8438942-andoutdoor-fotokapan-koruyucu-kasa-2492.webp"
+        ],
+        "gitin": 5490163190559
+    },
+    {
+        "urun_id": 79,
+        "urun_adi": "Hawke Matchmount 30mm 1 Par\u00e7a 9-11mm Y\u00fcksek T\u00fcfek D\u00fcrb\u00fcn Aya\u011f\u0131",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "Hawke&nbsp;Matchmount&nbsp;Y\u00fcksek&nbsp;T\u00fcfek&nbsp;D\u00fcrb\u00fcn&nbsp;Aya\u011f\u0131<br>\n<br>\nyap\u0131land\u0131rma:&nbsp;1&nbsp;par\u00e7a<br>\nY\u00fcz\u00fck&nbsp;\u00f6l\u00e7\u00fcs\u00fc&nbsp;(\u00c7ap):&nbsp;30mm&nbsp;\/&nbsp;1.2\"<br>\nRay:&nbsp;9-11mm<br>\nFixings&nbsp;(Rail&nbsp;&&nbsp;\u00dcst&nbsp;Kapa\u011f\u0131):&nbsp;\u00c7ift&nbsp;Hex&nbsp;Vida<br>\n\u0130\u00e7&nbsp;Yast\u0131k<br>\nGeri&nbsp;\u00e7ekilebilir&nbsp;'Recoil&nbsp;Stop'&nbsp;Pin<br>\nY\u00fckseklik:&nbsp;50mm&nbsp;\/&nbsp;1.9\"<br>\nA\u011f\u0131rl\u0131k:&nbsp;173g&nbsp;\/&nbsp;6.1oz",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 8555677296,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "463.01",
+            "urun_satis_fiyati": 648.21,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202736",
+        "xml_barkod": "5054492221110",
+        "urun_stok_kodu": "202736",
+        "urun_barkod": "5054492221110",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "15",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-matchmount-30mm-1-parca-9-11-mm-yuksek-tufek-durbun-ayagi-2542.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-matchmount-30mm-1-parca-9-11mm-yuksek-tufek-durbun-ayagi-8743.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-matchmount-30mm-1-parca-9-11mm-yuksek-tufek-durbun-ayagi689",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn701612533648",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9966417-hawke-matchmount-30mm-1-parca-9-11-mm-yuksek-tufek-durbun-ayagi-2542.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/791908-hawke-matchmount-30mm-1-parca-9-11mm-yuksek-tufek-durbun-ayagi-8743.webp"
+        ],
+        "gitin": 3511569065633
+    }
+]

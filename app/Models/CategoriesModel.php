@@ -47,7 +47,6 @@ class CategoriesModel extends Model
         $branch = array();
         foreach ($elements as $key => $element) {
             if ($element['category_parent'] == $parentID) {
-               
 
                 $node = $this->getCategoryTree($elements, $element['category_id']);
                 if ($node) {

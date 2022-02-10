@@ -1,0 +1,1822 @@
+[
+    {
+        "urun_id": 20,
+        "urun_adi": "Andoutdoor HS5106 \u00c7elik Termos 0.60 Litre",
+        "urun_kategori": "3358",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Termoslar->Termos",
+        "urun_aciklama": "Andoutdoor HS5106 \u00c7elik Termos 0.60 Litre",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6522033919,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "97.7",
+            "urun_satis_fiyati": 136.78,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200388",
+        "xml_barkod": "8690190351062",
+        "urun_stok_kodu": "200388",
+        "urun_barkod": "8690190351062",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "65",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-hs5106-celik-termos-0-60-lt-999.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 184,
+                    "ozellik_ad": "Kapasite",
+                    "deger_id": 2062,
+                    "deger_ad": "250-350 ml"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-hs5106-celik-termos-060-litre979",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3638626-andoutdoor-hs5106-celik-termos-0-60-lt-999.webp"
+        ],
+        "gitin": 5082014111514,
+        "pazaryeri_kod": "pzrfn766195134977"
+    },
+    {
+        "urun_id": 21,
+        "urun_adi": "Andoutdoor 12211 Junior Printed Uyku Tulumu",
+        "urun_kategori": "3379",
+        "urun_xml_kategori": "Outdoor Kamp->Uyku Tulumu->Mevsimlik->Mevsimlik",
+        "urun_aciklama": "Andoutdoor&nbsp;12211&nbsp;Junior&nbsp;Printed&nbsp;Uyku&nbsp;Tulumu<br>\n<br>\nA\u011f\u0131rl\u0131k:&nbsp;560g<br>\n%100Polyester&nbsp;<br>\n\u00d6l\u00e7\u00fcler:&nbsp;150&nbsp;x&nbsp;65cm",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 783408263,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "125.5",
+            "urun_satis_fiyati": 175.7,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200422",
+        "xml_barkod": "8717703114980",
+        "urun_stok_kodu": "200422",
+        "urun_barkod": "8717703114980",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "829",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-12211-junior-printed-uyku-tulumu-1002.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-12211-junior-printed-uyku-tulumu593",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn112145500118",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7012040-andoutdoor-12211-junior-printed-uyku-tulumu-1002.webp"
+        ],
+        "gitin": 3601800597411
+    },
+    {
+        "urun_id": 22,
+        "urun_adi": "Bestway 67000N Tek Ki\u015filik \u015ei\u015fme Yatak",
+        "urun_kategori": "3375",
+        "urun_xml_kategori": "Outdoor Kamp->Oturma, Dinlenme,Yataklar->\u015ei\u015fme Yataklar->\u015ei\u015fme Yataklar",
+        "urun_aciklama": "Bestway&nbsp;67000N&nbsp;Tek&nbsp;Ki\u015filik&nbsp;\u015ei\u015fme&nbsp;Yatak<br>\nUzunluk:&nbsp;183cm<br>\nGeni\u015flik:&nbsp;76cm<br>\nY\u00fckseklik:&nbsp;23cm<br>\nKapasite:&nbsp;tek&nbsp;ki\u015filik<br>\nTek&nbsp;katl\u0131&nbsp;\u00f6zel,&nbsp;sa\u011flam&nbsp;yap\u0131<br>\nTa\u015f\u0131mas\u0131&nbsp;kolay,&nbsp;hafif&nbsp;malzeme<br>\nKamp,&nbsp;piknik,&nbsp;seyahat&nbsp;ve&nbsp;evinize&nbsp;gelen&nbsp;misafirleriniz&nbsp;i\u00e7in&nbsp;rahat\u00e7a&nbsp;kullanabilirsiniz<br>\n\u00dcst&nbsp;b\u00f6l\u00fcm&nbsp;kir&nbsp;tutmaya&nbsp;ve&nbsp;terleme&nbsp;yapmayan&nbsp;\u00f6zel&nbsp;malzemeden&nbsp;\u00fcretilmi\u015ftir<br>\nErgonomik&nbsp;yap\u0131s\u0131&nbsp;sayesinde&nbsp;masaj&nbsp;rahatl\u0131\u011f\u0131&nbsp;sa\u011flar",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2743155499,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "196.77",
+            "urun_satis_fiyati": 275.48,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200463",
+        "xml_barkod": "6942138916188",
+        "urun_stok_kodu": "200463",
+        "urun_barkod": "6942138916188",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "61",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/bestway-67000n-tek-kisilik-sisme-yatak-1004.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 846,
+                    "ozellik_ad": "Pompa Durumu",
+                    "deger_id": 417958,
+                    "deger_ad": "Pompa dahildir"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "bestway-67000n-tek-kisilik-sisme-yatak649",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Bestway",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "8469",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn972798369622",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/712388-bestway-67000n-tek-kisilik-sisme-yatak-1004.webp"
+        ],
+        "gitin": 7404415644916
+    },
+    {
+        "urun_id": 23,
+        "urun_adi": "Barocook Is\u0131t\u0131c\u0131 Kutu 850 ml",
+        "urun_kategori": "2827",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Yemek Setleri->Piknik \u00c7antas\u0131",
+        "urun_aciklama": "Barocook&nbsp;Is\u0131t\u0131c\u0131&nbsp;Kutu<br>\n<br>\nBC-003&nbsp;(850ml)<br>\n850ml&nbsp;-&nbsp;Dikd\u00f6rtgen&nbsp;(Dome)<br>\nBoyut&nbsp;&nbsp;:&nbsp;185&nbsp;x&nbsp;135&nbsp;x&nbsp;100mm<br>\nRenk&nbsp;&nbsp;&nbsp;:&nbsp;Siyah&nbsp;(di\u011fer&nbsp;kap)&nbsp;ve&nbsp;\u015feffaf&nbsp;(kapak)<br>\nA\u011f\u0131rl\u0131k&nbsp;:&nbsp;345g<br>\n<br>\n<br>\nKonteyner&nbsp;:&nbsp;Paslanmaz&nbsp;\u00c7elik<br>\nBa\u015fka&nbsp;bir&nbsp;kap&nbsp;:&nbsp;Polipropilen&nbsp;(PP)<br>\nKapak&nbsp;:&nbsp;Polipropilen&nbsp;(PP),&nbsp;silikon<br>\n<br>\n\u00dcr\u00fcn&nbsp;Yap\u0131land\u0131rma<br>\nHemen&nbsp;kap&nbsp;Cook<br>\n50g&nbsp;balyeolje&nbsp;1<br>\nManuel<br>\nG\u00fcm\u00fc\u015f&nbsp;plastik&nbsp;yeniden&nbsp;yap\u0131\u015fmal\u0131&nbsp;\u00e7anta<br>\n<br>\n&nbsp;570&nbsp;x&nbsp;400&nbsp;x&nbsp;350mm<br>\nBaroCook&nbsp;850&nbsp;ml&nbsp;Is\u0131t\u0131c\u0131&nbsp;Kutu",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7094099832,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "325.68",
+            "urun_satis_fiyati": 455.95,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201243",
+        "xml_barkod": "8809069390266",
+        "urun_stok_kodu": "201243",
+        "urun_barkod": "8809069390266",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "732",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-kutu-850-ml-1011.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-kutu-850-ml-1012.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-kutu-850-ml-1013.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-kutu-850-ml-1014.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "barocook-isitici-kutu-850-ml265",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Barocook",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7913",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn235437805269",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1901132-barocook-isitici-kutu-850-ml-1011.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4193021-barocook-isitici-kutu-850-ml-1012.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8760916-barocook-isitici-kutu-850-ml-1013.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6902281-barocook-isitici-kutu-850-ml-1014.webp"
+        ],
+        "gitin": 3230241072057
+    },
+    {
+        "urun_id": 24,
+        "urun_adi": "Barocook Is\u0131t\u0131c\u0131 Mug 360 ml",
+        "urun_kategori": "3363",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Muglar->Mug",
+        "urun_aciklama": "Barocook&nbsp;Is\u0131t\u0131c\u0131&nbsp;Mug<br>\n<br>\nBC-004&nbsp;(PC-Cafe)<br>\n360ml&nbsp;-&nbsp;Cafe<br>\nBoyut&nbsp;:&nbsp;95&nbsp;x&nbsp;95&nbsp;x&nbsp;183mm<br>\nRenk&nbsp;&nbsp;:&nbsp;\u015eeffaf&nbsp;(di\u011fer&nbsp;kap)&nbsp;ve&nbsp;\u015feffaf&nbsp;(kapak)<br>\nA\u011f\u0131rl\u0131k:&nbsp;210g<br>\n<br>\nPaslanmaz&nbsp;\u00c7elik<br>\nPolikarbonat&nbsp;(PC)<br>\nKapak&nbsp;:&nbsp;Polipropilen&nbsp;(PP),&nbsp;silikon<br>\n<br>\n\u00dcr\u00fcn&nbsp;Yap\u0131land\u0131rma<br>\nHemen&nbsp;kap&nbsp;Cook<br>\n20g&nbsp;balyeolje&nbsp;1<br>\nManuel<br>\nG\u00fcm\u00fc\u015f&nbsp;plastik&nbsp;yeniden&nbsp;yap\u0131\u015fmal\u0131&nbsp;\u00e7anta<br>\n&nbsp;415&nbsp;x&nbsp;610&nbsp;x&nbsp;210mm",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3078525894,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "260.54",
+            "urun_satis_fiyati": 364.76,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201244",
+        "xml_barkod": "8809069390235",
+        "urun_stok_kodu": "201244",
+        "urun_barkod": "8809069390235",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "650",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-mug-360-ml-1019.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-mug-360-ml-1020.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-mug-360-ml-1021.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/barocook-isitici-mug-360-ml-1022.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "barocook-isitici-mug-360-ml319",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Barocook",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7913",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn728414599114",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5317133-barocook-isitici-mug-360-ml-1019.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5286436-barocook-isitici-mug-360-ml-1020.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4451906-barocook-isitici-mug-360-ml-1021.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1242520-barocook-isitici-mug-360-ml-1022.webp"
+        ],
+        "gitin": 8262795244095
+    },
+    {
+        "urun_id": 25,
+        "urun_adi": "Cadac Citi Chef 48 Gazl\u0131 Mangal",
+        "urun_kategori": "2825",
+        "urun_xml_kategori": "Bah\u00e7e Malzemeleri->Mangallar ve Barbek\u00fcler->Mangal->Mangal",
+        "urun_aciklama": "\u00d6zellikler:&nbsp;<br>\nReg\u00fclat\u00f6r\u00fc&nbsp;Hortum&nbsp;ve&nbsp;Klips&nbsp;dahildir&nbsp;<br>\nBarbek\u00fc&nbsp;\u00dcst&nbsp;ve&nbsp;Pot&nbsp;&nbsp;Stand\u0131&nbsp;dahil<br>\nOrtalama&nbsp;\u00e7al\u0131\u015fma&nbsp;Bas\u0131nc\u0131:&nbsp;28-30mBar&nbsp;\/&nbsp;37&nbsp;mbar&nbsp;<br>\nGaz&nbsp;T\u00fcketimi:&nbsp;270grams&nbsp;\/&nbsp;s&nbsp;<br>\nIs\u0131&nbsp;\u00c7\u0131k\u0131\u015f\u0131:&nbsp;3,7&nbsp;kW&nbsp;<br>\nYakla\u015f\u0131k&nbsp;a\u011f\u0131rl\u0131k:&nbsp;13.6kg&nbsp;<br>\nBoyutlar:&nbsp;<br>\nMontajl\u0131&nbsp;696&nbsp;x&nbsp;696&nbsp;x&nbsp;934mm&nbsp;<br>\nPaketlenmi\u015f&nbsp;570&nbsp;x&nbsp;533&nbsp;x&nbsp;578mm&nbsp;&nbsp;<br>\n<br>\nBarbek\u00fc&nbsp;\/&nbsp;IZGARA&nbsp;TOP&nbsp;<br>\nEt,&nbsp;bal\u0131k,&nbsp;tavuk&nbsp;veya&nbsp;sebze&nbsp;ya\u011fs\u0131z&nbsp;barbek\u00fc&nbsp;i\u00e7in&nbsp;olduk\u00e7a&nbsp;idealdir.&nbsp;<br>\n<br>\nCHEF&nbsp;POT&nbsp;STANDI&nbsp;<br>\nNikel-krom&nbsp;kaplama&nbsp;tencere&nbsp;vb&nbsp;koymak&nbsp;i\u00e7in&nbsp;stand&nbsp;mevcuttur.<br>\n<br>\nBarbek\u00fc&nbsp;DOME&nbsp;<br>\nBarbek\u00fc&nbsp;kubbe&nbsp;kapa\u011f\u0131&nbsp;CADAC&nbsp;carri&nbsp;Chef&nbsp;2&nbsp;&nbsp;aksesuard\u0131r.&nbsp;Bu&nbsp;aparat&nbsp;ayn\u0131&nbsp;zamanda&nbsp;yan&nbsp;tarafta&nbsp;bulunan&nbsp;kulplara&nbsp;yerle\u015ftirilerek&nbsp;r\u00fczgar&nbsp;kalkan\u0131&nbsp;g\u00f6revi&nbsp;g\u00f6r\u00fcr.&nbsp;&nbsp;<br>\n<br>\n<br>\n(Citi&nbsp;\u015eef,&nbsp;kapal\u0131&nbsp;\u00e7al\u0131\u015fabilir&nbsp;CADAC&nbsp;G\u00fc\u00e7&nbsp;Pak&nbsp;1000&nbsp;veya&nbsp;doldurulabilir&nbsp;gaz&nbsp;silindiri&nbsp;dahil&nbsp;de\u011fildir.)",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2119676325,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "4357.39",
+            "urun_satis_fiyati": 6100.35,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201783",
+        "xml_barkod": "6001773105743",
+        "urun_stok_kodu": "201783",
+        "urun_barkod": "6001773105743",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "25",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/cadac-citi-chef-48-gazli-mangal-sehpali-1064.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "cadac-citi-chef-48-gazli-mangal459",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Cadac",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31567",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn77930179164",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/464842-cadac-citi-chef-48-gazli-mangal-sehpali-1064.webp"
+        ],
+        "gitin": 5700082985303
+    },
+    {
+        "urun_id": 26,
+        "urun_adi": "FreeCamp AND-RRT26 980 L\u00fcmen Tactical Led Fener",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "FreeCamp&nbsp;AND-RRT26&nbsp;980&nbsp;L\u00fcmen&nbsp;Tactical&nbsp;Led&nbsp;Fener<br>\n<br>\nDayan\u0131kl\u0131&nbsp;al\u00fcminyumdan&nbsp;yap\u0131lm\u0131\u015f<br>\nH\u0131zl\u0131,&nbsp;sonsuz&nbsp;parlakl\u0131k&nbsp;ayar\u0131&nbsp;RRT&nbsp;manyetik&nbsp;halka&nbsp;sistemi<br>\nPremium&nbsp;Cree&nbsp;XM-L2&nbsp;T6&nbsp;bir&nbsp;\u00f6mr\u00fc&nbsp;ile&nbsp;LED&nbsp;50.000&nbsp;'den&nbsp;fazla&nbsp;saat<br>\n980&nbsp;l\u00fcmenlik&nbsp;Maks&nbsp;\u00e7\u0131k\u0131\u015f<br>\n1&nbsp;x&nbsp;18650&nbsp;veya&nbsp;2&nbsp;x&nbsp;CR123A&nbsp;pil&nbsp;kullan\u0131r&nbsp;(Piller&nbsp;dahil&nbsp;de\u011fildir&nbsp;)<br>\nSon&nbsp;y\u00fcksek&nbsp;performansl\u0131&nbsp;optik&nbsp;sistem,&nbsp;300&nbsp;metre&nbsp;maksimum&nbsp;\u0131\u015f\u0131n&nbsp;mesafesi&nbsp;kadar<br>\nDahili&nbsp;geli\u015fmi\u015f&nbsp;verimli&nbsp;g\u00fc\u00e7&nbsp;y\u00f6netimi&nbsp;devre,&nbsp;<br>\nmaksimum&nbsp;\u00e7al\u0131\u015fma&nbsp;zaman\u0131&nbsp;120&nbsp;saat<br>\n\u00c7oklu&nbsp;ayd\u0131nlatma&nbsp;\/&nbsp;sinyal&nbsp;k\u0131rm\u0131z\u0131&nbsp;\/&nbsp;ye\u015fil&nbsp;\/&nbsp;mavi&nbsp;\/&nbsp;beyaz&nbsp;\u0131\u015f\u0131klarla<br>\n980&nbsp;l\u00fcmen&nbsp;<br>\n<br>\nMevcut&nbsp;7&nbsp;\u00f6zel&nbsp;fonksiyonlar:&nbsp;<br>\nk\u0131rm\u0131z\u0131&nbsp;\u0131\u015f\u0131k,&nbsp;ye\u015fil&nbsp;\u0131\u015f\u0131k,&nbsp;mavi&nbsp;\u0131\u015f\u0131k,&nbsp;polis&nbsp;Strobe,&nbsp;Strobe,&nbsp;bekleme&nbsp;modunda&nbsp;kalan&nbsp;g\u00fc\u00e7&nbsp;g\u00f6stergesi<br>\n<br>\nTers&nbsp;polarite&nbsp;korumas\u0131<br>\n\u00c7ift&nbsp;tarafl\u0131&nbsp;anti-yans\u0131t\u0131c\u0131&nbsp;kaplama&nbsp;ile&nbsp;sertle\u015ftirilmi\u015f&nbsp;ultra&nbsp;net&nbsp;mineral&nbsp;cam<br>\nPremium&nbsp;Tip&nbsp;III&nbsp;sert&nbsp;anodize&nbsp;anti-a\u015f\u0131nd\u0131r\u0131c\u0131&nbsp;kaplama<br>\nIPX-8&nbsp;su&nbsp;ge\u00e7irmez&nbsp;(2&nbsp;metreye&nbsp;kadar&nbsp;derinlikte)<br>\n<br>\nS\u00fcre:&nbsp;151mm<br>\nKafa&nbsp;\u00e7ap\u0131:&nbsp;38mm<br>\nKuyruk&nbsp;\u00e7ap\u0131:&nbsp;25.4mm<br>\nA\u011f\u0131rl\u0131k:&nbsp;166g&nbsp;(pil&nbsp;olmadan)<br>\n1&nbsp;Adet&nbsp;Pil&nbsp;A\u011f\u0131rl\u0131\u011f\u0131:&nbsp;17g",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3910882051,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "1289.15",
+            "urun_satis_fiyati": 1804.81,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202125",
+        "xml_barkod": "6957883800668",
+        "urun_stok_kodu": "202125",
+        "urun_barkod": "6957883800668",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "122",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-and-rrt26-980-lumen-tactical-led-fener-1079.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-and-rrt26-980-lumen-tactical-led-fener-1080.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-and-rrt26-980-lumen-tactical-led-fener-1081.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-and-rrt26-980-lumen-tactical-led-fener-1082.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-and-rrt26-980-lumen-tactical-led-fener550",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn18820593989",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2090636-freecamp-and-rrt26-980-lumen-tactical-led-fener-1079.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5172353-freecamp-and-rrt26-980-lumen-tactical-led-fener-1080.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7863177-freecamp-and-rrt26-980-lumen-tactical-led-fener-1081.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/772413-freecamp-and-rrt26-980-lumen-tactical-led-fener-1082.webp"
+        ],
+        "gitin": 8774093390683
+    },
+    {
+        "urun_id": 27,
+        "urun_adi": "FreeCamp AND-GM02 Adapt\u00f6r",
+        "urun_kategori": "1142",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->Elektronik Outdoor Aksesuarlar\u0131->Saat",
+        "urun_aciklama": "FreeCamp&nbsp;AND-GM02&nbsp;Adapt\u00f6r<br>\n<br>\nA\u011f\u0131rl\u0131k:&nbsp;74.5g<br>\n\u0130\u00e7&nbsp;\u00e7ap\u0131&nbsp;2.5cm&nbsp;fenerler&nbsp;i\u00e7in&nbsp;uygundur.&nbsp;<br>\nVidal\u0131&nbsp;sistemdir,&nbsp;<br>\nRahat&nbsp;tak\u0131labilir,<br>\nSilah&nbsp;feneri&nbsp;takma&nbsp;aparat\u0131,<br>\nAlyan&nbsp;anahtar\u0131&nbsp;mevcuttur.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7127934678,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "165.55",
+            "urun_satis_fiyati": 231.77,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202128",
+        "xml_barkod": "8697512068851",
+        "urun_stok_kodu": "202128",
+        "urun_barkod": "8697512068851",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "152",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-and-gm02-kamp-adaptoru-1083.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-and-gm02-adaptor143",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn22366123828",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9638099-freecamp-and-gm02-kamp-adaptoru-1083.webp"
+        ],
+        "gitin": 8096969173727
+    },
+    {
+        "urun_id": 28,
+        "urun_adi": "Redwood Olea Palm 260 4 Mevsim 3 Ki\u015filik Kamp \u00c7ad\u0131r\u0131",
+        "urun_kategori": "3377",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->4 Mevsim->4 Mevsim",
+        "urun_aciklama": "Redwood Olea Palm 260 4 Mevsim 3 Ki\u015filik Kamp \u00c7ad\u0131r\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 151471202,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "2247.19",
+            "urun_satis_fiyati": 3146.07,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202225",
+        "xml_barkod": "7777100435911",
+        "urun_stok_kodu": "202225",
+        "urun_barkod": "7777100435911",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "28",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/redwood-olea-palm-260-4-mevsim-3-kisilik-kamp-cadiri-1087.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "redwood-olea-palm-260-4-mevsim-3-kisilik-kamp-cadiri698",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Redwood",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31794",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3914197-redwood-olea-palm-260-4-mevsim-3-kisilik-kamp-cadiri-1087.webp"
+        ],
+        "gitin": 4906126167289,
+        "pazaryeri_kod": "pzrfn281750364238"
+    },
+    {
+        "urun_id": 29,
+        "urun_adi": "N-Rit Icemate Cool Towel Havlu",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "N-Rit&nbsp;Icemate&nbsp;Cool&nbsp;Towel&nbsp;Havlu<br>\n<br>\n\u00d6l\u00e7\u00fcler:&nbsp;100&nbsp;x&nbsp;20cm&nbsp;\/&nbsp;39.3&nbsp;x&nbsp;7.8\"<br>\nOuter&nbsp;%&nbsp;100&nbsp;Polyester<br>\nInner&nbsp;%&nbsp;93&nbsp;Polyester,&nbsp;%7&nbsp;Spandex",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2064763684,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "105.62",
+            "urun_satis_fiyati": 147.87,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202262",
+        "xml_barkod": "8806173700066",
+        "urun_stok_kodu": "202262",
+        "urun_barkod": "8806173700066",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "503",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-icemate-cool-towel-havlu-1091.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-icemate-cool-towel-havlu604",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn457777335966",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1127318-n-rit-icemate-cool-towel-havlu-1091.webp"
+        ],
+        "gitin": 1601786494204
+    },
+    {
+        "urun_id": 30,
+        "urun_adi": "Andoutdoor AND325A \u0130\u00e7i \u00c7elik D\u0131\u015f\u0131 Desenli Seramik Kupa Mug",
+        "urun_kategori": "3363",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Muglar->Mug",
+        "urun_aciklama": "Andoutdoor&nbsp;AND325A&nbsp;\u0130\u00e7i&nbsp;\u00c7elik&nbsp;D\u0131\u015f\u0131&nbsp;Desenli&nbsp;Seramik&nbsp;Kupa&nbsp;Mug<br>\n<br>\nHacim:&nbsp;400ml.<br>\n\u0130\u00e7i&nbsp;paslanmaz&nbsp;\u00e7elik.&nbsp;<br>\nD\u0131\u015f\u0131&nbsp;seramik.<br>\n\u00c7ift&nbsp;kat&nbsp;\u00e7elik.<br>\nKapakl\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 8065202249,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "70.56",
+            "urun_satis_fiyati": 98.78,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200230",
+        "xml_barkod": "8697512652258",
+        "urun_stok_kodu": "200230",
+        "urun_barkod": "8697512652258",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "1276",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-and325a-ici-celik-disi-desenli-seramik-kupa-mug-1636.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-and325a-ici-celik-disi-desenli-seramik-kupa-mug401",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn719731025056",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5466859-andoutdoor-and325a-ici-celik-disi-desenli-seramik-kupa-mug-1636.webp"
+        ],
+        "gitin": 7943422963049
+    },
+    {
+        "urun_id": 31,
+        "urun_adi": "Swisstech Tornavida Ucu Anahtarl\u0131k Led Fener Ta\u015f\u0131y\u0131c\u0131",
+        "urun_kategori": "116",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ak\u0131lar ve B\u0131\u00e7aklar->Fonksiyonel \u00c7ak\u0131lar->Fonksiyonel \u00c7ak\u0131",
+        "urun_aciklama": "Swisstech Tornavida Ucu Anahtarl\u0131k Led Fener Ta\u015f\u0131y\u0131c\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2284241626,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "63.84",
+            "urun_satis_fiyati": 89.38,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201463",
+        "xml_barkod": "760750602106",
+        "urun_stok_kodu": "201463",
+        "urun_barkod": "760750602106",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "12",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1956.png",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1957.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1958.png",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1959.png"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici116",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Swisstech",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31529",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5539599-swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1956.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6728486-swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1957.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/18707-swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1958.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5675150-swisstech-tornavida-ucu-anahtarlik-led-fener-tasiyici-1959.webp"
+        ],
+        "gitin": 5934513305352,
+        "pazaryeri_kod": "pzrfn200700166229"
+    },
+    {
+        "urun_id": 32,
+        "urun_adi": "Swisstech Micro-Light Touch Ekran Temizleyici",
+        "urun_kategori": "2",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->Elektronik Outdoor Aksesuarlar\u0131->Saat",
+        "urun_aciklama": "Micro-Light&nbsp;Touch&nbsp;Screen&nbsp;Cleaner,&nbsp;Bir&nbsp;LED&nbsp;el&nbsp;feneri&nbsp;ile&nbsp;ak\u0131ll\u0131&nbsp;telefon&nbsp;ve&nbsp;tabletlerin&nbsp;ekranlar\u0131n\u0131&nbsp;temizlemek&nbsp;i\u00e7in&nbsp;kullanaca\u011f\u0131n\u0131z,&nbsp;her&nbsp;zaman&nbsp;elinizin&nbsp;alt\u0131nda&nbsp;olacak&nbsp;bir&nbsp;temizleme&nbsp;pedini&nbsp;bir&nbsp;arada&nbsp;sunuyor.&nbsp;<br>\n<br>\n1-&nbsp;Parlak&nbsp;Led&nbsp;I\u015f\u0131k<br>\n2-&nbsp;Mikrofiber&nbsp;Temizleme&nbsp;Pedi<br>\n3-&nbsp;2&nbsp;adet&nbsp;de\u011fi\u015ftirilebilir&nbsp;lityum&nbsp;pil&nbsp;(dahildir)<br>\n<br>\n\u00d6zellikler:<br>\nBoyutu:&nbsp;1.1\u201d&nbsp;x&nbsp;2\u201d&nbsp;x&nbsp;.5\u201d<br>\nA\u011f\u0131rl\u0131\u011f\u0131:&nbsp;0.5&nbsp;Oz.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4989296811,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "94.99",
+            "urun_satis_fiyati": 132.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201474",
+        "xml_barkod": "760750500471",
+        "urun_stok_kodu": "201474",
+        "urun_barkod": "760750500471",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "10",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-micro-light-touch-ekran-temizleyici-1998.png",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-micro-light-touch-ekran-temizleyici-1999.png",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-micro-light-touch-ekran-temizleyici-2000.png",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/swisstech-micro-light-touch-ekran-temizleyici-2001.png"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 10,
+                    "ozellik_ad": "Kasa \u00c7ap\u0131",
+                    "deger_id": 611,
+                    "deger_ad": "20 mm alt\u0131"
+                },
+                {
+                    "ozellik_id": 303,
+                    "ozellik_ad": "Kordon Renk",
+                    "deger_id": 3050,
+                    "deger_ad": "Alt\u0131n"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "swisstech-micro-light-touch-ekran-temizleyici209",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Swisstech",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31529",
+        "ty_kargo_id": "31",
+        "pazaryeri_kod": "pzrfn862024357953",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8286231-swisstech-micro-light-touch-ekran-temizleyici-1998.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2195504-swisstech-micro-light-touch-ekran-temizleyici-1999.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4636001-swisstech-micro-light-touch-ekran-temizleyici-2000.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3525347-swisstech-micro-light-touch-ekran-temizleyici-2001.webp"
+        ],
+        "gitin": 5605392665999
+    },
+    {
+        "urun_id": 33,
+        "urun_adi": "Hawke Matchmount 30mm 2 Par\u00e7a 9-11 mm Orta T\u00fcfek D\u00fcrb\u00fcn Aya\u011f\u0131",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "\u00b7\t\u00c7ift&nbsp;alt\u0131gen&nbsp;vida&nbsp;ile&nbsp;d\u00fcrb\u00fcn\u00fcn\u00fcz\u00fc&nbsp;sabitler<br>\n\u00b7\t9-11mm&nbsp;modelleri&nbsp;tepmeye&nbsp;kar\u015f\u0131&nbsp;pimlidir<br>\n\u00b7\t\u00c7evrilebilir&nbsp;zivana&nbsp;kelep\u00e7esi&nbsp;&nbsp;9-11mm&nbsp;ve&nbsp;3\/8&nbsp;in\u00e7&nbsp;uyumludur<br>\n\u00b7\tDahili&nbsp;tampon&nbsp;hasar\u0131&nbsp;engeller<br>\n\u00b7\tMat&nbsp;Siyaha&nbsp;anotlanm\u0131\u015f&nbsp;y\u00fcksek&nbsp;oran&nbsp;al\u00fcminy\u00fcm<br>\no\tModel:&nbsp;&nbsp;22&nbsp;107<br>\no\tBar&nbsp;Code:&nbsp;&nbsp;5054492221073<br>\n\u00b7\tGenel&nbsp;bak\u0131\u015f<br>\n\u00b7\t\u015eekil:<br>\n2&nbsp;Par\u00e7a<br>\n\u00b7\tHalka&nbsp;ebat&nbsp;(\u00e7ap):<br>\n30mm<br>\n<br>\n\u00b7\tY\u00fckseklik:<br>\nOrta<br>\n\u00b7\tBa\u015fl\u0131k:<br>\n9-11mm<br>\n\u00b7\tSabitleme&nbsp;:<br>\n\u00c7ift&nbsp;alt\u0131gen&nbsp;vida<br>\n\u00b7\tDahili&nbsp;tampon&nbsp;:<br>\nEvet<br>\n\u00b7\t\u00c7ekilebilir&nbsp;tepme&nbsp;durdurma&nbsp;pimi:<br>\nEvet<br>\nUzunluk:<br>\n45mm&nbsp;<br>\nA\u011f\u0131rl\u0131k:<br>\n88g&nbsp;<br>\nHassas&nbsp;tasarlanm\u0131\u015f&nbsp;y\u00fcksek&nbsp;kalite&nbsp;al\u00fcminyum&nbsp;ve&nbsp;yuvarlak&nbsp;kenarlar\u0131&nbsp;ile&nbsp;hasar&nbsp;engellenir",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 5660787128,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "463.01",
+            "urun_satis_fiyati": 648.21,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202474",
+        "xml_barkod": "5054492221073",
+        "urun_stok_kodu": "202474",
+        "urun_barkod": "5054492221073",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "10",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-matchmount-30mm-2-parca-9-11-mm-orta-tufek-durbun-ayagi-2397.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-matchmount-30mm-2-parca-9-11-mm-orta-tufek-durbun-ayagi108",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn258964632773",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5905719-hawke-matchmount-30mm-2-parca-9-11-mm-orta-tufek-durbun-ayagi-2397.webp"
+        ],
+        "gitin": 8289309686398
+    },
+    {
+        "urun_id": 34,
+        "urun_adi": "Hawke Vantage Siyah D\u00fcrb\u00fcn 8x42",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "Hawke Vantage Siyah D\u00fcrb\u00fcn 8x42",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3090480800,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "1852.02",
+            "urun_satis_fiyati": 2592.83,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202479",
+        "xml_barkod": "5054492341061",
+        "urun_stok_kodu": "202479",
+        "urun_barkod": "5054492341061",
+        "urun_renk": "Siyah",
+        "urun_beden": [],
+        "urun_stok": "4",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-vantage-siyah-durbun-8x42-2401.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Siyah"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-vantage-siyah-durbun-8x42522",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3700242-hawke-vantage-siyah-durbun-8x42-2401.webp"
+        ],
+        "gitin": 5654010200659,
+        "pazaryeri_kod": "pzrfn62701180002"
+    },
+    {
+        "urun_id": 35,
+        "urun_adi": "Eco Vessel DWG400 Vue Lid Gri Termos Kapa\u011f\u0131",
+        "urun_kategori": "3358",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Termoslar->Termos",
+        "urun_aciklama": "Eco Vessel DWG400 Vue Lid Gri Termos Kapa\u011f\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6076614882,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "54.28",
+            "urun_satis_fiyati": 75.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201601",
+        "xml_barkod": "610395207443",
+        "urun_stok_kodu": "201601",
+        "urun_barkod": "610395207443",
+        "urun_renk": "Gri",
+        "urun_beden": [],
+        "urun_stok": "2",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/eco-vessel-dwg400-vue-lid-gri-termos-kapagi-2081.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Gri"
+                },
+                {
+                    "ozellik_id": 184,
+                    "ozellik_ad": "Kapasite",
+                    "deger_id": 2062,
+                    "deger_ad": "250-350 ml"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "eco-vessel-dwg400-vue-lid-gri-termos-kapagi417",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Eco Vessel",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31514",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2221127-eco-vessel-dwg400-vue-lid-gri-termos-kapagi-2081.webp"
+        ],
+        "gitin": 9687444111253,
+        "pazaryeri_kod": "pzrfn136310810631"
+    },
+    {
+        "urun_id": 36,
+        "urun_adi": "Eco Vessel DWG400 Vue Kapak Lid For Mavi Termos Kapa\u011f\u0131",
+        "urun_kategori": "3358",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Termoslar->Termos",
+        "urun_aciklama": "Eco Vessel DWG400 Vue Kapak Lid For Mavi Termos Kapa\u011f\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 9809194522,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "54.28",
+            "urun_satis_fiyati": 75.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "201602",
+        "xml_barkod": "610395207450",
+        "urun_stok_kodu": "201602",
+        "urun_barkod": "610395207450",
+        "urun_renk": "Mavi",
+        "urun_beden": [],
+        "urun_stok": "2",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/eco-vessel-dwg400-vue-kapak-lid-for-mavi-termos-kapagi-2082.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Mavi"
+                },
+                {
+                    "ozellik_id": 184,
+                    "ozellik_ad": "Kapasite",
+                    "deger_id": 2062,
+                    "deger_ad": "250-350 ml"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "eco-vessel-dwg400-vue-kapak-lid-for-mavi-termos-kapagi761",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Eco Vessel",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31514",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6074143-eco-vessel-dwg400-vue-kapak-lid-for-mavi-termos-kapagi-2082.webp"
+        ],
+        "gitin": 1960356258045,
+        "pazaryeri_kod": "pzrfn92190234559"
+    },
+    {
+        "urun_id": 37,
+        "urun_adi": "Andoutdoor TA986 Pilli Kamp Lambas\u0131 (LS6003)",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "Andoutdoor TA986 Pilli Kamp Lambas\u0131 (LS6003)",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4688802051,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "128.97",
+            "urun_satis_fiyati": 180.56,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200074",
+        "xml_barkod": "8697512650605",
+        "urun_stok_kodu": "200074",
+        "urun_barkod": "8697512650605",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "14",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-ta986-pilli-kamp-lambasi-ls6003-8793.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-ta986-pilli-kamp-lambasi-ls6003-8792.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-ta986-pilli-kamp-lambasi-ls6003434",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5370692-andoutdoor-ta986-pilli-kamp-lambasi-ls6003-8793.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5512944-andoutdoor-ta986-pilli-kamp-lambasi-ls6003-8792.webp"
+        ],
+        "gitin": 3209347717316,
+        "pazaryeri_kod": "pzrfn236727271000"
+    },
+    {
+        "urun_id": 38,
+        "urun_adi": "FreeCamp Mountain Uyku Tulumu -21\/-5\/+1",
+        "urun_kategori": "3379",
+        "urun_xml_kategori": "Outdoor Kamp->Uyku Tulumu->Mevsimlik->Mevsimlik",
+        "urun_aciklama": "FreeCamp&nbsp;Mountain&nbsp;Uyku&nbsp;Tulumu<br>\n<br>\nMumya&nbsp;Tipi&nbsp;Uyku&nbsp;Tulumu<br>\n\u00dcr\u00fcn\u00fcn&nbsp;\u00f6l\u00e7\u00fcleri&nbsp;230&nbsp;x&nbsp;80&nbsp;x&nbsp;55cm<br>\n\u00dcr\u00fcn\u00fcn&nbsp;a\u011f\u0131rl\u0131\u011f\u0131:&nbsp;1800g<br>\n<br>\n-21\/-5\/+1&nbsp;derecelerde&nbsp;kullan\u0131ma&nbsp;uygundur.<br>\nD\u0131\u015f&nbsp;kuma\u015f:&nbsp;230T&nbsp;Ripstop<br>\n\u0130\u00e7&nbsp;kuma\u015f:&nbsp;240T&nbsp;yumu\u015fak&nbsp;mikrofiber&nbsp;kuma\u015ftan&nbsp;\u00fcretilmi\u015ftir.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6733726051,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "625.97",
+            "urun_satis_fiyati": 876.36,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202088",
+        "xml_barkod": "8697512068912",
+        "urun_stok_kodu": "202088",
+        "urun_barkod": "8697512068912",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "488",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-mountain-uyku-tulumu-21-5-1-8633.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-mountain-uyku-tulumu-21-5-1-8631.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-mountain-uyku-tulumu-21-5-1-8632.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-mountain-uyku-tulumu--21--5-plus1715",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn416932125395",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9103429-freecamp-mountain-uyku-tulumu-21-5-1-8633.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4706730-freecamp-mountain-uyku-tulumu-21-5-1-8631.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7338453-freecamp-mountain-uyku-tulumu-21-5-1-8632.webp"
+        ],
+        "gitin": 4064919892656
+    },
+    {
+        "urun_id": 39,
+        "urun_adi": "FreeCamp Mainer Kampet",
+        "urun_kategori": "621",
+        "urun_xml_kategori": "Outdoor Kamp->Oturma, Dinlenme,Yataklar->Kamp Yataklar\u0131 ( Kampet)->Kamp Yata\u011f\u0131 ( Kampet)",
+        "urun_aciklama": "\u00d6l\u00e7\u00fcler:&nbsp;205&nbsp;x&nbsp;74&nbsp;x&nbsp;42&nbsp;cm<br>\nKuma\u015f:&nbsp;polyester&nbsp;600x300D&nbsp;pvc<br>\nMateryal:&nbsp;6x12&nbsp;mm&nbsp;8x16&nbsp;mm<br>\nLogo:&nbsp;Freecamp<br>\nTa\u015f\u0131ma&nbsp;\u00e7antas\u0131:&nbsp;300D&nbsp;PU",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4873780417,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "788.72",
+            "urun_satis_fiyati": 1104.21,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202269",
+        "xml_barkod": "8697512083755",
+        "urun_stok_kodu": "202269",
+        "urun_barkod": "8697512083755",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "107",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-mainer-kampet-2314.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 221,
+                    "ozellik_ad": "\u00d6l\u00e7\u00fc",
+                    "deger_id": 2275,
+                    "deger_ad": "160 x 200 cm"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-mainer-kampet918",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn824710487391",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9863442-freecamp-mainer-kampet-2314.webp"
+        ],
+        "gitin": 1540623474339
+    }
+]

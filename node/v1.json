@@ -1,0 +1,1923 @@
+[
+    {
+        "urun_id": 1,
+        "urun_adi": "Andoutdoor TM9608 Plaj \u00c7antas\u0131",
+        "urun_kategori": "85",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->C\u00fczdan, Bel, El ve Omuz \u00c7antalar\u0131->Bel \u00c7antalar\u0131",
+        "urun_aciklama": "Andoutdoor&nbsp;Plaj&nbsp;\u00c7antas\u0131&nbsp;TM9608<br>\n<br>\n\u00dcr\u00fcn&nbsp;\u00f6l\u00e7\u00fcleri;<br>\nY\u00fckseklik&nbsp;:&nbsp;48&nbsp;cm<br>\n\u00c7ap\u0131&nbsp;:&nbsp;30&nbsp;cm",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4676404983,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "84.46",
+            "urun_satis_fiyati": 118.24,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "100381",
+        "xml_barkod": "8697512655563",
+        "urun_stok_kodu": "100381",
+        "urun_barkod": "8697512655563",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": 0,
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-tm9608-plaj-cantasi-8102.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-tm9608-plaj-cantasi369",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 2
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "4",
+        "pazaryeri_kod": "PRA-3167241-649053",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9875029-andoutdoor-tm9608-plaj-cantasi-8102.webp"
+        ],
+        "gitin": 9987049781975
+    },
+    {
+        "urun_id": 2,
+        "urun_adi": "Makara Unisex Kayak \u00c7orab\u0131",
+        "urun_kategori": "196",
+        "urun_xml_kategori": "Outdoor Giyim->\u00c7oraplar ve Tozluklar->\u00c7orap->\u00c7orap",
+        "urun_aciklama": "Makara Unisex Kayak \u00c7orab\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 8816095892,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "57.13",
+            "urun_satis_fiyati": 79.98,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "100428",
+        "xml_barkod": "8697512656317",
+        "urun_stok_kodu": "100428",
+        "urun_barkod": "8697512656317",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "508",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/makara-unisex-kayak-corabi-74.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/makara-unisex-kayak-corabi-75.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/makara-unisex-kayak-corabi-76.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/makara-unisex-kayak-corabi-77.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "makara-unisex-kayak-corabi840",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Makara",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "1026",
+        "ty_kargo_id": "4",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3048270-makara-unisex-kayak-corabi-74.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9804410-makara-unisex-kayak-corabi-75.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/361495-makara-unisex-kayak-corabi-76.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8529203-makara-unisex-kayak-corabi-77.webp"
+        ],
+        "gitin": 8301106008282,
+        "pazaryeri_kod": "pzrfn2112163017"
+    },
+    {
+        "urun_id": 3,
+        "urun_adi": "Andoutdoor KF5253 Plaj \u00c7antas\u0131",
+        "urun_kategori": "81",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->C\u00fczdan, Bel, El ve Omuz \u00c7antalar\u0131->Bel \u00c7antalar\u0131",
+        "urun_aciklama": "Andoutdoor&nbsp;Plaj&nbsp;\u00c7antas\u0131&nbsp;KF5253<br>\n<br>\nen:&nbsp;50&nbsp;cm&nbsp;<br>\nboy&nbsp;:&nbsp;32&nbsp;cm&nbsp;<br>\ngeni\u015flik:&nbsp;14&nbsp;cm&nbsp;<br>\nask\u0131&nbsp;boyu:&nbsp;37&nbsp;cm",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 434347053,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "86.94",
+            "urun_satis_fiyati": 121.72,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "100375",
+        "xml_barkod": "8697512651459",
+        "urun_stok_kodu": "100375",
+        "urun_barkod": "8697512651459",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "578",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-kf5253-plaj-cantasi-8105.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-kf5253-plaj-cantasi-8103.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-kf5253-plaj-cantasi474",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "31",
+        "pazaryeri_kod": "pzrfn145242163175",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1662357-andoutdoor-kf5253-plaj-cantasi-8105.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2245690-andoutdoor-kf5253-plaj-cantasi-8103.webp"
+        ],
+        "gitin": 3451557087370
+    },
+    {
+        "urun_id": 4,
+        "urun_adi": "Andoutdoor TM2688 Marine Plaj \u00c7antas\u0131",
+        "urun_kategori": "81",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->C\u00fczdan, Bel, El ve Omuz \u00c7antalar\u0131->Bel \u00c7antalar\u0131",
+        "urun_aciklama": "Andoutdoor&nbsp;Marine&nbsp;Plaj&nbsp;\u00c7antas\u0131&nbsp;TM2688",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2284801844,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "68.36",
+            "urun_satis_fiyati": 95.7,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "100380",
+        "xml_barkod": "8697512536527",
+        "urun_stok_kodu": "100380",
+        "urun_barkod": "8697512536527",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "65",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-tm2688-marine-plaj-cantasi-67.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-tm2688-marine-plaj-cantasi807",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "31",
+        "pazaryeri_kod": "pzrfn281194253128",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6248719-andoutdoor-tm2688-marine-plaj-cantasi-67.webp"
+        ],
+        "gitin": 3437099926700
+    },
+    {
+        "urun_id": 5,
+        "urun_adi": "Trespass 40-43 Numara Erkek \u00c7orab\u0131",
+        "urun_kategori": "196",
+        "urun_xml_kategori": "Outdoor Giyim->\u00c7oraplar ve Tozluklar->\u00c7orap->\u00c7orap",
+        "urun_aciklama": "Trespass&nbsp;Erkek&nbsp;\u00c7orab\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 1804451085,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "47.2",
+            "urun_satis_fiyati": 66.08,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103914",
+        "xml_barkod": "5050986101814",
+        "urun_stok_kodu": "103914",
+        "urun_barkod": "5050986101814",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "172",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/trespass-erkek-corabi-40-43-730.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4294,
+                    "deger_ad": "Erkek"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "trespass-40-43-numara-erkek-corabi736",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Trespass",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "36763",
+        "ty_kargo_id": "4",
+        "pazaryeri_kod": "pzrfn471525266138",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2834385-trespass-erkek-corabi-40-43-730.webp"
+        ],
+        "gitin": 5210328606769
+    },
+    {
+        "urun_id": 6,
+        "urun_adi": "FreeCamp Tig Trekking S\u0131rt \u00c7antas\u0131 65 Litre",
+        "urun_kategori": "74",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->Da\u011fc\u0131l\u0131k ve Kamp \u00c7antalar\u0131->Trekking \u00c7anta",
+        "urun_aciklama": "FreeCamp&nbsp;Tig&nbsp;Trekking&nbsp;S\u0131rt&nbsp;\u00c7antas\u0131&nbsp;65&nbsp;Litre<br>\n<br>\nKamp&nbsp;ve&nbsp;t\u00fcm&nbsp;do\u011fa&nbsp;sporlar\u0131n\u0131z&nbsp;i\u00e7in&nbsp;geni\u015f&nbsp;i\u00e7&nbsp;hacmi&nbsp;ve&nbsp;depolama&nbsp;cepleri&nbsp;bulunan&nbsp;bir&nbsp;s\u0131rt&nbsp;\u00e7antas\u0131d\u0131r.<br>\n<br>\nMalzeme:&nbsp;Ripstop&nbsp;polyester&nbsp;kuma\u015f<br>\nHacim:&nbsp;65&nbsp;Litre<br>\nBoyutlar&nbsp;(En&nbsp;x&nbsp;Boy&nbsp;x&nbsp;Y\u00fckseklik):&nbsp;24&nbsp;x&nbsp;37&nbsp;x&nbsp;85cm<br>\nA\u011f\u0131rl\u0131k:&nbsp;1900g<br>\n<br>\nS\u0131rt&nbsp;sistemi&nbsp;i\u00e7erisinde&nbsp;kullan\u0131lan&nbsp;al\u00fcminyum&nbsp;iskelet&nbsp;yap\u0131s\u0131&nbsp;sayesinde,&nbsp;\u00e7antan\u0131n&nbsp;dik&nbsp;ve&nbsp;do\u011fru&nbsp;durmas\u0131n\u0131&nbsp;sa\u011flar.<br>\nS\u0131rt&nbsp;k\u0131sm\u0131&nbsp;ve&nbsp;kal\u00e7a&nbsp;kemerinde&nbsp;nefes&nbsp;alabilen&nbsp;yap\u0131da&nbsp;yumu\u015fak&nbsp;pedli&nbsp;destekler&nbsp;mevcuttur.<br>\nG\u00f6\u011f\u00fcs&nbsp;kafesi&nbsp;kay\u0131\u015f\u0131&nbsp;omuzlara&nbsp;as\u0131l\u0131&nbsp;\u00e7antan\u0131n&nbsp;dengelenmesine&nbsp;yard\u0131mc\u0131&nbsp;olur.<br>\nG\u00f6\u011f\u00fcs&nbsp;kafesi&nbsp;kay\u0131\u015f\u0131nda&nbsp;klipse&nbsp;entegre&nbsp;d\u00fcd\u00fck&nbsp;bulunur.<br>\nOmuz&nbsp;ask\u0131s\u0131&nbsp;y\u00fcksekli\u011fi&nbsp;ve&nbsp;bel&nbsp;kemerinin&nbsp;geni\u015fli\u011fi&nbsp;ayarlanabilir.<br>\nAlt&nbsp;k\u0131s\u0131mda&nbsp;ve&nbsp;yanda&nbsp;s\u0131k\u0131\u015ft\u0131rma&nbsp;perlonlar\u0131&nbsp;bulunan&nbsp;cepler<br>\nFermuarl\u0131&nbsp;kapak&nbsp;cebi&nbsp;ve&nbsp;\u00f6n&nbsp;cep<br>\nSa\u011f&nbsp;ve&nbsp;sol&nbsp;yan&nbsp;tarafta&nbsp;file&nbsp;cep<br>\nDe\u011ferli&nbsp;e\u015fyalar&nbsp;i\u00e7in&nbsp;i\u00e7&nbsp;cep<br>\nY\u00fckseklik&nbsp;ayarl\u0131&nbsp;kapak<br>\nAyr\u0131&nbsp;alt&nbsp;b\u00f6lmeli&nbsp;dahili&nbsp;ya\u011fmurluk",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2230934382,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "1450.66",
+            "urun_satis_fiyati": 2030.92,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103333",
+        "xml_barkod": "8697512075569",
+        "urun_stok_kodu": "103333",
+        "urun_barkod": "8697512075569",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "289",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-tig-trekking-sirt-cantasi-65-litre-533.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-tig-trekking-sirt-cantasi-65-litre950",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "1",
+        "pazaryeri_kod": "pzrfn479262577684",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8831124-freecamp-tig-trekking-sirt-cantasi-65-litre-533.webp"
+        ],
+        "gitin": 8575529469867
+    },
+    {
+        "urun_id": 7,
+        "urun_adi": "Andoutdoor Unisex Kayak \u00c7orab\u0131",
+        "urun_kategori": "196",
+        "urun_xml_kategori": "Outdoor Giyim->\u00c7oraplar ve Tozluklar->\u00c7orap->\u00c7orap",
+        "urun_aciklama": "Andoutdoor&nbsp;Unisex&nbsp;Kayak&nbsp;\u00c7orab\u0131<br>\n<br>\nTerletme&nbsp;yapmayan&nbsp;\u00f6zel&nbsp;kuma\u015f&nbsp;yap\u0131s\u0131,<br>\nG\u00fcnl\u00fck&nbsp;ya\u015fant\u0131&nbsp;ve&nbsp;t\u00fcm&nbsp;spor&nbsp;dallar\u0131&nbsp;i\u00e7in&nbsp;kullan\u0131l\u0131r.<br>\nMakinede&nbsp;30&nbsp;derecede&nbsp;y\u0131kanabilir.<br>\n\u00dct\u00fc&nbsp;yap\u0131lmamal\u0131d\u0131r&nbsp;serilerek&nbsp;kurutulmas\u0131&nbsp;gerekmektedir.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7636336729,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "18.68",
+            "urun_satis_fiyati": 26.15,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103916",
+        "xml_barkod": "4039701060323",
+        "urun_stok_kodu": "103916",
+        "urun_barkod": "4039701060323",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "826",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-unisex-kayak-corabi-732.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-unisex-kayak-corabi497",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "4",
+        "pazaryeri_kod": "pzrfn479683681557",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2109170-andoutdoor-unisex-kayak-corabi-732.webp"
+        ],
+        "gitin": 5817971715784
+    },
+    {
+        "urun_id": 8,
+        "urun_adi": "Trespass 41-46 Numara Erkek \u00c7orab\u0131",
+        "urun_kategori": "196",
+        "urun_xml_kategori": "Outdoor Giyim->\u00c7oraplar ve Tozluklar->\u00c7orap->\u00c7orap",
+        "urun_aciklama": "Trespass&nbsp;Erkek&nbsp;\u00c7orab\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 9376549589,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "47.2",
+            "urun_satis_fiyati": 66.08,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103915",
+        "xml_barkod": "5038232995325",
+        "urun_stok_kodu": "103915",
+        "urun_barkod": "5038232995325",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "45",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/trespass-erkek-corabi-41-46-731.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4294,
+                    "deger_ad": "Erkek"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "trespass-41-46-numara-erkek-corabi929",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Trespass",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "36763",
+        "ty_kargo_id": "4",
+        "pazaryeri_kod": "pzrfn344854047064",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1527200-trespass-erkek-corabi-41-46-731.webp"
+        ],
+        "gitin": 5742755929809
+    },
+    {
+        "urun_id": 9,
+        "urun_adi": "Freecamp Jax Trekking S\u0131rt \u00c7antas\u0131 80 Litre",
+        "urun_kategori": "74",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->Da\u011fc\u0131l\u0131k ve Kamp \u00c7antalar\u0131->Trekking \u00c7anta",
+        "urun_aciklama": "Freecamp&nbsp;Jax&nbsp;Trekking&nbsp;S\u0131rt&nbsp;\u00c7antas\u0131&nbsp;80&nbsp;Lt<br>\n<br>\nKamp&nbsp;ve&nbsp;t\u00fcm&nbsp;do\u011fa&nbsp;sporlar\u0131n\u0131z&nbsp;i\u00e7in&nbsp;geni\u015f&nbsp;i\u00e7&nbsp;hacmi&nbsp;ve&nbsp;depolama&nbsp;cepleri&nbsp;bulunan&nbsp;bir&nbsp;s\u0131rt&nbsp;\u00e7antas\u0131d\u0131r.<br>\n<br>\nMalzeme:&nbsp;Ripstop&nbsp;polyester&nbsp;kuma\u015f<br>\nHacim:&nbsp;80&nbsp;Litre<br>\nBoyutlar&nbsp;(En&nbsp;x&nbsp;Boy&nbsp;x&nbsp;Y\u00fckseklik):&nbsp;26&nbsp;x&nbsp;33&nbsp;x&nbsp;86&nbsp;cm&nbsp;<br>\nA\u011f\u0131rl\u0131k:&nbsp;2000g<br>\n<br>\nS\u0131rt&nbsp;sistemi&nbsp;i\u00e7erisinde&nbsp;kullan\u0131lan&nbsp;al\u00fcminyum&nbsp;iskelet&nbsp;yap\u0131s\u0131&nbsp;sayesinde,&nbsp;\u00e7antan\u0131n&nbsp;dik&nbsp;ve&nbsp;do\u011fru&nbsp;durmas\u0131n\u0131&nbsp;sa\u011flar.<br>\nS\u0131rt&nbsp;k\u0131sm\u0131&nbsp;ve&nbsp;kal\u00e7a&nbsp;kemerinde&nbsp;nefes&nbsp;alabilen&nbsp;yap\u0131da&nbsp;yumu\u015fak&nbsp;pedli&nbsp;destekler&nbsp;mevcuttur.<br>\nG\u00f6\u011f\u00fcs&nbsp;kafesi&nbsp;kay\u0131\u015f\u0131&nbsp;omuzlara&nbsp;as\u0131l\u0131&nbsp;\u00e7antan\u0131n&nbsp;dengelenmesine&nbsp;yard\u0131mc\u0131&nbsp;olur.<br>\nG\u00f6\u011f\u00fcs&nbsp;kafesi&nbsp;kay\u0131\u015f\u0131nda&nbsp;klipse&nbsp;entegre&nbsp;d\u00fcd\u00fck&nbsp;bulunur.<br>\nOmuz&nbsp;ask\u0131s\u0131&nbsp;y\u00fcksekli\u011fi&nbsp;ve&nbsp;bel&nbsp;kemerinin&nbsp;geni\u015fli\u011fi&nbsp;ayarlanabilir.<br>\nAlt&nbsp;k\u0131s\u0131mda&nbsp;ve&nbsp;yanda&nbsp;s\u0131k\u0131\u015ft\u0131rma&nbsp;perlonlar\u0131&nbsp;bulunan&nbsp;cepler<br>\nFermuarl\u0131&nbsp;kapak&nbsp;cebi&nbsp;ve&nbsp;\u00f6n&nbsp;cep<br>\nSa\u011f&nbsp;ve&nbsp;sol&nbsp;yan&nbsp;tarafta&nbsp;file&nbsp;cep<br>\nDe\u011ferli&nbsp;e\u015fyalar&nbsp;i\u00e7in&nbsp;i\u00e7&nbsp;cep<br>\nY\u00fckseklik&nbsp;ayarl\u0131&nbsp;kapak<br>\nAyr\u0131&nbsp;alt&nbsp;b\u00f6lmeli&nbsp;dahili&nbsp;ya\u011fmurluk",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6404168249,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "1540.08",
+            "urun_satis_fiyati": 2156.11,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103332",
+        "xml_barkod": "8697512075545",
+        "urun_stok_kodu": "103332",
+        "urun_barkod": "8697512075545",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "290",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-jax-trekking-sirt-cantasi-80-litre-14251.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-jax-trekking-sirt-cantasi-80-lt-8061.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-jax-trekking-sirt-cantasi-80-litre-14252.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-jax-trekking-sirt-cantasi-80-litre693",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "1",
+        "pazaryeri_kod": "pzrfn259197403147",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6015036-freecamp-jax-trekking-sirt-cantasi-80-litre-14251.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3950763-freecamp-jax-trekking-sirt-cantasi-80-lt-8061.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6489066-freecamp-jax-trekking-sirt-cantasi-80-litre-14252.webp"
+        ],
+        "gitin": 2254262043339
+    },
+    {
+        "urun_id": 10,
+        "urun_adi": "Trespass 36-39 Numara Kad\u0131n \u00c7orab\u0131",
+        "urun_kategori": "196",
+        "urun_xml_kategori": "Outdoor Giyim->\u00c7oraplar ve Tozluklar->\u00c7orap->\u00c7orap",
+        "urun_aciklama": "Trespass&nbsp;Kad\u0131n&nbsp;\u00c7orab\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3704613249,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "47.2",
+            "urun_satis_fiyati": 66.08,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103913",
+        "xml_barkod": "5045274170153",
+        "urun_stok_kodu": "103913",
+        "urun_barkod": "5045274170153",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "44",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/trespass-kadin-corabi-36-39-729.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4295,
+                    "deger_ad": "Kad\u0131n"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "trespass-36-39-numara-kadin-corabi946",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Trespass",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "36763",
+        "ty_kargo_id": "4",
+        "pazaryeri_kod": "pzrfn700230417919",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8837820-trespass-kadin-corabi-36-39-729.webp"
+        ],
+        "gitin": 8398917993192
+    },
+    {
+        "urun_id": 11,
+        "urun_adi": "Andoutdoor Termal Unisex Trekking \u00c7orab\u0131",
+        "urun_kategori": "196",
+        "urun_xml_kategori": "Outdoor Giyim->\u00c7oraplar ve Tozluklar->\u00c7orap->\u00c7orap",
+        "urun_aciklama": "Andoutdoor Termal Unisex Trekking \u00c7orab\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7935773127,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "32.29",
+            "urun_satis_fiyati": 45.21,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "103906",
+        "xml_barkod": "8718051368629",
+        "urun_stok_kodu": "103906",
+        "urun_barkod": "8718051368629",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "15",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-termal-unisex-trekking-corabi-727.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-termal-unisex-trekking-corabi537",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "4",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9380719-andoutdoor-termal-unisex-trekking-corabi-727.webp"
+        ],
+        "gitin": 9880677772427,
+        "pazaryeri_kod": "pzrfn73653407690"
+    },
+    {
+        "urun_id": 12,
+        "urun_adi": "Jr Gear Zip Sack Fermuarlu \u00c7anta 3 Litre",
+        "urun_kategori": "76",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->Su Ge\u00e7irmez \u00c7antalar->Su Ge\u00e7irmez \u00c7anta",
+        "urun_aciklama": "G\u00fcc\u00fc&nbsp;ve&nbsp;dayan\u0131kl\u0131l\u0131\u011f\u0131&nbsp;art\u0131rmak&nbsp;i\u00e7in<br>\nsilikon&nbsp;kaplamal\u0131&nbsp;30D&nbsp;Cordura\u00ae<br>\nPU&nbsp;destek<br>\nUltra&nbsp;hafif<br>\nIPX2<br>\n\u00f6l\u00e7\u00fcler<br>\n12&nbsp;x&nbsp;12&nbsp;x&nbsp;26&nbsp;cm<br>\nkapasite<br>\n3&nbsp;LT",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2102845495,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "96.88",
+            "urun_satis_fiyati": 135.63,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "104283",
+        "xml_barkod": "4897028449296",
+        "urun_stok_kodu": "104283",
+        "urun_barkod": "4897028449296",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "2",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/jr-gear-zip-sack-fermuarlu-canta-3-litre-847.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "jr-gear-zip-sack-fermuarlu-canta-3-litre987",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Jr Gear",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31521",
+        "ty_kargo_id": "1",
+        "pazaryeri_kod": "pzrfn343426069393",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2673472-jr-gear-zip-sack-fermuarlu-canta-3-litre-847.webp"
+        ],
+        "gitin": 3875976821058
+    },
+    {
+        "urun_id": 13,
+        "urun_adi": "Jr Gear Zip Sack Fermuarl\u0131 \u00c7anta 10 Litre",
+        "urun_kategori": "76",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->Su Ge\u00e7irmez \u00c7antalar->Su Ge\u00e7irmez \u00c7anta",
+        "urun_aciklama": "G\u00fcc\u00fc&nbsp;ve&nbsp;dayan\u0131kl\u0131l\u0131\u011f\u0131&nbsp;art\u0131rmak&nbsp;i\u00e7in<br>\nsilikon&nbsp;kaplamal\u0131&nbsp;30D&nbsp;Cordura\u00ae<br>\nPU&nbsp;destek<br>\nUltra&nbsp;hafif<br>\nIPX2<br>\n\u00f6l\u00e7\u00fcler<br>\n17&nbsp;x&nbsp;17&nbsp;x&nbsp;38&nbsp;cm<br>\nkapasite<br>\n10&nbsp;LT",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 5602342347,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "134.14",
+            "urun_satis_fiyati": 187.8,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "104284",
+        "xml_barkod": "4897028449326",
+        "urun_stok_kodu": "104284",
+        "urun_barkod": "4897028449326",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "16",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/jr-gear-zip-sack-fermuarli-canta-10-litre-848.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                },
+                {
+                    "ozellik_id": 343,
+                    "ozellik_ad": "Cinsiyet",
+                    "deger_id": 4296,
+                    "deger_ad": "Unisex"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "jr-gear-zip-sack-fermuarli-canta-10-litre661",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Jr Gear",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31521",
+        "ty_kargo_id": "1",
+        "pazaryeri_kod": "pzrfn4567973753",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4808818-jr-gear-zip-sack-fermuarli-canta-10-litre-848.webp"
+        ],
+        "gitin": 4927614353770
+    },
+    {
+        "urun_id": 14,
+        "urun_adi": "Andoutdoor C6202 S\u0131rt \u00c7antas\u0131 Sulu\u011fu 1 Litre",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "Andoutdoor C6202 S\u0131rt \u00c7antas\u0131 Sulu\u011fu 1 Litre",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 8056102243,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "101.83",
+            "urun_satis_fiyati": 142.56,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200107",
+        "xml_barkod": "8697512651671",
+        "urun_stok_kodu": "200107",
+        "urun_barkod": "8697512651671",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "251",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-c6202-sirt-cantasi-sulugu-1-lt-982.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-c6202-sirt-cantasi-sulugu-1-litre247",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3990044-andoutdoor-c6202-sirt-cantasi-sulugu-1-lt-982.webp"
+        ],
+        "gitin": 2049636973656,
+        "pazaryeri_kod": "pzrfn231087944978"
+    },
+    {
+        "urun_id": 15,
+        "urun_adi": "Andoutdoor 1-1200 LB Sarma ve Sabitleme \u0130pi \u00c7ekici C9989",
+        "urun_kategori": "537",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->\u00c7ad\u0131r Aksesuarlar\u0131->Yast\u0131k",
+        "urun_aciklama": "Andoutdoor 1-1200 LB Sarma ve Sabitleme \u0130pi \u00c7ekici C9989",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 828148958,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "67.85",
+            "urun_satis_fiyati": 94.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200135",
+        "xml_barkod": "8697512650940",
+        "urun_stok_kodu": "200135",
+        "urun_barkod": "8697512650940",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "296",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-1-1200-lb-sarma-ve-sabitleme-ipi-cekici-c9989-984.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 92,
+                    "ozellik_ad": "Boyut\/Ebat",
+                    "deger_id": 1570,
+                    "deger_ad": "35 x 50"
+                },
+                {
+                    "ozellik_id": 116,
+                    "ozellik_ad": "D\u0131\u015f Materyal",
+                    "deger_id": 1666,
+                    "deger_ad": "Mikrofiber"
+                },
+                {
+                    "ozellik_id": 118,
+                    "ozellik_ad": "Dolgu Materyali",
+                    "deger_id": 1673,
+                    "deger_ad": "Elyaf"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-1-1200-lb-sarma-ve-sabitleme-ipi-cekici-c9989328",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3086488-andoutdoor-1-1200-lb-sarma-ve-sabitleme-ipi-cekici-c9989-984.webp"
+        ],
+        "gitin": 3855515963740,
+        "pazaryeri_kod": "pzrfn12972105056"
+    },
+    {
+        "urun_id": 16,
+        "urun_adi": "N-Rit Magic Heat Round - Yuvarlak Cep Is\u0131t\u0131c\u0131",
+        "urun_kategori": "1836",
+        "urun_xml_kategori": "Outdoor Kamp->Spor, Medikal \u00dcr\u00fcnler->S\u0131cak So\u011fuk Torbalar->S\u0131cak So\u011fuk Torba",
+        "urun_aciklama": "N-Rit Magic Heat Round - Yuvarlak Cep Is\u0131t\u0131c\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4827010838,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "61.12",
+            "urun_satis_fiyati": 85.57,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200225",
+        "xml_barkod": "8809132931440",
+        "urun_stok_kodu": "200225",
+        "urun_barkod": "8809132931440",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "468",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-magic-heat-round-yuvarlak-cep-isitici-988.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-magic-heat-round---yuvarlak-cep-isitici110",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7770342-n-rit-magic-heat-round-yuvarlak-cep-isitici-988.webp"
+        ],
+        "gitin": 9140853673101,
+        "pazaryeri_kod": "pzrfn924934928094"
+    },
+    {
+        "urun_id": 17,
+        "urun_adi": "N-Rit Ultra Bright 3 Led \u0130ki Modlu \u015eapka Lambas\u0131",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "N-Rit Ultra Bright 3 Led \u0130ki Modlu \u015eapka Lambas\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4586805015,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "65.14",
+            "urun_satis_fiyati": 91.2,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200274",
+        "xml_barkod": "810152010914",
+        "urun_stok_kodu": "200274",
+        "urun_barkod": "810152010914",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "140",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-iki-modlu-3-led-sapka-lambasi-992.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-iki-modlu-3-led-sapka-lambasi-993.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-iki-modlu-3-led-sapka-lambasi-994.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-ultra-bright-3-led-iki-modlu-sapka-lambasi146",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1799453-n-rit-ultra-bright-iki-modlu-3-led-sapka-lambasi-992.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6541681-n-rit-ultra-bright-iki-modlu-3-led-sapka-lambasi-993.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4960360-n-rit-ultra-bright-iki-modlu-3-led-sapka-lambasi-994.webp"
+        ],
+        "gitin": 6383651984329,
+        "pazaryeri_kod": "pzrfn102286805533"
+    },
+    {
+        "urun_id": 18,
+        "urun_adi": "N-Rit Neck Towel Hiking Portatif Havlu",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "N-rit&nbsp;Neck&nbsp;Towel&nbsp;-&nbsp;Hiking&nbsp;Portatif&nbsp;Havlu<br>\n&nbsp;<br>\nGeni\u015flik:&nbsp;20cm<br>\nUzunluk:&nbsp;120cm<br>\nAn\u0131nda&nbsp;kurutabilen&nbsp;yap\u0131s\u0131&nbsp;ile&nbsp;son&nbsp;g\u00fcnlerin&nbsp;en&nbsp;\"trend\"&nbsp;\u00fcr\u00fcn\u00fc...&nbsp;<br>\nPlaj&nbsp;keyfinizde&nbsp;art\u0131k&nbsp;hep&nbsp;yan\u0131n\u0131zda&nbsp;o&nbsp;olacak!&nbsp;<br>\nDenizden&nbsp;\u00e7\u0131kar&nbsp;\u00e7\u0131kmaz&nbsp;uzun&nbsp;kurutma&nbsp;seanslar\u0131na&nbsp;art\u0131k&nbsp;son!&nbsp;<br>\nNeck&nbsp;Towel&nbsp;ile&nbsp;art\u0131k&nbsp;kurulanmak&nbsp;daha&nbsp;kolay!..",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3351034584,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "8",
+            "urun_alis_fiyati": "62.1",
+            "urun_satis_fiyati": 86.94,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200280",
+        "xml_barkod": "8697512537098",
+        "urun_stok_kodu": "200280",
+        "urun_barkod": "8697512537098",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "387",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-neck-towel-hiking-portatif-havlu-8108.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-neck-towel-hiking-portatif-havlu-996.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-neck-towel-hiking-portatif-havlu280",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn761489103880",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8747810-n-rit-neck-towel-hiking-portatif-havlu-8108.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1342809-n-rit-neck-towel-hiking-portatif-havlu-996.webp"
+        ],
+        "gitin": 4329205471197
+    },
+    {
+        "urun_id": 19,
+        "urun_adi": "N-Rit Seam Sealer Su Bazl\u0131 \u0130zolasyon",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "N-rit&nbsp;Seam&nbsp;Sealer&nbsp;-&nbsp;Su&nbsp;Bazl\u0131&nbsp;\u0130zolasyon<br>\n<br>\nModel:&nbsp;NSW202<br>\n<br>\nEn&nbsp;iyi&nbsp;sonu\u00e7lar&nbsp;i\u00e7in&nbsp;uygulamadan&nbsp;\u00f6nce&nbsp;alkol&nbsp;ile&nbsp;iyice&nbsp;y\u00fczeyi&nbsp;temizleyin.<br>\nBirle\u015fme&nbsp;noktalar\u0131&nbsp;boyunca&nbsp;kaplay\u0131c\u0131&nbsp;k\u00fc\u00e7\u00fck&nbsp;boncuklar&nbsp;halinde&nbsp;uygulay\u0131n<br>\nDiki\u015fli&nbsp;deliklere&nbsp;ve&nbsp;kuma\u015f&nbsp;eklemler&nbsp;i\u00e7ine&nbsp;e\u015fit&nbsp;\u015fekilde&nbsp;uygulay\u0131n.<br>\n4&nbsp;ila&nbsp;6&nbsp;saat&nbsp;kurumas\u0131n\u0131&nbsp;bekleyin<br>\n<br>\nUyar\u0131<br>\n<br>\nYan\u0131c\u0131,&nbsp;toluen&nbsp;ve&nbsp;izopropil&nbsp;alkol&nbsp;i\u00e7erir<br>\nAte\u015f&nbsp;k\u0131v\u0131lc\u0131m&nbsp;veya&nbsp;\u0131s\u0131&nbsp;yak\u0131n\u0131nda&nbsp;kullanmay\u0131n<br>\nYutulmas\u0131&nbsp;halinde&nbsp;kusturmaya&nbsp;\u00e7al\u0131\u015fmay\u0131n,&nbsp;hemen&nbsp;bir&nbsp;doktora&nbsp;ba\u015fvurun<br>\nCilt&nbsp;veya&nbsp;g\u00f6zlerle&nbsp;temas&nbsp;ettirmeyin<br>\nG\u00f6z&nbsp;temas\u0131&nbsp;durumunda,&nbsp;bol&nbsp;su&nbsp;ile&nbsp;y\u0131kay\u0131n&nbsp;ve&nbsp;doktora&nbsp;ba\u015fvurun<br>\nBuharlar\u0131&nbsp;uzun&nbsp;s\u00fcreli&nbsp;veya&nbsp;tekrarlanan&nbsp;solunumdan&nbsp;ka\u00e7\u0131n\u0131n<br>\n\u00c7ocuklardan&nbsp;uzak&nbsp;tutun",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4414044030,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "40.71",
+            "urun_satis_fiyati": 56.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200286",
+        "xml_barkod": "8809132934175",
+        "urun_stok_kodu": "200286",
+        "urun_barkod": "8809132934175",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "344",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-seam-sealer-su-bazli-izolasyon-997.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-seam-sealer-su-bazli-izolasyon311",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn239821341723",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7344935-n-rit-seam-sealer-su-bazli-izolasyon-997.webp"
+        ],
+        "gitin": 8606477420315
+    }
+]

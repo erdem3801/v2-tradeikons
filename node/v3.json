@@ -1,0 +1,1717 @@
+[
+    {
+        "urun_id": 40,
+        "urun_adi": "UniRed 8 Par\u00e7a Tornavida Seti",
+        "urun_kategori": "2976",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->El Aletleri->Sprey",
+        "urun_aciklama": "UniRed 8 Par\u00e7a Tornavida Seti",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7734818492,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "135.7",
+            "urun_satis_fiyati": 189.98,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202553",
+        "xml_barkod": "8697512091309",
+        "urun_stok_kodu": "202553",
+        "urun_barkod": "8697512091309",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "844",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/unired-8-parca-tornavida-seti-8167.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/unired-8-parca-tornavida-seti-8166.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "unired-8-parca-tornavida-seti536",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "UniRed",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31520",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8551275-unired-8-parca-tornavida-seti-8167.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8383820-unired-8-parca-tornavida-seti-8166.webp"
+        ],
+        "gitin": 8934595152511,
+        "pazaryeri_kod": "pzrfn94394881234"
+    },
+    {
+        "urun_id": 41,
+        "urun_adi": "UniRed 31 Par\u00e7a Kozalak Tornavida Seti",
+        "urun_kategori": "2976",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->El Aletleri->Sprey",
+        "urun_aciklama": "UniRed&nbsp;31&nbsp;Par\u00e7a&nbsp;Kozalak&nbsp;Tornavida&nbsp;Seti<br>\n<br>\nY\u00fcksek&nbsp;sertlikte&nbsp;malzemeler<br>\nKompakt,&nbsp;hafif,&nbsp;ve&nbsp;ta\u015f\u0131nabilir<br>\n30+1&nbsp;par\u00e7a<br>\nM\u0131knat\u0131sl\u0131<br>\nEvinizde,&nbsp;i\u015f&nbsp;yerinizde,&nbsp;arac\u0131n\u0131zda&nbsp;<br>\nher&nbsp;\u00e7e\u015fit&nbsp;vidalama&nbsp;i\u015fi&nbsp;i\u00e7in&nbsp;uygundur.<br>\nDar&nbsp;alanlarda&nbsp;bile&nbsp;vidalama&nbsp;imkan\u0131<br>\nYer&nbsp;kaplamayan&nbsp;orijinal&nbsp;dizayn<br>\nMuhafaza&nbsp;kutusu",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 1134360513,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "78.71",
+            "urun_satis_fiyati": 110.19,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202554",
+        "xml_barkod": "8697512091316",
+        "urun_stok_kodu": "202554",
+        "urun_barkod": "8697512091316",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "669",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/unired-31-parca-kozalak-tornavida-seti-2445.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "unired-31-parca-kozalak-tornavida-seti120",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "UniRed",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31520",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn843743612860",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1815220-unired-31-parca-kozalak-tornavida-seti-2445.webp"
+        ],
+        "gitin": 5162343338910
+    },
+    {
+        "urun_id": 42,
+        "urun_adi": "Reconyx Ultrafire XR6 Fotokapan",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->Fotokapanlar->Fotokapan",
+        "urun_aciklama": "Reconyx Ultrafire XR6 Fotokapan",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 896117222,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "24302.29",
+            "urun_satis_fiyati": 34023.21,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202565",
+        "xml_barkod": "858414001232",
+        "urun_stok_kodu": "202565",
+        "urun_barkod": "858414001232",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "12",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/reconyx-ultrafire-xr6-fotokapan-2452.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "reconyx-ultrafire-xr6-fotokapan616",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Reconyx",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31793",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7671492-reconyx-ultrafire-xr6-fotokapan-2452.webp"
+        ],
+        "gitin": 8186565079016,
+        "pazaryeri_kod": "pzrfn803230968579"
+    },
+    {
+        "urun_id": 43,
+        "urun_adi": "Eco Vessel Spout Kids Termos Kapa\u011f\u0131",
+        "urun_kategori": "3358",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Mutfa\u011f\u0131->Termoslar->Termos",
+        "urun_aciklama": "Yedek&nbsp;Filtre",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 5747753704,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "109.98",
+            "urun_satis_fiyati": 153.97,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202645",
+        "xml_barkod": "700064932179",
+        "urun_stok_kodu": "202645",
+        "urun_barkod": "700064932179",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "2",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/eco-vessel-spout-kids-termos-kapagi-2509.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/eco-vessel-spout-kids-termos-kapagi-2510.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 184,
+                    "ozellik_ad": "Kapasite",
+                    "deger_id": 2062,
+                    "deger_ad": "250-350 ml"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "eco-vessel-spout-kids-termos-kapagi695",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Eco Vessel",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31514",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn295664469892",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2786216-eco-vessel-spout-kids-termos-kapagi-2509.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5197056-eco-vessel-spout-kids-termos-kapagi-2510.webp"
+        ],
+        "gitin": 3504913581342
+    },
+    {
+        "urun_id": 44,
+        "urun_adi": "Hawke Nature Trek Ye\u015fil D\u00fcrb\u00fcn 8x32",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "Hawke&nbsp;Nature&nbsp;Trek&nbsp;8x32&nbsp;D\u00fcrb\u00fcn&nbsp;Ye\u015fil<br>\n<br>\nOptik&nbsp;Performans<br>\n8x&nbsp;b\u00fcy\u00fctme<br>\n32mm&nbsp;objektif&nbsp;lensler<br>\nKompakt&nbsp;BAK4&nbsp;\u00e7at\u0131&nbsp;prizmalar<br>\nYans\u0131ma&nbsp;\u00f6nleyici&nbsp;tam&nbsp;multi-kaplamal\u0131&nbsp;optik&nbsp;renk&nbsp;sunumu,&nbsp;kontrast&nbsp;ve&nbsp;genel&nbsp;g\u00f6r\u00fcnt\u00fc&nbsp;parlakl\u0131\u011f\u0131n\u0131&nbsp;art\u0131rmak<br>\n\u0131\u015f\u0131k&nbsp;da\u011f\u0131l\u0131m\u0131&nbsp;s\u0131n\u0131rland\u0131rarak&nbsp;y\u00fcksek&nbsp;yans\u0131t\u0131c\u0131&nbsp;g\u00fcm\u00fc\u015f&nbsp;kaplamal\u0131&nbsp;prizmalar&nbsp;renk&nbsp;do\u011frulu\u011fu&nbsp;ve&nbsp;kontrast\u0131&nbsp;art\u0131r\u0131r<br>\n1000&nbsp;metreden&nbsp;g\u00f6r\u00fc\u015f&nbsp;388&nbsp;'alan\u0131<br>\nG\u00f6r\u00fc\u015f&nbsp;59&nbsp;\u00b0&nbsp;belirgin&nbsp;a\u00e7\u0131<br>\n<br>\nKullan\u0131n&nbsp;ve&nbsp;Ta\u015f\u0131ma<br>\nKapal\u0131&nbsp;k\u00f6pr\u00fc&nbsp;yap\u0131land\u0131rma<br>\n55-75mm&nbsp;g\u00f6zbebekleri&nbsp;aras\u0131ndaki&nbsp;mesafeye&nbsp;aral\u0131\u011f\u0131<br>\n2&nbsp;d\u00f6n\u00fc\u015flerde&nbsp;uzak&nbsp;odak&nbsp;yak\u0131n&nbsp;gelen&nbsp;b\u00fcy\u00fck&nbsp;t\u0131rt\u0131ll\u0131&nbsp;h\u0131zl\u0131&nbsp;odaklama&nbsp;tekerlek&nbsp;hamle<br>\nSa\u011f&nbsp;g\u00f6z\u00fc&nbsp;dioptri&nbsp;d\u00fczeltme<br>\nveya&nbsp;g\u00f6zl\u00fck&nbsp;olmadan&nbsp;kullanmak&nbsp;i\u00e7in&nbsp;\u00fc\u00e7&nbsp;pozisyonlu&nbsp;b\u00fck\u00fcm-up&nbsp;eyecups<br>\n\u0130ste\u011fe&nbsp;ba\u011fl\u0131&nbsp;adapt\u00f6r&nbsp;ile&nbsp;tripod&nbsp;monte<br>\nRahat&nbsp;4mm&nbsp;\u00e7\u0131k\u0131\u015f&nbsp;g\u00f6zbebe\u011fi<br>\nUzun&nbsp;18mm&nbsp;g\u00f6z&nbsp;kabartma<br>\n\u0130n\u015faat&nbsp;Detaylar\u0131<br>\nHafif,&nbsp;dayan\u0131kl\u0131&nbsp;ve&nbsp;korozyona&nbsp;dayan\u0131kl\u0131&nbsp;polikarbonat&nbsp;\u015fasi<br>\nAzot&nbsp;gaz\u0131&nbsp;ile&nbsp;doldurulmu\u015f,&nbsp;su&nbsp;ve&nbsp;fogproof&nbsp;performans<br>\nYe\u015fil&nbsp;lastik&nbsp;dokulu&nbsp;z\u0131rh&nbsp;etkilerinden&nbsp;\u015fasinin&nbsp;korur&nbsp;ve&nbsp;kaymaz&nbsp;tutu\u015f&nbsp;sa\u011flar<br>\nKal-flip-a\u015fa\u011f\u0131&nbsp;objektif&nbsp;lens&nbsp;kapaklar\u0131<br>\nA\u011f\u0131rl\u0131k:&nbsp;18.4&nbsp;ons",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4950633811,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "2778.03",
+            "urun_satis_fiyati": 3889.24,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202744",
+        "xml_barkod": "5054492351008",
+        "urun_stok_kodu": "202744",
+        "urun_barkod": "5054492351008",
+        "urun_renk": "Ye\u015fil",
+        "urun_beden": [],
+        "urun_stok": "3",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-nature-trek-yesil-durbun-8x32-2550.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Ye\u015fil"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-nature-trek-yesil-durbun-8x32644",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn802578612819",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4786431-hawke-nature-trek-yesil-durbun-8x32-2550.webp"
+        ],
+        "gitin": 7216298295909
+    },
+    {
+        "urun_id": 45,
+        "urun_adi": "Pacsafe Prosafe 700 TSA Asma \u00c7anta Kilidi",
+        "urun_kategori": "3038",
+        "urun_xml_kategori": "Outdoor Kamp->Outdoor \u00c7antalar->Aksesuar ve Yedek Par\u00e7a->Kilit",
+        "urun_aciklama": "Pacsafe&nbsp;Prosafe&nbsp;700&nbsp;TSA&nbsp;Asma&nbsp;\u00c7anta&nbsp;Kilidi<br>\n<br>\nProsafe\u00ae&nbsp;700,&nbsp;havaalan\u0131&nbsp;g\u00fcvenli\u011fini&nbsp;korurken&nbsp;bagaj\u0131n\u0131z\u0131&nbsp;korur.&nbsp;<br>\nTravel&nbsp;Sentry\u00ae&nbsp;Onayl\u0131&nbsp;kilidimiz,&nbsp;yetkili&nbsp;g\u00fcvenlik&nbsp;yetkililerinin&nbsp;bagaj\u0131n\u0131z\u0131&nbsp;hasar&nbsp;riski&nbsp;olmadan&nbsp;a\u00e7mas\u0131n\u0131,&nbsp;incelemesini&nbsp;ve&nbsp;yeniden&nbsp;kilitlemesini&nbsp;sa\u011flar.<br>\n3&nbsp;kadranl\u0131&nbsp;s\u0131f\u0131rlanabilir&nbsp;kombinasyon<br>\nPlastik&nbsp;kasal\u0131&nbsp;\u00e7inko&nbsp;ala\u015f\u0131m\u0131&nbsp;(ana&nbsp;malzeme)<br>\nA\u011f\u0131rl\u0131k:&nbsp;3&nbsp;oz&nbsp;\/&nbsp;0.08g<br>\nBoyutlar:&nbsp;(Y&nbsp;x&nbsp;G&nbsp;x&nbsp;D):&nbsp;2.5&nbsp;x&nbsp;1.3&nbsp;x&nbsp;0.8&nbsp;in\u00e7&nbsp;\/&nbsp;6.4&nbsp;x&nbsp;3.4&nbsp;x&nbsp;1.9cm",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7715444343,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "149.27",
+            "urun_satis_fiyati": 208.98,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202306",
+        "xml_barkod": "688334010140",
+        "urun_stok_kodu": "202306",
+        "urun_barkod": "688334010140",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "9",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/pacsafe-prosafe-700-tsa-accepted-combination-padlock-canta-kilidi-2329.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "pacsafe-prosafe-700-tsa-asma-canta-kilidi472",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Pacsafe",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "25760",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn421671814654",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/4428466-pacsafe-prosafe-700-tsa-accepted-combination-padlock-canta-kilidi-2329.webp"
+        ],
+        "gitin": 6954550530122
+    },
+    {
+        "urun_id": 46,
+        "urun_adi": "Cadac Safari MK2 Tava SP017",
+        "urun_kategori": "722",
+        "urun_xml_kategori": "Bah\u00e7e Malzemeleri->Mangallar ve Barbek\u00fcler->Tava->Tava",
+        "urun_aciklama": "Cadac Safari MK2 Tava SP017",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 4860690604,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "237.53",
+            "urun_satis_fiyati": 332.54,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202325",
+        "xml_barkod": "8682913004171",
+        "urun_stok_kodu": "202325",
+        "urun_barkod": "8682913004171",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": "2",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/cadac-safari-mk2-tava-sp017-2337.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "cadac-safari-mk2-tava-sp017168",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Cadac",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31567",
+        "ty_kargo_id": "10",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8367301-cadac-safari-mk2-tava-sp017-2337.webp"
+        ],
+        "gitin": 3313600139813,
+        "pazaryeri_kod": "pzrfn672443247985"
+    },
+    {
+        "urun_id": 47,
+        "urun_adi": "Hawke Endurance ED Siyah D\u00fcrb\u00fcn 10x42",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "Hawke Endurance ED Siyah D\u00fcrb\u00fcn 10x42",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7343066907,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "5788.49",
+            "urun_satis_fiyati": 8103.89,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202487",
+        "xml_barkod": "5054492362066",
+        "urun_stok_kodu": "202487",
+        "urun_barkod": "5054492362066",
+        "urun_renk": "Siyah",
+        "urun_beden": [],
+        "urun_stok": "6",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-endurance-ed-siyah-durbun-10x42-2407.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Siyah"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-endurance-ed-siyah-durbun-10x42660",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/2293752-hawke-endurance-ed-siyah-durbun-10x42-2407.webp"
+        ],
+        "gitin": 8981612601498,
+        "pazaryeri_kod": "pzrfn543415435123"
+    },
+    {
+        "urun_id": 48,
+        "urun_adi": "Wildland Ek \u00c7ad\u0131r G\u00f6lgeli\u011fi",
+        "urun_kategori": "3377",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->Mevsimlik->Mevsimlik",
+        "urun_aciklama": "Wildland Ek \u00c7ad\u0131r G\u00f6lgeli\u011fi",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 3306686999,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "683.93",
+            "urun_satis_fiyati": 957.5,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202582",
+        "xml_barkod": "8697512091699",
+        "urun_stok_kodu": "202582",
+        "urun_barkod": "8697512091699",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "20",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/wildland-ek-cadir-golgeligi-2490.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "wildland-ek-cadir-golgeligi324",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Wildland",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31798",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/7237531-wildland-ek-cadir-golgeligi-2490.webp"
+        ],
+        "gitin": 4818955512840,
+        "pazaryeri_kod": "pzrfn3922697796"
+    },
+    {
+        "urun_id": 49,
+        "urun_adi": "Andoutdoor 64029 Bike Combo Set Kamp \u00c7ad\u0131r\u0131",
+        "urun_kategori": "3377",
+        "urun_xml_kategori": "Outdoor Kamp->\u00c7ad\u0131rlar->Mevsimlik->Mevsimlik",
+        "urun_aciklama": "Andoutdoor&nbsp;Bike&nbsp;Combo&nbsp;Kamp&nbsp;Seti&nbsp;64029&nbsp;<br>\nPratik&nbsp;ve&nbsp;hepsi&nbsp;bir&nbsp;arada&nbsp;kamp&nbsp;seti<br>\n-&nbsp;\u00c7ift&nbsp;tenteli&nbsp;\u00c7ad\u0131r<br>\n-&nbsp;Uyku&nbsp;tulumu<br>\n-&nbsp;S\u0131rt&nbsp;\u00c7antas\u0131&nbsp;ve&nbsp;\u00c7anta&nbsp;sulu\u011fu<br>\n<br>\n\u00c7ad\u0131r&nbsp;geni\u015flik:&nbsp;geni\u015f&nbsp;taraf\u0131&nbsp;95&nbsp;cm&nbsp;dar&nbsp;taraf\u0131&nbsp;60&nbsp;cm<br>\nuzunluk&nbsp;1,95&nbsp;cm<br>\n<br>\nUyku&nbsp;Tulumu&nbsp;:&nbsp;1,90cm&nbsp;*&nbsp;72cm<br>\nA\u011f\u0131rl\u0131k:&nbsp;3800&nbsp;gr",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 2903651064,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "781.63",
+            "urun_satis_fiyati": 1094.28,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200147",
+        "xml_barkod": "0342230668545",
+        "urun_stok_kodu": "200147",
+        "urun_barkod": "0342230668545",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "401",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-64029-bike-combo-set-kamp-cadiri-14955.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-64029-bike-combo-set-kamp-cadiri-8062.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-64029-bike-combo-set-kamp-cadiri-14940.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-64029-bike-combo-set-kamp-cadiri-14941.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-64029-bike-combo-set-kamp-cadiri739",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn584297284668",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/179895-andoutdoor-64029-bike-combo-set-kamp-cadiri-8062.webp"
+        ],
+        "gitin": 7136633992202
+    },
+    {
+        "urun_id": 50,
+        "urun_adi": "Andoutdoor FRA202 Al\u00fcminyum Mat",
+        "urun_kategori": "3387",
+        "urun_xml_kategori": "Outdoor Kamp->Oturma, Dinlenme,Yataklar->Kamp Matlar\u0131->Eva Mat",
+        "urun_aciklama": "FRA202&nbsp;Eva&nbsp;Mat<br>\n<br>\n\u00d6l\u00e7\u00fcler:&nbsp;180&nbsp;x&nbsp;60&nbsp;x&nbsp;1&nbsp;cm<br>\nA\u011f\u0131rl\u0131k:&nbsp;180&nbsp;gr<br>\nAlt\u0131&nbsp;aluminyum&nbsp;kaplamal\u0131d\u0131r.<br>\nSu,&nbsp;nem&nbsp;ve&nbsp;so\u011fuk&nbsp;ge\u00e7irmez.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 721832456,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "67.85",
+            "urun_satis_fiyati": 94.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200219",
+        "xml_barkod": "5997608578039",
+        "urun_stok_kodu": "200219",
+        "urun_barkod": "5997608578039",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "5358",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-fra202-eva-mat-1630.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/andoutdoor-fra202-eva-mat-1631.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 338,
+                    "ozellik_ad": "Beden",
+                    "deger_id": 6821,
+                    "deger_ad": "Tek Ebat"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "andoutdoor-fra202-aluminyum-mat711",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Andoutdoor",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "7912",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn249401411232",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/3417478-andoutdoor-fra202-eva-mat-1630.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1947345-andoutdoor-fra202-eva-mat-1631.webp"
+        ],
+        "gitin": 5757883937033
+    },
+    {
+        "urun_id": 51,
+        "urun_adi": "N-Rit Ultra Bright 3 Led \u015eapka Lambas\u0131",
+        "urun_kategori": "3371",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Ayd\u0131nlatma \u00dcr\u00fcnleri->Fener",
+        "urun_aciklama": "N-Rit Ultra Bright 3 Led \u015eapka Lambas\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6785589981,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "67.85",
+            "urun_satis_fiyati": 94.99,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "200273",
+        "xml_barkod": "810152010495",
+        "urun_stok_kodu": "200273",
+        "urun_barkod": "810152010495",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "48",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-sapka-lambasi-3-led-1673.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-sapka-lambasi-3-led-1674.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-sapka-lambasi-3-led-1675.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/n-rit-ultra-bright-sapka-lambasi-3-led-1676.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "n-rit-ultra-bright-3-led-sapka-lambasi345",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "N-Rit",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31531",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5651930-n-rit-ultra-bright-sapka-lambasi-3-led-1673.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6859100-n-rit-ultra-bright-sapka-lambasi-3-led-1674.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/6455760-n-rit-ultra-bright-sapka-lambasi-3-led-1675.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/320151-n-rit-ultra-bright-sapka-lambasi-3-led-1676.webp"
+        ],
+        "gitin": 8338823108805,
+        "pazaryeri_kod": "pzrfn424245339920"
+    },
+    {
+        "urun_id": 52,
+        "urun_adi": "UniRed 41 Par\u00e7a Tornavida Seti",
+        "urun_kategori": "2976",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->El Aletleri->Sprey",
+        "urun_aciklama": "UniRed&nbsp;41&nbsp;Par\u00e7a&nbsp;Tornavida&nbsp;Seti<br>\n<br>\n1&nbsp;adet&nbsp;mandal&nbsp;tornavida&nbsp;sap\u0131<br>\n1&nbsp;adet&nbsp;uzatma&nbsp;\u00e7ubu\u011fu<br>\n14&nbsp;adet&nbsp;1&nbsp;\/&nbsp;4''socket&nbsp;karbon&nbsp;\u00e7eli\u011fi<br>\n24&nbsp;adet&nbsp;25&nbsp;mm&nbsp;karbon&nbsp;\u00e7eli\u011fi&nbsp;bitleri<br>\nDar&nbsp;alanlarda&nbsp;bile&nbsp;vidalama&nbsp;imkan\u0131<br>\nYer&nbsp;kaplamayan&nbsp;orijinal&nbsp;dizayn<br>\nMuhafaza&nbsp;kutusu",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7856004090,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "127.56",
+            "urun_satis_fiyati": 178.58,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202716",
+        "xml_barkod": "8697512105600",
+        "urun_stok_kodu": "202716",
+        "urun_barkod": "8697512105600",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": 0,
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/unired-41-parca-tornavida-seti-2534.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "unired-41-parca-tornavida-seti661",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "UniRed",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 2
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31520",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn192958754242",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1775575-unired-41-parca-tornavida-seti-2534.webp"
+        ]
+    },
+    {
+        "urun_id": 53,
+        "urun_adi": "Hawke 2 \u0130n\u00e7 Reach Forward 1 \u0130n\u00e7 2 Par\u00e7a Weaver Y\u00fcksek T\u00fcfek D\u00fcrb\u00fcn Aya\u011f\u0131",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "GENEL&nbsp;BAKI\u015e<br>\n<br>\nYap\u0131land\u0131rma:&nbsp;2&nbsp;Adet&nbsp;(2&nbsp;\"Reach&nbsp;Forward)<br>\nY\u00fcz\u00fck&nbsp;Boyutu&nbsp;(\u00c7ap):&nbsp;1&nbsp;\"\/&nbsp;25,4&nbsp;mm<br>\nY\u00fckseklik:&nbsp;Y\u00fcksek<br>\nRayl\u0131:&nbsp;dokumac\u0131<br>\nBa\u011flant\u0131lar&nbsp;(Ray&nbsp;ve&nbsp;\u00dcst&nbsp;Kapak):&nbsp;\u00c7ift&nbsp;Onalt\u0131l\u0131&nbsp;Vida<br>\n\u0130\u00e7&nbsp;Yast\u0131k&nbsp;EVET<br>\nGeri&nbsp;\u00c7ekilebilir&nbsp;'Geri&nbsp;\u00c7ekilme&nbsp;Durdurma'&nbsp;Pimi:&nbsp;Yok&nbsp;hay\u0131r<br>\nY\u00fckseklik:&nbsp;50&nbsp;mm&nbsp;\/&nbsp;1,9&nbsp;\"<br>\nA\u011f\u0131rl\u0131k:&nbsp;80g&nbsp;\/&nbsp;2.8oz",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 9113168285,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "527.06",
+            "urun_satis_fiyati": 737.88,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202741",
+        "xml_barkod": "5054492221257",
+        "urun_stok_kodu": "202741",
+        "urun_barkod": "5054492221257",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "38",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-2-inc-reach-forward-1-inc-2-parca-weaver-yuksek-tufek-durbun-ayagi-2547.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-2-inc-reach-forward-1-inc-2-parca-weaver-yuksek-tufek-durbun-ayagi216",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn77087659652",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/186254-hawke-2-inc-reach-forward-1-inc-2-parca-weaver-yuksek-tufek-durbun-ayagi-2547.webp"
+        ],
+        "gitin": 7328467425125
+    },
+    {
+        "urun_id": 54,
+        "urun_adi": "Ezetil La Playa Work Matara 1 Litre",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "Ezetil&nbsp;La&nbsp;Playa&nbsp;Work&nbsp;Matara<br>\n<br>\nHacim:&nbsp;1L<br>\n<br>\nY\u00fcksek&nbsp;vakum&nbsp;yal\u0131t\u0131ml\u0131&nbsp;paslanmaz&nbsp;\u00e7elik&nbsp;g\u00f6vde<br>\ndarbelere&nbsp;kar\u015f\u0131&nbsp;daha&nbsp;dayan\u0131kl\u0131<br>\n8&nbsp;saat&nbsp;s\u0131cak,&nbsp;24&nbsp;saat&nbsp;so\u011fuk&nbsp;muhafaza&nbsp;eder.",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7084894633,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "0",
+            "urun_satis_fiyati": 0,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202795",
+        "xml_barkod": "4020716053691",
+        "urun_stok_kodu": "202795",
+        "urun_barkod": "4020716053691",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "30",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/ezetil-laplaya-work-matara-1-0-lt-8100.jpg",
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/ezetil-laplaya-work-matara-1-0-lt-8099.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "ezetil-la-playa-work-matara-1-litre298",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Ezetil",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 3,
+            "hb": 3,
+            "cs": 2
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31508",
+        "ty_kargo_id": "2",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9233167-ezetil-laplaya-work-matara-1-0-lt-8100.webp",
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5877971-ezetil-laplaya-work-matara-1-0-lt-8099.webp"
+        ],
+        "pazaryeri_kod": "pzrfn180786551405"
+    },
+    {
+        "urun_id": 55,
+        "urun_adi": "Ezetil LaPlaya Work Matara 0.75 Lt",
+        "urun_kategori": "2699",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->Kamp Malzemeleri->Matara",
+        "urun_aciklama": "\u00c7ift&nbsp;duvar&nbsp;paslanmaz&nbsp;\u00e7elik<br>\nS\u0131cak&nbsp;8&nbsp;saat&nbsp;,&nbsp;so\u011fuk&nbsp;24&nbsp;saat&nbsp;boyunca&nbsp;muhafaza&nbsp;eder",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 7567990776,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "283.67",
+            "urun_satis_fiyati": 397.14,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "202796",
+        "xml_barkod": "4020716053684",
+        "urun_stok_kodu": "202796",
+        "urun_barkod": "4020716053684",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "3",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/ezetil-laplaya-work-matara-0-75-lt-2580.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                },
+                {
+                    "ozellik_id": 346,
+                    "ozellik_ad": "Ya\u015f Grubu",
+                    "deger_id": 4293,
+                    "deger_ad": "Yeti\u015fkin"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "ezetil-laplaya-work-matara-075-lt651",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Ezetil",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 1,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31508",
+        "ty_kargo_id": "2",
+        "pazaryeri_kod": "pzrfn965917251118",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5675618-ezetil-laplaya-work-matara-0-75-lt-2580.webp"
+        ],
+        "gitin": 3343150577719
+    },
+    {
+        "urun_id": 56,
+        "urun_adi": "FreeCamp 6G Kamp Baltas\u0131",
+        "urun_kategori": "2990",
+        "urun_xml_kategori": "Outdoor Kamp->Kamp Ekipmanlar\u0131->El Aletleri->Sprey",
+        "urun_aciklama": "FreeCamp&nbsp;6G&nbsp;Kamp&nbsp;Baltas\u0131<br>\n<br>\n\u00c7elik&nbsp;6g&nbsp;kamp&nbsp;baltas\u0131<br>\nplastik&nbsp;sapl\u0131&nbsp;ergonomik&nbsp;tutu\u015f",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 1460468634,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "75.00",
+            "urun_satis_fiyati": "105",
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "203087",
+        "xml_barkod": "8697512109967",
+        "urun_stok_kodu": "203087",
+        "urun_barkod": "8697512109967",
+        "urun_renk": "",
+        "urun_beden": [],
+        "urun_stok": 0,
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/freecamp-6g-kamp-baltasi-2705.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": []
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "freecamp-6g-kamp-baltasi150",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "FreeCamp",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 2
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "21464",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/8770544-freecamp-6g-kamp-baltasi-2705.webp"
+        ],
+        "pazaryeri_kod": "pzrfn537320964184"
+    },
+    {
+        "urun_id": 57,
+        "urun_adi": "Hawke Sportmount HM5205 1 \u0130n\u00e7 2 Par\u00e7a 9-11mm Y\u00fcksek T\u00fcfek D\u00fcrb\u00fcn Aya\u011f\u0131",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "1&nbsp;in\u00e7&nbsp;d\u00fcrb\u00fcn&nbsp;\u00e7ap\u0131<br>\nY\u00fcksek&nbsp;y\u00fckseklik<br>\n9-11mm&nbsp;ray&nbsp;geni\u015fli\u011fi<br>\n\u0130kili&nbsp;Anahtar&nbsp;Y\u00fcksek&nbsp;Kavrama&nbsp;Tasar\u0131m\u0131&nbsp;S\u00fcper&nbsp;g\u00fc\u00e7l\u00fc&nbsp;hafif&nbsp;tasar\u0131m&nbsp;Y\u00fcksek&nbsp;performansl\u0131&nbsp;\u00fcst\u00fcn&nbsp;s\u0131n\u0131f&nbsp;t\u00fcfek&nbsp;d\u00fcrb\u00fcn\u00fc&nbsp;montaj&nbsp;aya\u011f\u0131",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 6013685657,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "93.33",
+            "urun_satis_fiyati": 130.66,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 58,
+                "satis_fiyati_orani": 56,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "203325",
+        "xml_barkod": "5054492210213",
+        "urun_stok_kodu": "203325",
+        "urun_barkod": "5054492210213",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "418",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-sportmount-hm5205-1-inc-2-parca-9-11mm-yuksek-tufek-durbun-ayagi-2806.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-sportmount-hm5205-1-inc-2-parca-9-11mm-yuksek-tufek-durbun-ayagi386",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn667144659746",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/9715976-hawke-sportmount-hm5205-1-inc-2-parca-9-11mm-yuksek-tufek-durbun-ayagi-2806.webp"
+        ],
+        "gitin": 4525527373311
+    },
+    {
+        "urun_id": 58,
+        "urun_adi": "Hawke Vantage Gri El D\u00fcrb\u00fcn\u00fc 12x25",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "VANTAGE&nbsp;12&nbsp;\u00d7&nbsp;25&nbsp;B\u0130NOK\u00dcLER&nbsp;D\u00dcRB\u00dcN-&nbsp;GREY<br>\nKompakt&nbsp;ikiz&nbsp;mente\u015fe&nbsp;tasar\u0131m\u0131,&nbsp;elinize&nbsp;kolayca&nbsp;s\u0131\u011far<br>\nTamamen&nbsp;kaplamal\u0131&nbsp;optikler&nbsp;net&nbsp;g\u00f6r\u00fcnt\u00fcler&nbsp;\u00fcretir<br>\n1,8&nbsp;turla&nbsp;odaklama&nbsp;d\u00fc\u011fmesi&nbsp;-&nbsp;odak&nbsp;19,7&nbsp;ft&nbsp;\/&nbsp;6m&nbsp;yak\u0131nla\u015ft\u0131rma<br>\nY\u00fcksek&nbsp;\u00e7\u00f6z\u00fcn\u00fcrl\u00fckl\u00fc&nbsp;BAK-4&nbsp;\u00e7at\u0131&nbsp;prizmalar\u0131<br>\nHafif&nbsp;ve&nbsp;dayan\u0131kl\u0131&nbsp;kau\u00e7uk&nbsp;kapl\u0131&nbsp;\u015fasi<br>\nG\u00f6zleri&nbsp;rahatlatmak&nbsp;i\u00e7in&nbsp;duru\u015flarla&nbsp;birlikte&nbsp;b\u00fck\u00fclm\u00fc\u015f&nbsp;g\u00f6z&nbsp;bardaklar\u0131<br>\nModel:&nbsp;34&nbsp;205<br>\nGENEL&nbsp;BAKI\u015e<br>\nG\u00fc\u00e7:&nbsp;12&nbsp;\u00d7<br>\nAma\u00e7:&nbsp;25&nbsp;mm<br>\nObjektif&nbsp;Kaplama:&nbsp;Tam&nbsp;Kaplamal\u0131<br>\nG\u00f6r\u00fc\u015f&nbsp;Alan\u0131:&nbsp;m&nbsp;@&nbsp;1000m&nbsp;\/&nbsp;ft&nbsp;@&nbsp;1000yds82m&nbsp;\/&nbsp;246ft<br>\nYak\u0131n&nbsp;Odak:&nbsp;6m&nbsp;\/&nbsp;19.7ft<br>\nG\u00f6zlerin&nbsp;rahatlat\u0131lmas\u0131:&nbsp;8mm&nbsp;\/&nbsp;0.3&nbsp;\"<br>\nY\u00fckseklik:&nbsp;105mm&nbsp;\/&nbsp;4.2&nbsp;\"<br>\nA\u011f\u0131rl\u0131k:&nbsp;295g&nbsp;\/&nbsp;10.4oz<br>\nAzot&nbsp;dolumludur&nbsp;-&nbsp;Su&nbsp;ve&nbsp;sis&nbsp;korumal\u0131<br>\nDoku&nbsp;Grip<br>\n25mm&nbsp;modeller,&nbsp;tam&nbsp;boy&nbsp;aral\u0131klarla&nbsp;ayn\u0131&nbsp;kaplamal\u0131&nbsp;optikleri&nbsp;kullan\u0131r.&nbsp;Ta\u015f\u0131nabilirli\u011fi&nbsp;g\u00f6z&nbsp;\u00f6n\u00fcnde&nbsp;bulundurarak&nbsp;tasarlanm\u0131\u015ft\u0131r.<br>\n\u00d6ZELL\u0130K<br>\n\u00c7\u0131k\u0131\u015f&nbsp;g\u00f6zbebe\u011fi:&nbsp;Yok<br>\nPrizma&nbsp;Tipi:&nbsp;\u00c7at\u0131&nbsp;BAK4<br>\n\u0130\u00e7&nbsp;g\u00f6zbebe\u011fi&nbsp;Mesafe:&nbsp;73-112mm&nbsp;\/&nbsp;2.9-4.4&nbsp;\"<br>\nDioptre&nbsp;Sistemi:&nbsp;Sa\u011f&nbsp;G\u00f6z<br>\nG\u00f6z&nbsp;kapaklar\u0131:&nbsp;Twist-Up<br>\nKUTU&nbsp;\u0130\u00c7ER\u0130\u011e\u0130<br>\nTa\u015f\u0131ma&nbsp;\u00e7antas\u0131<br>\nBoyun&nbsp;ask\u0131s\u0131<br>\nLens&nbsp;\u00d6rt\u00fcs\u00fc",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 1567904131,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "22.10",
+            "urun_satis_fiyati": "30.94",
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 63,
+                "satis_fiyati_orani": 61,
+                "kargo_fiyati": 8.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "203333",
+        "xml_barkod": "5054492342051",
+        "urun_stok_kodu": "203333",
+        "urun_barkod": "5054492342051",
+        "urun_renk": "Gri",
+        "urun_beden": [],
+        "urun_stok": 0,
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-vantage-gri-el-durbunu-12x25-2814.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Gri"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-vantage-gri-el-durbunu-12x25935",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 2
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/1268542-hawke-vantage-gri-el-durbunu-12x25-2814.webp"
+        ],
+        "pazaryeri_kod": "pzrfn823270958202"
+    },
+    {
+        "urun_id": 59,
+        "urun_adi": "Hawke \u00c7evrilebilen Objektif Kapa\u011f\u0131 50 mm",
+        "urun_kategori": "3372",
+        "urun_xml_kategori": "Outdoor Kamp->Elektronik, GPS, D\u00fcrb\u00fcnler->D\u00fcrb\u00fcnler->El D\u00fcrb\u00fcn\u00fc",
+        "urun_aciklama": "\u00c7evrilebilen&nbsp;Objektif&nbsp;Kapa\u011f\u0131&nbsp;-&nbsp;(50MM)<br>\nY\u00fcksek&nbsp;dereceli&nbsp;al\u00fcminyumdan&nbsp;\u00fcretilmi\u015ftir.&nbsp;<br>\nBir&nbsp;elle&nbsp;a\u00e7\u0131lmas\u0131&nbsp;kolay&nbsp;olan&nbsp;kapaklar,&nbsp;d\u00fcrb\u00fcn&nbsp;kullan\u0131lmad\u0131\u011f\u0131nda&nbsp;mercekleri&nbsp;korumak&nbsp;i\u00e7in&nbsp;tasarlanm\u0131\u015ft\u0131r.&nbsp;<br>\nKapaklar&nbsp;kolayl\u0131kla&nbsp;monte&nbsp;edilebilir&nbsp;ve&nbsp;istenen&nbsp;herhangi&nbsp;bir&nbsp;y\u00f6nde&nbsp;a\u00e7mak&nbsp;i\u00e7in&nbsp;g\u00fcvenli&nbsp;bir&nbsp;\u015fekilde&nbsp;konumland\u0131r\u0131labilir.<br>\n2015&nbsp;y\u0131l\u0131&nbsp;koleksiyonuyla&nbsp;uyumludur.&nbsp;<br>\nMetal&nbsp;a\u00e7\u0131labilir&nbsp;kapaklar\u0131&nbsp;Frontier&nbsp;30&nbsp;serisi&nbsp;veya&nbsp;XB&nbsp;\/&nbsp;XB1&nbsp;crossbow&nbsp;yelpazesiyle&nbsp;uyumlu&nbsp;de\u011fildir.<br>\n50&nbsp;mm'lik&nbsp;bir&nbsp;objektif&nbsp;lensi&nbsp;olan&nbsp;kaplar&nbsp;\u00fczerinde&nbsp;kullan\u0131lmak&nbsp;\u00fczere&nbsp;tasarlanm\u0131\u015ft\u0131r,&nbsp;\u00f6rn.&nbsp;Vantage&nbsp;3-9x50.<br>\nModel:&nbsp;61&nbsp;009",
+        "urun_varyant_durumu": 0,
+        "urun_varyant_kod": 5857644631,
+        "urun_varyant_statu": 1,
+        "urun_fiyati": {
+            "urun_kdv_orani": "18",
+            "urun_alis_fiyati": "463.01",
+            "urun_satis_fiyati": 648.21,
+            "urun_para_birimi": "TRY",
+            "urun_indirim": 0,
+            "urun_sepet_indirim": 0,
+            "urun_kampanya": 0,
+            "ty_fiyati": {
+                "fiyat_tipi": 0,
+                "liste_fiyati_orani": 53,
+                "satis_fiyati_orani": 51,
+                "kargo_fiyati": 16.5,
+                "komisyon_durumu": 1
+            }
+        },
+        "xml_kod": "203340",
+        "xml_barkod": "5054492610099",
+        "urun_stok_kodu": "203340",
+        "urun_barkod": "5054492610099",
+        "urun_renk": "Tek Renk",
+        "urun_beden": [],
+        "urun_stok": "3",
+        "urun_desi": "1",
+        "urun_gorsel": [
+            "http:\/\/cdn1.xmlbankasi.com\/p1\/anddtm3\/image\/data\/resimler\/hawke-cevrilebilen-objektif-kapagi-50-mm-2819.jpg"
+        ],
+        "urun_ozellik": {
+            "ty_ozellik": [
+                {
+                    "ozellik_id": 47,
+                    "ozellik_ad": "Renk",
+                    "deger_id": "",
+                    "deger_ad": "Tek Renk"
+                }
+            ]
+        },
+        "urun_durumu": 0,
+        "urun_seo": {
+            "urun_seo_baslik": "hawke-cevrilebilen-objektif-kapagi-50-mm103",
+            "urun_seo_etiket": "",
+            "urun_seo_key": "",
+            "urun_seo_des": ""
+        },
+        "urun_gonderim_sekli": [
+            {
+                "gonderim_secenegi": "1",
+                "kargo_firmasi_id": 0,
+                "kargoya_verme_suresi": 2,
+                "kargo_odeyecek_taraf": "0"
+            }
+        ],
+        "urun_markasi": "Hawke",
+        "urun_mensei": "T\u00fcrkiye",
+        "urun_xml_sitesi": "http:\/\/anddtm3.xmlbankasi.com\/image\/data\/xml\/andtoptan.xml",
+        "urun_satis_durum": {
+            "e_ticaret": 1,
+            "ty": 1,
+            "hb": 3,
+            "cs": 1
+        },
+        "islem_tarihi": [
+            {
+                "islem_tipi": "ekleme",
+                "islem_tarihi": "10.11.2021 15:24:30",
+                "islemi_yapan": "1"
+            }
+        ],
+        "satis_fiyati_orani": 1.4,
+        "ty_marka_id": "31518",
+        "ty_kargo_id": "9",
+        "pazaryeri_kod": "pzrfn596514296614",
+        "e_ticaret_gorsel": [
+            "https:\/\/www.pazarfin.com\/pazarfin\/urunler\/resimler\/5559747-hawke-cevrilebilen-objektif-kapagi-50-mm-2819.webp"
+        ],
+        "gitin": 3852089224191
+    }
+]

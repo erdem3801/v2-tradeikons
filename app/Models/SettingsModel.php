@@ -111,8 +111,8 @@ class SettingsModel extends Model
         ));
         $response = json_decode(curl_exec($curl), true);
         curl_close($curl);
-        
-        
-       return $response;
+      
+
+        return $response;
     }
 }
