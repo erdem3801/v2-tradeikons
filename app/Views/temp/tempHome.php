@@ -44,13 +44,14 @@
     <!-- ekka Cart Start -->
     <?= $this->include('temp/cart')  ?>
     <!-- ekka Cart End -->
+
     <?php if (isset($baslik)) : ?>
         <?= $this->include('temp/breadcrumb')  ?>
     <?php endif  ?>
     <?= $this->renderSection('content')  ?>
 
     <!-- Ec Instagram Start -->
-    <?= $this->include('temp/instagram')  ?>
+    <?= '' // TODO $this->include('temp/instagram')  ?>
     <!-- Ec Instagram End -->
 
     <!-- Footer Start -->
@@ -83,7 +84,7 @@
     <!-- Whatsapp end -->
 
     <!-- Feature tools -->
-    <?= $this->include('temp/featureTools')  ?>
+    <?= '' // TODO $this->include('temp/featureTools')  ?>
     <!-- Feature tools end -->
 
     <!-- Vendor JS -->

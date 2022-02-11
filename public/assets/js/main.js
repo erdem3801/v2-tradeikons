@@ -263,7 +263,7 @@ function ecCheckCookie()
     };
 
     $(window).on("scroll", function() {
-        var distance = $('.sticky-header-next-sec').offset().top,
+        var distance = $('body').offset().top,
         $window = $(window);
         
         if ( $window.scrollTop() <= distance+50 ) {
