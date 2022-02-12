@@ -31,7 +31,7 @@ class CategoryController extends BaseController
         $breadcrump = array();
         if ($mainData) {
             $breadcrump[] =   [
-                'url' => '',
+                'url' => '#',
                 'title' => $mainData['category_title']
             ];
         }
@@ -48,9 +48,9 @@ class CategoryController extends BaseController
                 'title' => $categoryData['category_title']
             ];
         }
-        $this->viewData['bannerImg'] = $submainData['category_image'];
-        $this->viewData['mainbannerImg'] = $mainData['category_image'];
         $this->viewData['baslik'] = $breadcrump;
+        $this->viewData['mainbannerImg'] = $mainData['category_image'] ?? '';
+        $this->viewData['bannerImg'] = $submainData['category_image'] ?? '';
     
 
 

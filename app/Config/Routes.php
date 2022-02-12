@@ -44,6 +44,10 @@ $routes->get('hakkimizda', 'InformationController::about');
 $routes->get('sss', 'InformationController::sss');
 $routes->get('iletisim', 'InformationController::contact');
 
+$routes->get('iptal-ve-iade-kosulları', 'InformationController::contact'); // TODO 
+$routes->get('kargo-ve-teslimat-bilgileri', 'InformationController::contact'); // TODO
+$routes->get('gizlilik-ve-kvkk-bilgileri', 'InformationController::contact'); // TODO
+
 
 $routes->get('(:segment)/(:any)', 'CategoryController::list/$1/$2');
 $routes->get('(:segment)/(:any)/(:any)', 'CategoryController::list/$1/$2/$3');
