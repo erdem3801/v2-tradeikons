@@ -7,27 +7,12 @@ use App\Models\SettingsModel;
 
 class Home extends BaseController
 {
-    private $settingsModel;
-    private $categoryModel;
+ 
     private $viewData;
 
     public function __construct()
     {
-        $cache = \Config\Services::cache();
-        $this->settingsModel = model('SettingsModel');
-        $this->categoryModel = model('CategoriesModel');
-        if (!$categories = $cache->get('categories')) {
-            $category = $this->categoryModel->orderBy('category_parent', 'ASC')->findAll();
-            $categories = $this->categoryModel->getCategoryTree($category);
-            $cache->save('categories', $categories, 3000);
-        }
-        if (!$settings = $cache->get('settings')) {
-            $settings = $this->settingsModel->first();
-            // Save into the cache for 5 minutes
-            $cache->save('settings', $settings, 3000);
-        }
-        $this->viewData['settings'] =    $settings;
-        $this->viewData['categories'] =  $categories;
+       $this->viewData = $this->getDefaults();
     }
     public function index()
     {
@@ -306,8 +291,8 @@ class Home extends BaseController
                 'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/kadin.webp",
                 'alt' => 'kadin',
                 'id' => 'kadinbanner',
-                'previous' =>'#kadinbanner',
-                'next' =>'#kadinbanner',
+                'previous' => '#kadinbanner',
+                'next' => '#kadinbanner',
                 'urunler' => [
                     [
                         "urun_adi" => "Polar",
@@ -331,8 +316,8 @@ class Home extends BaseController
                 'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/erkek.webp",
                 'alt' => 'erkek',
                 'id' => 'erkekbanner',
-                'previous' =>'#erkekbanner',
-                'next' =>'#erkekbanner',
+                'previous' => '#erkekbanner',
+                'next' => '#erkekbanner',
                 'urunler' => [
                     [
                         "urun_adi" => "Polar",
@@ -356,8 +341,8 @@ class Home extends BaseController
                 'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/cocuk.webp",
                 'alt' => 'cocuk',
                 'id' => 'cocukbanner',
-                'previous' =>'#cocukbanner',
-                'next' =>'#cocukbanner',
+                'previous' => '#cocukbanner',
+                'next' => '#cocukbanner',
                 'urunler' => [
                     [
                         "urun_adi" => "Polar",
@@ -381,8 +366,8 @@ class Home extends BaseController
                 'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/elektronik.webp",
                 'alt' => 'elektronik',
                 'id' => 'elektronikbanner',
-                'previous' =>'#elektronikbanner',
-                'next' =>'#elektronikbanner',
+                'previous' => '#elektronikbanner',
+                'next' => '#elektronikbanner',
                 'urunler' => [
                     [
                         "urun_adi" => "Akıllı Saat",
@@ -400,7 +385,157 @@ class Home extends BaseController
                         "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/his/image/catalog/sac-kurutma/5600/3.jpg"
                     ]
                 ]
-            ] 
+            ],
+            [
+                'href' => 'index.php?id1=5&id2=0&id3=1',
+                'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/kozmetik.webp",
+                'alt' => 'kozmetik',
+                'id' => 'kozmetikbanner',
+                'previous' => '#kozmetikbanner',
+                'next' => '#kozmetikbanner',
+                'urunler' => [
+                    [
+                        "urun_adi" => "Dermaroller",
+                        "urun_url" => "index.php?detay=12647",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/toptang/70650985/a390-1.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Fırça",
+                        "urun_url" => "index.php?detay=12689",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/akt/catalog-ilktoptan-tmp-frc-jpg-1.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Bakım Aleti",
+                        "urun_url" => "index.php?detay=16389",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/toptang/70652101/med-00548y-1.jpg"
+                    ]
+                ]
+            ],
+            [
+                'href' => 'index.php?id1=7&id2=0&id3=1',
+                'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/evyasam.webp",
+                'alt' => 'evyasam',
+                'id' => 'evyasambanner',
+                'previous' => '#evyasambanner',
+                'next' => '#evyasambanner',
+                'urunler' => [
+                    [
+                        "urun_adi" => "Gece Lambası",
+                        "urun_url" => "index.php?detay=15361",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/akt/catalog-ilktoptan-tmp-lmb-jpg-1.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Termos",
+                        "urun_url" => "index.php?detay=3899",
+                        "urun_gorsel_url" => "http://www.ewsyonetim.com/product-images-resized/2370_1.jpg"
+                    ],
+                    [
+                        "urun_adi" => "El Feneri",
+                        "urun_url" => "index.php?detay=12068",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/image/catalog/watton/wt-037/blackwatton-wt-037-sarjli-zoomlu-acil-durum-feneri-wt-037.jpg"
+                    ]
+                ]
+            ],
+            [
+                'href' => 'index.php?id1=6&id2=0&id3=1',
+                'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/outdoor.webp",
+                'alt' => 'outdoor',
+                'id' => 'outdoorbanner',
+                'previous' => '#outdoorbanner',
+                'next' => '#outdoorbanner',
+                'urunler' => [
+                    [
+                        "urun_adi" => "Kar Botu",
+                        "urun_url" => "index.php?detay=1648",
+                        "urun_gorsel_url" => "http://cdn1.xmlbankasi.com/p1/anddtm3/image/data/resimler/dare-2b-kardrona-kadin-kar-botu-beyaz-11634.jpg"
+                    ],
+                    [
+                        "urun_adi" => "T-Shirt",
+                        "urun_url" => "index.php?detay=763",
+                        "urun_gorsel_url" => "http://cdn1.xmlbankasi.com/p1/anddtm3/image/data/resimler/regatta-elixir-erkek-t-shirt-mavi-10878.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Şişme Yatak",
+                        "urun_url" => "index.php?detay=22",
+                        "urun_gorsel_url" => "http://cdn1.xmlbankasi.com/p1/anddtm3/image/data/resimler/bestway-67000n-tek-kisilik-sisme-yatak-1004.jpg"
+                    ]
+                ]
+            ],
+            [
+                'href' => 'index.php?id1=6&id2=0&id3=1',
+                'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/petshop.webp",
+                'alt' => 'petshop',
+                'id' => 'petshopbanner',
+                'previous' => '#petshopbanner',
+                'next' => '#petshopbanner',
+                'urunler' => [
+                    [
+                        "urun_adi" => "Tasma",
+                        "urun_url" => "index.php?detay=17276",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/cm/image/content/images/product/makarali-otomatik-kopek-tasmasi-5-metre-4-renk.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Tırnak Makası",
+                        "urun_url" => "index.php?detay=17268",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/cm/productimages/20.12/evcil-hayvan-tirnak-makasi-yeni-model.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Tarak",
+                        "urun_url" => "index.php?detay=13882",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/akt/pttrk-jpg-1.jpg"
+                    ]
+                ]
+            ],
+            [
+                'href' => 'index.php?id1=6&id2=0&id3=1',
+                'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/ayakkabi.webp",
+                'alt' => 'ayakkabi',
+                'id' => 'ayakkabibanner',
+                'previous' => '#ayakkabibanner',
+                'next' => '#ayakkabibanner',
+                'urunler' => [
+                    [
+                        "urun_adi" => "Kadın Bot",
+                        "urun_url" => "index.php?detay=2619",
+                        "urun_gorsel_url" => "https://www.pazarfin.com/pazarfin/urunler/resimler/rita-vizon-gunluk-kadin-bot-ayakkabi-a-3fbc.webp"
+                    ],
+                    [
+                        "urun_adi" => "Erkek Ayakkabı",
+                        "urun_url" => "index.php?detay=1265",
+                        "urun_gorsel_url" => "http://cdn1.xmlbankasi.com/p1/anddtm3/image/data/resimler/berg-potoroo-erkek-ayakkabi-turuncu-11336.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Bakım Çantası",
+                        "urun_url" => "index.php?detay=1689",
+                        "urun_gorsel_url" => "http://cdn1.xmlbankasi.com/p1/anddtm3/image/data/resimler/freecamp-bebek-bakim-cantasi-lacivert-11961.jpg"
+                    ]
+                ]
+            ],
+            [
+                'href' => 'index.php?id1=6&id2=0&id3=1',
+                'src' => base_url('public') . "/assets/images/menu-banner/anasayfa/hobi.webp",
+                'alt' => 'hobi',
+                'id' => 'hobibanner',
+                'previous' => '#hobibanner',
+                'next' => '#hobibanner',
+                'urunler' => [
+                    [
+                        "urun_adi" => "Kolye",
+                        "urun_url" => "index.php?detay=13455",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/KLC/kolye3.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Biblo",
+                        "urun_url" => "index.php?detay=12621",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/toptang/70655288/tdnc-113-1.jpg"
+                    ],
+                    [
+                        "urun_adi" => "Doktor Biblo",
+                        "urun_url" => "index.php?detay=14612",
+                        "urun_gorsel_url" => "https://www.toptangidiyor.com/image/catalog/toptang/70655467/tdnk-646-1.png"
+                    ]
+                ]
+            ],
         );
 
         return view('home/homeView', $this->viewData);

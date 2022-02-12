@@ -251,9 +251,9 @@ function ecCheckCookie() {
     };
 
     $(window).on("scroll", function () {
-        var distance = $('.ec-vendor-uploads').offset(),
+        var distance = $('body').offset(),
             $window = $(window);
-        if ($window.scrollTop() <= distance.top - 50) { 
+        if ($window.scrollTop() <= distance.top + 50) { 
             $("#ec-main-menu-desk").removeClass("menu_fixed animated fadeInDown");
         } else { 
             checkScroll();

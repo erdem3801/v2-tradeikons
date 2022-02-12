@@ -49,4 +49,24 @@ class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+    public function getDefaults(){
+        $cache = \Config\Services::cache();
+        $settingsModel = model('SettingsModel');
+        $categoryModel = model('CategoriesModel');
+        if (!$categories = $cache->get('categories')) {
+            $category = $categoryModel->orderBy('category_parent', 'ASC')->findAll();
+            $categories = $categoryModel->getCategoryTree($category);
+            $cache->save('categories', $categories);
+        }
+      
+        if (!$settings = $cache->get('settings')) {
+            $settings = $settingsModel->first();
+            // Save into the cache for 5 minutes
+            $cache->save('settings', $settings, 3000);
+        }
+        $returnData['settings'] =    $settings;
+        $returnData['categories'] =  $categories;
+        return $returnData;
+    }
 }

@@ -1,36 +1,22 @@
 <?= $this->extend('temp/tempHome')  ?>
-
 <?= $this->section('style')  ?>
 <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/style.css" />
 <?= $this->endSection()  ?>
-
 <?= $this->section('script')  ?>
 <script src="<?= base_url('public')  ?>/assets/js/plugins/nouislider.js"></script>
 <?= $this->endSection()  ?>
-
 <?= $this->section('content')  ?>
-
 <!-- Page detail section -->
-<section class="ec-bnr-detail margin-bottom-30 section-space-pt">
+<section class="ec-bnr-detail mb-5 section-space-pt d-none d-sm-none d-md-none  d-lg-block">
     <div class="ec-page-detail">
-        <div class="container">
-            <div class="ec-main-heading d-none">
-                <h2>Shop <span>Detail</span></h2>
-            </div>
+        <div class="container"> 
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-md-12 d-flex justify-content-around">
                     <div class="ec-cat-bnr">
-                        <a href="product-left-sidebar.html"><span></span></a>
+                        <a href="product-left-sidebar.html"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="" class="img-fluid"></a>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="ec-page-description">
-                        <h6>The Best deal on top brands</h6>
-                        <p class="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text ever
-                            since the 1500s. It has survived not only five centuries, but also the
-                            leap into electronic typesetting, remaining essentially unchanged.
-                        <p>
+                    <div class="ec-cat-bnr">
+                        <a href="product-left-sidebar.html"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -38,7 +24,6 @@
     </div>
 </section>
 <!-- End detail section -->
-
 <!-- Ec Shop page -->
 <section class="ec-page-content-bnr section-space-pb">
     <div class="container">
@@ -67,7 +52,6 @@
                     </div>
                 </div>
                 <!-- Shop Top End -->
-
                 <!-- Shop content Start -->
                 <div class="shop-pro-content">
                     <div class="shop-pro-inner">
@@ -535,7 +519,6 @@
                                                 Categories</span>
                                         </div>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -637,7 +620,4 @@
     </div>
 </section>
 <!-- End Shop page -->
-
-
-
 <?= $this->endSection()  ?>

@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>Ekka - Ecommerce HTML Template.</title>
+    <title><?= isset($title) ? $title : 'Tradeikons - Beni unutma!'  ?></title>
     <meta name="keywords" content="apparel, catalog, clean, ecommerce, ecommerce HTML, electronics, fashion, html eCommerce, html store, minimal, multipurpose, multipurpose ecommerce, online store, responsive ecommerce template, shops" />
     <meta name="description" content="Best ecommerce html template for single and multi vendor store.">
     <meta name="author" content="ashishmaraviya">
@@ -29,9 +29,22 @@
 
     <!-- Main Style -->
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/responsive.css" />
+    <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/style.css" />
+    <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/main.css" />
     <?= $this->renderSection('style')  ?>
     <!-- Background css -->
     <link rel="stylesheet" id="bg-switcher-css" href="<?= base_url('public')  ?>/assets/css/backgrounds/bg-4.css">
+
+    <script type="text/javascript">
+        var title = document.title;
+        var alttitle = "Tradeikons - Beni unutma!";
+        window.onblur = function() {
+            document.title = alttitle;
+        };
+        window.onfocus = function() {
+            document.title = title;
+        };
+    </script>
 </head>
 
 <body>
@@ -43,15 +56,15 @@
 
     <!-- ekka Cart Start -->
     <?= $this->include('temp/cart')  ?>
-    <!-- ekka Cart End -->
-
+    <!-- ekka Cart End --> 
     <?php if (isset($baslik)) : ?>
         <?= $this->include('temp/breadcrumb')  ?>
     <?php endif  ?>
     <?= $this->renderSection('content')  ?>
 
     <!-- Ec Instagram Start -->
-    <?= '' // TODO $this->include('temp/instagram')  ?>
+    <?= '' // TODO $this->include('temp/instagram')  
+    ?>
     <!-- Ec Instagram End -->
 
     <!-- Footer Start -->
@@ -72,7 +85,7 @@
     <!-- Footer navigation panel for responsive display end -->
 
     <!-- Recent Purchase Popup  -->
-    <?= $this->include('temp/recentPurchase')  ?>
+    <?= '' // TODO $this->include('temp/recentPurchase')  ?>
     <!-- Recent Purchase Popup end -->
 
     <!-- Cart Floating Button -->
@@ -84,7 +97,8 @@
     <!-- Whatsapp end -->
 
     <!-- Feature tools -->
-    <?= '' // TODO $this->include('temp/featureTools')  ?>
+    <?= '' // TODO $this->include('temp/featureTools')  
+    ?>
     <!-- Feature tools end -->
 
     <!-- Vendor JS -->
@@ -103,10 +117,10 @@
     <script src="<?= base_url('public')  ?>/assets/js/plugins/infiniteslidev2.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/vendor/jquery.magnific-popup.min.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/plugins/jquery.sticky-sidebar.js"></script>
- 
 
+  
     <!-- Main Js -->
-    <script src="<?= base_url('public')  ?>/assets/js/main.js"></script>
+    <script src="<?= base_url('public')  ?>/assets/js/main-old.js"></script>
 
     <?= $this->renderSection('script')  ?>
 </body>

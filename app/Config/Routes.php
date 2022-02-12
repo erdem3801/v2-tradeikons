@@ -43,8 +43,10 @@ $routes->get('api', 'ApiController::index');
 $routes->get('hakkimizda', 'InformationController::about');
 $routes->get('sss', 'InformationController::sss');
 $routes->get('iletisim', 'InformationController::contact');
-$routes->get('(:segment)/(:any)', 'CategoriesController::list/$1/$2');
-$routes->get('(:segment)/(:any)/(:any)', 'CategoriesController::list/$1/$2/$3');
+
+
+$routes->get('(:segment)/(:any)', 'CategoryController::list/$1/$2');
+$routes->get('(:segment)/(:any)/(:any)', 'CategoryController::list/$1/$2/$3');
 
 /*
  * --------------------------------------------------------------------
