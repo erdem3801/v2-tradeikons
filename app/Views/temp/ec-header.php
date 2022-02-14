@@ -105,9 +105,14 @@
                             <div class="ec-header-user dropdown">
                                 <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
                                 <ul class="dropdown-menu dropdown-menu-right">
-                                    <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <?php if (session()->get('user')) : ?>
+                                        <li><a class="dropdown-item" href="<?= base_url('acount')  ?>">Hesabım</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('orders?filter=all')  ?>">Siparişlerim</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('logout')  ?>">Çıkış yap</a></li>
+                                    <?php else : ?>
+                                        <li><a class="dropdown-item" href="<?= base_url('kayıt-ol')  ?>">Kayıt ol</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('uye-giris')  ?>">Giriş yap</a></li>
+                                    <?php endif  ?>
                                 </ul>
                             </div>
                             <!-- Header User End -->
@@ -170,16 +175,16 @@
                                             <?php if (isset($main["node"])) : ?>
                                                 <?php foreach ($main["node"] as $key => $submain) : ?>
                                                     <ul class="d-block">
-                                                        <li class="menu_title"><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>"><?= $submain["category_title"] ?></a></li>
+                                                        <li class="menu_title"><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?= $submain["category_slug"] ?>"><?= $submain["category_title"] ?></a></li>
                                                         <?php if (isset($submain["node"])) :  $say = 0; ?>
                                                             <?php foreach ($submain["node"] as $key1 => $categorie) : $say++;  ?>
-                                                                <li><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>/<?= $categorie["category_slug"] ?>"><?= $categorie["category_title"] ?></a></li>
+                                                                <li><a href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?= $submain["category_slug"] ?>/<?= $categorie["category_slug"] ?>"><?= $categorie["category_title"] ?></a></li>
                                                             <?php endforeach ?>
                                                         <?php endif ?>
                                                         <?php for ($i_1 = 0; $i_1 <= 6 - $say; $i_1++) : ?>
                                                             <li><a href="#"><span style="color:white;">Deneme</span></a></li>
                                                         <?php endfor ?>
-                                                        <li><a class="p-0 " href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?=  $submain["category_slug"] ?>"><img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/menu-banner/<?= $submain["category_image"] ?>" alt="<?= $submain["category_title"] ?>"></a></li>
+                                                        <li><a class="p-0 " href="<?= base_url()  ?>/<?= $main["category_slug"] ?>/<?= $submain["category_slug"] ?>"><img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/menu-banner/<?= $submain["category_image"] ?>" alt="<?= $submain["category_title"] ?>"></a></li>
                                                     </ul>
                                                 <?php endforeach ?>
                                             <?php endif ?>

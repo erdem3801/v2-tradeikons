@@ -11,21 +11,7 @@ class InformationController extends BaseController
 
     public function __construct()
     {
-        $cache = \Config\Services::cache();
-        $this->settingsModel = model('SettingsModel');
-        $this->categoryModel = model('CategoriesModel');
-        if (!$categories = $cache->get('categories')) {
-            $category = $this->categoryModel->orderBy('category_parent', 'ASC')->findAll();
-            $categories = $this->categoryModel->getCategoryTree($category);
-            $cache->save('categories', $categories, 3000);
-        }
-        if (!$settings = $cache->get('settings')) {
-            $settings = $this->settingsModel->first();
-            // Save into the cache for 5 minutes
-            $cache->save('settings', $settings, 3000);
-        }
-        $this->viewData['settings'] =    $settings;
-        $this->viewData['categories'] =  $categories;  
+      $this->viewData = $this->getDefaults();
     }
 
     public function about()
@@ -59,6 +45,50 @@ class InformationController extends BaseController
             ],
         );
         return view('information/contact',$this->viewData);
+        //
+    }
+    public function cancellationPolicy()
+    {
+        $this->viewData['baslik'] = array(
+            [
+                'url' => 'iptal-ve-iade',
+                'title' => 'İptal ve İade' 
+            ],
+        );
+        return view('information/cancellationPolicy',$this->viewData);
+        //
+    }
+    public function shipingPolicy()
+    {
+        $this->viewData['baslik'] = array(
+            [
+                'url' => 'kargo-ve-teslimat',
+                'title' => 'Kargo ve Teslimat' 
+            ],
+        );
+        return view('information/shipingPolicy',$this->viewData);
+        //
+    }
+    public function kvkkPolicy()
+    {
+        $this->viewData['baslik'] = array(
+            [
+                'url' => 'gizlilik-ve-kvkk',
+                'title' => 'Gizlilik ve KVKK' 
+            ],
+        );
+        return view('information/kvkkPolicy',$this->viewData);
+        //
+    }
+    public function orderPolicy()
+    {
+        $this->viewData['baslik'] = array(
+            [
+                'url' => 'siparis-takip',
+                'title' => 'Siparis Takip' 
+            ],
+        );
+        return view('information/orderPolicy',$this->viewData);
         //
     }
 }

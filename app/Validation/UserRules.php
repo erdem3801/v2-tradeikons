@@ -2,44 +2,32 @@
 
 namespace App\Validation;
 
-use Exception; 
+use Exception;
+use PhpParser\Node\Stmt\Return_;
 
 class UserRules
-{ 
+{
 
     public function validateUser(string $str, string $fields, array $data): bool
     {
+
         try {
-            $model = model('UserModel');
-
-            $user = $model->findUserByEmailAddress($data['user']);
-
-            if (!$user)
-                $user = $model->findUserByUserName($data['user']);
-            if (!$user)
-                throw new Exception('User does not exist for specified ' . $data['user']);
-
-            return (sha1($user['salt'] . sha1($user['salt'] . sha1($data['password']))) == $user['password']);
+            $model = model('ClientModel');
+            $user = $model->findUserByEmailAddress($data['email']);
+            return  password_verify($data['password'], $user['kullanici_sifre']);
         } catch (Exception $e) {
             return false;
         }
     }
     public function hasPermission(string $key, string $field, array $data): bool
-    { 
-        try {  
-            $model = model('UserGroupModel');
-            $user_group_query = $model
-                ->select('permission')
-                ->where('user_group_id', $data['auth']['user_group_id'])
-                ->first();
-
-            $fields = explode(',', $field);
-            $permissions = json_decode($user_group_query['permission'], true);
-            if (isset($permissions[$fields[0]])) {
-                return in_array($fields[1], $permissions[$fields[0]]);
-            } else {
+    {
+        try {
+            $model = model('ClientModel');
+            $user = $model->findUserByEmailAddress($data['email']);
+            if (!$user['kullanici_durum']) {
                 return false;
             }
+            return true;
         } catch (\Throwable $th) {
 
             return false;

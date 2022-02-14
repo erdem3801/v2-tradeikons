@@ -39,9 +39,9 @@
                             <h4 class="ec-footer-heading">Müşteri Hizmetleri</h4>
                             <div class="ec-footer-links">
                                 <ul class="align-items-center">
-                                    <li class="ec-footer-link"><a href="gizlilik-ve-kvkk">Gizlilik ve Kvkk Bilgileri</a></li>
-                                    <li class="ec-footer-link"><a href="kargo-ve-teslimat">Kargo ve Teslimat Bilgileri</a></li>
-                                    <li class="ec-footer-link"><a href="iptal-ve-iade">İptal ve İade Koşulları</a></li>
+                                    <li class="ec-footer-link"><a href="<?= base_url('gizlilik-ve-kvkk')  ?>">Gizlilik ve Kvkk Bilgileri</a></li>
+                                    <li class="ec-footer-link"><a href="<?= base_url('kargo-ve-teslimat')  ?>">Kargo ve Teslimat Bilgileri</a></li>
+                                    <li class="ec-footer-link"><a href="<?= base_url('iptal-ve-iade')  ?>">İptal ve İade Koşulları</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,8 +55,8 @@
                                         <li class="ec-footer-link"><a href="index?hesabim=1">Hesabım</a></li>
                                         <li class="ec-footer-link"><a href="uye-cikis">Çıkış Yap</a></li>
                                     <?php else : ?>
-                                        <li class="ec-footer-link"><a href="uye-giris">Giriş Yap</a></li>
-                                        <li class="ec-footer-link"><a href="kayit-ol">Kayıt Ol</a></li>
+                                        <li class="ec-footer-link"><a href="<?= base_url('uye-giris') ?>">Giriş Yap</a></li>
+                                        <li class="ec-footer-link"><a href="<?= base_url('kayit-ol') ?>">Kayıt Ol</a></li>
                                     <?php endif ?>
                                     <li class="ec-footer-link"><a href="index?odeme=1">Sepetim</a></li>
                                     <li class="ec-footer-link"><a href="siparis-takip">Sipariş Takip</a></li>
@@ -92,7 +92,7 @@
                     <!-- Footer social Start -->
                     <div class="col text-left footer-bottom-left">
                         <div class="footer-bottom-social">
-                            <span class="social-text text-upper">Bizi takip edin:</span>
+                            <span class="social-text text-upper">Bizi takip edin: </span>
                             <ul class="mb-0">
                                 <?php if ($settings->facebook != null || $settings->facebook != "") : ?>
                                     <li class="list-inline-item"><a class="hdr-facebook" href="<?= $settings->facebook  ?>"><i class="ecicon eci-facebook"></i></a></li>
@@ -127,6 +127,7 @@
                         <div class="footer-bottom-payment d-flex justify-content-end">
                             <div class="payment-link">
                                 <img src="<?= base_url('public')  ?>/assets/images/icons/payment.png" alt="payment">
+                                <?= print_r(session()->get('user'));  ?>
                             </div>
                         </div>
                     </div>

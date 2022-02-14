@@ -6,6 +6,9 @@ use App\Models\CategoriesModel;
 use App\Models\ProductModel;
 use CodeIgniter\RESTful\ResourceController;
 use App\Libraries\Slug;   // use the Slug Library
+use App\Models\Product\ProductModel as ProductProductModel;
+use App\Models\Product\ProductToImageModel;
+
 class ApiController extends ResourceController
 {
     protected $model;
@@ -44,27 +47,31 @@ class ApiController extends ResourceController
     public function index()
     {
 
-        echo '<pre>';
-        //print_r($this->viewData['categories'][0]);
-        foreach ($this->viewData['categories'] as $key => $main) {
-            echo 'main =>';
-            $mainID = $this->convertCategoriesData($main);
-            if (isset($main['listelenecek_urunler']))
-                $this->categoriesToproduct($main['listelenecek_urunler'], $mainID);
-            foreach ($main['listelenecek_kategoriler'] as $key => $sub) {
-                echo 'sub =>';
-                $subID =  $this->convertCategoriesData($sub, $mainID);
-                if (isset($sub['listelenecek_urunler']))
-                    $this->categoriesToproduct($sub['listelenecek_urunler'], $subID);
+        $productModel = model('Product/ProductModel');
+        $imageModel = model('Product/ProductToImageModel');
+        $products = $productModel->findAll();
+      
+        // echo '<pre>';
+        // //print_r($this->viewData['categories'][0]);
+        // foreach ($this->viewData['categories'] as $key => $main) {
+        //     echo 'main =>';
+        //     $mainID = $this->convertCategoriesData($main);
+        //     if (isset($main['listelenecek_urunler']))
+        //         $this->categoriesToproduct($main['listelenecek_urunler'], $mainID);
+        //     foreach ($main['listelenecek_kategoriler'] as $key => $sub) {
+        //         echo 'sub =>';
+        //         $subID =  $this->convertCategoriesData($sub, $mainID);
+        //         if (isset($sub['listelenecek_urunler']))
+        //             $this->categoriesToproduct($sub['listelenecek_urunler'], $subID);
 
-                foreach ($sub['listelenecek_kategoriler'] as $key => $cat) {
-                    echo 'cat =>';
-                    $catID = $this->convertCategoriesData($cat, $subID);
-                    if (isset($cat['listelenecek_urunler']))
-                        $this->categoriesToproduct($cat['listelenecek_urunler'], $catID);
-                }
-            }
-        }
+        //         foreach ($sub['listelenecek_kategoriler'] as $key => $cat) {
+        //             echo 'cat =>';
+        //             $catID = $this->convertCategoriesData($cat, $subID);
+        //             if (isset($cat['listelenecek_urunler']))
+        //                 $this->categoriesToproduct($cat['listelenecek_urunler'], $catID);
+        //         }
+        //     }
+        // }
 
         //   return view('welcome_message');
         // return $this->respond(['message' => 'api geldi' , 'data' => $this->viewData['categories']]);

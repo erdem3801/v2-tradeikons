@@ -1,20 +1,23 @@
 <?php
-
 namespace App\Controllers;
-
-use CodeIgniter\RESTful\ResourceController;
-use CodeIgniter\HTTP\ResponseInterface;
-
+use App\Controllers\BaseController;
 use CodeIgniter\Validation\Exceptions\ValidationException;
 use Config\Services;
 use Exception;
+use Firebase\JWT\JWT;
 
-class UserController extends ResourceController
+class UserController extends BaseController
 {
+    /**
+     * @var Codeigniter/HTTP/IncomingRequest
+     */
+    protected $request;
     protected $model;
+    private $viewData;
     public function __construct()
     {
-        $this->model = model('UserModel');
+        $this->model = model('ClientModel');
+        $this->viewData = $this->getDefaults();
     }
     /**
      * Return an array of resource objects, themselves in array format
@@ -23,134 +26,101 @@ class UserController extends ResourceController
      */
     public function auth()
     {
-
-        $rules = [
-            'user' => 'required|min_length[3]|max_length[50]',
-            'password' => 'required|min_length[4]|max_length[20]|validateUser[email, password]',
-        ];
-
-        $errors = [
-            'password' => [
-                'validateUser' => 'Invalid login credentials provided'
-            ]
-        ];
-
-        $data = $this->request->getPost();
-        $data = empty($data) ? json_decode($data, true) : $data;
-        $authenticationHeader = $this->request->getServer('HTTP_AUTHORIZATION');
-
-        if (!$this->validateRequest($data, $rules, $errors, $authenticationHeader)) {
-            return $this->respond(
-                $this->validator->getErrors(),
-                ResponseInterface::HTTP_BAD_REQUEST
-            );
+        helper(['form']);
+        if($this->request->getMethod()== 'post'){
+            $rules = [
+                'email' => 'required|min_length[3]|max_length[50]|valid_email',
+                'password' => 'required|min_length[4]|max_length[50]|validateUser[email, password]|hasPermission[mail,password]',
+            ];
+            $errors = [
+                'password' => [
+                    'validateUser' => 'Kullanıcı bilgisi sistemde bulunamadı',
+                    'required' => 'Şifrenizi girin.',
+                    'min_length' => 'Şifre alanını 4 karakterden fazla olacak şekilde doldurun.',
+                    'min_length' => 'Şifre alanını 50 karakterden az olacak şekilde doldurun.',
+                    'hasPermission' => 'Mail onayınız yok'
+                ]
+            ];
+            $data = $this->request->getPost();
+            if ($this->validateRequest($data, $rules, $errors)) {
+                $token = $this->getJWTForUser($data['email']);
+                session()->set('user',$token);
+                return redirect()->to(base_url()."?token={$token['access_token']}");
+            }
+            $this->viewData['errors'] = $this->validator->getErrors(); 
         }
-        return $this->getJWTForUser($data['user']);
-        return $this->respond(['error' => false], ResponseInterface::HTTP_OK);
-        //
+        return view('user/login', $this->viewData);
     }
-
-
-
     /**
      * Create a new resource object, from "posted" parameters
      *
      * @return mixed
      */
-    public function create()
+    public function Register()
     {
-        $rules = [
-            'username' => 'required|min_length[3]|max_length[20]',
-            'firstname' => 'required|min_length[1]|max_length[32]',
-            'lastname' => 'required|min_length[1]|max_length[32]',
-            'email' => 'required|min_length[6]|max_length[50]|valid_email',
-            'password' => 'required|min_length[4]|max_length[20]',
-            'user_group_id' => 'required|hasPermission[modify,user/user]'
-        ];
-
-        $errors = [
-            'user_group_id' => [
-                'hasPermission' => 'out of authority'
-            ]
-        ];
-
-        $data = $this->request->getPost();
-        $data = empty($data) ? json_decode($data, true) : $data;
-        $authenticationHeader = $this->request->getServer('HTTP_AUTHORIZATION');
-
-
-        if (!$this->validateRequest($data, $rules, $errors, $authenticationHeader)) {
-            return $this->respond(
-                $this->validator->getErrors(),
-                ResponseInterface::HTTP_BAD_REQUEST
-            );
+        helper(['form','genarator']); 
+        if ($this->request->getMethod(true) == 'POST') {
+            $rules = [ 
+                'firstname' => 'required|min_length[3]|max_length[32]',
+                'lastname' => 'required|min_length[3]|max_length[32]',
+                'email' => 'required|min_length[6]|max_length[50]|valid_email',
+                'password' => 'required|min_length[4]|max_length[20]',
+                'phonenumber' => 'required',
+            ];
+            $errors = [
+                'firstname' => [
+                    'required' => 'Ad  bilginizi girin',
+                    'min_length' => 'Ad alanı en az 3 karakter olmalı',
+                    'max_length' => 'Ad alanı en fazla 32 karakter olmalı',
+                ],
+                'lastname' => [
+                    'required' => 'Soyad  bilginizi girin',
+                    'min_length' => 'Soyad alanı en az 3 karakter olmalı',
+                    'max_length' => 'Soyad alanı en fazla 32 karakter olmalı',
+                ],
+                'email' => [
+                    'required' => 'Email bilgisini girin',
+                    'min_length' => 'Email alanı en az 9 karakter olmalı',
+                    'max_length' => 'Email alanı en fazla 32 karakter olmalı',
+                    'valid_email' => 'Email alanı formatı doğru değil',
+                ],
+                'phonenumber' => 'Telefon numarası zorunlu'
+            ];
+            $data = $this->request->getPost();
+            if (!$this->validateRequest($data, $rules, $errors,)) {
+                $this->viewData['errors'] = $this->validator->getErrors();
+            }
+            else{
+                $aktivasyon_kodu = activationCode();
+                $queryData = [ 
+                    'kullanici_adi' => $data['firstname'],
+                    'kullanici_soyadi' => $data['lastname'],
+                    'kullanici_eposta' => $data['email'],
+                    'kullanici_telefon' => $data['phonenumber'],
+                    'kullanici_il' => $data['ec_select_city'] ?? '',
+                    'kullanici_ilce' => $data['ec_select_country'] ?? '', 
+                    'kullanici_postakodu' => $data['postalcode'] ?? '',
+                    'kullanici_aktivasyonkodu' => $aktivasyon_kodu,
+                    'kullanici_sifre' => $data['password'],
+                ];
+                $this->model->insert($queryData);
+                // TODO kullanıcı kaydı başarılı biryere yönledir
+                die('kullanıcı kayıt edildi');
+            }
         }
-
-        $this->model->insert([
-            'username' => $data['username'],
-            'user_group_id' => (int)$data['user_group_id'] ?? 1,
-            'password' => $data['password'],
-            'firstname' => $data['firstname'],
-            'lastname' => $data['lastname'],
-            'email' => $data['email'],
-            'image' => $data['image'],
-            'status' => (int)$data['status'],
-            'date_added' => date("Y-m-d H:i:s")
-        ]);
-        unset($data['auth']);
-        return $this->respondCreated($data);
+        return view('user/register', $this->viewData);
         //
     }
-
-
     /**
      * Add or update a model resource, from "posted" properties
      *
      * @return mixed
      */
-    public function update($id = null)
+    public function logout()
     {
-        $rules = [
-            'username' => 'required|min_length[3]|max_length[20]',
-            'firstname' => 'required|min_length[1]|max_length[32]',
-            'lastname' => 'required|min_length[1]|max_length[32]',
-            'email' => 'required|unique|min_length[6]|max_length[50]|valid_email',
-            'password' => 'required|min_length[4]|max_length[20]',
-            'user_group_id' => 'required|hasPermission[modify,user/user]'
-        ];
-
-        $errors = [
-            'user_group_id' => [
-                'hasPermission' => 'out of authority'
-            ]
-        ];
-        $data = $this->request->getPost();
-        $data = empty($data) ? json_decode($data, true) : $data;
-        $authenticationHeader = $this->request->getServer('HTTP_AUTHORIZATION');
-
-
-        if (!$this->validateRequest($data, $rules, $errors, $authenticationHeader)) {
-            return $this->fail(
-                $this->validator->getErrors(),
-                ResponseInterface::HTTP_BAD_REQUEST
-            );
-        }
-
-        $this->model->update($id, [
-            'username' => $data['username'],
-            'user_group_id' => (int)$data['user_group_id'] ?? 0,
-            'password' => $data['password'],
-            'firstname' => $data['firstname'],
-            'lastname' => $data['lastname'],
-            'email' => $data['email'],
-            'image' => $data['image'],
-            'status' => (int)$data['status'],
-            'date_added' => date("Y-m-d H:i:s")
-        ]);
-        return $this->respondUpdated($data);
-        //
+        session()->destroy();
+        return redirect()->to(base_url());
     }
-
     /**
      * Delete the designated resource object from the model
      *
@@ -159,65 +129,44 @@ class UserController extends ResourceController
     public function delete($id = null)
     {
         $this->model->delete($id);
-        //
     }
-
-
-    private function validateRequest($input, array $rules, array $messages = [], $authenticationHeader)
+    private function validateRequest($input, array $rules, array $messages = [])
     {
-
-        helper('jwt');
-        $encodedToken = getJWTFromRequest($authenticationHeader);
-        $input['auth'] = validateJWTFromRequest($encodedToken);
-
-
         $this->validator = Services::Validation()->setRules($rules);
         // If you replace the $rules array with the name of the group
         if (is_string($rules)) {
             $validation = config('Validation');
-
             // If the rule wasn't found in the \Config\Validation, we
             // should throw an exception so the developer can find it.
             if (!isset($validation->$rules)) {
                 throw ValidationException::forRuleNotFound($rules);
             }
-
             // If no error message is defined, use the error message in the Config\Validation file
             if (!$messages) {
                 $errorName = $rules . '_errors';
                 $messages = $validation->$errorName ?? [];
             }
-
             $rules = $validation->$rules;
         }
         return $this->validator->setRules($rules, $messages)->run($input);
     }
-    private function getJWTForUser(string $user, int $responseCode = ResponseInterface::HTTP_OK)
+    private function getJWTForUser(string $user)
     {
         try {
-
             $user_query = $this->model->findUserByEmailAddress($user);
             if (!$user_query)
                 $user_query = $this->model->findUserByUserName($user);
             unset($user_query['password']);
             helper('jwt');
-
-            return $this
-                ->respond(
-                    [
-                        'message' => 'User authenticated successfully',
-                        'user' => $user_query,
-                        'access_token' => getSignedJWTForUser($user)
-                    ]
-                );
+            return  [
+                'message' => 'User authenticated successfully',
+                'user' => $user_query,
+                'access_token' => getSignedJWTForUser($user)
+            ];
         } catch (Exception $exception) {
-            return $this
-                ->respond(
-                    [
-                        'error' => $exception->getMessage(),
-                    ],
-                    $responseCode
-                );
+            return  [
+                'error' => $exception->getMessage(),
+            ];
         }
     }
 }

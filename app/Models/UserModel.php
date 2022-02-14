@@ -46,63 +46,16 @@ class UserModel extends Model
 
     // Callbacks
     protected $allowCallbacks       = true;
-    protected $beforeInsert         = ['beforeInsert'];
+    protected $beforeInsert         = [];
     protected $afterInsert          = [];
-    protected $beforeUpdate         = ['beforeUpdate'];
+    protected $beforeUpdate         = [];
     protected $afterUpdate          = [];
     protected $beforeFind           = [];
     protected $afterFind            = [];
     protected $beforeDelete         = [];
     protected $afterDelete          = [];
 
-    protected function beforeInsert(array $data): array
-    {
-        return $this->getUpdatedDataWithHashedPassword($data);
-    }
-
-    protected function beforeUpdate(array $data): array
-    {
-        return $this->getUpdatedDataWithHashedPassword($data);
-    }
-    private function getUpdatedDataWithHashedPassword(array $data): array
-    {
-        if (isset($data['data']['password'])) {
-            $plaintextPassword = $data['data']['password'];
-            $plaintextSalt = token(9);
-            $data['data']['salt'] = $plaintextSalt;
-            $data['data']['password'] = $this->hashPassword($plaintextPassword,$plaintextSalt);
-        }
-        return $data;
-    }
-
-    private function hashPassword(string $plaintextPassword , string $plaintextSalt): string
-    {
-        return sha1($plaintextSalt . sha1($plaintextSalt . sha1($plaintextPassword)));
-    }
-    public function findUserByEmailAddress(string $emailAddress)
-    {
-        $user = $this
-            ->asArray()
-            ->where(['email' => $emailAddress])
-            ->first();
-
-        if (!$user) 
-            return false;
-
-        return $user;
-    }
-    public function findUserByUserName(string $username)
-    {
-        $user = $this
-            ->asArray()
-            ->where(['username' => $username])
-            ->first();
-
-        if (!$user) 
-           return false;
-
-        return $user;
-    }
+    
 
    
 }

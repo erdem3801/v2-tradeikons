@@ -32,6 +32,6 @@ function getSignedJWTForUser(string $email)
         'exp' => $tokenExpiration,
     ];
 
-    $jwt = JWT::encode($payload, Services::getSecretKey());
+    $jwt = JWT::encode($payload, Services::getSecretKey(), 'HS256');
     return $jwt;
 }
