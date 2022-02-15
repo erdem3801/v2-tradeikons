@@ -1,6 +1,6 @@
 $(function () {
-    $('*[data-link-action="quickview"]').on('click', function (e) {
-
+    $('.shop-pro-content').on('click','*[data-link-action="quickview"', function (e) {
+    
         e.preventDefault();
         $('#ec_quickview_modal').modal('show');
         const product = $(this).data('product');

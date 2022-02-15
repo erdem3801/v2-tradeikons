@@ -31,7 +31,8 @@ class ProductResource extends ResourceController
         $productList = $categoryToProductModel->select('product_id')->where('category_id', $categoryID)->orderBy('product_id','ASC')->findAll($limit,$offset);
         $productList = array_column($productList , "product_id");
 
-       
+       // return $this->respond($productList, ResponseInterface::HTTP_OK);
+      
 
         $product = $this->productModel
             ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')

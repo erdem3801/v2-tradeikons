@@ -21,13 +21,12 @@ class CategoryController extends BaseController
         $this->model = model('CategoriesModel');
         $this->productModel = model('Product/ProductModel');
         $this->viewData = $this->getDefaults();
-        
     }
 
     public function list($main = '', $submain = '', $category = '')
     {
 
-      
+
         $mainData = $this->model->where('category_slug', $main)->first();
         $submainData = $this->model->where('category_slug', $submain)->first();
         $categoryData = $this->model->where('category_slug', $category)->first();
@@ -60,13 +59,13 @@ class CategoryController extends BaseController
         }
 
 
-        $productList = $this->categoryToProductModel->select('product_id')->where('category_id', $categoryID)->orderBy('product_id','ASC')->findAll();
-        $productList = array_column($productList , "product_id");
+        $productList = $this->categoryToProductModel->select('product_id')->where('category_id', $categoryID)->orderBy('product_id', 'ASC')->findAll();
+        $productList = array_column($productList, "product_id");
+        if ($productList)
+            $fiters = $this->productModel->select('manufacturer_id')->distinct()->find($productList);
 
-
-        
-        $this->viewData['filters'] = $this->productModel->select('manufacturer_id')->distinct()->find($productList);
-        $this->viewData['categoryID'] = $categoryID;
+        $this->viewData['filters'] = $fiters ?? array();
+            $this->viewData['categoryID'] = $categoryID;
 
         $this->viewData['baslik'] = $breadcrump;
         $this->viewData['mainbannerImg'] = $mainData['category_image'] ?? '';
