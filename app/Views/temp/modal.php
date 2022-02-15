@@ -26,7 +26,7 @@
                                     <i class="ecicon eci-star"></i>
                                 </div>
 
-                                <div class="ec-quickview-desc"> </div>
+                                <div class="ec-quickview-desc" > </div>
                                 <div class="ec-quickview-price"> 
                                     <span class="new-price"> </span>
                                 </div>

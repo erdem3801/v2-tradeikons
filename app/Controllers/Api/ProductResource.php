@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers\Api;
-
+ 
 use CodeIgniter\RESTful\ResourceController;
 use Codeigniter\HTTP\ResponseInterface;
 
@@ -21,6 +21,33 @@ class ProductResource extends ResourceController
      */
     public function index()
     {
+        $offset = (int)$this->request->getVar('offset') ;
+        $limit = $this->request->getVar('limit');
+        $categoryID = $this->request->getVar('category');
+        
+      
+
+        $categoryToProductModel = model('CategoryToProduct');
+        $productList = $categoryToProductModel->select('product_id')->where('category_id', $categoryID)->orderBy('product_id','ASC')->findAll($limit,$offset);
+        $productList = array_column($productList , "product_id");
+
+       
+
+        $product = $this->productModel
+            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->find($productList);
+            //
+          
+            if ($product){ 
+                $response = array(
+                    'status' => true,
+                    'product' => $product, 
+                );
+                return $this->respond($response, ResponseInterface::HTTP_OK);
+
+            }
+        return $this->failNotFound();
         //
     }
     /**

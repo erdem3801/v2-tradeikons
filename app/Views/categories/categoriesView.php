@@ -41,7 +41,7 @@
                         <span class="sort-by">Sort by</span>
                         <div class="ec-select-inner">
                             <select name="ec-select" id="ec-select">
-                                <option selected disabled>Sıralama</option> 
+                                <option selected disabled>Sıralama</option>
                                 <option value="2"> A dan Z ye</option>
                                 <option value="3"> Z den A ya</option>
                                 <option value="4"> Fiyat, azalan</option>
@@ -54,50 +54,49 @@
                 </div>
                 <!-- Shop Top End -->
                 <!-- Shop content Start -->
-                <div class="shop-pro-content">
+                <div class="shop-pro-content" data-category="<?= $categoryID  ?>">
                     <div class="shop-pro-inner">
                         <div class="row">
-                            <?php foreach ($products as $key => $product) : ?>
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
-                                    <div class="ec-product-inner">
-                                        <div class="ec-pro-image-outer">
-                                            <div class="ec-pro-image">
-                                                <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image" src="<?= $product['image']  ?>" alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
-                                                    <img class="hover-image" src="<?= $product['image']  ?>" alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
-                                                </a>
-                                                <span class="flags">
-                                                    <span class="new">Yeni</span>
-                                                </span>
-                                                <a href="#" class="quickview" data-link-action="quickview" data-product="<?= $product['product_id']  ?>">
-                                                    <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" />
-                                                </a>
-                                                <div class="ec-pro-actions">
-                                                    <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                    <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                    <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html"><?= $product['name']  ?></a></h5>
-                                            <div class="ec-pro-rating">
-                                                <i class="ecicon eci-star fill"></i>
-                                                <i class="ecicon eci-star fill"></i>
-                                                <i class="ecicon eci-star fill"></i>
-                                                <i class="ecicon eci-star fill"></i>
-                                                <i class="ecicon eci-star"></i>
-                                            </div>
-                                            <div class="ec-pro-list-desc" ><?= $product['description']  ?></div>
-                                            <span class="ec-price">
-                                                <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
-                                            </span>
 
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-key="0">
+                                <div class="ec-product-inner">
+                                    <div class="ec-pro-image-outer">
+                                        <div class="ec-pro-image">
+                                            <a href="product-left-sidebar.html" class="image">
+                                                <img class="main-image" src=" " alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
+                                                <img class="hover-image" src=" " alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
+                                            </a>
+                                            <span class="flags">
+                                                <span class="new">Yeni</span>
+                                            </span>
+                                            <a href="#" class="quickview" data-link-action="quickview" data-product="">
+                                                <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" />
+                                            </a>
+                                            <div class="ec-pro-actions">
+                                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
+                                                <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="ec-pro-content">
+                                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html"> </a></h5>
+                                        <div class="ec-pro-rating">
+                                            <i class="ecicon eci-star fill"></i>
+                                            <i class="ecicon eci-star fill"></i>
+                                            <i class="ecicon eci-star fill"></i>
+                                            <i class="ecicon eci-star fill"></i>
+                                            <i class="ecicon eci-star"></i>
+                                        </div>
+                                        <div class="ec-pro-list-desc"> </div>
+                                        <span class="ec-price">
+                                            <span class="new-price"> </span>
+                                        </span>
+
+                                    </div>
                                 </div>
-                                <?php if ($key == 11) break; ?>
-                            <?php endforeach  ?>
+                            </div>
+                           
                         </div>
                     </div>
                     <!-- Ec Pagination Start -->
