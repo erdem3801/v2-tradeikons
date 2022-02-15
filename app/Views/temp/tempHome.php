@@ -35,6 +35,9 @@
     <!-- Background css -->
     <link rel="stylesheet" id="bg-switcher-css" href="<?= base_url('public')  ?>/assets/css/backgrounds/bg-4.css">
 
+    <script>
+        baseUrl = "<?= base_url() ?>";
+    </script>
     <script type="text/javascript">
         var title = document.title;
         var alttitle = "Tradeikons - Beni unutma!";
@@ -120,7 +123,9 @@
 
   
     <!-- Main Js -->
-    <script src="<?= base_url('public')  ?>/assets/js/main-old.js"></script>
+    <script src="<?= base_url('public')  ?>/assets/js/main.js"></script>
+    <script src="<?= base_url('public')  ?>/assets/js/product.js"></script>
+
 
     <?= $this->renderSection('script')  ?>
 </body>

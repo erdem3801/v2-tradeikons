@@ -1,14 +1,10 @@
 <?= $this->extend('temp/tempHome')  ?>
-
 <?= $this->section('style')  ?>
 <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/style.css" />
 <?= $this->endSection()  ?>
-
 <?= $this->section('script')  ?>
 <script src="<?= base_url('public')  ?>/assets/js/plugins/nouislider.js"></script>
- 
 <?= $this->endSection()  ?>
-
 <?= $this->section('content')  ?>
 <!-- Page detail section -->
 <section class="ec-bnr-detail mb-5 section-space-pt d-none d-sm-none d-md-none  d-lg-block">
@@ -45,12 +41,13 @@
                         <span class="sort-by">Sort by</span>
                         <div class="ec-select-inner">
                             <select name="ec-select" id="ec-select">
-                                <option selected disabled>Position</option>
-                                <option value="1">Relevance</option>
-                                <option value="2">Name, A to Z</option>
-                                <option value="3">Name, Z to A</option>
-                                <option value="4">Price, low to high</option>
-                                <option value="5">Price, high to low</option>
+                                <option selected disabled>Sıralama</option> 
+                                <option value="2"> A dan Z ye</option>
+                                <option value="3"> Z den A ya</option>
+                                <option value="4"> Fiyat, azalan</option>
+                                <option value="5"> Fiyat, artan</option>
+                                <option value="5"> Eskiden Yeniye</option>
+                                <option value="5"> Yeniden Eskiye</option>
                             </select>
                         </div>
                     </div>
@@ -60,21 +57,21 @@
                 <div class="shop-pro-content">
                     <div class="shop-pro-inner">
                         <div class="row">
-
-
                             <?php foreach ($products as $key => $product) : ?>
                                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
                                     <div class="ec-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
                                                 <a href="product-left-sidebar.html" class="image">
-                                                    <img class="main-image lazy" src="<?= $product['image']  ?>" alt="Product" />
-                                                    <img class="hover-image lazy" src="<?= $product['image']  ?>" alt="Product" />
+                                                    <img class="main-image" src="<?= $product['image']  ?>" alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
+                                                    <img class="hover-image" src="<?= $product['image']  ?>" alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
                                                 </a>
                                                 <span class="flags">
-                                                    <span class="sale">Sale</span>
+                                                    <span class="new">Yeni</span>
                                                 </span>
-                                                <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                                <a href="#" class="quickview" data-link-action="quickview" data-product="<?= $product['product_id']  ?>">
+                                                    <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" />
+                                                </a>
                                                 <div class="ec-pro-actions">
                                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
                                                     <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
@@ -83,7 +80,7 @@
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html"><?= $product['description']  ?></a></h5>
+                                            <h5 class="ec-pro-title"><a href="product-left-sidebar.html"><?= $product['name']  ?></a></h5>
                                             <div class="ec-pro-rating">
                                                 <i class="ecicon eci-star fill"></i>
                                                 <i class="ecicon eci-star fill"></i>
@@ -91,46 +88,19 @@
                                                 <i class="ecicon eci-star fill"></i>
                                                 <i class="ecicon eci-star"></i>
                                             </div>
-                                            <div class="ec-pro-list-desc"><?= $product['description']  ?></div>
+                                            <div class="ec-pro-list-desc" ><?= $product['description']  ?></div>
                                             <span class="ec-price">
-                                                <span class="old-price">$12.00</span>
-                                                <span class="new-price">$10.00</span>
+                                                <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
                                             </span>
-                                            <div class="ec-pro-option">
-                                                <div class="ec-pro-color">
-                                                    <span class="ec-pro-opt-label">Color</span>
-                                                    <ul class="ec-opt-swatch ec-change-img">
-                                                        <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/7_1.jpg" data-tooltip="Gray"><span style="background-color:#01f1f1;"></span></a></li>
-                                                        <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" data-src-hover="<?= base_url('public')  ?>/assets/images/product-image/7_2.jpg" data-tooltip="Orange"><span style="background-color:#b89df8;"></span></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="ec-pro-size">
-                                                    <span class="ec-pro-opt-label">Size</span>
-                                                    <ul class="ec-opt-size">
-                                                        <li class="active"><a href="#" class="ec-opt-sz" data-old="$12.00" data-new="$10.00" data-tooltip="Small">S</a></li>
-                                                        <li><a href="#" class="ec-opt-sz" data-old="$15.00" data-new="$12.00" data-tooltip="Medium">M</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
+                                <?php if ($key == 11) break; ?>
                             <?php endforeach  ?>
-
                         </div>
                     </div>
                     <!-- Ec Pagination Start -->
-                    <div class="ec-pro-pagination">
-                        <span>Showing 1-12 of 21 item(s)</span>
-                        <ul class="ec-pro-pagination-inner">
-                            <li><a class="active" href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a class="next" href="#">Next <i class="ecicon eci-angle-right"></i></a></li>
-                        </ul>
-                    </div>
                     <!-- Ec Pagination End -->
                 </div>
                 <!--Shop content End -->
@@ -139,73 +109,44 @@
             <div class="ec-shop-leftside col-lg-3 col-md-12 order-lg-first order-md-last">
                 <div id="shop_sidebar">
                     <div class="ec-sidebar-heading">
-                        <h1>Filter Products By</h1>
+                        <h1>Filtre</h1>
                     </div>
                     <div class="ec-sidebar-wrap">
                         <!-- Sidebar Category Block -->
                         <div class="ec-sidebar-block">
                             <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Category</h3>
+                                <h3 class="ec-sidebar-title">Marka</h3>
                             </div>
                             <div class="ec-sb-block-content">
                                 <ul>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" checked /> <a href="#">clothes</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" /> <a href="#">Bags</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" /> <a href="#">Shoes</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" /> <a href="#">cosmetics</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" /> <a href="#">electrics</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" /> <a href="#">phone</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li id="ec-more-toggle-content" style="padding: 0; display: none;">
-                                        <ul>
-                                            <li>
-                                                <div class="ec-sidebar-block-item">
-                                                    <input type="checkbox" /> <a href="#">Watch</a><span class="checked"></span>
-                                                </div>
+                                    <?php $drop = false;
+                                    foreach ($filters as $key => $filter) :  ?>
+                                        <?php if ($key == 5) : $drop = true; ?>
+                                            <li id="ec-more-toggle-content" style="padding: 0; display: none;">
+                                                <ul>
+                                                <?php endif  ?>
+                                                <li>
+                                                    <div class="ec-sidebar-block-item">
+                                                        <input type="checkbox" /> <a href="#"> <?= $filter['manufacturer_id']  ?> </a><span class="checked"></span>
+                                                    </div>
+                                                </li>
+                                                <?php if ($key == count($filters) - 1 && $drop) :  ?>
+                                                </ul>
                                             </li>
                                             <li>
-                                                <div class="ec-sidebar-block-item">
-                                                    <input type="checkbox" /> <a href="#">Cap</a><span class="checked"></span>
+                                                <div class="ec-sidebar-block-item ec-more-toggle">
+                                                    <span class="checked"></span><span id="ec-more-toggle">Daha Fazla...</span>
                                                 </div>
                                             </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item ec-more-toggle">
-                                            <span class="checked"></span><span id="ec-more-toggle">More
-                                                Categories</span>
-                                        </div>
-                                    </li>
+                                        <?php endif  ?>
+                                    <?php endforeach  ?>
                                 </ul>
                             </div>
                         </div>
                         <!-- Sidebar Size Block -->
                         <div class="ec-sidebar-block">
                             <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Size</h3>
+                                <h3 class="ec-sidebar-title">Beden</h3>
                             </div>
                             <div class="ec-sb-block-content">
                                 <ul>
@@ -240,7 +181,7 @@
                         <!-- Sidebar Color item -->
                         <div class="ec-sidebar-block ec-sidebar-block-clr">
                             <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Color</h3>
+                                <h3 class="ec-sidebar-title">Renk</h3>
                             </div>
                             <div class="ec-sb-block-content">
                                 <ul>
@@ -280,7 +221,7 @@
                         <!-- Sidebar Price Block -->
                         <div class="ec-sidebar-block">
                             <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Price</h3>
+                                <h3 class="ec-sidebar-title">Fiyat</h3>
                             </div>
                             <div class="ec-sb-block-content es-price-slider">
                                 <div class="ec-price-filter">
@@ -300,4 +241,5 @@
     </div>
 </section>
 <!-- End Shop page -->
+
 <?= $this->endSection()  ?>

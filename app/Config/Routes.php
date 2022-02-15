@@ -53,10 +53,15 @@ $routes->match(['get','post'],'kayit-ol', 'UserController::Register');
 $routes->match(['get','post'],'uye-giris', 'UserController::Auth'); 
 $routes->match(['get','post'],'logout', 'UserController::logout'); 
 
+$routes->group('api',function($routes){
+    $routes->presenter('product', ['controller' => 'Api\ProductResource']);
+});
 
 
 $routes->get('(:segment)/(:any)', 'CategoryController::list/$1/$2');
 $routes->get('(:segment)/(:any)/(:any)', 'CategoryController::list/$1/$2/$3');
+
+
 
 /*
  * --------------------------------------------------------------------

@@ -10,36 +10,9 @@
                                 <div class="qty-slide">
                                     <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="">
                                 </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_4.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" alt="">
-                                </div>
+                               
                             </div>
-                            <div class="qty-nav-thumb">
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_2.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_3.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_4.jpg" alt="">
-                                </div>
-                                <div class="qty-slide">
-                                    <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_5.jpg" alt="">
-                                </div>
-                            </div>
+                          
                         </div>
                         <div class="col-md-7 col-sm-12 col-xs-12">
                             <div class="quickview-pro-content">
@@ -53,12 +26,9 @@
                                     <i class="ecicon eci-star"></i>
                                 </div>
 
-                                <div class="ec-quickview-desc">Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                    since the 1500s,</div>
-                                <div class="ec-quickview-price">
-                                    <span class="old-price">$100.00</span>
-                                    <span class="new-price">$80.00</span>
+                                <div class="ec-quickview-desc"> </div>
+                                <div class="ec-quickview-price"> 
+                                    <span class="new-price"> </span>
                                 </div>
 
                                 <div class="ec-pro-variation">

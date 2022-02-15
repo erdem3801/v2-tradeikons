@@ -50,6 +50,10 @@ class ApiController extends ResourceController
         $productModel = model('Product/ProductModel');
         $imageModel = model('Product/ProductToImageModel');
         $products = $productModel->findAll();
+        foreach ($products as $key => $product) {
+            $image = $imageModel->where('product_id',$product['product_id'])->first();
+            $productModel->update($product['product_id'],['image' => $image['image']]);
+        }
       
         // echo '<pre>';
         // //print_r($this->viewData['categories'][0]);
