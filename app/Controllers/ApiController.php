@@ -19,17 +19,14 @@ class ApiController extends ResourceController
     public function __construct()
     {
 
-        $cache = \Config\Services::cache();
-        $this->settingsModel = model('SettingsModel');
-        $this->categoryModel = model('CategoriesModel');
-        $this->ctpModel = model('CategoryToproduct');
+
 
         // if (!$categories = $cache->get('categories')) {
-        $categories = $this->settingsModel->getCategories();
+        //$categories = $this->settingsModel->getCategories();
         // Save into the cache for 5 minutes
         //     $cache->save('categories', $categories, 3000);
         // }
-        $this->viewData['categories'] =    $categories;
+        //$this->viewData['categories'] =    $categories;
         // if (!$product = $cache->get('product')) {
         //     $product = $this->settingsModel->getProduct();
         //     // Save into the cache for 5 minutes
@@ -47,38 +44,24 @@ class ApiController extends ResourceController
     public function index()
     {
 
-        $productModel = model('Product/ProductModel');
+        $productModel = model('product/ProductModel');
         $categoryModel = model('CategoryToproduct');
-        $categories = $categoryModel->findAll();
-        foreach ($categories as $key => $categoty) {
-            if(!$productModel->find($categoty['product_id']))
-                $categoryModel->where('product_id',$categoty['product_id'])->delete();
+        $products =  $productModel->getProducts();
+        foreach ($products as $key => $product) {
+            $Slug = new Slug([
+                'field' => 'slug',
+                'title' => 'name',
+                'table' => 'product',
+                'id'     => 'product_id',
+            ]);
+            // get the new slug 
+            $queryData = [
+                'slug' =>  $Slug->create_uri(['name' => $product['name']]) ?? '',
+
+            ];
+          
+            $productModel->update($product['product_id'],$queryData);
         }
-      
-        // echo '<pre>';
-        // //print_r($this->viewData['categories'][0]);
-        // foreach ($this->viewData['categories'] as $key => $main) {
-        //     echo 'main =>';
-        //     $mainID = $this->convertCategoriesData($main);
-        //     if (isset($main['listelenecek_urunler']))
-        //         $this->categoriesToproduct($main['listelenecek_urunler'], $mainID);
-        //     foreach ($main['listelenecek_kategoriler'] as $key => $sub) {
-        //         echo 'sub =>';
-        //         $subID =  $this->convertCategoriesData($sub, $mainID);
-        //         if (isset($sub['listelenecek_urunler']))
-        //             $this->categoriesToproduct($sub['listelenecek_urunler'], $subID);
-
-        //         foreach ($sub['listelenecek_kategoriler'] as $key => $cat) {
-        //             echo 'cat =>';
-        //             $catID = $this->convertCategoriesData($cat, $subID);
-        //             if (isset($cat['listelenecek_urunler']))
-        //                 $this->categoriesToproduct($cat['listelenecek_urunler'], $catID);
-        //         }
-        //     }
-        // }
-
-        //   return view('welcome_message');
-        // return $this->respond(['message' => 'api geldi' , 'data' => $this->viewData['categories']]);
     }
     public function create()
     {

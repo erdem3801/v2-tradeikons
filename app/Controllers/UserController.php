@@ -16,7 +16,7 @@ class UserController extends BaseController
     private $viewData;
     public function __construct()
     {
-        $this->model = model('ClientModel');
+        $this->model = model('UserModel');
         $this->viewData = $this->getDefaults();
     }
     /**
@@ -34,7 +34,7 @@ class UserController extends BaseController
             ];
             $errors = [
                 'password' => [
-                    'validateUser' => 'Kullanıcı bilgisi sistemde bulunamadı',
+                    'validateUser' => 'Hesap bulunamadı! Lütfen tekrar deneyiniz.',
                     'required' => 'Şifrenizi girin.',
                     'min_length' => 'Şifre alanını 4 karakterden fazla olacak şekilde doldurun.',
                     'min_length' => 'Şifre alanını 50 karakterden az olacak şekilde doldurun.',
@@ -93,15 +93,15 @@ class UserController extends BaseController
             else{
                 $aktivasyon_kodu = activationCode();
                 $queryData = [ 
-                    'kullanici_adi' => $data['firstname'],
-                    'kullanici_soyadi' => $data['lastname'],
-                    'kullanici_eposta' => $data['email'],
-                    'kullanici_telefon' => $data['phonenumber'],
-                    'kullanici_il' => $data['ec_select_city'] ?? '',
-                    'kullanici_ilce' => $data['ec_select_country'] ?? '', 
-                    'kullanici_postakodu' => $data['postalcode'] ?? '',
-                    'kullanici_aktivasyonkodu' => $aktivasyon_kodu,
-                    'kullanici_sifre' => $data['password'],
+                    'user_business_name' => $data['firstname'],
+                    'user_name_surname' => $data['lastname'],
+                    'user_mail' => $data['email'],
+                    'user_phone' => $data['phonenumber'],
+                    'user_adress' => $data['ec_select_city'] ?? '',
+                    'user_county' => $data['ec_select_country'] ?? '', 
+                    'user_reference_code' => $data['postalcode'] ?? '',
+                    'user_activation_code' => $aktivasyon_kodu,
+                    'user_pass' => $data['password'],
                 ];
                 $this->model->insert($queryData);
                 // TODO kullanıcı kaydı başarılı biryere yönledir

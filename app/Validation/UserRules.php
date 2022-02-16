@@ -12,9 +12,9 @@ class UserRules
     {
 
         try {
-            $model = model('ClientModel');
+            $model = model('UserModel');
             $user = $model->findUserByEmailAddress($data['email']);
-            return  password_verify($data['password'], $user['kullanici_sifre']);
+            return  password_verify($data['password'], $user['user_pass']);
         } catch (Exception $e) {
             return false;
         }
@@ -22,9 +22,9 @@ class UserRules
     public function hasPermission(string $key, string $field, array $data): bool
     {
         try {
-            $model = model('ClientModel');
+            $model = model('UserModel');
             $user = $model->findUserByEmailAddress($data['email']);
-            if (!$user['kullanici_durum']) {
+            if (!$user['user_status']) {
                 return false;
             }
             return true;

@@ -11,8 +11,9 @@ class ProductResource extends ResourceController
     private $imageModel;
     public function __construct()
     {
-        $this->imageModel = model('Product/ProductToImageModel');
-        $this->productModel = model('Product/ProductModel');
+        
+       
+        $this->productModel = model('product/ProductModel');
     }
     /**
      * Return an array of resource objects, themselves in array format
@@ -21,23 +22,16 @@ class ProductResource extends ResourceController
      */
     public function index()
     {
+        $categoryToProductModel = model('CategoryToProduct');
+
         $offset = (int)$this->request->getVar('offset') ;
         $limit = $this->request->getVar('limit');
         $categoryID = $this->request->getVar('category');
         
       
 
-        $categoryToProductModel = model('CategoryToProduct');
-        $productList = $categoryToProductModel->select('product_id')->where('category_id', $categoryID)->orderBy('product_id','ASC')->findAll($limit,$offset);
-        $productList = array_column($productList , "product_id");
-
-       // return $this->respond($productList, ResponseInterface::HTTP_OK);
-      
-
-        $product = $this->productModel
-            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
-            ->find($productList);
+        $productList = $categoryToProductModel->getProductList($categoryID,$limit,$offset);
+        $product = $this->productModel->getProductByIDs($productList);
             //
           
             if ($product){ 
@@ -65,11 +59,10 @@ class ProductResource extends ResourceController
             //
             
             if ($product){
-                $images = $this->imageModel->where('product_id',$id)->findAll(1);
+             
                 $response = array(
                     'status' => true,
-                    'product' => $product,
-                    'images' => $images
+                    'product' => $product, 
                 );
                 return $this->respond($response, ResponseInterface::HTTP_OK);
 

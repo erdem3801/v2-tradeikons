@@ -127,7 +127,7 @@
                         <div class="footer-bottom-payment d-flex justify-content-end">
                             <div class="payment-link">
                                 <img src="<?= base_url('public')  ?>/assets/images/icons/payment.png" alt="payment">
-                                <?= print_r(session()->get('user'));  ?>
+                            
                             </div>
                         </div>
                     </div>
