@@ -1,7 +1,10 @@
 <?= $this->extend('temp/tempHome')  ?>
+
 <?= $this->section('style')  ?>
 <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/style.css" />
+<link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/nouislider.css" />
 <?= $this->endSection()  ?>
+
 <?= $this->section('script')  ?>
 <script src="<?= base_url('public')  ?>/assets/js/plugins/nouislider.js"></script>
 <?= $this->endSection()  ?>
@@ -58,13 +61,13 @@
                     <div class="shop-pro-inner">
                         <div class="row">
 
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-key="0">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-key="0">
                                 <div class="ec-product-inner">
                                     <div class="ec-pro-image-outer">
                                         <div class="ec-pro-image">
                                             <a href="product-left-sidebar.html" class="image">
-                                                <img class="main-image" src=" " alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
-                                                <img class="hover-image" src=" " alt="Product" style="width: 150px; height: 150px; object-fit: scale-down;" />
+                                                <img class="main-image" src=" " alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
+                                                <img class="hover-image" src=" " alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                             </a>
                                             <span class="flags">
                                                 <span class="new">Yeni</span>
@@ -96,7 +99,7 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
                     <!-- Ec Pagination Start -->
@@ -224,7 +227,7 @@
                             </div>
                             <div class="ec-sb-block-content es-price-slider">
                                 <div class="ec-price-filter">
-                                    <div id="ec-sliderPrice" class="filter__slider-price" data-min="0" data-max="250" data-step="10"></div>
+                                    <div id="ec-sliderPrice" class="filter__slider-price" data-min="0" data-max="5000" data-step="10"></div>
                                     <div class="ec-price-input">
                                         <label class="filter__label"><input type="text" class="filter__input"></label>
                                         <span class="ec-price-divider"></span>

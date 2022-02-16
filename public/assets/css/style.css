@@ -22952,10 +22952,13 @@ h4.ec-faq-title::after, .ec-faq-title.h4::after {
 .single-pro-content .ec-single-qty .ec-single-wishlist {
   margin-right: 10px;
 }
-.single-pro-content .ec-single-social ul {
+.single-pro-content .ec-single-qty .ec-single-social ul {
   display: initial;
 }
-.single-pro-content .ec-single-social ul li a {
+.single-pro-content .ec-single-qty .ec-single-social ul li a i {
+  font-size: 25px;
+}
+.single-pro-content .ec-single-qty .ec-single-social ul li a {
   width: 30px;
   height: 30px;
   text-align: center;
@@ -22973,7 +22976,7 @@ h4.ec-faq-title::after, .ec-faq-title.h4::after {
           justify-content: center;
   font-size: 15px;
 }
-.single-pro-content .ec-single-social ul li a:hover {
+.single-pro-content .ec-single-qty .ec-single-social ul li a:hover {
   color: #fff;
 }
 .single-pro-content .ec-single-social ul li.facebook a:hover {
@@ -22989,7 +22992,7 @@ h4.ec-faq-title::after, .ec-faq-title.h4::after {
 .single-pro-content .ec-single-social ul li.behance a:hover {
   background: #0057ff;
 }
-.single-pro-content .ec-single-social ul li.whatsapp a:hover {
+.single-pro-content .ec-single-qty .ec-single-social ul li.whatsapp a:hover {
   background: #2db842;
 }
 .single-pro-content .ec-single-social ul li.plus a:hover {

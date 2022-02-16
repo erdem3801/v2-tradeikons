@@ -1,0 +1,18 @@
+.aciklama {
+    text-align: justify !important;
+    text-indent: 25px;
+    font-size: 16px;
+}
+
+.aciklama_liste li {
+    list-style-type: circle;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.pngbanner {
+    background-repeat: no-repeat;
+    background-size: 40%, 40%;
+    background-position: center;
+}

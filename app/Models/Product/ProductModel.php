@@ -16,6 +16,7 @@ class ProductModel extends Model
     protected $protectFields    = true;
     protected $allowedFields    = [
         'product_id',
+        'slug',
         'gtin',
         'market_place_id',
         'barcode_id',
@@ -61,4 +62,35 @@ class ProductModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getProductByIDs($IDs)
+    {
+        $results = $this
+            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->find($IDs);
+
+        return $results;
+    }
+    public function getProductBySlug($slug)
+    {
+        $results = $this
+            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->where('slug',$slug)
+            ->first();
+
+        return $results;
+    }
+    
+
+    public function getProducts()
+    {
+        $results = $this 
+            ->where('slug',null)
+            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->findAll();
+        return $results;
+    }
+
 }

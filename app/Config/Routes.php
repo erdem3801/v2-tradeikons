@@ -58,9 +58,9 @@ $routes->group('api', function ($routes) {
     $routes->presenter('product', ['controller' => 'Api\ProductResource']);
 });
 
-
-$routes->get('(:segment)/(:any)', 'CategoryController::list/$1/$2');
 $routes->get('(:segment)/(:any)/(:any)', 'CategoryController::list/$1/$2/$3');
+$routes->get('(:segment)/(:any)', 'CategoryController::list/$1/$2');
+$routes->get('(:any)','ProductController::detail/$1');
 
 
 

@@ -42,4 +42,10 @@ class CategoryToProduct extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getProductList($categoryID, $limit = 0,  $offset = 0 ){
+        $result = $this->select('product_id')->where('category_id', $categoryID)->orderBy('product_id','ASC')->findAll($limit,$offset);
+        $result = array_column($result , "product_id");
+        return $result;
+    }
 }

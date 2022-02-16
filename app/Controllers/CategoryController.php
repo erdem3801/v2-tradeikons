@@ -19,7 +19,7 @@ class CategoryController extends BaseController
     {
         $this->categoryToProductModel = model('CategoryToProduct');
         $this->model = model('CategoriesModel');
-        $this->productModel = model('Product/ProductModel');
+        $this->productModel = model('product/ProductModel');
         $this->viewData = $this->getDefaults();
     }
 
@@ -73,7 +73,7 @@ class CategoryController extends BaseController
 
 
 
-        return view('categories/categoriesView', $this->viewData);
+        return view('category/CategoryView', $this->viewData);
         //
     }
 }

@@ -26,12 +26,13 @@
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/countdownTimer.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/slick.min.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/bootstrap.css" />
-
+    
+    <?= $this->renderSection('style')  ?>
+    
     <!-- Main Style -->
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/responsive.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/style.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/main.css" />
-    <?= $this->renderSection('style')  ?>
     <!-- Background css -->
     <link rel="stylesheet" id="bg-switcher-css" href="<?= base_url('public')  ?>/assets/css/backgrounds/bg-4.css">
 
@@ -121,13 +122,13 @@
     <script src="<?= base_url('public')  ?>/assets/js/vendor/jquery.magnific-popup.min.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/plugins/jquery.sticky-sidebar.js"></script>
 
+    <?= $this->renderSection('script')  ?>
   
     <!-- Main Js -->
     <script src="<?= base_url('public')  ?>/assets/js/main.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/product.js"></script>
 
 
-    <?= $this->renderSection('script')  ?>
 </body>
 
 </html>
