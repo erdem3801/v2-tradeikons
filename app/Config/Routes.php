@@ -33,27 +33,28 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 
-$routes->post('auth','UserController::auth');
- 
-$routes->presenter('user',['controller' => 'UserController']);
+$routes->post('auth', 'UserController::auth');
 
-$routes->get('/', 'Home::index'); 
-$routes->get('api', 'ApiController::index'); 
+$routes->presenter('user', ['controller' => 'UserController']);
+
+$routes->get('/', 'Home::index');
 
 $routes->get('hakkimizda', 'InformationController::about');
 $routes->get('sss', 'InformationController::sss');
 $routes->get('iletisim', 'InformationController::contact');
 
-$routes->get('iptal-ve-iade', 'InformationController::cancellationPolicy');  
-$routes->get('kargo-ve-teslimat', 'InformationController::shipingPolicy'); 
-$routes->get('gizlilik-ve-kvkk', 'InformationController::kvkkPolicy'); 
-$routes->get('siparis-takip', 'InformationController::orderPolicy'); 
+$routes->get('iptal-ve-iade', 'InformationController::cancellationPolicy');
+$routes->get('kargo-ve-teslimat', 'InformationController::shipingPolicy');
+$routes->get('gizlilik-ve-kvkk', 'InformationController::kvkkPolicy');
+$routes->get('siparis-takip', 'InformationController::orderPolicy');
 
-$routes->match(['get','post'],'kayit-ol', 'UserController::Register'); 
-$routes->match(['get','post'],'uye-giris', 'UserController::Auth'); 
-$routes->match(['get','post'],'logout', 'UserController::logout'); 
+$routes->match(['get', 'post'], 'kayit-ol', 'UserController::Register');
+$routes->match(['get', 'post'], 'uye-giris', 'UserController::Auth');
+$routes->match(['get', 'post'], 'logout', 'UserController::logout');
 
-$routes->group('api',function($routes){
+$routes->group('api', function ($routes) {
+
+    $routes->get('/', 'ApiController::index');
     $routes->presenter('product', ['controller' => 'Api\ProductResource']);
 });
 

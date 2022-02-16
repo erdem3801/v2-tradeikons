@@ -32566,3 +32566,33 @@ input[type=email]:focus::-webkit-input-placeholder {
 .labels .ec-line-offer .ec-line-offer-info .offer-btn .btn-shop-now:hover {
   border: 1px solid #777;
 }
+
+.quickview-pro-content .ec-quickview-desc{
+
+  height: 231px;
+   overflow-x: hidden;
+}
+
+.quickview-pro-content .ec-quickview-desc::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.quickview-pro-content .ec-quickview-desc::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.quickview-pro-content .ec-quickview-desc::-webkit-scrollbar-thumb {
+  background: #ada9a9; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.quickview-pro-content .ec-quickview-desc::-webkit-scrollbar-thumb:hover {
+  background: #ada9a9; 
+}
+.hidden{
+  display: none;
+}
