@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
-use App\Models\CategoryToProduct;
+use App\Controllers\BaseController; 
+use App\Models\Product\ProductModel;
 use CodeIgniter\Commands\Help;
 use Faker\Extension\Helper;
 
@@ -19,7 +19,7 @@ class CategoryController extends BaseController
     {
         $this->categoryToProductModel = model('CategoryToProduct');
         $this->model = model('CategoriesModel');
-        $this->productModel = model('product/ProductModel');
+        $this->productModel = new ProductModel();
         $this->viewData = $this->getDefaults();
     }
 
