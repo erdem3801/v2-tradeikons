@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Controllers\Api;
- 
+
+use App\Models\Product\ProductModel;
 use CodeIgniter\RESTful\ResourceController;
 use Codeigniter\HTTP\ResponseInterface;
 
@@ -13,7 +14,7 @@ class ProductResource extends ResourceController
     {
         
        
-        $this->productModel = model('product/ProductModel');
+        $this->productModel = new ProductModel();
     }
     /**
      * Return an array of resource objects, themselves in array format

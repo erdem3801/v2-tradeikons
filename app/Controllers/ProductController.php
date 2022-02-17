@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\CategoryToProduct;
+use App\Models\Product\ProductModel;
+use App\Models\Product\ProductToImageModel;
 
 class ProductController extends BaseController
 {
@@ -13,8 +15,8 @@ class ProductController extends BaseController
     private $imageModel;
     public function __construct()
     {
-        $this->imageModel = model('product/ProductToImageModel');
-        $this->productModel = model('product/ProductModel');
+        $this->imageModel = new ProductToImageModel();
+        $this->productModel = new ProductModel();
         $this->categoryToProductModel = model('CategoryToProduct');
         $this->viewData = $this->getDefaults();
     }

@@ -2,12 +2,10 @@
 
 namespace App\Controllers;
 
-use App\Models\CategoriesModel;
-use App\Models\ProductModel;
+use App\Models\CategoriesModel; 
 use CodeIgniter\RESTful\ResourceController;
 use App\Libraries\Slug;   // use the Slug Library
-use App\Models\Product\ProductModel as ProductProductModel;
-use App\Models\Product\ProductToImageModel;
+use App\Models\Product\ProductModel ; 
 
 class ApiController extends ResourceController
 {
@@ -44,7 +42,7 @@ class ApiController extends ResourceController
     public function index()
     {
 
-        $productModel = model('product/ProductModel');
+        $productModel = new ProductModel();
         $categoryModel = model('CategoryToproduct');
         $products =  $productModel->getProducts();
         foreach ($products as $key => $product) {
