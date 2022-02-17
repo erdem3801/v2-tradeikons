@@ -52,6 +52,9 @@ $routes->match(['get', 'post'], 'kayit-ol', 'UserController::Register');
 $routes->match(['get', 'post'], 'uye-giris', 'UserController::Auth');
 $routes->match(['get', 'post'], 'logout', 'UserController::logout');
 
+$routes->match(['get', 'post'], 'sepet', 'CartController::Cart');
+$routes->match(['get', 'post'], 'odeme', 'CheckoutController::Checkout');
+
 $routes->group('api', function ($routes) {
 
     $routes->get('/', 'ApiController::index');

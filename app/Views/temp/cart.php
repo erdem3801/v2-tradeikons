@@ -19,21 +19,19 @@
                                 <td class="text-left">Ürün Fiyatı :</td>
                                 <td class="text-right"><span class="product-total-price"></span> ₺</td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td class="text-left">KDV :</td>
                                 <td class="text-right"><span class="vat-price"></span> ₺</td>
-                            </tr>
-                            <tr>
+                            </tr> -->
+                            <!-- <tr>
                                 <td class="text-left">Toplam Fiyat :</td>
                                 <td class="text-right primary-color"><span class="total-price"> ₺</span> </td>
-                            </tr>
+                            </tr> -->
                         </tbody>
                     </table>
                 </div>
-                <div class="cart_btn">
-                    <a href="cart.html" class="btn btn-primary">View Cart</a>
-                    <a href="checkout.html" class="btn btn-secondary">Checkout</a>
-                </div>
+                <a href="<?= base_url('sepet')  ?>" class="btn btn-primary btn-block">Alışverişi Tamamla</a> 
+                
             </div>
         </div>
     </div>

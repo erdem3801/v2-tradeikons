@@ -15942,7 +15942,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .section-space-pt {
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 .section-space-ptb-100 {
@@ -32598,4 +32598,15 @@ input[type=email]:focus::-webkit-input-placeholder {
 }
 .hidden{
   display: none;
+}
+.ec-cat-bnr{
+  padding: 6px;
+}
+.ec-cat-bnr .img-fluid {
+  max-width: 100%;
+  height: auto;
+  height: 242px;
+  border-radius: 20px;
+  filter: brightness(.75);
+  box-shadow: 0px 2px 11px 0px;
 }

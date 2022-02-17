@@ -58,7 +58,7 @@
                                         <li class="ec-footer-link"><a href="<?= base_url('uye-giris') ?>">Giriş Yap</a></li>
                                         <li class="ec-footer-link"><a href="<?= base_url('kayit-ol') ?>">Kayıt Ol</a></li>
                                     <?php endif ?>
-                                    <li class="ec-footer-link"><a href="index?odeme=1">Sepetim</a></li>
+                                    <li class="ec-footer-link"><a href="<?= base_url('sepet')  ?>">Sepetim</a></li>
                                     <li class="ec-footer-link"><a href="siparis-takip">Sipariş Takip</a></li>
                                     </li>
                                 </ul>

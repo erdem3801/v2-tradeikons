@@ -16,9 +16,9 @@
                                     <div class="single-product-cover">
                                         <?php
 
-use Faker\Provider\Base;
+                                        use Faker\Provider\Base;
 
- foreach ($images as $image) : ?>
+                                        foreach ($images as $image) : ?>
                                             <div class="single-slide zoom-image-hover">
                                                 <img class="img-responsive" src="<?= $image['image']  ?>" alt="img-<?= $image['product_image_id']  ?>">
                                             </div>
@@ -258,8 +258,8 @@ use Faker\Provider\Base;
                         <div class="ec-pro-image-outer">
                             <div class="ec-pro-image">
                                 <a href="<?= base_url($product['slug'])  ?>" class="image">
-                                    <img class="main-image" src="<?= $product['image'] ?>" alt="Product"   style="width: 100%; height: 250px; object-fit: scale-down;"/>
-                                    <img class="hover-image" src="<?= $product['image'] ?>" alt="Product"  style="width: 100%; height: 250px; object-fit: scale-down;" />
+                                    <img class="main-image" src="<?= $product['image'] ?>" alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
+                                    <img class="hover-image" src="<?= $product['image'] ?>" alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                 </a>
                                 <span class="percentage">20%</span>
                                 <span class="flags">
@@ -283,7 +283,7 @@ use Faker\Provider\Base;
                                 <i class="ecicon eci-star"></i>
                             </div>
                             <div class="ec-pro-list-desc"><?= $product['description']  ?></div>
-                            <span class="ec-price"> 
+                            <span class="ec-price">
                                 <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
                             </span>
                             <!-- <div class="ec-pro-option">
