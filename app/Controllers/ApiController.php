@@ -2,10 +2,12 @@
 
 namespace App\Controllers;
 
-use App\Models\CategoriesModel; 
+use App\Models\CategoriesModel;
 use CodeIgniter\RESTful\ResourceController;
 use App\Libraries\Slug;   // use the Slug Library
-use App\Models\Product\ProductModel ; 
+use App\Models\Product\ProdcutPriceModel;
+use App\Models\Product\ProdcutStockModel;
+use App\Models\Product\ProductModel;
 
 class ApiController extends ResourceController
 {
@@ -42,24 +44,37 @@ class ApiController extends ResourceController
     public function index()
     {
 
-        $productModel = new ProductModel();
-        $categoryModel = model('CategoryToproduct');
-        $products =  $productModel->getProducts();
-        foreach ($products as $key => $product) {
-            $Slug = new Slug([
-                'field' => 'slug',
-                'title' => 'name',
-                'table' => 'product',
-                'id'     => 'product_id',
-            ]);
-            // get the new slug 
-            $queryData = [
-                'slug' =>  $Slug->create_uri(['name' => $product['name']]) ?? '',
+        $priceModel = new ProdcutPriceModel();
+        $stockModel = new  ProdcutStockModel();
 
+        $stocks = $stockModel->findAll();
+        foreach ($stocks as $key => $stock) {
+            $queryData = [
+                'product_id' => $stock['product_id'],
+                'product_stock_id' => $stock['product_stock_id'],
+                'price_sell' => $stock['price_sell'],
+                'price_buy' => $stock['price_buy']
             ];
-          
-            $productModel->update($product['product_id'],$queryData);
+            $priceModel->insert($queryData);
         }
+        // $productModel = new ProductModel();
+        // $categoryModel = model('CategoryToproduct');
+        // $products =  $productModel->getProducts();
+        // foreach ($products as $key => $product) {
+        //     $Slug = new Slug([
+        //         'field' => 'slug',
+        //         'title' => 'name',
+        //         'table' => 'product',
+        //         'id'     => 'product_id',
+        //     ]);
+        //     // get the new slug 
+        //     $queryData = [
+        //         'slug' =>  $Slug->create_uri(['name' => $product['name']]) ?? '',
+
+        //     ];
+
+        //     $productModel->update($product['product_id'],$queryData);
+        // }
     }
     public function create()
     {

@@ -1,10 +1,8 @@
 <?php
 namespace App\Controllers;
 use App\Controllers\BaseController;
-use CodeIgniter\Validation\Exceptions\ValidationException;
-use Config\Services;
-use Exception;
-use Firebase\JWT\JWT;
+ 
+use Exception; 
 
 class UserController extends BaseController
 {
@@ -44,7 +42,7 @@ class UserController extends BaseController
             $data = $this->request->getPost();
             if ($this->validateRequest($data, $rules, $errors)) {
                 $token = $this->getJWTForUser($data['email']);
-                session()->set('user',$token);
+                session()->set('userData',$token);
                 return redirect()->to(base_url()."?token={$token['access_token']}");
             }
             $this->viewData['errors'] = $this->validator->getErrors(); 
@@ -91,7 +89,7 @@ class UserController extends BaseController
                 $this->viewData['errors'] = $this->validator->getErrors();
             }
             else{
-                $aktivasyon_kodu = activationCode();
+                $activationCode = activationCode();
                 $queryData = [ 
                     'user_business_name' => $data['firstname'],
                     'user_name_surname' => $data['lastname'],
@@ -100,7 +98,7 @@ class UserController extends BaseController
                     'user_adress' => $data['ec_select_city'] ?? '',
                     'user_county' => $data['ec_select_country'] ?? '', 
                     'user_reference_code' => $data['postalcode'] ?? '',
-                    'user_activation_code' => $aktivasyon_kodu,
+                    'user_activation_code' => $activationCode,
                     'user_pass' => $data['password'],
                 ];
                 $this->model->insert($queryData);
@@ -130,26 +128,7 @@ class UserController extends BaseController
     {
         $this->model->delete($id);
     }
-    private function validateRequest($input, array $rules, array $messages = [])
-    {
-        $this->validator = Services::Validation()->setRules($rules);
-        // If you replace the $rules array with the name of the group
-        if (is_string($rules)) {
-            $validation = config('Validation');
-            // If the rule wasn't found in the \Config\Validation, we
-            // should throw an exception so the developer can find it.
-            if (!isset($validation->$rules)) {
-                throw ValidationException::forRuleNotFound($rules);
-            }
-            // If no error message is defined, use the error message in the Config\Validation file
-            if (!$messages) {
-                $errorName = $rules . '_errors';
-                $messages = $validation->$errorName ?? [];
-            }
-            $rules = $validation->$rules;
-        }
-        return $this->validator->setRules($rules, $messages)->run($input);
-    }
+   
     private function getJWTForUser(string $user)
     {
         try {

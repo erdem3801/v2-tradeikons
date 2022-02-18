@@ -9,7 +9,9 @@
 <!-- Ec cart page -->
 <section class="ec-page-content section-space-p">
     <div class="container">
-        <form action="#">
+        <form method="post">
+            <input type="hidden" name="<?= csrf_token() ?>" value="<?= csrf_hash() ?>" />
+
             <div class="row">
                 <div class="ec-cart-leftside col-lg-8 col-md-12 ">
                     <!-- cart content Start -->
@@ -37,7 +39,7 @@
                                     <div class="col-lg-12">
                                         <div class="ec-cart-update-bottom">
                                             <a href="<?= base_url()  ?>">Alışverişe Devam Et</a>
-                                            <button type="submit" class="btn btn-primary checkout-button" >Ödeme Ekranına Git</button>
+                                            <button type="submit" class="btn btn-primary checkout-button">Ödeme Ekranına Git</button>
                                         </div>
                                     </div>
                                 </div>
@@ -65,13 +67,13 @@
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Ad <span class="text-danger">*</span></label>
-                                                    <input type="text" name="ad" placeholder="Adınızı giriniz" value="" required="">
+                                                    <input type="text" name="name" placeholder="Adınızı giriniz" value="<?= set_value('name')  ?>" required="">
                                                 </span>
                                             </div>
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Soyad <span class="text-danger">*</span></label>
-                                                    <input type="text" name="soyad" placeholder="Soyadınızı giriniz" value="" required="">
+                                                    <input type="text" name="surname" placeholder="Soyadınızı giriniz" value="<?= set_value('surname')  ?>" required="">
                                                 </span>
                                             </div>
                                         </div>
@@ -79,7 +81,7 @@
                                             <div class="col-md-12">
                                                 <span class="ec-register-wrap">
                                                     <label>Adres <span class="text-danger">*</span></label>
-                                                    <input type="text" name="address" placeholder="Adresinizi giriniz" value="" required="">
+                                                    <input type="text" name="address" placeholder="Adresinizi giriniz" value="<?= set_value('address')  ?>" required="">
                                                 </span>
                                             </div>
                                         </div>
@@ -88,89 +90,89 @@
                                                 <span class="ec-register-wrap ec-register-half">
                                                     <label>İl: <span class="text-danger">*</span></label><br>
                                                     <span class="ec-rg-select-inner">
-                                                        <select name="ec_select_city" id="Iller" class="ec-register-select border form-control" required="">
-                                                            <option value="">Lütfen Bir İl Seçiniz</option>
-                                                            <option value="1">Adana</option>
-                                                            <option value="2">Adıyaman</option>
-                                                            <option value="3">Afyonkarahisar</option>
-                                                            <option value="4">Ağrı</option>
-                                                            <option value="5">Amasya</option>
-                                                            <option value="6">Ankara</option>
-                                                            <option value="7">Antalya</option>
-                                                            <option value="8">Artvin</option>
-                                                            <option value="9">Aydın</option>
-                                                            <option value="10">Balıkesir</option>
-                                                            <option value="11">Bilecik</option>
-                                                            <option value="12">Bingöl</option>
-                                                            <option value="13">Bitlis</option>
-                                                            <option value="14">Bolu</option>
-                                                            <option value="15">Burdur</option>
-                                                            <option value="16">Bursa</option>
-                                                            <option value="17">Çanakkale</option>
-                                                            <option value="18">Çankırı</option>
-                                                            <option value="19">Çorum</option>
-                                                            <option value="20">Denizli</option>
-                                                            <option value="21">Diyarbakır</option>
-                                                            <option value="22">Edirne</option>
-                                                            <option value="23">Elazığ</option>
-                                                            <option value="24">Erzincan</option>
-                                                            <option value="25">Erzurum</option>
-                                                            <option value="26">Eskişehir</option>
-                                                            <option value="27">Gaziantep</option>
-                                                            <option value="28">Giresun</option>
-                                                            <option value="29">Gümüşhane</option>
-                                                            <option value="30">Hakkari</option>
-                                                            <option value="31">Hatay</option>
-                                                            <option value="32">Isparta</option>
-                                                            <option value="33">Mersin</option>
-                                                            <option value="34">İstanbul</option>
-                                                            <option value="35">İzmir</option>
-                                                            <option value="36">Kars</option>
-                                                            <option value="37">Kastamonu</option>
-                                                            <option value="38">Kayseri</option>
-                                                            <option value="39">Kırklareli</option>
-                                                            <option value="40">Kırşehir</option>
-                                                            <option value="41">Kocaeli</option>
-                                                            <option value="42">Konya</option>
-                                                            <option value="43">Kütahya</option>
-                                                            <option value="44">Malatya</option>
-                                                            <option value="45">Manisa</option>
-                                                            <option value="46">Kahramanmaraş</option>
-                                                            <option value="47">Mardin</option>
-                                                            <option value="48">Muğla</option>
-                                                            <option value="49">Muş</option>
-                                                            <option value="50">Nevşehir</option>
-                                                            <option value="51">Niğde</option>
-                                                            <option value="52">Ordu</option>
-                                                            <option value="53">Rize</option>
-                                                            <option value="54">Sakarya</option>
-                                                            <option value="55">Samsun</option>
-                                                            <option value="56">Siirt</option>
-                                                            <option value="57">Sinop</option>
-                                                            <option value="58">Sivas</option>
-                                                            <option value="59">Tekirdağ</option>
-                                                            <option value="60">Tokat</option>
-                                                            <option value="61">Trabzon</option>
-                                                            <option value="62">Tunceli</option>
-                                                            <option value="63">Şanlıurfa</option>
-                                                            <option value="64">Uşak</option>
-                                                            <option value="65">Van</option>
-                                                            <option value="66">Yozgat</option>
-                                                            <option value="67">Zonguldak</option>
-                                                            <option value="68">Aksaray</option>
-                                                            <option value="69">Bayburt</option>
-                                                            <option value="70">Karaman</option>
-                                                            <option value="71">Kırıkkale</option>
-                                                            <option value="72">Batman</option>
-                                                            <option value="73">Şırnak</option>
-                                                            <option value="74">Bartın</option>
-                                                            <option value="75">Ardahan</option>
-                                                            <option value="76">Iğdır</option>
-                                                            <option value="77">Yalova</option>
-                                                            <option value="78">Karabük</option>
-                                                            <option value="79">Kilis</option>
-                                                            <option value="80">Osmaniye</option>
-                                                            <option value="81">Düzce</option>
+                                                        <select name="ec_select_city" id="Iller" class="ec-register-select border form-control"  required="">
+                                                            <option <?= set_select('ec_select_city')  ?> value="">Lütfen Bir İl Seçiniz</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="1">Adana</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="2">Adıyaman</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="3">Afyonkarahisar</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="4">Ağrı</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="5">Amasya</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="6">Ankara</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="7">Antalya</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="8">Artvin</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="9">Aydın</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="10">Balıkesir</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="11">Bilecik</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="12">Bingöl</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="13">Bitlis</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="14">Bolu</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="15">Burdur</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="16">Bursa</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="17">Çanakkale</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="18">Çankırı</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="19">Çorum</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="20">Denizli</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="21">Diyarbakır</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="22">Edirne</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="23">Elazığ</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="24">Erzincan</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="25">Erzurum</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="26">Eskişehir</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="27">Gaziantep</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="28">Giresun</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="29">Gümüşhane</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="30">Hakkari</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="31">Hatay</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="32">Isparta</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="33">Mersin</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="34">İstanbul</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="35">İzmir</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="36">Kars</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="37">Kastamonu</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="38">Kayseri</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="39">Kırklareli</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="40">Kırşehir</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="41">Kocaeli</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="42">Konya</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="43">Kütahya</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="44">Malatya</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="45">Manisa</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="46">Kahramanmaraş</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="47">Mardin</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="48">Muğla</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="49">Muş</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="50">Nevşehir</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="51">Niğde</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="52">Ordu</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="53">Rize</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="54">Sakarya</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="55">Samsun</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="56">Siirt</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="57">Sinop</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="58">Sivas</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="59">Tekirdağ</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="60">Tokat</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="61">Trabzon</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="62">Tunceli</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="63">Şanlıurfa</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="64">Uşak</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="65">Van</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="66">Yozgat</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="67">Zonguldak</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="68">Aksaray</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="69">Bayburt</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="70">Karaman</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="71">Kırıkkale</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="72">Batman</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="73">Şırnak</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="74">Bartın</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="75">Ardahan</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="76">Iğdır</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="77">Yalova</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="78">Karabük</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="79">Kilis</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="80">Osmaniye</option>
+                                                            <option <?= set_select('ec_select_city')  ?> value="81">Düzce</option>
                                                         </select>
                                                     </span>
                                                 </span>
@@ -219,12 +221,12 @@
                                             <span class="text-right delivery-charges"><span> 0 </span> ₺</span>
                                         </div>
 
-                                        <div class="ec-cart-coupan-content">
+                                        <!-- <div class="ec-cart-coupan-content">
                                             <form class="ec-cart-coupan-form" name="ec-cart-coupan-form" method="post" action="#">
                                                 <input class="ec-coupan" type="text" required="" placeholder="Enter Your Coupan Code" name="ec-coupan" value="">
                                                 <button class="ec-coupan-btn button btn-primary" type="submit" name="subscribe" value="">Apply</button>
                                             </form>
-                                        </div>
+                                        </div> -->
                                         <div class="ec-cart-summary-total">
                                             <span class="text-left">Toplam Tutar</span>
                                             <span class="text-right total-amount"><span> 0 </span> ₺</span>

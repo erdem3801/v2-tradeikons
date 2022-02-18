@@ -1,3 +1,13 @@
+<!-- 
+/**
+ * @package		Tradeikons v2 E-ticaret sitesi
+ * @author		Burkay Erdem burkaerdem@gmail.com
+ * @copyright	Copyright (c) 2022 , E-TRADETEK. (http://www.e-tradetek.com.tr/) 
+ * @link		http://www.e-tradetek.com.tr/
+*/
+
+ -->
+
 <!DOCTYPE html>
 <html lang="tr">
 
@@ -132,3 +142,4 @@
 </body>
 
 </html>
+ 
