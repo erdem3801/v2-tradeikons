@@ -32576,6 +32576,8 @@ input[type=email]:focus::-webkit-input-placeholder {
    overflow-x: hidden;
 }
 
+/* custome sytlies start point */
+
 .quickview-pro-content .ec-quickview-desc::-webkit-scrollbar {
   width: 7px;
 }

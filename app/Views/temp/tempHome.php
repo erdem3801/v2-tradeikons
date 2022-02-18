@@ -21,7 +21,7 @@
 
     <!-- css All Plugins Files -->
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/animate.css" />
-    <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/swiper-bundle.min.css" /> -->
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/jquery-ui.min.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/countdownTimer.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/plugins/slick.min.css" />
@@ -30,9 +30,9 @@
     <?= $this->renderSection('style')  ?>
     
     <!-- Main Style -->
-    <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/responsive.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/style.css" />
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/main.css" />
+    <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/responsive.css" />
     <!-- Background css -->
     <link rel="stylesheet" id="bg-switcher-css" href="<?= base_url('public')  ?>/assets/css/backgrounds/bg-4.css">
 
