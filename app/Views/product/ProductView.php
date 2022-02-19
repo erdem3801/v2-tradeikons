@@ -52,7 +52,7 @@
                                     <div class="ec-single-price-stoke">
                                         <div class="ec-single-price">
                                             <span class="ec-single-ps-title">En Uygun Fiyat</span>
-                                            <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
+                                            <span class="new-price"><?= $product['price']  ?> ₺</span>
                                         </div>
                                         <div class="ec-single-stoke">
                                             <span class="ec-single-ps-title">Stok Kodu</span>
@@ -284,7 +284,7 @@
                             </div>
                             <div class="ec-pro-list-desc"><?= $product['description']  ?></div>
                             <span class="ec-price">
-                                <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
+                                <span class="new-price"><?= $product['price']  ?> ₺</span>
                             </span>
                             <!-- <div class="ec-pro-option">
                                 <div class="ec-pro-color">

@@ -115,111 +115,43 @@
                     </div>
                     <div class="ec-sidebar-wrap">
                         <!-- Sidebar Category Block -->
-                        <div class="ec-sidebar-block">
-                            <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Marka</h3>
-                            </div>
-                            <div class="ec-sb-block-content">
-                                <ul>
-                                    <?php $drop = false;
-                                    foreach ($filters as $key => $filter) :  ?>
-                                        <?php if ($key == 5) : $drop = true; ?>
-                                            <li id="ec-more-toggle-content" style="padding: 0; display: none;">
-                                                <ul>
-                                                <?php endif  ?>
+                        <?php foreach ($filters as $index => $filter) :  ?>
+                            <div class="ec-sidebar-block">
+                                <div class="ec-sb-title">
+                                    <?php if(count($filter)) : ?>
+                                    <h3 class="ec-sidebar-title"><?= $index  ?></h3>
+                                    <?php endif  ?>
+                                </div>
+                                <div class="ec-sb-block-content">
+                                    <ul>
+                                        <?php $drop = false; ?>
+                                        
+                                        <?php foreach ($filter as $key => $values) : ?>
+                                            <?php if ($key == 5) : $drop = true; ?>
+                                                <li id="ec-more-toggle-content"  class="ec-more-toggle-content" style="padding: 0; display: none;">
+                                                    <ul>
+                                                    <?php endif  ?>
+                                                    <li>
+                                                        <div class="ec-sidebar-block-item">
+                                                            <input type="checkbox" /> <a href="#"> <?= $values['value']  ?> </a><span class="checked"></span>
+                                                        </div>
+                                                    </li>
+                                                    <?php if ($key == count($filter) - 1 && $drop) :  ?>
+                                                    </ul>
+                                                </li>
                                                 <li>
-                                                    <div class="ec-sidebar-block-item">
-                                                        <input type="checkbox" /> <a href="#"> <?= $filter['manufacturer_id']  ?> </a><span class="checked"></span>
+                                                    <div class="ec-sidebar-block-item ec-more-toggle">
+                                                        <span class="checked"></span><span id="ec-more-toggle" class="ec-more-toggle-span">Daha Fazla...</span>
                                                     </div>
                                                 </li>
-                                                <?php if ($key == count($filters) - 1 && $drop) :  ?>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <div class="ec-sidebar-block-item ec-more-toggle">
-                                                    <span class="checked"></span><span id="ec-more-toggle">Daha Fazla...</span>
-                                                </div>
-                                            </li>
-                                        <?php endif  ?>
-                                    <?php endforeach  ?>
-                                </ul>
+                                            <?php endif  ?>
+                                        <?php endforeach  ?>
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Sidebar Size Block -->
-                        <div class="ec-sidebar-block">
-                            <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Beden</h3>
-                            </div>
-                            <div class="ec-sb-block-content">
-                                <ul>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" checked /><a href="#">S</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /><a href="#">M</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /> <a href="#">L</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /><a href="#">XL</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /><a href="#">XXL</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Sidebar Color item -->
-                        <div class="ec-sidebar-block ec-sidebar-block-clr">
-                            <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Renk</h3>
-                            </div>
-                            <div class="ec-sb-block-content">
-                                <ul>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#c4d6f9;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#ff748b;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#000000;"></span></div>
-                                    </li>
-                                    <li class="active">
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#2bff4a;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#ff7c5e;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#f155ff;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#ffef00;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#c89fff;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#7bfffa;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#56ffc1;"></span></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <?php endforeach  ?>
+
                         <!-- Sidebar Price Block -->
                         <div class="ec-sidebar-block">
                             <div class="ec-sb-title">

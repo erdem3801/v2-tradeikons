@@ -879,15 +879,17 @@ function ecAccessCookie(cookieName) {
     /*----------------------------- Load More Category -------------------------------- */
     $(document).ready(function () {
         $(".ec-more-toggle").click(function () {
-            var elem = $(".ec-more-toggle #ec-more-toggle").text();
+           
+            var elem = $(this).closest('.ec-sidebar-block').find(".ec-more-toggle .ec-more-toggle-span").text();
+            
             if (elem == "Daha Fazla...") {
-                $(".ec-more-toggle #ec-more-toggle").text("");
-                $(".ec-more-toggle").toggleClass('active');
-                $("#ec-more-toggle-content").slideDown();
+                $(this).closest('.ec-sidebar-block').find(".ec-more-toggle .ec-more-toggle-span").text("");
+                $(this).closest('.ec-sidebar-block').find(".ec-more-toggle").toggleClass('active');
+                $(this).closest('.ec-sidebar-block').find(".ec-more-toggle-content").slideDown();
             } else {
-                $(".ec-more-toggle  #ec-more-toggle").text("Daha Fazla...");
-                $(".ec-more-toggle").removeClass('active');
-                $("#ec-more-toggle-content").slideUp();
+                $(this).closest('.ec-sidebar-block').find(".ec-more-toggle  .ec-more-toggle-span").text("Daha Fazla...");
+                $(this).closest('.ec-sidebar-block').find(".ec-more-toggle").removeClass('active');
+                $(this).closest('.ec-sidebar-block').find(".ec-more-toggle-content").slideUp();
             }
         });
     });

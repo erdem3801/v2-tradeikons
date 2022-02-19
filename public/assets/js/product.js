@@ -5,9 +5,9 @@ $(function () {
         $('#ec_quickview_modal').modal('show');
         const product = $(this).data('product');
         $.get(`${baseUrl}/api/product/${product}`, function (res) {
-            const { description, price_sell, name, image, slug } = res.product
+            const { description, price, name, image, slug } = res.product
             $('.ec-quickview-desc').text(description);
-            $('.ec-quickview-price .new-price').text(price_sell + ' ₺');
+            $('.ec-quickview-price .new-price').text(price + ' ₺');
             $('.ec-quick-title a').text(name);
             $('.ec-quick-title a').attr('href', `${baseUrl}/${slug}`);
             imageItems = `
@@ -41,7 +41,7 @@ $(function () {
                     $(content).find('.main-image').attr('src', item.image);
                     $(content).find('.hover-image').attr('src', item.image);
                     $(content).find('.quickview').attr('data-product', item.product_id);
-                    $(content).find('.new-price').text(item.price_sell);
+                    $(content).find('.new-price').text(item.price + ' ₺');
                     $(content).find('.ec-pro-title a').text(item.name);
                     $(content).find('.ec-pro-title a').attr('href', `${baseUrl}/${item.slug}`);
 

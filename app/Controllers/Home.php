@@ -1,9 +1,7 @@
 <?php
 
 namespace App\Controllers;
-
-use App\Models\CategoriesModel;
-use App\Models\SettingsModel;
+ 
 
 class Home extends BaseController
 {

@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\CategoryModel;
+use App\Models\SettingsModel;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
@@ -56,8 +58,8 @@ class BaseController extends Controller
 
     public function getDefaults(){
         $cache = \Config\Services::cache();
-        $settingsModel = model('SettingsModel');
-        $categoryModel = model('CategoriesModel');
+        $settingsModel = new SettingsModel();
+        $categoryModel = new CategoryModel();
         if (!$categories = $cache->get('categories')) {
             $category = $categoryModel->orderBy('category_parent', 'ASC')->findAll();
             $categories = $categoryModel->getCategoryTree($category);

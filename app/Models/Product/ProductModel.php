@@ -17,6 +17,8 @@ class ProductModel extends Model
     protected $allowedFields    = [
         'product_id',
         'slug',
+        'price',
+        'quantity',
         'gtin',
         'market_place_id',
         'barcode_id',
@@ -65,8 +67,7 @@ class ProductModel extends Model
 
     public function getProductByIDs($IDs)
     {
-        $results = $this
-            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
+        $results = $this 
             ->join('product_description', 'product_description.product_id = product.product_id', 'right')
             ->find($IDs);
 
@@ -74,8 +75,7 @@ class ProductModel extends Model
     }
     public function getProductBySlug($slug)
     {
-        $results = $this
-            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
+        $results = $this 
             ->join('product_description', 'product_description.product_id = product.product_id', 'right')
             ->where('slug',$slug)
             ->first();
