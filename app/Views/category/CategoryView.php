@@ -62,7 +62,6 @@
                 <div class="shop-pro-content" data-category="<?= $categoryID  ?>">
                     <div class="shop-pro-inner">
                         <div class="row">
-
                             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-parent data-key="0">
                                 <div class="ec-product-inner">
                                     <div class="ec-pro-image-outer">
@@ -107,6 +106,20 @@
                     </div>
                     <!-- Ec Pagination Start -->
                     <!-- Ec Pagination End -->
+                    <div class="loader loader--style5" title="4">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                            <rect x="0" y="0" width="4" height="10" fill="#333">
+                                <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                            <rect x="10" y="0" width="4" height="10" fill="#333">
+                                <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.2s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                            <rect x="20" y="0" width="4" height="10" fill="#333">
+                                <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.4s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                        </svg>
+                    </div>
+
                 </div>
                 <!--Shop content End -->
             </div>
@@ -121,22 +134,22 @@
                         <?php foreach ($filters as $index => $filter) :  ?>
                             <div class="ec-sidebar-block">
                                 <div class="ec-sb-title">
-                                    <?php if(count($filter)) : ?>
-                                    <h3 class="ec-sidebar-title"><?= $index  ?></h3>
+                                    <?php if (count($filter)) : ?>
+                                        <h3 class="ec-sidebar-title"><?= $index  ?></h3>
                                     <?php endif  ?>
                                 </div>
                                 <div class="ec-sb-block-content">
                                     <ul>
                                         <?php $drop = false; ?>
-                                        
+
                                         <?php foreach ($filter as $key => $values) : ?>
                                             <?php if ($key == 5) : $drop = true; ?>
-                                                <li id="ec-more-toggle-content"  class="ec-more-toggle-content" style="padding: 0; display: none;">
+                                                <li id="ec-more-toggle-content" class="ec-more-toggle-content" style="padding: 0; display: none;">
                                                     <ul>
                                                     <?php endif  ?>
                                                     <li>
                                                         <div class="ec-sidebar-block-item">
-                                                            <input type="checkbox" /> <a href="#"> <?= $values['value']  ?> </a><span class="checked"></span>
+                                                            <input type="checkbox" class="filter" value="<?= $values['value']  ?>" data-filter="<?= $index  ?>" /> <a href="#"> <?= $values['value']  ?> </a><span class="checked"></span>
                                                         </div>
                                                     </li>
                                                     <?php if ($key == count($filter) - 1 && $drop) :  ?>

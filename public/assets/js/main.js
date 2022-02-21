@@ -260,7 +260,7 @@ function ecAccessCookie(cookieName) {
         let cartData = localStorage.getItem('cart');
         cartData = cartData ? JSON.parse(cartData) : [];
         let totalPrice = cartData.reduce((acc, cur) => (acc + cur.quantity * cur.price), 0)
-        console.log('totalPrice: ', totalPrice);
+        
         const deliveryPrice = (totalPrice > 200 ) ? 0 : 22; 
 
         $('.product-total-price').html(parseFloat(totalPrice).toFixed(2));
@@ -340,7 +340,7 @@ function ecAccessCookie(cookieName) {
         $(`*[data-key="${productID}"]`).find(".cart-price .quantity").text(QtynewVal);
         if ($(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span').length) {
             var price = $(`*[data-key="${productID}"]`).find(".amount").text();
-            console.log('price: ', price);
+            
             $(`*[data-key="${productID}"]`).find(".ec-cart-pro-subtotal span").text(QtynewVal * price);
         }
     });

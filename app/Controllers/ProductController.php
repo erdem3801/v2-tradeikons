@@ -31,9 +31,8 @@ class ProductController extends BaseController
         ]; 
         
         $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
-        $productCategory = $this->categoryToProductModel->where('product_id',$product['product_id'])->first();
-        $productList = $this->categoryToProductModel->getProductList($productCategory['category_id'],4);
-        $similarProduct = $this->productModel->getProductByIDs($productList);
+        $productCategory = $this->categoryToProductModel->where('product_id',$product['product_id'])->first(); 
+        $similarProduct = $this->productModel->getProductByIDs($productCategory['category_id'],4,0);
 
         $this->viewData['product'] = $product;
         $this->viewData['similarProduct'] = $similarProduct;

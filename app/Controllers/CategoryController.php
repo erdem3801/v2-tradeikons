@@ -85,7 +85,7 @@ class CategoryController extends BaseController
 
 
 
-        return view('category/CategoryView', $this->viewData);
+        return view('category/CategoryView', $this->viewData ,['cache' => 100]);
         //
     }
 }
