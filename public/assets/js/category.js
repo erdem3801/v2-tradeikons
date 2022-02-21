@@ -27,6 +27,7 @@ $(function () {
                     $(content).find('.new-price').text(item.price);
                     $(content).find('.ec-pro-title a').text(item.name);
                     $(content).find('.ec-pro-title a').attr('href', `${baseUrl}/${item.slug}`);
+                    $(content).find('.ec-pro-image a').attr('href', `${baseUrl}/${item.slug}`);
                     container.append(content)
                 });
                 if (res.product.length == limit)

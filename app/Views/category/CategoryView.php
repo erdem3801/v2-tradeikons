@@ -18,10 +18,10 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-around">
                     <div class="ec-cat-bnr">
-                        <a href="product-left-sidebar.html"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="" class="img-fluid"></a>
+                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="" class="img-fluid"></a>
                     </div>
                     <div class="ec-cat-bnr">
-                        <a href="product-left-sidebar.html"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="" class="img-fluid"></a>
+                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                                 <div class="ec-product-inner">
                                     <div class="ec-pro-image-outer">
                                         <div class="ec-pro-image">
-                                            <a href="product-left-sidebar.html" class="image">
+                                            <a href="" class="image">
                                                 <img class="main-image" src=" " alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                                 <img class="hover-image" src=" " alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                             </a>
