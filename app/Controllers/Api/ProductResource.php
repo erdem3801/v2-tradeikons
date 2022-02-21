@@ -26,8 +26,8 @@ class ProductResource extends ResourceController
         $orderClass = array(
             'enyeni' => ['orderBy' => 'date_added', 'order' => 'DESC'],
             'urunpuani' => ['orderBy' => 'points', 'order' => 'DESC'],
-            'adanz' =>  ['orderBy' => 'name', 'order' => 'DESC'],
-            'zdena'  =>  ['orderBy' => 'name', 'order' => 'ASC'],
+            'adanz' =>  ['orderBy' => 'name', 'order' => 'ASC'],
+            'zdena'  =>  ['orderBy' => 'name', 'order' => 'DESC'],
             'azlanfiyat'  =>  ['orderBy' => 'price', 'order' => 'DESC'],
             'artanfiyat'  =>  ['orderBy' => 'price', 'order' => 'ASC'],
         ); 
