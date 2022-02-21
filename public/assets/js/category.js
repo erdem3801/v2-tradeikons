@@ -38,8 +38,16 @@ $(function () {
             })
         }
     }
-    $('input[type=checkbox].filter').on('change',function(){
-        var data = ''
+    $('input[type=checkbox].filter').on('change', function () {
+        var filter = [];
+        var checkboxes = $('input[type=checkbox].filter:checked');
+
+        checkboxes.each((index ,element) => { 
+            const val = $(element).val(),
+                name = $(element).data('filter'); 
+        })
+        console.log('filter: ', filter);
+        console.log('checkboxes: ', checkboxes);
     })
     $('#ec-select').on('change', async function () {
         const val = $(this).val();

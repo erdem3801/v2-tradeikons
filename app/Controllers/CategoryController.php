@@ -68,9 +68,7 @@ class CategoryController extends BaseController
             $filters['manufacturer'] = $this->productModel->select('manufacturer_id as value')->distinct()->find($productList);
             $filter['varyant'] = $this->productOptionModel->select('name')->distinct()->find($productList);
           
-            foreach ($filter['varyant'] as $key => $filter_val) {
-            
-                
+            foreach ($filter['varyant'] as $key => $filter_val) {    
                 $filters[$filter_val['name']] = $this->productOptionModel->select('value')->distinct()->where('name',$filter_val['name'])->where('value !=' ,'Standart' )->find($productList);
             }
             //print_d($filters);
@@ -82,8 +80,6 @@ class CategoryController extends BaseController
         $this->viewData['baslik'] = $breadcrump;
         $this->viewData['mainbannerImg'] = $mainData['category_image'] ?? '';
         $this->viewData['bannerImg'] = $submainData['category_image'] ?? '';
-
-
 
         return view('category/CategoryView', $this->viewData);
         //
