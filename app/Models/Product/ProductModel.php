@@ -65,32 +65,34 @@ class ProductModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function getProductByIDs($IDs)
+    public function getProductByIDs($IDs,$limit , $offset, $order = array())
     {
-        $results = $this 
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
-            ->find($IDs);
+        $this->join('product_description', 'product_description.product_id = product.product_id' );
+        $this->join('category_to_product', 'category_to_product.product_id = product.product_id');
+        $this->where('category_id',$IDs);
+        if ($order)
+            $this->orderBy($order['orderBy'], $order['order']);
+        $results = $this->findAll($limit, $offset);
 
         return $results;
     }
     public function getProductBySlug($slug)
     {
-        $results = $this 
+        $results = $this
             ->join('product_description', 'product_description.product_id = product.product_id', 'right')
-            ->where('slug',$slug)
+            ->where('slug', $slug)
             ->first();
 
         return $results;
     }
-    
+
 
     public function getProducts()
     {
-        $results = $this 
-            ->where('slug',null)
+        $results = $this
+            ->where('slug', null)
             ->join('product_description', 'product_description.product_id = product.product_id', 'right')
             ->findAll();
         return $results;
     }
-
 }

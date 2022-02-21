@@ -6,8 +6,10 @@
 <?= $this->endSection()  ?>
 
 <?= $this->section('script')  ?>
+<script src="<?= base_url('public')  ?>/assets/js/category.js"></script>
 <script src="<?= base_url('public')  ?>/assets/js/plugins/nouislider.js"></script>
 <?= $this->endSection()  ?>
+
 <?= $this->section('content')  ?>
 <!-- Page detail section -->
 <section class="ec-bnr-detail mb-5 section-space-pt d-none d-sm-none d-md-none  d-lg-block">
@@ -41,16 +43,16 @@
                         </div>
                     </div>
                     <div class="col-md-6 ec-sort-select">
-                        <span class="sort-by">Sort by</span>
+                        <span class="sort-by">Sıralama</span>
                         <div class="ec-select-inner">
                             <select name="ec-select" id="ec-select">
                                 <option selected disabled>Sıralama</option>
-                                <option value="2"> A dan Z ye</option>
-                                <option value="3"> Z den A ya</option>
-                                <option value="4"> Fiyat, azalan</option>
-                                <option value="5"> Fiyat, artan</option>
-                                <option value="5"> Eskiden Yeniye</option>
-                                <option value="5"> Yeniden Eskiye</option>
+                                <option value="enyeni"> En yeni</option>
+                                <option value="urunpuani"> Ürün Puanı</option>
+                                <option value="adanz" data-order="asc"> A dan Z ye</option>
+                                <option value="zdena" data-order="desc"> Z den A ya</option>
+                                <option value="azlanfiyat"> Fiyat, azalan</option>
+                                <option value="artanfiyat"> Fiyat, artan</option>
                             </select>
                         </div>
                     </div>
@@ -77,7 +79,7 @@
                                             </a>
                                             <div class="ec-pro-actions">
                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
+                                                <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Sepete Ekle</button>
                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                             </div>
                                         </div>
@@ -94,6 +96,7 @@
                                         <div class="ec-pro-list-desc"> </div>
                                         <span class="ec-price">
                                             <span class="new-price"> </span>
+                                            <span class="new-price-currentcy"> ₺ </span>
                                         </span>
 
                                     </div>

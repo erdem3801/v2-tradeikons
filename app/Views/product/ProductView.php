@@ -1,5 +1,9 @@
 <?= $this->extend('temp/tempHome')  ?>
 
+<?= $this->section('script')  ?>
+
+<script src="<?= base_url('public')  ?>/assets/js/product.js"></script>
+<?= $this->endSection()  ?>
 <?= $this->section('content')  ?>
 <!-- Sart Single product -->
 <section class="ec-page-content section-space-p">

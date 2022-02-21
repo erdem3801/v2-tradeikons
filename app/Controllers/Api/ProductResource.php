@@ -12,8 +12,8 @@ class ProductResource extends ResourceController
     private $imageModel;
     public function __construct()
     {
-        
-       
+
+
         $this->productModel = new ProductModel();
     }
     /**
@@ -23,27 +23,38 @@ class ProductResource extends ResourceController
      */
     public function index()
     {
-        $categoryToProductModel = model('CategoryToProduct');
-
-        $offset = (int)$this->request->getVar('offset') ;
+        $orderClass = array(
+            'enyeni' => ['orderBy' => 'date_added', 'order' => 'DESC'],
+            'urunpuani' => ['orderBy' => 'points', 'order' => 'DESC'],
+            'adanz' =>  ['orderBy' => 'name', 'order' => 'DESC'],
+            'zdena'  =>  ['orderBy' => 'name', 'order' => 'ASC'],
+            'azlanfiyat'  =>  ['orderBy' => 'price', 'order' => 'DESC'],
+            'artanfiyat'  =>  ['orderBy' => 'price', 'order' => 'ASC'],
+        ); 
+        $offset = (int)$this->request->getVar('offset');
         $limit = $this->request->getVar('limit');
         $categoryID = $this->request->getVar('category');
-        
-      
+        $order = $this->request->getVar('order') ?? '';
 
-        $productList = $categoryToProductModel->getProductList($categoryID,$limit,$offset);
-        $product = $this->productModel->getProductByIDs($productList);
-            //
-          
-            if ($product){ 
+ 
+        $order = isset($orderClass[$order]) ? $orderClass[$order] : array();
+
+        $product = $this->productModel->getProductByIDs($categoryID, $limit, $offset, $order);
+
+        //
+        if ($this->request->isAJAX()) {
+
+            if ($product) {
                 $response = array(
                     'status' => true,
-                    'product' => $product, 
+                    'product' => $product,
                 );
                 return $this->respond($response, ResponseInterface::HTTP_OK);
-
             }
-        return $this->failNotFound();
+            return $this->failNotFound();
+        }
+        print_r($product);
+
         //
     }
     /**
@@ -57,19 +68,17 @@ class ProductResource extends ResourceController
             ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
             ->join('product_description', 'product_description.product_id = product.product_id', 'right')
             ->find($id);
-            //
-            
-            if ($product){
-             
-                $response = array(
-                    'status' => true,
-                    'product' => $product, 
-                );
-                return $this->respond($response, ResponseInterface::HTTP_OK);
+        //
 
-            }
+        if ($product) {
+
+            $response = array(
+                'status' => true,
+                'product' => $product,
+            );
+            return $this->respond($response, ResponseInterface::HTTP_OK);
+        }
         return $this->failNotFound();
-
     }
     /**
      * Return a new resource object, with default properties

@@ -260,7 +260,8 @@ function ecAccessCookie(cookieName) {
         let cartData = localStorage.getItem('cart');
         cartData = cartData ? JSON.parse(cartData) : [];
         let totalPrice = cartData.reduce((acc, cur) => (acc + cur.quantity * cur.price), 0)
-        const deliveryPrice = (totalPrice > 200 ) ? 0 : 22;
+        console.log('totalPrice: ', totalPrice);
+        const deliveryPrice = (totalPrice > 200 ) ? 0 : 22; 
 
         $('.product-total-price').html(parseFloat(totalPrice).toFixed(2));
         $('.sub-total').html(parseFloat(totalPrice).toFixed(2));
