@@ -169,7 +169,7 @@
                     <div class="ec-main-menu">
                         <ul>
                             <?php foreach ($categories as $main) :  ?>
-                                <li class="dropdown position-static"><a href="javascript:void(0)"><?= $main["category_title"] ?></a>
+                                <li class="dropdown position-static"><a href="#"><?= $main["category_title"] ?></a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
                                             <?php if (isset($main["node"])) : ?>
@@ -209,7 +209,7 @@
             <div class="ec-menu-content">
                 <ul>
                     <?php foreach ($categories as  $main) : ?>
-                        <li><a href="javascript:void(0)"><?= $main["category_title"] ?></a>
+                        <li><a href="#"><?= $main["category_title"] ?></a>
                             <ul class="sub-menu">
                                 <?php if (isset($main["node"])) : ?>
                                     <?php foreach ($main['node'] as $submain) :  ?>

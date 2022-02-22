@@ -248,7 +248,7 @@ function ecAccessCookie(cookieName) {
                                 <div class="dec ec_qtybtn"> - </div>
                                 <input class="qty-input" type="text" name="ec_qtybtn" value="${cartItem.quantity}" readonly>
                                 <div class="inc ec_qtybtn">+</div></div>
-                                <a href="javascript:void(0)" class="remove">×</a>
+                                <a href="#" class="remove">×</a>
                             </div>
                         </div>
                     </li>`

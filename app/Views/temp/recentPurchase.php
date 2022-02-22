@@ -5,5 +5,5 @@
         <h6>stylish baby shoes</h6>
         <p>10 Minutes ago</p>
     </div>
-    <a href="javascript:void(0)" class="icon-btn recent-close">×</a>
+    <a href="#" class="icon-btn recent-close">×</a>
 </div>

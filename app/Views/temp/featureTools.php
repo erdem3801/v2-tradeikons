@@ -58,7 +58,7 @@
         </div>
         <div class="ec-tools-sidebar-content">
             <h3>Clear local storage</h3>
-            <a class="clear-cach" href="javascript:void(0)">Clear Cache & Default</a>
+            <a class="clear-cach" href="#">Clear Cache & Default</a>
         </div>
     </div>
 </div>

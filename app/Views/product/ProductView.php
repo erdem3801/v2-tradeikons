@@ -99,7 +99,7 @@
                                             <button class="btn btn-success">Hemen Al</button>
                                         </div>
                                         <div class="ec-single-wishlist">
-                                            <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                            <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                         </div>
 
                                         <div class="ec-single-social mt-1">
@@ -273,7 +273,7 @@
                                 <div class="ec-pro-actions">
                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
                                     <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                    <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                    <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
                                 </div>
                             </div>
                         </div>

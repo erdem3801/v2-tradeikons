@@ -11,7 +11,7 @@
                 <ul>
                     <!-- Start Single Contact List -->
                     <li>
-                        <a class="ec-list" data-number="918866774266"
+                        <a class="ec-list" href="#" data-number="918866774266"
                             data-message="Please help me! I have got wrong product - ORDER ID is : #654321485">
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
@@ -35,7 +35,7 @@
                     <!--/ End Single Contact List -->
                     <!-- Start Single Contact List -->
                     <li>
-                        <a class="ec-list" data-number="918866774266"
+                        <a class="ec-list" href="#" data-number="918866774266"
                             data-message="Please help me! I have got wrong product - ORDER ID is : #654321485">
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
@@ -59,7 +59,7 @@
                     <!--/ End Single Contact List -->
                     <!-- Start Single Contact List -->
                     <li>
-                        <a class="ec-list" data-number="918866774266"
+                        <a class="ec-list" href="#" data-number="918866774266"
                             data-message="Please help me! I have got wrong product - ORDER ID is : #654321485">
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
@@ -83,7 +83,7 @@
                     <!--/ End Single Contact List -->
                     <!-- Start Single Contact List -->
                     <li>
-                        <a class="ec-list" data-number="918866774266"
+                        <a class="ec-list" href="#" data-number="918866774266"
                             data-message="Please help me! I have got wrong product - ORDER ID is : #654321485">
                             <div class="d-flex bd-highlight">
                                 <!-- Profile Picture -->
