@@ -11,7 +11,7 @@ $(function () {
             $('.ec-quick-title a').attr('href', `${baseUrl}/${slug}`);
             imageItems = `
                 <div class="qty-slide">
-                    <img class="img-responsive" src="${image}" alt="">
+                    <img class="img-responsive" src="${image}" alt="responsive">
                 </div>
                 `;
             $('.qty-product-cover').html(imageItems);

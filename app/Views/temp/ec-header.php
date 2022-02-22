@@ -11,13 +11,13 @@
                             <?php
 
                             if ($settings->facebook != null || $settings->facebook != "")
-                                echo '<li class="list-inline-item"><a class="hdr-facebook" href="' . $settings->facebook . '" target="_blank"><i class="ecicon eci-facebook"></i></a></li>';
+                                echo '<li class="list-inline-item"><a rel="nofollow" class="hdr-facebook" href="' . $settings->facebook . '" target="_blank"><i class="ecicon eci-facebook"></i></a></li>';
                             if ($settings->instagram != null || $settings->instagram != "")
-                                echo '<li class="list-inline-item"><a class="hdr-instagram" href="' . $settings->instagram . '" target="_blank"><i class="ecicon eci-instagram"></i></a></li>';
+                                echo '<li class="list-inline-item"><a rel="nofollow" class="hdr-instagram" href="' . $settings->instagram . '" target="_blank"><i class="ecicon eci-instagram"></i></a></li>';
                             if ($settings->linkedin != null || $settings->linkedin != "")
-                                echo '<li class="list-inline-item"><a class="hdr-linkedin" href="' . $settings->linkedin . '" target="_blank"><i class="ecicon eci-linkedin"></i></a></li>';
+                                echo '<li class="list-inline-item"><a rel="nofollow" class="hdr-linkedin" href="' . $settings->linkedin . '" target="_blank"><i class="ecicon eci-linkedin"></i></a></li>';
                             if ($settings->twitter != null || $settings->twitter != "")
-                                echo '<li class="list-inline-item"><a class="hdr-twitter" href="' . $settings->twitter . '" target="_blank"><i class="ecicon eci-twitter"></i></a></li>';
+                                echo '<li class="list-inline-item"><a rel="nofollow" class="hdr-twitter" href="' . $settings->twitter . '" target="_blank"><i class="ecicon eci-twitter"></i></a></li>';
                             ?>
 
                         </ul>
@@ -41,7 +41,7 @@
                     <div class="ec-header-bottons">
                         <!-- Header User Start -->
                         <div class="ec-header-user dropdown">
-                            <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
+                            <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="user" /></button>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li><a class="dropdown-item" href="register.html">Register</a></li>
                                 <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
@@ -51,13 +51,13 @@
                         <!-- Header User End -->
                         <!-- Header Cart Start -->
                         <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
-                            <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="" /></div>
+                            <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="istek listesi" /></div>
                             <span class="ec-header-count">4</span>
                         </a>
                         <!-- Header Cart End -->
                         <!-- Header Cart Start -->
                         <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
-                            <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="" /></div>
+                            <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="cart" /></div>
                             <span class="ec-header-count cart-count-lable">3</span>
                         </a>
                         <!-- Header Cart End -->
@@ -91,7 +91,7 @@
                         <div class="header-search">
                             <form class="ec-btn-group-form" action="#">
                                 <input class="form-control" placeholder="Enter Your Product Name..." type="text">
-                                <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="" /></button>
+                                <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
                             </form>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
 
                             <!-- Header User Start -->
                             <div class="ec-header-user dropdown">
-                                <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="" /></button>
+                                <button class="dropdown-toggle" data-bs-toggle="dropdown"><img src="<?= base_url('public')  ?>/assets/images/icons/user.svg" class="svg_img header_svg" alt="user" /></button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <?php if (session()->get('user')) : ?>
                                         <li><a class="dropdown-item" href="<?= base_url('acount')  ?>">Hesabım</a></li>
@@ -118,13 +118,13 @@
                             <!-- Header User End -->
                             <!-- Header wishlist Start -->
                             <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
-                                <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="" /></div>
+                                <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img header_svg" alt="istek listesi" /></div>
                                 <span class="ec-header-count wishlist-count-lable">0</span>
                             </a>
                             <!-- Header wishlist End -->
                             <!-- Header Cart Start -->
                             <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
-                                <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="" /></div>
+                                <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="cart" /></div>
                                 <span class="ec-header-count cart-count-lable">0</span>
                             </a>
                             <!-- Header Cart End -->

@@ -99,7 +99,7 @@
                                             <button class="btn btn-success">Hemen Al</button>
                                         </div>
                                         <div class="ec-single-wishlist">
-                                            <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                            <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                         </div>
 
                                         <div class="ec-single-social mt-1">
@@ -153,7 +153,7 @@
                                     <!-- <div class="ec-t-review-wrapper">
                                         <div class="ec-t-review-item">
                                             <div class="ec-t-review-avtar">
-                                                <img src="<?= base_url('public') ?>/assets/images/review-image/1.jpg" alt="" />
+                                                <img src="<?= base_url('public') ?>/assets/images/review-image/1.jpg" alt="review" />
                                             </div>
                                             <div class="ec-t-review-content">
                                                 <div class="ec-t-review-top">
@@ -178,7 +178,7 @@
                                         </div>
                                         <div class="ec-t-review-item">
                                             <div class="ec-t-review-avtar">
-                                                <img src="<?= base_url('public') ?>/assets/images/review-image/2.jpg" alt="" />
+                                                <img src="<?= base_url('public') ?>/assets/images/review-image/2.jpg" alt="review" />
                                             </div>
                                             <div class="ec-t-review-content">
                                                 <div class="ec-t-review-top">
@@ -269,11 +269,11 @@
                                 <span class="flags">
                                     <span class="new">New</span>
                                 </span>
-                                <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
                                 <div class="ec-pro-actions">
-                                    <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                    <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                    <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                    <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
+                                    <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Add To Cart</button>
+                                    <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                 </div>
                             </div>
                         </div>

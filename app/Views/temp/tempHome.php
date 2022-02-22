@@ -122,8 +122,7 @@
     <script src="<?= base_url('public')  ?>/assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/vendor/modernizr-3.11.2.min.js"></script>
 
-    <!--Plugins JS-->
-    <script src="<?= base_url('public')  ?>/assets/js/plugins/swiper-bundle.min.js"></script>
+    <!--Plugins JS--> 
     <script src="<?= base_url('public')  ?>/assets/js/plugins/countdownTimer.min.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/plugins/scrollup.js"></script>
     <script src="<?= base_url('public')  ?>/assets/js/plugins/jquery.zoom.min.js"></script>

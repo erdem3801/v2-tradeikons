@@ -8,7 +8,7 @@
                         <!-- Swiper -->
                         <div class="qty-product-cover">
                             <div class="qty-slide">
-                                <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="">
+                                <img class="img-responsive" src="<?= base_url('public')  ?>/assets/images/product-image/3_1.jpg" alt="product">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                     <div class="inc ec_qtybtn">+</div>
                                 </div>
                                 <div class="ec-quickview-cart ">
-                                    <button class="btn btn-primary"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Sepete Ekle</button>
+                                    <button class="btn btn-primary"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
                                 </div>
                             </div>
                         </div>

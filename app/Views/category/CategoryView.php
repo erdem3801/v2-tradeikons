@@ -18,10 +18,10 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-around">
                     <div class="ec-cat-bnr">
-                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="" class="img-fluid"></a>
+                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="mainbannerImg" class="img-fluid"></a>
                     </div>
                     <div class="ec-cat-bnr">
-                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="" class="img-fluid"></a>
+                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="banner" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -38,8 +38,8 @@
                 <div class="ec-pro-list-top d-flex">
                     <div class="col-md-6 ec-grid-list">
                         <div class="ec-gl-btn">
-                            <button class="btn btn-grid active"><img src="<?= base_url('public')  ?>/assets/images/icons/grid.svg" class="svg_img gl_svg" alt="" /></button>
-                            <button class="btn btn-list"><img src="<?= base_url('public')  ?>/assets/images/icons/list.svg" class="svg_img gl_svg" alt="" /></button>
+                            <button class="btn btn-grid active"><img src="<?= base_url('public')  ?>/assets/images/icons/grid.svg" class="svg_img gl_svg" alt="grid" /></button>
+                            <button class="btn btn-list"><img src="<?= base_url('public')  ?>/assets/images/icons/list.svg" class="svg_img gl_svg" alt="list" /></button>
                         </div>
                     </div>
                     <div class="col-md-6 ec-sort-select">
@@ -74,12 +74,12 @@
                                                 <span class="new">Yeni</span>
                                             </span>
                                             <a href="#" class="quickview" data-link-action="quickview" data-product="">
-                                                <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" />
+                                                <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" />
                                             </a>
                                             <div class="ec-pro-actions">
-                                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Sepete Ekle</button>
-                                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
+                                                <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
+                                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                             </div>
                                         </div>
                                     </div>

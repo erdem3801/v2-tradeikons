@@ -95,16 +95,16 @@
                             <span class="social-text text-upper">Bizi takip edin: </span>
                             <ul class="mb-0">
                                 <?php if ($settings->facebook != null || $settings->facebook != "") : ?>
-                                    <li class="list-inline-item"><a class="hdr-facebook" href="<?= $settings->facebook  ?>"><i class="ecicon eci-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a rel="nofollow" class="hdr-facebook" href="<?= $settings->facebook  ?>"><i class="ecicon eci-facebook"></i></a></li>
                                 <?php endif  ?>
                                 <?php if ($settings->instagram != null || $settings->instagram != "") : ?>
-                                    <li class="list-inline-item"><a class="hdr-instagram" href="<?= $settings->instagram  ?>"><i class="ecicon eci-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a rel="nofollow" class="hdr-instagram" href="<?= $settings->instagram  ?>"><i class="ecicon eci-instagram"></i></a></li>
                                 <?php endif  ?>
                                 <?php if ($settings->linkedin != null || $settings->linkedin != "") : ?>
-                                    <li class="list-inline-item"><a class="hdr-linkedin" href="<?= $settings->linkedin  ?>"><i class="ecicon eci-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a rel="nofollow" class="hdr-linkedin" href="<?= $settings->linkedin  ?>"><i class="ecicon eci-linkedin"></i></a></li>
                                 <?php endif  ?>
                                 <?php if ($settings->twitter != null || $settings->twitter != "") : ?>
-                                    <li class="list-inline-item"><a class="hdr-twitter" href="<?= $settings->twitter  ?>"><i class="ecicon eci-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a rel="nofollow" class="hdr-twitter" href="<?= $settings->twitter  ?>"><i class="ecicon eci-twitter"></i></a></li>
                                 <?php endif  ?>
                             </ul>
                         </div>
