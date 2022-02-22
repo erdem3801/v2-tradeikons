@@ -62,20 +62,30 @@ class CategoryController extends BaseController
         }
 
 
-        $productList = $this->categoryToProductModel->select('product_id')->where('category_id', $categoryID)->orderBy('product_id', 'ASC')->findAll();
-        $productList = array_column($productList, "product_id");
-        if ($productList){
-            $filters['manufacturer'] = $this->productModel->select('manufacturer_id as value')->distinct()->find($productList);
-            $filter['varyant'] = $this->productOptionModel->select('name')->distinct()->find($productList);
-          
-            foreach ($filter['varyant'] as $key => $filter_val) {    
-                $filters[$filter_val['name']] = $this->productOptionModel->select('value')->distinct()->where('name',$filter_val['name'])->where('value !=' ,'Standart' )->find($productList);
-            }
-            //print_d($filters);
 
+        $filters['manufacturer']  = $this->productModel
+            ->select('manufacturer_id as value,COUNT(manufacturer_id) as count')
+            ->groupBy('manufacturer_id')
+            ->join('category_to_product', 'product.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
+            ->findAll();
+        $filter['varyant'] = $this->productOptionModel
+            ->select('name')
+            ->distinct()
+            ->join('category_to_product', 'product_option.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
+            ->findAll();
+
+        foreach ($filter['varyant'] as $key => $filter_val) {
+            $filters[$filter_val['name']] = $this->productOptionModel
+                ->select('value ,COUNT(value) as count')
+                ->groupBy('value')
+                ->where('name', $filter_val['name'])
+                ->where(['value !=' => 'Standart'])
+                ->join('category_to_product', 'product_option.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
+                ->findAll();
         }
-            $this->viewData['filters'] = $filters ?? array();
-            $this->viewData['categoryID'] = $categoryID;
+
+        $this->viewData['filters'] = $filters ?? array();
+        $this->viewData['categoryID'] = $categoryID;
 
         $this->viewData['baslik'] = $breadcrump;
         $this->viewData['mainbannerImg'] = $mainData['category_image'] ?? '';

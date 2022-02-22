@@ -1,7 +1,7 @@
 $(function () {
     let action = 'inactive';
     var order = '';
-    var manufaturer = '';
+    var filter = '';
     const updateCategory = function () {
         const contentHeigth = $(".shop-pro-content").height(),
             windowHeigth = $(window).height(),
@@ -15,39 +15,72 @@ $(function () {
 
             action = 'active';
 
-            $.get(`${baseUrl}/api/product?category=${categoryID}&offset=${offset}&limit=${limit}${order}`, function (res) {
-                res.product.forEach(item => {
-                    const content = $('.pro-gl-content.hidden').clone().get(0);
-                    $(content).removeClass('hidden');
-                    $(content).addClass('active');
-                    $(content).attr('data-key', item.product_id);
-                    $(content).find('.main-image').attr('src', item.image);
-                    $(content).find('.hover-image').attr('src', item.image);
-                    $(content).find('.quickview').attr('data-product', item.product_id);
-                    $(content).find('.new-price').text(item.price);
-                    $(content).find('.ec-pro-title a').text(item.name);
-                    $(content).find('.ec-pro-title a').attr('href', `${baseUrl}/${item.slug}`);
-                    $(content).find('.ec-pro-image a').attr('href', `${baseUrl}/${item.slug}`);
-                    container.append(content)
-                });
-                if (res.product.length == limit)
-                    action = 'inactive';
-                else {
-                    $('.loader').hide();
+            $.ajax({
+                url: `${baseUrl}/api/product?category=${categoryID}&offset=${offset}&limit=${limit}${order}${filter}`,
+                type: 'GET',
+                success: function (res) {
+                    $('.error-message-category').hide();
+
+                    res.product.forEach(item => {
+                        const content = $('.pro-gl-content.hidden').clone().get(0);
+                        $(content).removeClass('hidden');
+                        $(content).addClass('active');
+                        $(content).attr('data-key', item.product_id);
+                        $(content).find('.main-image').attr('src', item.image);
+                        $(content).find('.hover-image').attr('src', item.image);
+                        $(content).find('.quickview').attr('data-product', item.product_id);
+                        $(content).find('.new-price').text(item.price);
+                        $(content).find('.ec-pro-title a').text(item.name);
+                        $(content).find('.ec-pro-title a').attr('href', `${baseUrl}/${item.slug}`);
+                        $(content).find('.ec-pro-image a').attr('href', `${baseUrl}/${item.slug}`);
+                        container.append(content)
+                    });
+                    if (res.product.length == limit)
+                        action = 'inactive';
+                    else {
+                        $('.loader').hide();
+                    }
+                },
+                error: function (xhr) {
+                    console.log('xhr: ', xhr.status);
+                    if (xhr.status == 404) {
+                        $('.loader').hide();
+                    $('.error-message-category').fadeIn(500);
+
+
+                    }
+
                 }
             })
         }
     }
     $('input[type=checkbox].filter').on('change', function () {
-        var filter = [];
+        var filterArr = {};
         var checkboxes = $('input[type=checkbox].filter:checked');
 
-        checkboxes.each((index ,element) => { 
+        checkboxes.each((index, element) => {
             const val = $(element).val(),
-                name = $(element).data('filter'); 
+                name = $(element).data('filter');
+            filterArr[name] = filterArr[name] ? filterArr[name] : []
+            filterArr[name].push(val);
+        });
+
+        filter = '';
+        Object.entries(filterArr).map((element) => {
+
+            let url = (element[0] == 'manufacturer') ? `&${element[0]}=` : '&option=';
+            if (element.length) {
+                let joined =  element[1].join('|');
+                url += joined.replace('&','--');
+            }
+
+            filter += url;
         })
-        console.log('filter: ', filter);
-        console.log('checkboxes: ', checkboxes);
+        $('.pro-gl-content.active').remove();
+        action = 'inactive';
+        updateCategory();
+
+
     })
     $('#ec-select').on('change', async function () {
         const val = $(this).val();

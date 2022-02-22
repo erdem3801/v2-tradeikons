@@ -42,7 +42,7 @@ class UserController extends BaseController
             $data = $this->request->getPost();
             if ($this->validateRequest($data, $rules, $errors)) {
                 $token = $this->getJWTForUser($data['email']);
-                session()->set('userData',$token);
+                session()->set('user',$token);
                 return redirect()->to(base_url()."?token={$token['access_token']}");
             }
             $this->viewData['errors'] = $this->validator->getErrors(); 
@@ -103,7 +103,7 @@ class UserController extends BaseController
                 ];
                 $this->model->insert($queryData);
                 // TODO kullanıcı kaydı başarılı biryere yönledir
-                die('kullanıcı kayıt edildi');
+                return redirect()->to(base_url('uye-giris'));
             }
         }
         return view('user/register', $this->viewData);

@@ -119,6 +119,11 @@
                             </rect>
                         </svg>
                     </div>
+                    <div class="error-message-category" style="display: none;">
+                        <div class="alert alert-primary" role="alert">
+                            Ürün Bulunamadı...
+                        </div>
+                    </div>
 
                 </div>
                 <!--Shop content End -->
@@ -149,7 +154,8 @@
                                                     <?php endif  ?>
                                                     <li>
                                                         <div class="ec-sidebar-block-item">
-                                                            <input type="checkbox" class="filter" value="<?= $values['value']  ?>" data-filter="<?= $index  ?>" /> <a href="#"> <?= $values['value']  ?> </a><span class="checked"></span>
+                                                            <input type="checkbox" class="filter" value="<?= $values['value']  ?>" data-filter="<?= $index  ?>" /> <a href="#"> <?= $values['value']  ?> <?= '' // TODO $values['count'] 
+                                                                                                                                                                                                            ?> </a><span class="checked"></span>
                                                         </div>
                                                     </li>
                                                     <?php if ($key == count($filter) - 1 && $drop) :  ?>
@@ -169,7 +175,7 @@
                         <?php endforeach  ?>
 
                         <!-- Sidebar Price Block -->
-                        <div class="ec-sidebar-block">
+                        <!-- <div class="ec-sidebar-block">
                             <div class="ec-sb-title">
                                 <h3 class="ec-sidebar-title">Fiyat</h3>
                             </div>
@@ -183,7 +189,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

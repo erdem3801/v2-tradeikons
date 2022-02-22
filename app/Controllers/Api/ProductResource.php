@@ -30,16 +30,29 @@ class ProductResource extends ResourceController
             'zdena'  =>  ['orderBy' => 'name', 'order' => 'DESC'],
             'azlanfiyat'  =>  ['orderBy' => 'price', 'order' => 'DESC'],
             'artanfiyat'  =>  ['orderBy' => 'price', 'order' => 'ASC'],
-        ); 
+        );
         $offset = (int)$this->request->getVar('offset');
         $limit = $this->request->getVar('limit');
         $categoryID = $this->request->getVar('category');
         $order = $this->request->getVar('order') ?? '';
+        $manufacturer = $this->request->getVar('manufacturer') ?? '';
+        $option = $this->request->getVar('option') ?? '';
 
- 
-        $order = isset($orderClass[$order]) ? $orderClass[$order] : array();
+        $manufacturer = str_replace('--','&',$manufacturer);
+        $manufacturer = $manufacturer ? explode('|', $manufacturer) : '';
+        $option = $option ? explode('|', $option) : ''; 
 
-        $product = $this->productModel->getProductByIDs($categoryID, $limit, $offset, $order);
+        $data = [
+            'categoryID' => $categoryID,
+        ];
+        if ($order && isset($orderClass[$order]))
+            $data['order'] = $orderClass[$order];
+        if ($manufacturer)
+            $data['manufacturer'] = $manufacturer;
+        if ($option)
+            $data['option'] = $option;
+
+        $product = $this->productModel->getProductByIDs($data, $limit, $offset);
 
         //
         if ($this->request->isAJAX()) {
