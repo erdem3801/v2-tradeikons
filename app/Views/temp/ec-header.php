@@ -93,8 +93,11 @@
                             <input class="form-control search-input" autocomplete="false" autofill="off" placeholder="Ürün Ara" type="text">
                             <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
 
-                            <div class="search-result">
+                            <div class="search-result-content">
+                                <div class="search-result">
 
+                                </div>
+                                <a href="#" class="btn btn-block">Daha Fazla... (<span class="search-count">0</span>)</a>
                             </div>
                         </div>
                     </div>
@@ -156,9 +159,11 @@
 
                         <input class="form-control search-input" autocomplete="false" autofill="off" placeholder="Ürün Ara" type="text">
                         <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
+                        <div class="search-result-content">
+                            <div class="search-result">
 
-                        <div class="search-result">
-
+                            </div>
+                            <button>Daha Fazla (<span class="result-count">0</span>)</button>
                         </div>
                     </div>
                 </div>

@@ -54,6 +54,7 @@ $routes->match(['get', 'post'], 'logout', 'UserController::logout');
 
 $routes->match(['get', 'post'], 'sepet', 'CartController::Cart');
 $routes->match(['get', 'post'], 'odeme', 'CheckoutController::Checkout');
+$routes->get('search', 'ProductController::search');
 
 $routes->group('api', function ($routes) {
 

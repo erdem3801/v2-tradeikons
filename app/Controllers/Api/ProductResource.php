@@ -35,7 +35,7 @@ class ProductResource extends ResourceController
         $limit = $this->request->getVar('limit');
         $categoryID = $this->request->getVar('category');
         $order = $this->request->getVar('order') ?? '';
-        $manufacturer = $this->request->getVar('manufacturer') ?? '';
+        $manufacturer = $this->request->getVar('Marka') ?? '';
         $option = $this->request->getVar('option') ?? '';
 
         $manufacturer = str_replace('--', '&', $manufacturer);
@@ -85,8 +85,13 @@ class ProductResource extends ResourceController
             $count = $this->productModel->searchCount($name);
         }
             
-        
-        return $this->respond(['data' => $product, 'count' => $count], ResponseInterface::HTTP_OK);
+        if ($this->request->isAJAX()) {
+
+            return $this->respond(['data' => $product, 'count' => $count], ResponseInterface::HTTP_OK);
+ 
+        }
+        print_a($count);
+        print_a($product);
     }
     public function show($id = null)
     {

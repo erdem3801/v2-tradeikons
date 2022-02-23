@@ -43,4 +43,6 @@ class ProductController extends BaseController
 
         return view('product/ProductView', $this->viewData);
     }
+
+   
 }

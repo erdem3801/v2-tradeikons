@@ -95,6 +95,7 @@ class ProductModel extends Model
     {
         $results = $this
             ->join('product_description', 'product_description.product_id = product.product_id', 'left')
+            ->groupBy('product.product_id')
             ->like('name', $search)
             ->findAll($limit,$offset);
 
@@ -104,8 +105,9 @@ class ProductModel extends Model
         $results = $this
         ->selectCount('name')
         ->join('product_description', 'product_description.product_id = product.product_id', 'left')
-        ->like('name', $search)
-        ->findAll(10);
+         
+        ->like('name', $search) 
+        ->findAll();
         return $results[0]['name'];
     }
     public function getProducts()

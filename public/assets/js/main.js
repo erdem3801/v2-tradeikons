@@ -234,7 +234,7 @@ function ecAccessCookie(cookieName) {
         cartData = cartData ? JSON.parse(cartData) : [];
         $(".ec-cart-float").fadeIn();
         // Remove Empty message    
-        $(".emp-cart-msg").parent().remove(); 
+        $(".emp-cart-msg").parent().remove();
         setTimeout(function () {
             $(".ec-cart-float").fadeOut();
         }, 10000);
@@ -260,15 +260,11 @@ function ecAccessCookie(cookieName) {
         let cartData = localStorage.getItem('cart');
         cartData = cartData ? JSON.parse(cartData) : [];
         let totalPrice = cartData.reduce((acc, cur) => (acc + cur.quantity * cur.price), 0)
-        
-        const deliveryPrice = (totalPrice > 200 ) ? 0 : 22; 
-
+        const deliveryPrice = (totalPrice > 200) ? 0 : 22;
         $('.product-total-price').html(parseFloat(totalPrice).toFixed(2));
         $('.sub-total').html(parseFloat(totalPrice).toFixed(2));
         $('.delivery-charges').html(parseFloat(deliveryPrice).toFixed(2));
         $('.total-amount').html(parseFloat(deliveryPrice + totalPrice).toFixed(2));
-         
-        
         $('.ec-header-count.cart-count-lable').html(cartData.length);
         $(".cart-count-lable").html(cartData.length);
     }
@@ -340,7 +336,6 @@ function ecAccessCookie(cookieName) {
         $(`*[data-key="${productID}"]`).find(".cart-price .quantity").text(QtynewVal);
         if ($(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span').length) {
             var price = $(`*[data-key="${productID}"]`).find(".amount").text();
-            
             $(`*[data-key="${productID}"]`).find(".ec-cart-pro-subtotal span").text(QtynewVal * price);
         }
     });
@@ -352,7 +347,7 @@ function ecAccessCookie(cookieName) {
         $(`.cart-item[data-key="${productID}"]`).remove();
         if (cart_product_count == 1) {
             $('.eccart-pro-items').html('<li><p class="emp-cart-msg">Sepetiniz boş!</p></li>');
-            $('.checkout-button').attr('disabled','disabled');
+            $('.checkout-button').attr('disabled', 'disabled');
         }
     });
     (function () {
@@ -880,9 +875,7 @@ function ecAccessCookie(cookieName) {
     /*----------------------------- Load More Category -------------------------------- */
     $(document).ready(function () {
         $(".ec-more-toggle").click(function () {
-           
             var elem = $(this).closest('.ec-sidebar-block').find(".ec-more-toggle .ec-more-toggle-span").text();
-            
             if (elem == "Daha Fazla...") {
                 $(this).closest('.ec-sidebar-block').find(".ec-more-toggle .ec-more-toggle-span").text("");
                 $(this).closest('.ec-sidebar-block').find(".ec-more-toggle").toggleClass('active');
@@ -1339,34 +1332,40 @@ function ecAccessCookie(cookieName) {
         $(".ec-tools-sidebar").stop().animate({ right: "-200px" }, 100);
         $(".ec-tools-sidebar-overlay").fadeOut();
     });
-    $('.search-input').on('focusin',function(){
-        $('.search-result').fadeIn(75).css('display','flex');
+    $('.search-input').on('focusin', function () {
+        $('.search-result-content').fadeIn(75).css('display', 'flex');
     })
-    $('.search-input').on('focusout',function(){
-        $('.search-result').fadeOut(75);
+    $('.search-input').on('focusout', function () {
+        $('.search-result-content').fadeOut(75);
     })
-    $('.search-input').on('input',async function(){
-        const searchVal= $(this).val(),
+    $('.search-input').on('input', async function () {
+        const searchVal = $(this).val(),
             formData = new FormData();
-            formData.append('search',searchVal);
+        formData.append('search', searchVal);
         await $.ajax({
-            url : `${baseUrl}/api/search?name=${searchVal}`,
-            type : 'GET', 
-            success : function(res){
+            url: `${baseUrl}/api/search?name=${searchVal}`,
+            type: 'GET',
+            success: function (res) {
+                $('.search-result-content a').hide();
                 const searchResaults = res.data.map(item => {
-                    const {slug , image, name,price} = item;
+                    const { slug, image, name, price } = item;
                     return `
-                    <a href="${baseUrl}/${slug}" class="result">
-                        <div class="thumb-content">
-                            <img src="${image}" alt="search thumbnail" height="50" class="img-thumbnail">
-                        </div>
-                        <div class="content">
-                            <div class="search-title"> ${name}</div>
-                            <div class="search-price"><span class="new-price">${parseFloat(price).toFixed(2)}</span> ₺</div>
-                        </div>
-                    </a> 
-                    `
+                        <a href="${baseUrl}/${slug}" class="result">
+                            <div class="thumb-content">
+                                <img src="${image}" alt="search thumbnail" height="50" class="img-thumbnail">
+                            </div>
+                            <div class="content">
+                                <div class="search-title"> ${name}</div>
+                                <div class="search-price"><span class="new-price">${parseFloat(price).toFixed(2)}</span> ₺</div>
+                            </div>
+                        </a> 
+                        `
                 })
+                if (res.count) {
+                    $('.search-result-content a').show();
+                    $('.search-result-content a').attr('href', `${baseUrl}/search/${searchVal}`);
+                    $('.search-result-content a').find('.search-count').text(res.count);
+                }
                 $('.search-result').html(searchResaults);
             }
         })

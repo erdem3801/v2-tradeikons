@@ -68,7 +68,7 @@ $(function () {
         filter = '';
         Object.entries(filterArr).map((element) => {
 
-            let url = (element[0] == 'manufacturer') ? `&${element[0]}=` : '&option=';
+            let url = (element[0] == 'Marka') ? `&${element[0]}=` : '&option=';
             if (element.length) {
                 let joined =  element[1].join('|');
                 url += joined.replace('&','--');

@@ -17,9 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
     <title><?= isset($title) ? $title : 'Tradeikons - Beni unutma!'  ?></title>
-    <meta name="keywords" content="apparel, catalog, clean, ecommerce, ecommerce HTML, electronics, fashion, html eCommerce, html store, minimal, multipurpose, multipurpose ecommerce, online store, responsive ecommerce template, shops" />
-    <meta name="description" content="Best ecommerce html template for single and multi vendor store.">
-    <meta name="author" content="ashishmaraviya">
+    <meta name="description" content="Oto Aksesuar Ürünleri, Kadın Giyim Ürünleri, Outdoor Spor Malzemeleri, Oyuncaklar ve Hediyelik Ürünler Aradığınız Her Şey Burada">
+    <meta name="author" content="tradeikons">
 
     <!-- site Favicon -->
     <link rel="icon" href="<?= base_url('public')  ?>/assets/images/favicon/favicon.png" sizes="32x32" />

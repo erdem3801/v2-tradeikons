@@ -34,7 +34,9 @@ class CategoryController extends BaseController
         $submainData = $this->model->where('category_slug', $submain)->first();
         $categoryData = $this->model->where('category_slug', $category)->first();
 
-
+        if (!$mainData && !$submainData && !$categoryData)
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+         
         $categoryID = 0;
 
         $breadcrump = array();
@@ -63,7 +65,7 @@ class CategoryController extends BaseController
 
 
 
-        $filters['manufacturer']  = $this->productModel
+        $filters['Marka']  = $this->productModel
             ->select('manufacturer_id as value,COUNT(manufacturer_id) as count')
             ->groupBy('manufacturer_id')
             ->join('category_to_product', 'product.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
@@ -93,5 +95,10 @@ class CategoryController extends BaseController
 
         return view('category/CategoryView', $this->viewData);
         //
+    }
+    public function search(){
+        
+        return view('category/CategoryView', $this->viewData);
+        
     }
 }
