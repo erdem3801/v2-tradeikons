@@ -33139,7 +33139,7 @@ input[type="email"]:focus::-webkit-input-placeholder {
   flex-direction: column;
   background: aliceblue;
   z-index: 16;
-  width: 80%;
+  width: 100%;
   border-radius: 6px;
   box-shadow: 0 0 10px 1px #a27ed3;
   max-height: 450px;

@@ -90,11 +90,11 @@
                     <div class="align-self-center">
                         <div class="header-search">
 
-                            <input class="form-control search-input"  autocomplete="false" autofill="off"  placeholder="Ürün Veya Kategori Ara" type="text">
+                            <input class="form-control search-input" autocomplete="false" autofill="off" placeholder="Ürün Ara" type="text">
                             <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
 
                             <div class="search-result">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -153,10 +153,13 @@
                 <!-- Ec Header Search Start -->
                 <div class="col">
                     <div class="header-search">
-                        <form class="ec-btn-group-form" action="#">
-                            <input class="form-control" placeholder="Ürün Veya Kategori Ara" type="text">
-                            <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="icon" /></button>
-                        </form>
+
+                        <input class="form-control search-input" autocomplete="false" autofill="off" placeholder="Ürün Ara" type="text">
+                        <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
+
+                        <div class="search-result">
+
+                        </div>
                     </div>
                 </div>
                 <!-- Ec Header Search End -->

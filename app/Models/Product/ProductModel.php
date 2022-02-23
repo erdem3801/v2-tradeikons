@@ -85,7 +85,7 @@ class ProductModel extends Model
     public function getProductBySlug($slug)
     {
         $results = $this
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
             ->where('slug', $slug)
             ->first();
 
@@ -94,7 +94,7 @@ class ProductModel extends Model
     public function search($search,$limit = 10 , $offset = 0)
     {
         $results = $this
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
             ->like('name', $search)
             ->findAll($limit,$offset);
 
@@ -103,7 +103,7 @@ class ProductModel extends Model
     public function searchCount($search){
         $results = $this
         ->selectCount('name')
-        ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+        ->join('product_description', 'product_description.product_id = product.product_id', 'left')
         ->like('name', $search)
         ->findAll(10);
         return $results[0]['name'];
@@ -112,7 +112,7 @@ class ProductModel extends Model
     {
         $results = $this
             ->where('slug', null)
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
             ->findAll();
         return $results;
     }
