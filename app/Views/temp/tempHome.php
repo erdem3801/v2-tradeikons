@@ -24,6 +24,17 @@
     <link rel="icon" href="<?= base_url('public')  ?>/assets/images/favicon/favicon.png" sizes="32x32" />
     <link rel="apple-touch-icon" href="<?= base_url('public')  ?>/assets/images/favicon/favicon.png" />
     <meta name="msapplication-TileImage" content="<?= base_url('public')  ?>/assets/images/favicon/favicon.png" />
+    <meta name=”robots” content=”all” />
+    <meta name="publisher" content="Bilsev ticaret" />
+
+    <meta name="twitter:card" content="summary_large_image" /> 
+    <meta name="twitter:site" content="@ETradetek" /> 
+    <meta name="twitter:title" content="Tradetikons e-ticaret sitesi" /> 
+    <meta name="twitter:description" content="Tradeikons e-ticaret sitesi" /> 
+    <meta name="twitter:creator" content="@bilsev" /> 
+    <meta name="twitter:image:src" content="<?= base_url('public')  ?>/assets/images/favicon/favicon.png" />
+
+    
 
     <!-- css Icon Font -->
     <link rel="stylesheet" href="<?= base_url('public')  ?>/assets/css/vendor/ecicons.min.css" />
