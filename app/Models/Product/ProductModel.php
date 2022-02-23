@@ -80,23 +80,6 @@ class ProductModel extends Model
         $this->join('product_description', 'product.product_id = product_description.product_id', 'left');
 
         $results = $this->findAll($limit, $offset);
-        /*
-         SELECT p.product_id, 
-         (SELECT AVG(rating) AS total FROM oc_review r1 WHERE r1.product_id = p.product_id AND r1.status = '1' GROUP BY r1.product_id) AS rating, 
-         (SELECT price FROM oc_product_discount pd2 
-         WHERE pd2.product_id = p.product_id AND pd2.customer_group_id = '1' AND pd2.quantity = '1' AND ((pd2.date_start = '0000-00-00' OR pd2.date_start < NOW()) AND (pd2.date_end = '0000-00-00' OR pd2.date_end > NOW())) 
-         ORDER BY pd2.priority ASC, pd2.price ASC LIMIT 1) AS discount, 
-         
-         (SELECT price FROM oc_product_special ps 
-         WHERE ps.product_id = p.product_id AND ps.customer_group_id = '1' AND ((ps.date_start = '0000-00-00' OR ps.date_start < NOW()) AND (ps.date_end = '0000-00-00' OR ps.date_end > NOW())) 
-         ORDER BY ps.priority ASC, ps.price ASC LIMIT 1) AS special 
-         FROM oc_product_to_category p2c LEFT JOIN oc_product p ON (p2c.product_id = p.product_id) 
-         
-         LEFT JOIN oc_product_description pd ON (p.product_id = pd.product_id) 
-         LEFT JOIN oc_product_to_store p2s ON (p.product_id = p2s.product_id) 
-         
-         WHERE pd.language_id = '1' AND p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '0'
-         */
         return $results;
     }
     public function getProductBySlug($slug)
@@ -108,8 +91,23 @@ class ProductModel extends Model
 
         return $results;
     }
+    public function search($search,$limit = 10 , $offset = 0)
+    {
+        $results = $this
+            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+            ->like('name', $search)
+            ->findAll($limit,$offset);
 
-
+        return $results;
+    }
+    public function searchCount($search){
+        $results = $this
+        ->selectCount('name')
+        ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+        ->like('name', $search)
+        ->findAll(10);
+        return $results[0]['name'];
+    }
     public function getProducts()
     {
         $results = $this

@@ -28,14 +28,16 @@ class ProductController extends BaseController
         $breadcrump[] =   [
             'url' => base_url($product['slug']),
             'title' => $product['name']
-        ]; 
-        
+        ];
+
         $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
-        $productCategory = $this->categoryToProductModel->where('product_id',$product['product_id'])->first(); 
-        $similarProduct = $this->productModel->getProductByIDs(['categoryID' => $productCategory['category_id']],4,0);
+
+        $productCategory = $this->categoryToProductModel->where('product_id', $product['product_id'])->first();
+        if ($productCategory)
+            $similarProduct = $this->productModel->getProductByIDs(['categoryID' => $productCategory['category_id']], 4, 0);
 
         $this->viewData['product'] = $product;
-        $this->viewData['similarProduct'] = $similarProduct;
+        $this->viewData['similarProduct'] = $similarProduct ?? array();
         $this->viewData['images'] = $images;
         $this->viewData['baslik'] = $breadcrump;
 

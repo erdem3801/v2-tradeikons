@@ -33132,3 +33132,65 @@ input[type="email"]:focus::-webkit-input-placeholder {
 .loader svg rect {
   fill: #ff6700;
 }
+
+.search-result {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  background: aliceblue;
+  z-index: 16;
+  width: 80%;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 1px #a27ed3;
+  max-height: 450px;
+  overflow-x: hidden;
+}
+
+
+.search-result::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.quickview-pro-content .ec-quickview-desc::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.search-result::-webkit-scrollbar-thumb {
+  background: #ada9a9;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.search-result::-webkit-scrollbar-thumb:hover {
+  background: #ada9a9;
+}
+.search-result a {
+  padding: .6rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.search-result .thumb-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px !important;
+}
+.search-result a .content{
+  font-size: .7rem;
+  font-weight: bold;
+  padding-left: 1.2rem;
+  width: calc(100% - 100px);
+  color : #3884b3;
+}
+.search-result a .content .search-title{
+  color: #746ea7c7;
+}
+ 
+.img-thumbnail {
+   
+  height: 75px;
+}

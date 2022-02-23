@@ -408,23 +408,23 @@ function ecAccessCookie(cookieName) {
     }
     ResponsiveMobileekkaMenu();
     /*----------------------------- Main Slider ---------------------- */
-    var EcMainSlider = new Swiper('.ec-slider.swiper-container', {
-        loop: true,
-        speed: 2000,
-        effect: "slide",
-        autoplay: {
-            delay: 7000,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        }
-    });
+    // var EcMainSlider = new Swiper('.ec-slider.swiper-container', {
+    //     loop: true,
+    //     speed: 2000,
+    //     effect: "slide",
+    //     autoplay: {
+    //         delay: 7000,
+    //         disableOnInteraction: false,
+    //     },
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     }
+    // });
     /*----------------------------- Quick view Slider ------------------------------ */
     $('.qty-product-cover').slick({
         slidesToShow: 1,
@@ -457,39 +457,39 @@ function ecAccessCookie(cookieName) {
     // QtyPlusMinus.prepend('<div class="dec ec_qtybtn">-</div>');
     //QtyPlusMinus.append('<div class="inc ec_qtybtn">+</div>');
     /*----------------------------- Single Product Slider ---------------------------------*/
-    var swiper = new Swiper(".single-product-slider", {
-        slidesPerView: 4,
-        spaceBetween: 20,
-        speed: 1500,
-        loop: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
-            },
-            478: {
-                slidesPerView: 1,
-            },
-            576: {
-                slidesPerView: 2,
-            },
-            768: {
-                slidesPerView: 3,
-            },
-            992: {
-                slidesPerView: 3,
-            },
-            1024: {
-                slidesPerView: 4,
-            },
-            1200: {
-                slidesPerView: 4,
-            },
-        },
-    });
+    // var swiper = new Swiper(".single-product-slider", {
+    //     slidesPerView: 4,
+    //     spaceBetween: 20,
+    //     speed: 1500,
+    //     loop: true,
+    //     navigation: {
+    //         nextEl: ".swiper-button-next",
+    //         prevEl: ".swiper-button-prev",
+    //     },
+    //     breakpoints: {
+    //         0: {
+    //             slidesPerView: 1,
+    //         },
+    //         478: {
+    //             slidesPerView: 1,
+    //         },
+    //         576: {
+    //             slidesPerView: 2,
+    //         },
+    //         768: {
+    //             slidesPerView: 3,
+    //         },
+    //         992: {
+    //             slidesPerView: 3,
+    //         },
+    //         1024: {
+    //             slidesPerView: 4,
+    //         },
+    //         1200: {
+    //             slidesPerView: 4,
+    //         },
+    //     },
+    // });
     /*----------------------------- Scroll Up Button --------------------- */
     $.scrollUp({
         scrollText: '<i class="ecicon eci-arrow-up" aria-hidden="true"></i>',
@@ -1339,4 +1339,36 @@ function ecAccessCookie(cookieName) {
         $(".ec-tools-sidebar").stop().animate({ right: "-200px" }, 100);
         $(".ec-tools-sidebar-overlay").fadeOut();
     });
+    $('.search-input').on('focusin',function(){
+        $('.search-result').fadeIn(75).css('display','flex');
+    })
+    $('.search-input').on('focusout',function(){
+        $('.search-result').fadeOut(75);
+    })
+    $('.search-input').on('input',async function(){
+        const searchVal= $(this).val(),
+            formData = new FormData();
+            formData.append('search',searchVal);
+        await $.ajax({
+            url : `${baseUrl}/api/search?name=${searchVal}`,
+            type : 'GET', 
+            success : function(res){
+                const searchResaults = res.data.map(item => {
+                    const {slug , image, name,price} = item;
+                    return `
+                    <a href="${baseUrl}/${slug}" class="result">
+                        <div class="thumb-content">
+                            <img src="${image}" alt="search thumbnail" height="50" class="img-thumbnail">
+                        </div>
+                        <div class="content">
+                            <div class="search-title"> ${name}</div>
+                            <div class="search-price"><span class="new-price">${parseFloat(price).toFixed(2)}</span> ₺</div>
+                        </div>
+                    </a> 
+                    `
+                })
+                $('.search-result').html(searchResaults);
+            }
+        })
+    })
 })(jQuery);

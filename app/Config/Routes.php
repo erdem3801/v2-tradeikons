@@ -58,6 +58,7 @@ $routes->match(['get', 'post'], 'odeme', 'CheckoutController::Checkout');
 $routes->group('api', function ($routes) {
 
     $routes->get('/', 'ApiController::index');
+    $routes->get('search', 'Api\ProductResource::search');
     $routes->presenter('product', ['controller' => 'Api\ProductResource']);
 });
 

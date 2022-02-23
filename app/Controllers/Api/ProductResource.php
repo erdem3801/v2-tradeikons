@@ -38,9 +38,9 @@ class ProductResource extends ResourceController
         $manufacturer = $this->request->getVar('manufacturer') ?? '';
         $option = $this->request->getVar('option') ?? '';
 
-        $manufacturer = str_replace('--','&',$manufacturer);
+        $manufacturer = str_replace('--', '&', $manufacturer);
         $manufacturer = $manufacturer ? explode('|', $manufacturer) : '';
-        $option = $option ? explode('|', $option) : ''; 
+        $option = $option ? explode('|', $option) : '';
 
         $data = [
             'categoryID' => $categoryID,
@@ -75,6 +75,19 @@ class ProductResource extends ResourceController
      *
      * @return mixed
      */
+    public function search()
+    {
+        $name =  $this->request->getVar('name');
+        $product = array();
+        $count = 0;
+        if ($name){
+            $product = $this->productModel->search($name);
+            $count = $this->productModel->searchCount($name);
+        }
+            
+        
+        return $this->respond(['data' => $product, 'count' => $count], ResponseInterface::HTTP_OK);
+    }
     public function show($id = null)
     {
         $product = $this->productModel

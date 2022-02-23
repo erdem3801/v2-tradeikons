@@ -89,10 +89,13 @@
                     <!-- Ec Header Search Start -->
                     <div class="align-self-center">
                         <div class="header-search">
-                            <form class="ec-btn-group-form" action="#">
-                                <input class="form-control" placeholder="Enter Your Product Name..." type="text">
-                                <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
-                            </form>
+
+                            <input class="form-control search-input"  autocomplete="false" autofill="off"  placeholder="Ürün Veya Kategori Ara" type="text">
+                            <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
+
+                            <div class="search-result">
+                               
+                            </div>
                         </div>
                     </div>
                     <!-- Ec Header Search End -->
@@ -151,7 +154,7 @@
                 <div class="col">
                     <div class="header-search">
                         <form class="ec-btn-group-form" action="#">
-                            <input class="form-control" placeholder="Enter Your Product Name..." type="text">
+                            <input class="form-control" placeholder="Ürün Veya Kategori Ara" type="text">
                             <button class="submit" type="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="icon" /></button>
                         </form>
                     </div>
@@ -222,7 +225,7 @@
                                                     <?php endforeach  ?>
                                                 <?php endif  ?>
                                             </ul>
-                                        </li> 
+                                        </li>
                                     <?php endforeach  ?>
                                 <?php endif  ?>
                             </ul>
@@ -231,7 +234,7 @@
                 </ul>
             </div>
             <div class="header-res-lan-curr">
-               
+
                 <!-- Social Start -->
                 <div class="header-res-social">
                     <div class="header-top-social">
