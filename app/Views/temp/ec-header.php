@@ -58,7 +58,7 @@
                         <!-- Header Cart Start -->
                         <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
                             <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="cart" /></div>
-                            <span class="ec-header-count cart-count-lable">3</span>
+                            <span class="ec-header-count cart-count-lable"><?= $basketCount ?? 0  ?></span>
                         </a>
                         <!-- Header Cart End -->
                         <!-- Header menu Start -->
@@ -131,7 +131,7 @@
                             <!-- Header Cart Start -->
                             <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
                                 <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="cart" /></div>
-                                <span class="ec-header-count cart-count-lable">0</span>
+                                <span class="ec-header-count cart-count-lable"><?= $basketCount ?? 0  ?></span>
                             </a>
                             <!-- Header Cart End -->
                         </div>
@@ -160,11 +160,11 @@
                         <input class="form-control search-input" autocomplete="false" autofill="off" placeholder="Ürün Ara" type="text">
                         <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
                         <div class="search-result-content">
-                            <div class="search-result">
+                                <div class="search-result">
 
+                                </div>
+                                <a href="#" class="btn btn-block">Daha Fazla... (<span class="search-count">0</span>)</a>
                             </div>
-                            <button>Daha Fazla (<span class="result-count">0</span>)</button>
-                        </div>
                     </div>
                 </div>
                 <!-- Ec Header Search End -->

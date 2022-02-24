@@ -2,6 +2,13 @@
 <?= $this->section('script')  ?>
 <script src="<?= base_url('public')  ?>/assets/js/cart.js"></script>
 <script src="<?= base_url('public')  ?>/assets/js/il_ilce.js"></script>
+
+<?php if (isset($paytr_token)) : ?>
+    <script src="https://www.paytr.com/js/iframeResizer.min.js"></script>
+    <script>
+        iFrameResize({}, '#paytriframe');
+    </script>
+<?php endif  ?>
 <?= $this->endSection()  ?>
 
 <?= $this->section('content')  ?>
@@ -67,13 +74,13 @@
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Ad <span class="text-danger">*</span></label>
-                                                    <input type="text" name="name" placeholder="Adınızı giriniz" value="<?= set_value('name')  ?>" required="">
+                                                    <input type="text" name="firstname" placeholder="Adınızı giriniz" value="<?= set_value('firstname')  ?>" required="">
                                                 </span>
                                             </div>
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Soyad <span class="text-danger">*</span></label>
-                                                    <input type="text" name="surname" placeholder="Soyadınızı giriniz" value="<?= set_value('surname')  ?>" required="">
+                                                    <input type="text" name="lastname" placeholder="Soyadınızı giriniz" value="<?= set_value('lastname')  ?>" required="">
                                                 </span>
                                             </div>
                                         </div>
@@ -90,89 +97,89 @@
                                                 <span class="ec-register-wrap ec-register-half">
                                                     <label>İl: <span class="text-danger">*</span></label><br>
                                                     <span class="ec-rg-select-inner">
-                                                        <select name="ec_select_city" id="Iller" class="ec-register-select border form-control"  required="">
-                                                            <option <?= set_select('ec_select_city')  ?> value="">Lütfen Bir İl Seçiniz</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="1">Adana</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="2">Adıyaman</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="3">Afyonkarahisar</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="4">Ağrı</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="5">Amasya</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="6">Ankara</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="7">Antalya</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="8">Artvin</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="9">Aydın</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="10">Balıkesir</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="11">Bilecik</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="12">Bingöl</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="13">Bitlis</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="14">Bolu</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="15">Burdur</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="16">Bursa</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="17">Çanakkale</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="18">Çankırı</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="19">Çorum</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="20">Denizli</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="21">Diyarbakır</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="22">Edirne</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="23">Elazığ</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="24">Erzincan</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="25">Erzurum</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="26">Eskişehir</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="27">Gaziantep</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="28">Giresun</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="29">Gümüşhane</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="30">Hakkari</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="31">Hatay</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="32">Isparta</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="33">Mersin</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="34">İstanbul</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="35">İzmir</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="36">Kars</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="37">Kastamonu</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="38">Kayseri</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="39">Kırklareli</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="40">Kırşehir</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="41">Kocaeli</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="42">Konya</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="43">Kütahya</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="44">Malatya</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="45">Manisa</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="46">Kahramanmaraş</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="47">Mardin</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="48">Muğla</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="49">Muş</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="50">Nevşehir</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="51">Niğde</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="52">Ordu</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="53">Rize</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="54">Sakarya</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="55">Samsun</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="56">Siirt</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="57">Sinop</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="58">Sivas</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="59">Tekirdağ</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="60">Tokat</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="61">Trabzon</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="62">Tunceli</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="63">Şanlıurfa</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="64">Uşak</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="65">Van</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="66">Yozgat</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="67">Zonguldak</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="68">Aksaray</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="69">Bayburt</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="70">Karaman</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="71">Kırıkkale</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="72">Batman</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="73">Şırnak</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="74">Bartın</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="75">Ardahan</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="76">Iğdır</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="77">Yalova</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="78">Karabük</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="79">Kilis</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="80">Osmaniye</option>
-                                                            <option <?= set_select('ec_select_city')  ?> value="81">Düzce</option>
+                                                        <select name="ec_select_city" id="Iller" class="ec-register-select border form-control" required="">
+                                                            <option value="">Lütfen Bir İl Seçiniz</option>
+                                                            <option <?= set_select('ec_select_city', '1') ?> value="1">Adana</option>
+                                                            <option <?= set_select('ec_select_city', '2')  ?> value="2">Adıyaman</option>
+                                                            <option <?= set_select('ec_select_city', '3')  ?> value="3">Afyonkarahisar</option>
+                                                            <option <?= set_select('ec_select_city', '4')  ?> value="4">Ağrı</option>
+                                                            <option <?= set_select('ec_select_city', '5')  ?> value="5">Amasya</option>
+                                                            <option <?= set_select('ec_select_city', '6')  ?> value="6">Ankara</option>
+                                                            <option <?= set_select('ec_select_city', '7')  ?> value="7">Antalya</option>
+                                                            <option <?= set_select('ec_select_city', '8')  ?> value="8">Artvin</option>
+                                                            <option <?= set_select('ec_select_city', '9')  ?> value="9">Aydın</option>
+                                                            <option <?= set_select('ec_select_city', '10')  ?> value="10">Balıkesir</option>
+                                                            <option <?= set_select('ec_select_city', '11')  ?> value="11">Bilecik</option>
+                                                            <option <?= set_select('ec_select_city', '12')  ?> value="12">Bingöl</option>
+                                                            <option <?= set_select('ec_select_city', '13')  ?> value="13">Bitlis</option>
+                                                            <option <?= set_select('ec_select_city', '14')  ?> value="14">Bolu</option>
+                                                            <option <?= set_select('ec_select_city', '15')  ?> value="15">Burdur</option>
+                                                            <option <?= set_select('ec_select_city', '16')  ?> value="16">Bursa</option>
+                                                            <option <?= set_select('ec_select_city', '17')  ?> value="17">Çanakkale</option>
+                                                            <option <?= set_select('ec_select_city', '18')  ?> value="18">Çankırı</option>
+                                                            <option <?= set_select('ec_select_city', '19')  ?> value="19">Çorum</option>
+                                                            <option <?= set_select('ec_select_city', '20')  ?> value="20">Denizli</option>
+                                                            <option <?= set_select('ec_select_city', '21')  ?> value="21">Diyarbakır</option>
+                                                            <option <?= set_select('ec_select_city', '22')  ?> value="22">Edirne</option>
+                                                            <option <?= set_select('ec_select_city', '23')  ?> value="23">Elazığ</option>
+                                                            <option <?= set_select('ec_select_city', '24')  ?> value="24">Erzincan</option>
+                                                            <option <?= set_select('ec_select_city', '25')  ?> value="25">Erzurum</option>
+                                                            <option <?= set_select('ec_select_city', '26')  ?> value="26">Eskişehir</option>
+                                                            <option <?= set_select('ec_select_city', '27')  ?> value="27">Gaziantep</option>
+                                                            <option <?= set_select('ec_select_city', '28')  ?> value="28">Giresun</option>
+                                                            <option <?= set_select('ec_select_city', '29')  ?> value="29">Gümüşhane</option>
+                                                            <option <?= set_select('ec_select_city', '30')  ?> value="30">Hakkari</option>
+                                                            <option <?= set_select('ec_select_city', '31')  ?> value="31">Hatay</option>
+                                                            <option <?= set_select('ec_select_city', '32')  ?> value="32">Isparta</option>
+                                                            <option <?= set_select('ec_select_city', '33')  ?> value="33">Mersin</option>
+                                                            <option <?= set_select('ec_select_city', '34')  ?> value="34">İstanbul</option>
+                                                            <option <?= set_select('ec_select_city', '35')  ?> value="35">İzmir</option>
+                                                            <option <?= set_select('ec_select_city', '36')  ?> value="36">Kars</option>
+                                                            <option <?= set_select('ec_select_city', '37')  ?> value="37">Kastamonu</option>
+                                                            <option <?= set_select('ec_select_city', '38')  ?> value="38">Kayseri</option>
+                                                            <option <?= set_select('ec_select_city', '39')  ?> value="39">Kırklareli</option>
+                                                            <option <?= set_select('ec_select_city', '40')  ?> value="40">Kırşehir</option>
+                                                            <option <?= set_select('ec_select_city', '41')  ?> value="41">Kocaeli</option>
+                                                            <option <?= set_select('ec_select_city', '42')  ?> value="42">Konya</option>
+                                                            <option <?= set_select('ec_select_city', '43')  ?> value="43">Kütahya</option>
+                                                            <option <?= set_select('ec_select_city', '44')  ?> value="44">Malatya</option>
+                                                            <option <?= set_select('ec_select_city', '45')  ?> value="45">Manisa</option>
+                                                            <option <?= set_select('ec_select_city', '46')  ?> value="46">Kahramanmaraş</option>
+                                                            <option <?= set_select('ec_select_city', '47')  ?> value="47">Mardin</option>
+                                                            <option <?= set_select('ec_select_city', '48')  ?> value="48">Muğla</option>
+                                                            <option <?= set_select('ec_select_city', '49')  ?> value="49">Muş</option>
+                                                            <option <?= set_select('ec_select_city', '50')  ?> value="50">Nevşehir</option>
+                                                            <option <?= set_select('ec_select_city', '51')  ?> value="51">Niğde</option>
+                                                            <option <?= set_select('ec_select_city', '52')  ?> value="52">Ordu</option>
+                                                            <option <?= set_select('ec_select_city', '53')  ?> value="53">Rize</option>
+                                                            <option <?= set_select('ec_select_city', '54')  ?> value="54">Sakarya</option>
+                                                            <option <?= set_select('ec_select_city', '55')  ?> value="55">Samsun</option>
+                                                            <option <?= set_select('ec_select_city', '56') ?> value="56">Siirt</option>
+                                                            <option <?= set_select('ec_select_city', '57') ?> value="57">Sinop</option>
+                                                            <option <?= set_select('ec_select_city', '58') ?> value="58">Sivas</option>
+                                                            <option <?= set_select('ec_select_city', '59') ?> value="59">Tekirdağ</option>
+                                                            <option <?= set_select('ec_select_city', '60') ?> value="60">Tokat</option>
+                                                            <option <?= set_select('ec_select_city', '61') ?> value="61">Trabzon</option>
+                                                            <option <?= set_select('ec_select_city', '62') ?> value="62">Tunceli</option>
+                                                            <option <?= set_select('ec_select_city', '63') ?> value="63">Şanlıurfa</option>
+                                                            <option <?= set_select('ec_select_city', '64') ?> value="64">Uşak</option>
+                                                            <option <?= set_select('ec_select_city', '65') ?> value="65">Van</option>
+                                                            <option <?= set_select('ec_select_city', '66') ?> value="66">Yozgat</option>
+                                                            <option <?= set_select('ec_select_city', '67') ?> value="67">Zonguldak</option>
+                                                            <option <?= set_select('ec_select_city', '68') ?> value="68">Aksaray</option>
+                                                            <option <?= set_select('ec_select_city', '69') ?> value="69">Bayburt</option>
+                                                            <option <?= set_select('ec_select_city', '70') ?> value="70">Karaman</option>
+                                                            <option <?= set_select('ec_select_city', '71') ?> value="71">Kırıkkale</option>
+                                                            <option <?= set_select('ec_select_city', '72') ?> value="72">Batman</option>
+                                                            <option <?= set_select('ec_select_city', '73') ?> value="73">Şırnak</option>
+                                                            <option <?= set_select('ec_select_city', '74') ?> value="74">Bartın</option>
+                                                            <option <?= set_select('ec_select_city', '75') ?> value="75">Ardahan</option>
+                                                            <option <?= set_select('ec_select_city', '76') ?> value="76">Iğdır</option>
+                                                            <option <?= set_select('ec_select_city', '77') ?> value="77">Yalova</option>
+                                                            <option <?= set_select('ec_select_city', '78') ?> value="78">Karabük</option>
+                                                            <option <?= set_select('ec_select_city', '79') ?> value="79">Kilis</option>
+                                                            <option <?= set_select('ec_select_city', '80') ?> value="80">Osmaniye</option>
+                                                            <option <?= set_select('ec_select_city', '81') ?> value="81">Düzce</option>
                                                         </select>
                                                     </span>
                                                 </span>
@@ -195,13 +202,13 @@
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Mail Adresi: <span class="text-danger">*</span></label>
-                                                    <input type="text" name="mailadres" placeholder="Mail Adresi" value="" required="">
+                                                    <input type="text" name="email" placeholder="Mail Adresi" value="<?= set_value('email')  ?>" required="">
                                                 </span>
                                             </div>
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Telefon No: <span class="text-danger">*</span></label>
-                                                    <input type="phone" name="telefon" placeholder="Telefon No" value="" required="">
+                                                    <input type="phone" name="phonenumber" placeholder="Telefon No" value="<?= set_value('phonenumber')  ?>" required="">
                                                 </span>
                                             </div>
                                         </div>
@@ -244,228 +251,11 @@
         </form>
     </div>
 </section>
-<!-- New Product Start -->
-<section class="section ec-new-product section-space-p">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="section-title">
-                    <h2 class="ec-bg-title">New Arrivals</h2>
-                    <h2 class="ec-title">New Arrivals</h2>
-                    <p class="sub-title">Browse The Collection of Top Products</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!-- New Product Content -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
-                <div class="ec-product-inner">
-                    <div class="ec-pro-image-outer">
-                        <div class="ec-pro-image">
-                            <a href="product-left-sidebar.html" class="image">
-                                <img class="main-image" src="<?= base_url('public') ?>/assets/images/product-image/6_1.jpg" alt="Product" />
-                                <img class="hover-image" src="<?= base_url('public') ?>/assets/images/product-image/6_2.jpg" alt="Product" />
-                            </a>
-                            <span class="percentage">20%</span>
-                            <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
-                            <div class="ec-pro-actions">
-                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
-                                <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Add To Cart</button>
-                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ec-pro-content">
-                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Round Neck T-Shirt</a></h5>
-                        <div class="ec-pro-rating">
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star"></i>
-                        </div>
-                        <div class="ec-pro-list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dutmmy text ever since the 1500s, when an unknown printer took a galley.</div>
-                        <span class="ec-price">
-                            <span class="old-price">$27.00</span>
-                            <span class="new-price">$22.00</span>
-                        </span>
-                        <div class="ec-pro-option">
-                            <div class="ec-pro-color">
-                                <span class="ec-pro-opt-label">Color</span>
-                                <ul class="ec-opt-swatch ec-change-img">
-                                    <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/6_1.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/6_1.jpg" data-tooltip="Gray"><span style="background-color:#e8c2ff;"></span></a></li>
-                                    <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/6_2.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/6_2.jpg" data-tooltip="Orange"><span style="background-color:#9cfdd5;"></span></a></li>
-                                </ul>
-                            </div>
-                            <div class="ec-pro-size">
-                                <span class="ec-pro-opt-label">Size</span>
-                                <ul class="ec-opt-size">
-                                    <li class="active"><a href="#" class="ec-opt-sz" data-old="$25.00" data-new="$20.00" data-tooltip="Small">S</a></li>
-                                    <li><a href="#" class="ec-opt-sz" data-old="$27.00" data-new="$22.00" data-tooltip="Medium">M</a></li>
-                                    <li><a href="#" class="ec-opt-sz" data-old="$35.00" data-new="$30.00" data-tooltip="Extra Large">XL</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
-                <div class="ec-product-inner">
-                    <div class="ec-pro-image-outer">
-                        <div class="ec-pro-image">
-                            <a href="product-left-sidebar.html" class="image">
-                                <img class="main-image" src="<?= base_url('public') ?>/assets/images/product-image/7_1.jpg" alt="Product" />
-                                <img class="hover-image" src="<?= base_url('public') ?>/assets/images/product-image/7_2.jpg" alt="Product" />
-                            </a>
-                            <span class="percentage">20%</span>
-                            <span class="flags">
-                                <span class="sale">Sale</span>
-                            </span>
-                            <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
-                            <div class="ec-pro-actions">
-                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
-                                <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Add To Cart</button>
-                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ec-pro-content">
-                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Full Sleeve Shirt</a></h5>
-                        <div class="ec-pro-rating">
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star"></i>
-                        </div>
-                        <div class="ec-pro-list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dutmmy text ever since the 1500s, when an unknown printer took a galley.</div>
-                        <span class="ec-price">
-                            <span class="old-price">$12.00</span>
-                            <span class="new-price">$10.00</span>
-                        </span>
-                        <div class="ec-pro-option">
-                            <div class="ec-pro-color">
-                                <span class="ec-pro-opt-label">Color</span>
-                                <ul class="ec-opt-swatch ec-change-img">
-                                    <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/7_1.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/7_1.jpg" data-tooltip="Gray"><span style="background-color:#01f1f1;"></span></a></li>
-                                    <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/7_2.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/7_2.jpg" data-tooltip="Orange"><span style="background-color:#b89df8;"></span></a></li>
-                                </ul>
-                            </div>
-                            <div class="ec-pro-size">
-                                <span class="ec-pro-opt-label">Size</span>
-                                <ul class="ec-opt-size">
-                                    <li class="active"><a href="#" class="ec-opt-sz" data-old="$12.00" data-new="$10.00" data-tooltip="Small">S</a></li>
-                                    <li><a href="#" class="ec-opt-sz" data-old="$15.00" data-new="$12.00" data-tooltip="Medium">M</a></li>
-                                    <li><a href="#" class="ec-opt-sz" data-old="$20.00" data-new="$17.00" data-tooltip="Extra Large">XL</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
-                <div class="ec-product-inner">
-                    <div class="ec-pro-image-outer">
-                        <div class="ec-pro-image">
-                            <a href="product-left-sidebar.html" class="image">
-                                <img class="main-image" src="<?= base_url('public') ?>/assets/images/product-image/1_1.jpg" alt="Product" />
-                                <img class="hover-image" src="<?= base_url('public') ?>/assets/images/product-image/1_2.jpg" alt="Product" />
-                            </a>
-                            <span class="percentage">20%</span>
-                            <span class="flags">
-                                <span class="sale">Sale</span>
-                            </span>
-                            <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
-                            <div class="ec-pro-actions">
-                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
-                                <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Add To Cart</button>
-                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ec-pro-content">
-                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Cute Baby Toy's</a></h5>
-                        <div class="ec-pro-rating">
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star"></i>
-                        </div>
-                        <div class="ec-pro-list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dutmmy text ever since the 1500s, when an unknown printer took a galley.</div>
-                        <span class="ec-price">
-                            <span class="old-price">$40.00</span>
-                            <span class="new-price">$30.00</span>
-                        </span>
-                        <div class="ec-pro-option">
-                            <div class="ec-pro-color">
-                                <span class="ec-pro-opt-label">Color</span>
-                                <ul class="ec-opt-swatch ec-change-img">
-                                    <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/1_1.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/1_1.jpg" data-tooltip="Gray"><span style="background-color:#90cdf7;"></span></a></li>
-                                    <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/1_2.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/1_2.jpg" data-tooltip="Orange"><span style="background-color:#ff3b66;"></span></a></li>
-                                    <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/1_3.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/1_3.jpg" data-tooltip="Green"><span style="background-color:#ffc476;"></span></a></li>
-                                    <li><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/1_4.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/1_4.jpg" data-tooltip="Sky Blue"><span style="background-color:#1af0ba;"></span></a></li>
-                                </ul>
-                            </div>
-                            <div class="ec-pro-size">
-                                <span class="ec-pro-opt-label">Size</span>
-                                <ul class="ec-opt-size">
-                                    <li class="active"><a href="#" class="ec-opt-sz" data-old="$40.00" data-new="$30.00" data-tooltip="Small">S</a></li>
-                                    <li><a href="#" class="ec-opt-sz" data-old="$50.00" data-new="$40.00" data-tooltip="Medium">M</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
-                <div class="ec-product-inner">
-                    <div class="ec-pro-image-outer">
-                        <div class="ec-pro-image">
-                            <a href="product-left-sidebar.html" class="image">
-                                <img class="main-image" src="<?= base_url('public') ?>/assets/images/product-image/2_1.jpg" alt="Product" />
-                                <img class="hover-image" src="<?= base_url('public') ?>/assets/images/product-image/2_2.jpg" alt="Product" />
-                            </a>
-                            <span class="percentage">20%</span>
-                            <span class="flags">
-                                <span class="new">New</span>
-                            </span>
-                            <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
-                            <div class="ec-pro-actions">
-                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
-                                <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Add To Cart</button>
-                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ec-pro-content">
-                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Jumbo Carry Bag</a></h5>
-                        <div class="ec-pro-rating">
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star fill"></i>
-                            <i class="ecicon eci-star"></i>
-                        </div>
-                        <div class="ec-pro-list-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dutmmy text ever since the 1500s, when an unknown printer took a galley.</div>
-                        <span class="ec-price">
-                            <span class="old-price">$50.00</span>
-                            <span class="new-price">$40.00</span>
-                        </span>
-                        <div class="ec-pro-option">
-                            <div class="ec-pro-color">
-                                <span class="ec-pro-opt-label">Color</span>
-                                <ul class="ec-opt-swatch ec-change-img">
-                                    <li class="active"><a href="#" class="ec-opt-clr-img" data-src="<?= base_url('public') ?>/assets/images/product-image/2_1.jpg" data-src-hover="<?= base_url('public') ?>/assets/images/product-image/2_2.jpg" data-tooltip="Gray"><span style="background-color:#fdbf04;"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 shop-all-btn"><a href="#">Shop All Collection</a></div>
-        </div>
-    </div>
-</section>
+
+<?php if (isset($paytr_token)) :  ?>
+    <iframe src="https://www.paytr.com/odeme/guvenli/<?php echo $paytr_token; ?>" id="paytriframe" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
+
+<?php endif  ?>
+
 <!-- New Product end -->
 <?= $this->endSection()  ?>

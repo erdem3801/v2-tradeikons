@@ -229,91 +229,70 @@ function ecAccessCookie(cookieName) {
         }
     });
     /*----------------------------- Sidekka And SideMenu -----------------------------------*/
-    const updateCart = function () {
-        let cartData = localStorage.getItem('cart');
-        cartData = cartData ? JSON.parse(cartData) : [];
-        $(".ec-cart-float").fadeIn();
-        // Remove Empty message    
-        $(".emp-cart-msg").parent().remove();
-        setTimeout(function () {
-            $(".ec-cart-float").fadeOut();
-        }, 10000);
-        var p_html = cartData.map(cartItem => {
-            return `<li class="cart-item" data-parent data-key="${cartItem.productID}">
-                        <a href="${cartItem.slug}" class="sidekka_pro_img"><img src="${cartItem.image}" alt="product"></a>
-                         <div class="ec-pro-content">
-                            <a href="${cartItem.slug}" class="cart_pro_title">${cartItem.name}</a>
-                            <span class="cart-price"><span>${cartItem.price}</span> x <span class="quantity"> ${cartItem.quantity} </span></span>
-                            <div class="qty-plus-minus">
-                                <div class="dec ec_qtybtn"> - </div>
-                                <input class="qty-input" type="text" name="ec_qtybtn" value="${cartItem.quantity}" readonly>
-                                <div class="inc ec_qtybtn">+</div></div>
-                                <a href="#" class="remove">×</a>
-                            </div>
-                        </div>
-                    </li>`
+    const refreshCartView = function () {
+        $.get(`${baseUrl}/api/cart`, function (res) {
+            $('#ec-side-cart').html(res.view);
+            $(".ec-cart-float").fadeIn();
+            // Remove Empty message    
+            // $(".emp-cart-msg").parent().remove();
+            $('.ec-cart-count.cart-count-lable').html(res.count)
+            $('.ec-header-count.cart-count-lable').html(res.count)
+            setTimeout(function () {
+                $(".ec-cart-float").fadeOut();
+            }, 10000);
         });
-        $('.eccart-pro-items').html(p_html);
-        updateCartPrice();
-    };
-    const updateCartPrice = function () {
-        let cartData = localStorage.getItem('cart');
-        cartData = cartData ? JSON.parse(cartData) : [];
-        let totalPrice = cartData.reduce((acc, cur) => (acc + cur.quantity * cur.price), 0)
-        const deliveryPrice = (totalPrice > 200) ? 0 : 22;
-        $('.product-total-price').html(parseFloat(totalPrice).toFixed(2));
-        $('.sub-total').html(parseFloat(totalPrice).toFixed(2));
-        $('.delivery-charges').html(parseFloat(deliveryPrice).toFixed(2));
-        $('.total-amount').html(parseFloat(deliveryPrice + totalPrice).toFixed(2));
-        $('.ec-header-count.cart-count-lable').html(cartData.length);
-        $(".cart-count-lable").html(cartData.length);
     }
-    const addCartData = function (item = null) {
-        let cartData = localStorage.getItem('cart');
-        cartData = cartData ? JSON.parse(cartData) : [];
-        if (item) {
-            const oldData = cartData.filter(cart => item.productID === cart.productID);
-            if (!oldData.length)
-                cartData.push(item);
-            else {
-                oldData[0].quantity += 1;
-                cartData = cartData.filter(cart => item.productID != cart.productID);
-                cartData.push(oldData[0]);
-            }
+    const updateCart = async function (productID, QtynewVal) {
+        if (productID) {
+            const formData = new FormData();
+            formData.append('quantity', QtynewVal);
+            await $.ajax({
+                url: `${baseUrl}/api/cart/update/${productID}`,
+                contentType: false,
+                processData: false,
+                cache: false,
+                type: 'POST',
+                data: formData,
+                success: function (res) {
+                }
+            });
+            refreshCartView();
         }
-        localStorage.setItem('cart', JSON.stringify(cartData));
-        updateCart();
+    };
+    const addCartData = async function (item = null) {
+        const formData = new FormData();
+        formData.append('productID', item.productID);
+        formData.append('quantity', item.quantity);
+        if (item) {
+            await $.ajax({
+                url: `${baseUrl}/api/cart`,
+                contentType: false,
+                processData: false,
+                cache: false,
+                type: 'POST',
+                data: formData,
+                success: function (res) {
+                }
+            });
+            refreshCartView();
+        }
     }
-    const updateQuantityCartData = function (productID, newValue) {
-        var cartData = JSON.parse(localStorage.getItem('cart'));
-        var currentData = cartData.filter(item => item.productID === productID);
-        currentData[0].quantity = newValue
-        var cartData = cartData.filter(item => item.productID != productID);
-        cartData.push(currentData[0]);
-        localStorage.setItem('cart', JSON.stringify(cartData));
-        updateCartPrice();
+    const deleteCartData = async function (productID) {
+        if (productID) { 
+            await $.get(`${baseUrl}/api/cart/remove/${productID}`, function (res) {
+                console.log('res: ', res);
+            }
+            );
+            refreshCartView();
+        }
     }
-    const deleteCartData = function (productID) {
-        let cartData = JSON.parse(localStorage.getItem('cart'));
-        cartData = cartData.filter(item => item.productID != productID);
-        localStorage.setItem('cart', JSON.stringify(cartData));
-        updateCartPrice();
-    }
-    updateCart();
     $("body").on("click", ".add-to-cart", function () {
         // get an image url
         var productID = $(this).closest('*[data-parent]').data('key');
-        var procutPrice = $(this).closest('*[data-parent]').find(".ec-price").children(".new-price").text();
-        var imgUrl = $(this).closest('*[data-parent]').find(".main-image").attr("src");
-        var productName = $(this).closest('*[data-parent]').find(".ec-pro-title").children().html();
-        var slug = $(this).closest('*[data-parent]').find(".ec-pro-title").children().attr('href');
+        var quantity = $(this).closest('*[data-parent]').find('.quantity').text();
         let data = {
             'productID': productID,
-            'name': productName,
-            'image': imgUrl,
-            'price': procutPrice,
-            'quantity': 1,
-            'slug': slug
+            'quantity': quantity ? quantity : 1,
         };
         addCartData(data);
     });
@@ -331,24 +310,13 @@ function ecAccessCookie(cookieName) {
                 QtynewVal = 1;
             }
         }
-        updateQuantityCartData(productID, QtynewVal);
-        $(`*[data-key="${productID}"]`).find("input").val(QtynewVal);
-        $(`*[data-key="${productID}"]`).find(".cart-price .quantity").text(QtynewVal);
-        if ($(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span').length) {
-            var price = $(`*[data-key="${productID}"]`).find(".amount").text();
-            $(`*[data-key="${productID}"]`).find(".ec-cart-pro-subtotal span").text(QtynewVal * price);
-        }
+        updateCart(productID, QtynewVal);
     });
     $("body").on("click", ".ec-pro-content .remove ,.ec-cart-pro-remove", function () {
         // $(".ec-pro-content .remove").on("click", function () {
         var cart_product_count = $(".eccart-pro-items li").length;
         var productID = $(this).closest("*[data-parent]").data('key');
         deleteCartData(productID);
-        $(`.cart-item[data-key="${productID}"]`).remove();
-        if (cart_product_count == 1) {
-            $('.eccart-pro-items').html('<li><p class="emp-cart-msg">Sepetiniz boş!</p></li>');
-            $('.checkout-button').attr('disabled', 'disabled');
-        }
     });
     (function () {
         var $ekkaToggle = $(".ec-side-toggle"),
@@ -371,7 +339,7 @@ function ecAccessCookie(cookieName) {
             $ekka.removeClass("ec-open");
             $ecMenuToggle.find("a").removeClass("close");
         });
-        $(".ec-close").on("click", function (e) {
+        $("#ec-side-cart").on("click", ".ec-close", function (e) {
             e.preventDefault();
             $(".ec-side-cart-overlay").fadeOut();
             $ekka.removeClass("ec-open");
@@ -1343,10 +1311,15 @@ function ecAccessCookie(cookieName) {
             formData = new FormData();
         formData.append('search', searchVal);
         await $.ajax({
-            url: `${baseUrl}/api/search?name=${searchVal}`,
+            url: `${baseUrl}/api/search?q=${searchVal}`,
             type: 'GET',
             success: function (res) {
                 $('.search-result-content a').hide();
+                if (res.count) {
+                    $('.search-result-content a').show();
+                    $('.search-result-content a').attr('href', `${baseUrl}/search?q=${searchVal}`);
+                    $('.search-result-content a').find('.search-count').text(res.count);
+                }
                 const searchResaults = res.data.map(item => {
                     const { slug, image, name, price } = item;
                     return `
@@ -1361,11 +1334,6 @@ function ecAccessCookie(cookieName) {
                         </a> 
                         `
                 })
-                if (res.count) {
-                    $('.search-result-content a').show();
-                    $('.search-result-content a').attr('href', `${baseUrl}/search/${searchVal}`);
-                    $('.search-result-content a').find('.search-count').text(res.count);
-                }
                 $('.search-result').html(searchResaults);
             }
         })

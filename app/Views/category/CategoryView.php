@@ -59,7 +59,7 @@
                 </div>
                 <!-- Shop Top End -->
                 <!-- Shop content Start -->
-                <div class="shop-pro-content" data-category="<?= $categoryID  ?>">
+                <div class="shop-pro-content" data-category="<?= $categoryID ?>">
                     <div class="shop-pro-inner">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-parent data-key="0">
@@ -136,6 +136,7 @@
                     </div>
                     <div class="ec-sidebar-wrap">
                         <!-- Sidebar Category Block -->
+
                         <?php foreach ($filters as $index => $filter) :  ?>
                             <div class="ec-sidebar-block">
                                 <div class="ec-sb-title">

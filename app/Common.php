@@ -23,4 +23,17 @@ function print_a($data){
     print_r($data);
     echo '</pre>';
 }
- 
+
+function getSessionID()
+{
+    $sessionID =  session()->get('sessionID');
+    if (!$sessionID) {
+        if (function_exists('random_bytes')) {
+            $sessionID = substr(bin2hex(random_bytes(26)), 0, 26);
+        } else {
+            $sessionID = substr(bin2hex(openssl_random_pseudo_bytes(26)), 0, 26);
+        }
+        session()->set('sessionID', $sessionID);
+    }
+    return $sessionID;
+}

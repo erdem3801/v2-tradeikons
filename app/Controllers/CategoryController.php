@@ -97,8 +97,8 @@ class CategoryController extends BaseController
         //
     }
     public function search(){
-        
-        return view('category/CategoryView', $this->viewData);
+        $this->viewData['query'] = $this->request->getVar('q');
+        return view('category/SearchView', $this->viewData);
         
     }
 }

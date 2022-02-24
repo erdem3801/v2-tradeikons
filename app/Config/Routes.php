@@ -54,13 +54,14 @@ $routes->match(['get', 'post'], 'logout', 'UserController::logout');
 
 $routes->match(['get', 'post'], 'sepet', 'CartController::Cart');
 $routes->match(['get', 'post'], 'odeme', 'CheckoutController::Checkout');
-$routes->get('search', 'ProductController::search');
+$routes->get('search', 'CategoryController::search');
 
 $routes->group('api', function ($routes) {
 
     $routes->get('/', 'ApiController::index');
     $routes->get('search', 'Api\ProductResource::search');
     $routes->presenter('product', ['controller' => 'Api\ProductResource']);
+    $routes->presenter('cart',['controller' => 'Api\CartResource']);
 });
 
 $routes->get('(:segment)/(:any)/(:any)', 'CategoryController::list/$1/$2/$3');

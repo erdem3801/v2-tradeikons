@@ -66,7 +66,7 @@ class ProductResource extends ResourceController
             }
             return $this->failNotFound();
         }
-        print_r($product);
+        print_a($product);
 
         //
     }
@@ -77,18 +77,36 @@ class ProductResource extends ResourceController
      */
     public function search()
     {
-        $name =  $this->request->getVar('name');
-        $product = array();
-        $count = 0;
-        if ($name){
-            $product = $this->productModel->search($name);
-            $count = $this->productModel->searchCount($name);
-        }
-            
-        if ($this->request->isAJAX()) {
+        $orderClass = array(
+            'enyeni' => ['orderBy' => 'date_added', 'order' => 'DESC'],
+            'urunpuani' => ['orderBy' => 'points', 'order' => 'DESC'],
+            'adanz' =>  ['orderBy' => 'name', 'order' => 'ASC'],
+            'zdena'  =>  ['orderBy' => 'name', 'order' => 'DESC'],
+            'azlanfiyat'  =>  ['orderBy' => 'price', 'order' => 'DESC'],
+            'artanfiyat'  =>  ['orderBy' => 'price', 'order' => 'ASC'],
+        );
 
-            return $this->respond(['data' => $product, 'count' => $count], ResponseInterface::HTTP_OK);
- 
+        $query =  $this->request->getVar('q');
+        $order =  $this->request->getVar('order');
+        $limit =  $this->request->getVar('limit') ?? 10;
+        $offset =  $this->request->getVar('offset') ?? 0;
+
+        
+        $data['query'] = $query ? $query : '';
+        
+        if ($order && isset($orderClass[$order]))
+            $data['order'] = $orderClass[$order];
+
+
+        $product = $this->productModel->search($data, $limit, $offset);
+        $count = $this->productModel->searchCount($query);
+
+        if ($this->request->isAJAX()) {
+            $responseData = [
+                'data' => $product ?? [],
+                'count' => $count ?? 0
+            ];
+            return $this->respond($responseData, ResponseInterface::HTTP_OK);
         }
         print_a($count);
         print_a($product);

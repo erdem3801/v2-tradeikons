@@ -91,23 +91,26 @@ class ProductModel extends Model
 
         return $results;
     }
-    public function search($search,$limit = 10 , $offset = 0)
+    public function search($data, $limit = 10, $offset = 0)
     {
+        if (isset($data['order']))
+            $this->orderBy($data['order']['orderBy'], $data['order']['order']);
         $results = $this
             ->join('product_description', 'product_description.product_id = product.product_id', 'left')
             ->groupBy('product.product_id')
-            ->like('name', $search)
-            ->findAll($limit,$offset);
+            ->like('name', $data['query'])
+            ->findAll($limit, $offset);
 
         return $results;
     }
-    public function searchCount($search){
+    public function searchCount($search)
+    {
         $results = $this
-        ->selectCount('name')
-        ->join('product_description', 'product_description.product_id = product.product_id', 'left')
-         
-        ->like('name', $search) 
-        ->findAll();
+            ->selectCount('name')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
+
+            ->like('name', $search)
+            ->findAll();
         return $results[0]['name'];
     }
     public function getProducts()
