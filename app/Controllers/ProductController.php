@@ -36,10 +36,10 @@ class ProductController extends BaseController
         $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
 
 
-        $options = $this->productOptionModel->select('name')->groupBy('name')->where('product_id',$product['product_id'])->findAll();
+        $options = $this->productOptionModel->select('name')->groupBy('name')->where(['product_id'=>$product['product_id'],'value !=' => 'Standart'])->findAll();
         $optionValues = array();
         foreach($options as $key => $option){
-            $values = $this->productOptionModel->select('value')->groupBy('value')->where(['product_id' => $product['product_id'],'name' => $option['name'] ])->findAll();
+            $values = $this->productOptionModel->select('value')->groupBy('value')->where(['product_id' => $product['product_id'],'name' => $option['name'],'value !=' => 'Standart' ])->findAll();
             $optionValues[$option['name']] = $values;
         }
 
