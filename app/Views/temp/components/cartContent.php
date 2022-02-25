@@ -12,9 +12,9 @@
                         <a href="${cartItem.slug}" class="cart_pro_title"><?= $cart['name']  ?></a>
                         <span class="cart-price"><span><?= $cart['price']  ?></span> x <span class="quantity"> <?= $cart['cart_quantity']  ?> </span></span>
                         <div class="qty-plus-minus">
-                            <div class="dec ec_qtybtn"> - </div>
+                            <div class="dec ec_qtybtn" data-minus>-</div>
                             <input class="qty-input" type="text" name="ec_qtybtn" value="<?= $cart['cart_quantity']  ?> " readonly>
-                            <div class="inc ec_qtybtn">+</div>
+                            <div class="inc ec_qtybtn" data-plus>+</div>
                         </div>
                         <a href="#" class="remove">×</a>
                     </div>

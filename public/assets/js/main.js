@@ -242,7 +242,7 @@ function ecAccessCookie(cookieName) {
             }, 10000);
         });
     }
-    const updateCart = async function (productID, QtynewVal) {
+    const updateCart = async function (item ,productID, QtynewVal) {
         if (productID) {
             const formData = new FormData();
             formData.append('quantity', QtynewVal);
@@ -253,10 +253,12 @@ function ecAccessCookie(cookieName) {
                 cache: false,
                 type: 'POST',
                 data: formData,
-                success: function (res) {
+                success: function (res) { 
+                    item.closest('*[data-parent]').find("input").val(QtynewVal);
+
                 }
             });
-            refreshCartView();
+
         }
     };
     const addCartData = async function (item = null) {
@@ -278,7 +280,7 @@ function ecAccessCookie(cookieName) {
         }
     }
     const deleteCartData = async function (productID) {
-        if (productID) { 
+        if (productID) {
             await $.get(`${baseUrl}/api/cart/remove/${productID}`, function (res) {
                 console.log('res: ', res);
             }
@@ -301,16 +303,18 @@ function ecAccessCookie(cookieName) {
         var $qtybutton = $(this);
         var productID = $qtybutton.closest('*[data-parent]').data('key');
         var QtyoldValue = $qtybutton.closest('*[data-parent]').find("input").val();
-        if ($qtybutton.text() === "+") {
+        if ($qtybutton.data('plus') != undefined) {
             var QtynewVal = parseFloat(QtyoldValue) + 1;
-        } else {
+        } else { 
             if (QtyoldValue > 1) {
                 var QtynewVal = parseFloat(QtyoldValue) - 1;
             } else {
                 QtynewVal = 1;
             }
         }
-        updateCart(productID, QtynewVal);
+      
+
+        updateCart($qtybutton ,productID, QtynewVal);
     });
     $("body").on("click", ".ec-pro-content .remove ,.ec-cart-pro-remove", function () {
         // $(".ec-pro-content .remove").on("click", function () {
