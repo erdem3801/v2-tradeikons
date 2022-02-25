@@ -75,7 +75,7 @@ class CartModel extends Model
             );
             $this->insert($insertData);
         } else {
-            $this->update($issetBasket['cart_id'], ['quantity' => ++$issetBasket['quantity']]);
+            $this->update($issetBasket['cart_id'], ['quantity' => $quantity+$issetBasket['quantity']]);
         }
     }
     public function getCart()

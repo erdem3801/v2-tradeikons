@@ -12,7 +12,7 @@
             <div class="ec-pro-rightside ec-common-rightside col-lg-12 col-md-12">
 
                 <!-- Single product content Start -->
-                <div class="single-pro-block">
+                <div class="single-pro-block" data-parent data-key="<?= $product['product_id']  ?>>
                     <div class="single-pro-inner">
                         <div class="row">
                             <div class="single-pro-img single-pro-img-no-sidebar">
@@ -88,19 +88,19 @@
                                     </div>
                                     <div class="ec-single-qty">
                                         <div class="qty-plus-minus">
-                                            <div class="dec ec_qtybtn">-</div>
+                                            <div class="dec ec_qtybtn_product" data-minus data-product>-</div>
                                             <input class="qty-input" type="text" name="ec_qtybtn" value="1">
-                                            <div class="inc ec_qtybtn">+</div>
+                                            <div class="inc ec_qtybtn_product" data-plus data-product>+</div>
                                         </div>
                                     </div>
 
                                     <div class="ec-single-qty">
 
                                         <div class="ec-single-cart mb-2">
-                                            <button class="btn btn-primary">Sepete Ekle</button>
+                                            <button class="btn btn-primary add-to-cart">Sepete Ekle</button>
                                         </div>
                                         <div class="ec-single-cart mb-2">
-                                            <button class="btn btn-success">Hemen Al</button>
+                                            <button class="btn btn-success add-to-cart" data-checkout>Hemen Al</button>
                                         </div>
                                         <div class="ec-single-wishlist">
                                             <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
