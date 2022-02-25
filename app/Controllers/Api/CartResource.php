@@ -55,15 +55,7 @@ class CartResource extends ResourceController
     {
         //
     }
-    /**
-     * Return a new resource object, with default properties
-     *
-     * @return mixed
-     */
-    public function new()
-    {
-        //
-    }
+
     /**
      * Create a new resource object, from "posted" parameters
      *
@@ -125,12 +117,13 @@ class CartResource extends ResourceController
     {
         helper(['array']);
         $item = $this->request->getPost();
+        $sessionID = getSessionID();
         $productInfo = $this->productModel->find($productID);
+
         if ($productInfo) {
             $quantity = $item['quantity'] ?? 1;
             $option = $item['option'] ?? array();
             //Todo ürün varyasyon seçimi sepete eklenecek
-            $sessionID = getSessionID();
             $whereData = array(
                 "api_id" =>   0,
                 "customer_id" =>  session()->get('user.user.user_id') ?? 0,
@@ -155,7 +148,16 @@ class CartResource extends ResourceController
                 $this->cartModel->update($issetBasket['cart_id'], ['quantity' => $quantity]);
             }
         }
-        return $this->respondUpdated();
+        $whereData = array(
+            "api_id" =>   0,
+            "customer_id" =>  session()->get('user.user.user_id') ?? 0,
+            "session_id" =>  $sessionID,
+            "recurring_id" => $recurringID ?? 0,
+        );
+        $sum = $this->cartModel->select('SUM(price * cart.quantity) as basket_sum')
+            ->join('product', 'product.product_id = cart.product_id')
+            ->where($whereData)->findAll();
+        return $this->respondUpdated(['sum' => $sum[0]['basket_sum']]);
         //
     }
     /**
@@ -172,7 +174,7 @@ class CartResource extends ResourceController
             "customer_id" =>  session()->get('user.user.user_id') ?? 0,
             "session_id" =>  $sessionID,
             "product_id" =>  $productID,
-            "recurring_id" => $recurringID ?? 0, 
+            "recurring_id" => $recurringID ?? 0,
         );
         $issetBasket = $this->cartModel->where($whereData)->first();
 

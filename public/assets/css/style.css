@@ -19363,7 +19363,7 @@ body.ec-open:before {
   overflow: hidden;
   padding: 0;
   position: relative;
-  width: 85px;
+  width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19389,7 +19389,7 @@ body.ec-open:before {
   justify-content: center;
   height: 100%;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 35px;
   color: #777;
 }
 .eccart-pro-items li .ec-pro-content .qty-plus-minus input.qty-input {
@@ -19397,14 +19397,14 @@ body.ec-open:before {
   border: medium none;
   color: #777;
   float: left;
-  font-size: 14px;
+  font-size: 20px;
   height: auto;
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 32px;
+  width: 100%;
   outline: none;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 35px;
 }
 .eccart-pro-items li .ec-pro-content .qty-plus-minus .dec.ec_qtybtn {

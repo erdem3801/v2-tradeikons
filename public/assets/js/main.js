@@ -255,7 +255,8 @@ function ecAccessCookie(cookieName) {
                 data: formData,
                 success: function (res) { 
                     item.closest('*[data-parent]').find("input").val(QtynewVal);
-
+                    item.closest('*[data-parent]').find(".quantity").text(QtynewVal);
+                    $('.product-total-price').text(parseFloat(res.sum).toFixed(2))
                 }
             });
 
