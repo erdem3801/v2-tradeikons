@@ -242,7 +242,7 @@ function ecAccessCookie(cookieName) {
             }, 10000);
         });
     }
-    const updateCart = async function (item ,productID, QtynewVal) {
+    const updateCart = async function (item, productID, QtynewVal) {
         if (productID) {
             const formData = new FormData();
             formData.append('quantity', QtynewVal);
@@ -253,10 +253,22 @@ function ecAccessCookie(cookieName) {
                 cache: false,
                 type: 'POST',
                 data: formData,
-                success: function (res) { 
-                    item.closest('*[data-parent]').find("input").val(QtynewVal);
-                    item.closest('*[data-parent]').find(".quantity").text(QtynewVal);
+                success: function (res) {
+                    $(`*[data-key=${productID}]`).find('input[name="cartqtybutton"]').val(QtynewVal);
+
+                    $(`*[data-key=${productID}]`).find(".quantity").text(QtynewVal);
+
+                    const price = $(`*[data-key=${productID}]`).find('.amount').text();
+                    $(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span').text(parseFloat(QtynewVal * price).toFixed(2))
+                    console.log(' ss', $(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span'));
+
+
                     $('.product-total-price').text(parseFloat(res.sum).toFixed(2))
+                    $('.sub-total span').text(parseFloat(res.sum).toFixed(2))
+                    $('.delivery-charges span').text(parseFloat(res.delivery).toFixed(2))
+                    const total = parseFloat(res.sum) + parseFloat(res.delivery);
+                    $('.total-amount span').text(parseFloat(total).toFixed(2))
+
                 }
             });
 
@@ -283,10 +295,22 @@ function ecAccessCookie(cookieName) {
     const deleteCartData = async function (productID) {
         if (productID) {
             await $.get(`${baseUrl}/api/cart/remove/${productID}`, function (res) {
-                console.log('res: ', res);
-            }
-            );
-            refreshCartView();
+                $(`*[data-key=${productID}]`).remove();
+                 
+
+                $('.product-total-price').text(parseFloat(res.sum).toFixed(2))
+                $('.sub-total span').text(parseFloat(res.sum).toFixed(2))
+                $('.delivery-charges span').text(parseFloat(res.delivery).toFixed(2))
+                const total = parseFloat(res.sum) + parseFloat(res.delivery);
+                $('.total-amount span').text(parseFloat(total).toFixed(2));
+
+                $(".ec-cart-float").fadeIn();
+                $('.ec-cart-count.cart-count-lable').html(res.count);
+                $('.ec-header-count.cart-count-lable').html(res.count);
+                setTimeout(function () {
+                    $(".ec-cart-float").fadeOut();
+                }, 10000);
+            });
         }
     }
     $("body").on("click", ".add-to-cart", function () {
@@ -300,22 +324,20 @@ function ecAccessCookie(cookieName) {
         addCartData(data);
     });
     $("body").on("click", ".ec_qtybtn", function () {
-        // $(".ec_qtybtn").on("click", function() {
         var $qtybutton = $(this);
         var productID = $qtybutton.closest('*[data-parent]').data('key');
         var QtyoldValue = $qtybutton.closest('*[data-parent]').find("input").val();
         if ($qtybutton.data('plus') != undefined) {
             var QtynewVal = parseFloat(QtyoldValue) + 1;
-        } else { 
+        } else {
             if (QtyoldValue > 1) {
                 var QtynewVal = parseFloat(QtyoldValue) - 1;
             } else {
                 QtynewVal = 1;
             }
         }
-      
 
-        updateCart($qtybutton ,productID, QtynewVal);
+        updateCart($qtybutton, productID, QtynewVal);
     });
     $("body").on("click", ".ec-pro-content .remove ,.ec-cart-pro-remove", function () {
         // $(".ec-pro-content .remove").on("click", function () {
@@ -421,43 +443,7 @@ function ecAccessCookie(cookieName) {
     /*----------------------------- Product Image Zoom --------------------------------*/
     $('.zoom-image-hover').zoom();
     /*----------------------------- Qty Plus Minus Button  ------------------------------ */
-    // var QtyPlusMinus = $(".qty-plus-minus");
-    // QtyPlusMinus.prepend('<div class="dec ec_qtybtn">-</div>');
-    //QtyPlusMinus.append('<div class="inc ec_qtybtn">+</div>');
-    /*----------------------------- Single Product Slider ---------------------------------*/
-    // var swiper = new Swiper(".single-product-slider", {
-    //     slidesPerView: 4,
-    //     spaceBetween: 20,
-    //     speed: 1500,
-    //     loop: true,
-    //     navigation: {
-    //         nextEl: ".swiper-button-next",
-    //         prevEl: ".swiper-button-prev",
-    //     },
-    //     breakpoints: {
-    //         0: {
-    //             slidesPerView: 1,
-    //         },
-    //         478: {
-    //             slidesPerView: 1,
-    //         },
-    //         576: {
-    //             slidesPerView: 2,
-    //         },
-    //         768: {
-    //             slidesPerView: 3,
-    //         },
-    //         992: {
-    //             slidesPerView: 3,
-    //         },
-    //         1024: {
-    //             slidesPerView: 4,
-    //         },
-    //         1200: {
-    //             slidesPerView: 4,
-    //         },
-    //     },
-    // });
+
     /*----------------------------- Scroll Up Button --------------------- */
     $.scrollUp({
         scrollText: '<i class="ecicon eci-arrow-up" aria-hidden="true"></i>',
@@ -1057,22 +1043,7 @@ function ecAccessCookie(cookieName) {
         });
     }
     /*----------------------------- Cart Page Qty Plus Minus Button  ------------------------------ */
-    var CartQtyPlusMinus = $(".cart-qty-plus-minus");
-    // CartQtyPlusMinus.append('<div class="ec_cart_qtybtn"><div class="inc ec_qtybtn">+</div><div class="dec ec_qtybtn">-</div></div>');
-    $(".cart-qty-plus-minus .ec_cart_qtybtn .ec_qtybtn").on("click", function () {
-        var $cartqtybutton = $(this);
-        var CartQtyoldValue = $cartqtybutton.closest('*[data-parent]').find("input").val();
-        if ($cartqtybutton.text() === "+") {
-            var CartQtynewVal = parseFloat(CartQtyoldValue) + 1;
-        } else {
-            if (CartQtyoldValue > 1) {
-                var CartQtynewVal = parseFloat(CartQtyoldValue) - 1;
-            } else {
-                CartQtynewVal = 1;
-            }
-        }
-        $cartqtybutton.closest('*[data-parent]').find("input").val(CartQtynewVal);
-    });
+
     /*----------------------------- Cart  Shipping Toggle -------------------------------- */
     $(document).ready(function () {
         $(".ec-sb-block-content .ec-ship-title").click(function () {

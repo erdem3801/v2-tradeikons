@@ -37,8 +37,30 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-
-
+                                            <?php foreach ($cartData as $key => $cart) :   ?>
+                                                <tr class="cart-item" data-parent data-key="<?= $cart['product_id']  ?>">
+                                                    <td data-label="Product" class="ec-cart-pro-name">
+                                                        <a href="<?= base_url($cart['slug'])  ?>">
+                                                            <img class="ec-cart-pro-img mr-4" src="<?= $cart['image']  ?>" alt="img-<?= $cart['product_id'] ?>" /><?= $cart['name']  ?></a>
+                                                    </td>
+                                                    <td data-label="Price" class="ec-cart-pro-price"><span class="amount"><?= number_format($cart['price'], 2)  ?></span></td>
+                                                    <td data-label="Quantity" class="ec-cart-pro-qty" style="text-align: center;">
+                                                        <div class="cart-qty-plus-minus">
+                                                            <input class="cart-plus-minus" type="text" name="cartqtybutton" value="<?= $cart['cart_quantity']  ?>" readonly />
+                                                            <?php if (!isset($paytr_token)) :  ?>
+                                                                <div class="ec_cart_qtybtn">
+                                                                    <div class="inc ec_qtybtn" data-plus>+</div>
+                                                                    <div class="dec ec_qtybtn" data-minus>-</div>
+                                                                </div>
+                                                            <?php endif  ?>
+                                                        </div>
+                                                    </td>
+                                                    <td data-label="Total" class="ec-cart-pro-subtotal"><span><?= number_format(($cart['price'] * $cart['cart_quantity']), 2) ?></span> ₺</td>
+                                                    <td data-label="Remove" class="ec-cart-pro-remove">
+                                                        <a href="#"><i class="ecicon eci-trash-o"></i></a>
+                                                    </td>
+                                                </tr>
+                                            <?php endforeach  ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -46,7 +68,9 @@
                                     <div class="col-lg-12">
                                         <div class="ec-cart-update-bottom">
                                             <a href="<?= base_url()  ?>">Alışverişe Devam Et</a>
-                                            <button type="submit" class="btn btn-primary checkout-button">Ödeme Ekranına Git</button>
+                                            <?php if (!isset($paytr_token)) : ?>
+                                                <button type="submit" class="btn btn-primary checkout-button" <?= !count($cartData) ? 'disabled ': ''  ?>>Ödeme Ekranına Git</button>
+                                            <?php endif  ?>
                                         </div>
                                     </div>
                                 </div>
@@ -74,13 +98,13 @@
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Ad <span class="text-danger">*</span></label>
-                                                    <input type="text" name="firstname" placeholder="Adınızı giriniz" value="<?= set_value('firstname')  ?>" required="">
+                                                    <input type="text" name="firstname" placeholder="Adınızı giriniz" value="<?= set_value('firstname')  ?>" required="" <?= isset($paytr_token) ? 'readonly' : ''  ?>>
                                                 </span>
                                             </div>
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Soyad <span class="text-danger">*</span></label>
-                                                    <input type="text" name="lastname" placeholder="Soyadınızı giriniz" value="<?= set_value('lastname')  ?>" required="">
+                                                    <input type="text" name="lastname" placeholder="Soyadınızı giriniz" value="<?= set_value('lastname')  ?>" required="" <?= isset($paytr_token) ? 'readonly' : ''  ?>>
                                                 </span>
                                             </div>
                                         </div>
@@ -88,7 +112,7 @@
                                             <div class="col-md-12">
                                                 <span class="ec-register-wrap">
                                                     <label>Adres <span class="text-danger">*</span></label>
-                                                    <input type="text" name="address" placeholder="Adresinizi giriniz" value="<?= set_value('address')  ?>" required="">
+                                                    <input type="text" name="address" placeholder="Adresinizi giriniz" value="<?= set_value('address')  ?>" required="" <?= isset($paytr_token) ? 'readonly' : ''  ?>>
                                                 </span>
                                             </div>
                                         </div>
@@ -97,7 +121,7 @@
                                                 <span class="ec-register-wrap ec-register-half">
                                                     <label>İl: <span class="text-danger">*</span></label><br>
                                                     <span class="ec-rg-select-inner">
-                                                        <select name="ec_select_city" id="Iller" class="ec-register-select border form-control" required="">
+                                                        <select name="ec_select_city" id="Iller" class="ec-register-select border form-control" required="" <?= isset($paytr_token) ? 'disabled' : ''  ?>>
                                                             <option value="">Lütfen Bir İl Seçiniz</option>
                                                             <option <?= set_select('ec_select_city', '1') ?> value="1">Adana</option>
                                                             <option <?= set_select('ec_select_city', '2')  ?> value="2">Adıyaman</option>
@@ -190,8 +214,11 @@
                                                     <label>İlçe: <span class="text-danger">*</span></label><br>
                                                     <span class="ec-register-wrap ec-register-half">
                                                         <span class="ec-rg-select-inner">
-                                                            <select name="ec_select_country" id="Ilceler" disabled="disabled" class="ec-register-select border form-control" required="">
+                                                            <select name="ec_select_country" id="Ilceler" disabled="disabled" class="ec-register-select border form-control" required="" <?= isset($paytr_token) ? 'disabled' : ''  ?>>
                                                                 <option value="">Lütfen Önce Bir İl Seçiniz</option>
+                                                                <?php if (isset($ec_select_country)) : ?>
+                                                                    <option value="<?= $ec_select_country  ?>" selected><?= $ec_select_country  ?></option>
+                                                                <?php endif  ?>
                                                             </select>
                                                         </span>
                                                     </span>
@@ -202,13 +229,13 @@
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Mail Adresi: <span class="text-danger">*</span></label>
-                                                    <input type="text" name="email" placeholder="Mail Adresi" value="<?= set_value('email')  ?>" required="">
+                                                    <input type="text" name="email" placeholder="Mail Adresi" value="<?= set_value('email')  ?>" required="" <?= isset($paytr_token) ? 'readonly' : ''  ?>>
                                                 </span>
                                             </div>
                                             <div class="col-md-6">
                                                 <span class="ec-register-wrap">
                                                     <label>Telefon No: <span class="text-danger">*</span></label>
-                                                    <input type="phone" name="phonenumber" placeholder="Telefon No" value="<?= set_value('phonenumber')  ?>" required="">
+                                                    <input type="phone" name="phonenumber" placeholder="Telefon No" value="<?= set_value('phonenumber')  ?>" required="" <?= isset($paytr_token) ? 'readonly' : ''  ?>>
                                                 </span>
                                             </div>
                                         </div>
@@ -221,11 +248,11 @@
                                     <div class="ec-cart-summary">
                                         <div>
                                             <span class="text-left">Sepet Tutarı</span>
-                                            <span class="text-right sub-total"><span> 0 </span> ₺</span>
+                                            <span class="text-right sub-total"><span> <?= $totalPrice  ?> </span> ₺</span>
                                         </div>
                                         <div>
                                             <span class="text-left">Korgo Ücreti</span>
-                                            <span class="text-right delivery-charges"><span> 0 </span> ₺</span>
+                                            <span class="text-right delivery-charges"><span> <?= $deliveryPrice   ?> </span> ₺</span>
                                         </div>
 
                                         <!-- <div class="ec-cart-coupan-content">
@@ -236,7 +263,7 @@
                                         </div> -->
                                         <div class="ec-cart-summary-total">
                                             <span class="text-left">Toplam Tutar</span>
-                                            <span class="text-right total-amount"><span> 0 </span> ₺</span>
+                                            <span class="text-right total-amount"><span> <?= $deliveryPrice + $totalPrice    ?> </span> ₺</span>
                                         </div>
                                     </div>
 

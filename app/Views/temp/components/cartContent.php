@@ -7,13 +7,13 @@
         <ul class="eccart-pro-items">
             <?php foreach ($cartData as $key => $cart) :  ?>
                 <li class="cart-item" data-parent data-key="<?= $cart['product_id']  ?>">
-                    <a href="${cartItem.slug}" class="sidekka_pro_img"><img src="<?= $cart['image']  ?>" alt="product"></a>
+                    <a href="<?= base_url($cart['slug'])  ?>" class="sidekka_pro_img"><img src="<?= $cart['image']  ?>" alt="product"></a>
                     <div class="ec-pro-content">
-                        <a href="${cartItem.slug}" class="cart_pro_title"><?= $cart['name']  ?></a>
+                        <a href="<?= base_url($cart['slug'])  ?>" class="cart_pro_title"><?= $cart['name']  ?></a>
                         <span class="cart-price"><span><?= $cart['price']  ?></span> x <span class="quantity"> <?= $cart['cart_quantity']  ?> </span></span>
                         <div class="qty-plus-minus">
                             <div class="dec ec_qtybtn" data-minus>-</div>
-                            <input class="qty-input" type="text" name="ec_qtybtn" value="<?= $cart['cart_quantity']  ?> " readonly>
+                            <input class="qty-input" type="text" name="cartqtybutton" value="<?= $cart['cart_quantity']  ?> " readonly>
                             <div class="inc ec_qtybtn" data-plus>+</div>
                         </div>
                         <a href="#" class="remove">×</a>
@@ -28,7 +28,7 @@
                 <tbody>
                     <tr>
                         <td class="text-left">Ürün Fiyatı :</td>
-                        <td class="text-right"><span class="product-total-price"><?= isset($totalPrice) ? number_format($totalPrice ,2) : 0  ?></span> ₺</td>
+                        <td class="text-right"><span class="product-total-price"><?= $totalPrice ?></span> ₺</td>
                     </tr>
                     <!-- <tr>
                                 <td class="text-left">KDV :</td>

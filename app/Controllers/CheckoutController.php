@@ -34,7 +34,7 @@ class CheckoutController extends BaseController
         $email = $data['user']['user_mail'];
         #
         ## Tahsil edilecek tutar.
-        $payment_amount    = ($data['basketTotal'] + $data['delivartPrice']) * 100; //9.99 için 9.99 * 100 = 999 gönderilmelidir.
+        $payment_amount    = (int)(($data['basketTotal'] + $data['delivartPrice']) * 100); //9.99 için 9.99 * 100 = 999 gönderilmelidir.
         #
         ## Sipariş numarası: Her işlemde benzersiz olmalıdır!! Bu bilgi bildirim sayfanıza yapılacak bildirimde geri gönderilir.
         $merchant_oid = $data['oid'];

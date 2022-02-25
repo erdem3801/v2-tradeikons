@@ -56,13 +56,14 @@
                         </a>
                         <!-- Header Cart End -->
                         <!-- Header Cart Start -->
-                        <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
+
+                        <a href="#ec-side-cart" class="ec-header-btn <?= (!isset($paytr_token)) ? 'ec-side-toggle' : ''?>">
                             <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="cart" /></div>
                             <span class="ec-header-count cart-count-lable"><?= $basketCount ?? 0  ?></span>
                         </a>
                         <!-- Header Cart End -->
                         <!-- Header menu Start -->
-                        <a href="#ec-mobile-menu" class="ec-header-btn ec-side-toggle d-lg-none">
+                        <a href="#ec-mobile-menu" class="ec-header-btn <?= (!isset($paytr_token)) ? 'ec-side-toggle' : ''?> d-lg-none">
                             <img src="<?= base_url('public')  ?>/assets/images/icons/menu.svg" class="svg_img header_svg" alt="icon" />
                         </a>
                         <!-- Header menu End -->
@@ -129,7 +130,7 @@
                             </a>
                             <!-- Header wishlist End -->
                             <!-- Header Cart Start -->
-                            <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
+                            <a href="#ec-side-cart" class="ec-header-btn <?= (!isset($paytr_token)) ? 'ec-side-toggle' : '' ?>">
                                 <div class="header-icon"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img header_svg" alt="cart" /></div>
                                 <span class="ec-header-count cart-count-lable"><?= $basketCount ?? 0  ?></span>
                             </a>
@@ -160,11 +161,11 @@
                         <input class="form-control search-input" autocomplete="false" autofill="off" placeholder="Ürün Ara" type="text">
                         <button class="submit"><img src="<?= base_url('public')  ?>/assets/images/icons/search.svg" class="svg_img header_svg" alt="search" /></button>
                         <div class="search-result-content">
-                                <div class="search-result">
+                            <div class="search-result">
 
-                                </div>
-                                <a href="#" class="btn btn-block">Daha Fazla... (<span class="search-count">0</span>)</a>
                             </div>
+                            <a href="#" class="btn btn-block">Daha Fazla... (<span class="search-count">0</span>)</a>
+                        </div>
                     </div>
                 </div>
                 <!-- Ec Header Search End -->

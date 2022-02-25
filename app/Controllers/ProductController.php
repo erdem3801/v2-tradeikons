@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\CategoryToProduct;
 use App\Models\Product\ProductModel;
+use App\Models\Product\ProductOptionModel;
 use App\Models\Product\ProductToImageModel;
 
 class ProductController extends BaseController
@@ -13,11 +14,13 @@ class ProductController extends BaseController
     private $productModel;
     private $categoryToProductModel;
     private $imageModel;
+    private $productOptionModel;
     public function __construct()
     {
         $this->imageModel = new ProductToImageModel();
         $this->productModel = new ProductModel();
-        $this->categoryToProductModel = model('CategoryToProduct');
+        $this->categoryToProductModel = new CategoryToProduct();
+        $this->productOptionModel = new ProductOptionModel();
         $this->viewData = $this->getDefaults();
     }
     public function detail($slug = null)
@@ -32,14 +35,24 @@ class ProductController extends BaseController
 
         $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
 
+
+        $options = $this->productOptionModel->select('name')->groupBy('name')->where('product_id',$product['product_id'])->findAll();
+        $optionValues = array();
+        foreach($options as $key => $option){
+            $values = $this->productOptionModel->select('value')->groupBy('value')->where(['product_id' => $product['product_id'],'name' => $option['name'] ])->findAll();
+            $optionValues[$option['name']] = $values;
+        }
+
         $productCategory = $this->categoryToProductModel->where('product_id', $product['product_id'])->first();
         if ($productCategory)
             $similarProduct = $this->productModel->getProductByIDs(['categoryID' => $productCategory['category_id']], 4, 0);
-
+        $this->viewData['options'] = $optionValues;
         $this->viewData['product'] = $product;
         $this->viewData['similarProduct'] = $similarProduct ?? array();
         $this->viewData['images'] = $images;
         $this->viewData['baslik'] = $breadcrump;
+
+
 
         return view('product/ProductView', $this->viewData);
     }

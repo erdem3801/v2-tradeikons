@@ -16,6 +16,7 @@ use Psr\Log\LoggerInterface;
 use CodeIgniter\Validation\Exceptions\ValidationException;
 use Config\Services;
 use Exception;
+use Faker\Core\Number;
 
 /**
  * Class BaseController
@@ -57,6 +58,9 @@ class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+    public $basket;
+    public $sum;
+    public $count;
 
     public function getDefaults()
     {
@@ -78,28 +82,14 @@ class BaseController extends Controller
         $returnData['settings'] =    $settings;
         $returnData['categories'] =  $categories;
 
-        $sessionID = getSessionID();
-        $whereData = array(
-            "api_id" =>   0,
-            "customer_id" =>  session()->get('user.user.user_id') ?? 0,
-            "session_id" =>  $sessionID,
-            "recurring_id" => $recurringID ?? 0,
-        );
-
-        $basket = $cartModel->where($whereData)
-            ->select('*,cart.quantity as cart_quantity')
-            ->join('product', 'product.product_id = cart.product_id')
-            ->join('product_description', 'product_description.product_id = cart.product_id')
-            ->findAll();
-        $sum = $cartModel->select('SUM(price * cart.quantity) as basket_sum')
-            ->join('product', 'product.product_id = cart.product_id')
-            ->where($whereData)->findAll();
-        $count = $cartModel->select('COUNT(product_id) as basket_count')->where($whereData)->findAll();
+        $this->basket = $cartModel->getCart();
+        $this->sum = $cartModel->getCartSum();
+        $this->count = $cartModel->getCartCount();
 
 
-        $returnData['cartData'] = $basket;
-        $returnData['totalPrice'] = $sum[0]['basket_sum'];
-        $returnData['basketCount'] = $count[0]['basket_count'];
+        $returnData['cartData'] = $this->basket;
+        $returnData['totalPrice'] = $this->sum;
+        $returnData['basketCount'] = $this->count;
         return $returnData;
     }
     public function validateRequest($input, array $rules, array $messages = [])

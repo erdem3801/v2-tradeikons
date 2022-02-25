@@ -1,13 +1,10 @@
 <?php
-
 namespace App\Controllers\Api;
-
 use App\Models\CartModel;
 use App\Models\Product\ProductModel;
 use App\Models\Product\ProductOptionModel;
 use CodeIgniter\RESTful\ResourceController;
 use PHPUnit\Util\Json;
-
 class CartResource extends ResourceController
 {
     private $productModel;
@@ -26,24 +23,11 @@ class CartResource extends ResourceController
      */
     public function index()
     {
-        $sessionID = getSessionID();
-        $whereData = array(
-            "api_id" =>   0,
-            "customer_id" =>  session()->get('user.user.user_id') ?? 0,
-            "session_id" =>  $sessionID,
-            "recurring_id" => $recurringID ?? 0,
-        );
-        $basket = $this->cartModel->where($whereData)
-            ->select('*,cart.quantity as cart_quantity')
-            ->join('product', 'product.product_id = cart.product_id')
-            ->join('product_description', 'product_description.product_id = cart.product_id')
-            ->findAll();
-        $count = $this->cartModel->select('COUNT(product_id) as basket_count')->where($whereData)->findAll();
-        $sum = $this->cartModel->select('SUM(price * cart.quantity) as basket_sum')
-            ->join('product', 'product.product_id = cart.product_id')
-            ->where($whereData)->findAll();
-        $view = view('temp/components/cartContent', ['cartData' => $basket, 'totalPrice' => $sum[0]['basket_sum']]);
-        return $this->respond(['view' => $view, 'count' => $count[0]['basket_count'], 'sum' => $sum[0]['basket_sum']], 200);
+        $basket = $this->cartModel->getCart();
+        $count = $this->cartModel->getCartCount();
+        $sum = $this->cartModel->getCartSum();
+        $view = view('temp/components/cartContent', ['cartData' => $basket, 'totalPrice' => $sum, 2]);
+        return $this->respond(['view' => $view, 'count' => $count, 'sum' => $sum], 200);
         //
     }
     /**
@@ -55,7 +39,6 @@ class CartResource extends ResourceController
     {
         //
     }
-
     /**
      * Create a new resource object, from "posted" parameters
      *
@@ -71,30 +54,7 @@ class CartResource extends ResourceController
             $quantity = $item['quantity'] ?? 1;
             $option = $item['option'] ?? array();
             //Todo ürün varyasyon seçimi sepete eklenecek
-            $sessionID = getSessionID();
-            $whereData = array(
-                "api_id" =>   0,
-                "customer_id" =>  session()->get('user.user.user_id') ?? 0,
-                "session_id" =>  $sessionID,
-                "product_id" =>  $productID,
-                "recurring_id" => $recurringID ?? 0,
-                "option" => json_encode($option)
-            );
-            $issetBasket = $this->cartModel->where($whereData)->first();
-            if (!$issetBasket) {
-                $insertData = array(
-                    "api_id" =>   0,
-                    "customer_id" => session()->get('user.user.user_id') ?? 0,
-                    "session_id" =>  $sessionID,
-                    "product_id" =>  $productID,
-                    "recurring_id" => $recurring_id ?? 0,
-                    "option" =>  json_encode($option),
-                    "quantity" =>  $quantity,
-                );
-                $this->cartModel->insert($insertData);
-            } else {
-                $this->cartModel->update($issetBasket['cart_id'], ['quantity' => ++$issetBasket['quantity']]);
-            }
+            $this->cartModel->createData($productID, $quantity, $option);
         }
         return $this->respondCreated();
         //
@@ -119,7 +79,6 @@ class CartResource extends ResourceController
         $item = $this->request->getPost();
         $sessionID = getSessionID();
         $productInfo = $this->productModel->find($productID);
-
         if ($productInfo) {
             $quantity = $item['quantity'] ?? 1;
             $option = $item['option'] ?? array();
@@ -148,16 +107,9 @@ class CartResource extends ResourceController
                 $this->cartModel->update($issetBasket['cart_id'], ['quantity' => $quantity]);
             }
         }
-        $whereData = array(
-            "api_id" =>   0,
-            "customer_id" =>  session()->get('user.user.user_id') ?? 0,
-            "session_id" =>  $sessionID,
-            "recurring_id" => $recurringID ?? 0,
-        );
-        $sum = $this->cartModel->select('SUM(price * cart.quantity) as basket_sum')
-            ->join('product', 'product.product_id = cart.product_id')
-            ->where($whereData)->findAll();
-        return $this->respondUpdated(['sum' => $sum[0]['basket_sum']]);
+        $sum = $this->cartModel->getCartSum();
+        $delivery = $sum > 300 ? 0 : 22.75;
+        return $this->respondUpdated(['sum' => $sum, 'delivery' => $delivery]);
         //
     }
     /**
@@ -177,10 +129,12 @@ class CartResource extends ResourceController
             "recurring_id" => $recurringID ?? 0,
         );
         $issetBasket = $this->cartModel->where($whereData)->first();
-
         if ($issetBasket) {
             $this->cartModel->delete($issetBasket['cart_id']);
-            return $this->respondDeleted();
+            $sum = $this->cartModel->getCartSum();
+            $count = $this->cartModel->getCartCount();
+            $delivery = $sum > 300 ? 0 : 22.75;
+            return $this->respondDeleted(['sum' => $sum, 'delivery' => $delivery, 'count' => $count]);
         }
         return $this->failForbidden();
         //

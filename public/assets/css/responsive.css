@@ -342,7 +342,7 @@
   }
 
   .single-pro-content .ec-pro-variation .ec-pro-variation-inner .ec-pro-variation-content li {
-    width: 25px;
+    width: 50px;
     height: 25px;
   }
 
@@ -2711,7 +2711,7 @@
     width: auto;
   }
   .single-pro-content .ec-pro-variation .ec-pro-variation-inner .ec-pro-variation-content li {
-    width: 30px;
+    width: 50px;
     height: 30px;
     font-size: 12px;
   }

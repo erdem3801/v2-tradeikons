@@ -63,18 +63,20 @@
                                             <span class="ec-single-sku"><?= $product['seller_code']  ?></span>
                                         </div>
                                     </div>
-                                    <!-- <div class="ec-pro-variation">
-                                        <div class="ec-pro-variation-inner ec-pro-variation-size">
-                                            <span>SIZE</span>
-                                            <div class="ec-pro-variation-content">
-                                                <ul>
-                                                    <li class="active"><span>7</span></li>
-                                                    <li><span>8</span></li>
-                                                    <li><span>9</span></li>
-                                                </ul>
+                                    <div class="ec-pro-variation">
+                                        <?php foreach ($options as $title => $values) : ?>
+                                            <div class="ec-pro-variation-inner ec-pro-variation-size">
+                                                <span><?= $title  ?></span>
+                                                <div class="ec-pro-variation-content">
+                                                    <ul>
+                                                        <?php foreach ($values as $key => $value) :  ?>
+                                                            <li <?= $key ? '' : 'class="active"'  ?>><span><?= $value['value']  ?></span></li>
+                                                        <?php endforeach  ?>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="ec-pro-variation-inner ec-pro-variation-color">
+                                        <?php endforeach  ?>
+                                        <!-- <div class="ec-pro-variation-inner ec-pro-variation-color">
                                             <span>Color</span>
                                             <div class="ec-pro-variation-content">
                                                 <ul>
@@ -82,11 +84,13 @@
                                                     <li><span style="background-color:#000;"></span></li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                    </div> -->
+                                        </div> -->
+                                    </div>
                                     <div class="ec-single-qty">
                                         <div class="qty-plus-minus">
-                                            <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
+                                            <div class="dec ec_qtybtn">-</div>
+                                            <input class="qty-input" type="text" name="ec_qtybtn" value="1">
+                                            <div class="inc ec_qtybtn">+</div>
                                         </div>
                                     </div>
 
