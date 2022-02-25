@@ -89,7 +89,7 @@
                                     <div class="ec-single-qty">
                                         <div class="qty-plus-minus">
                                             <div class="dec ec_qtybtn_product" data-minus data-product>-</div>
-                                            <input class="qty-input" type="text" name="ec_qtybtn" value="1">
+                                            <input class="qty-input" type="text" name="ec_qtybtn" value="1" readonly>
                                             <div class="inc ec_qtybtn_product" data-plus data-product>+</div>
                                         </div>
                                     </div>
