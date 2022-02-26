@@ -36,17 +36,14 @@ class ProductController extends BaseController
         $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
 
 
-        $options = $this->productOptionModel->select('name')->groupBy('name')->where(['product_id'=>$product['product_id'],'value !=' => 'Standart'])->findAll();
-        $optionValues = array();
-        foreach($options as $key => $option){
-            $values = $this->productOptionModel->select('value')->groupBy('value')->where(['product_id' => $product['product_id'],'name' => $option['name'],'value !=' => 'Standart' ])->findAll();
-            $optionValues[$option['name']] = $values;
-        }
+
 
         $productCategory = $this->categoryToProductModel->where('product_id', $product['product_id'])->first();
         if ($productCategory)
             $similarProduct = $this->productModel->getProductByIDs(['categoryID' => $productCategory['category_id']], 4, 0);
-        $this->viewData['options'] = $optionValues;
+
+        $options = $this->productOptionModel->getOptions($product['product_id']);
+        $this->viewData['options'] = $options;
         $this->viewData['product'] = $product;
         $this->viewData['similarProduct'] = $similarProduct ?? array();
         $this->viewData['images'] = $images;
@@ -56,6 +53,4 @@ class ProductController extends BaseController
 
         return view('product/ProductView', $this->viewData);
     }
-
-   
 }

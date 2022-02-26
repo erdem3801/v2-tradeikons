@@ -56,7 +56,7 @@
                                             </a>
                                             <div class="ec-pro-actions">
                                                 <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
-                                                <button title="Add To Cart" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
+                                                <button title="Sepete Ekle" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
                                                 <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                             </div>
                                         </div>

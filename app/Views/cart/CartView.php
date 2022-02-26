@@ -281,7 +281,6 @@
 
 <?php if (isset($paytr_token)) :  ?>
     <iframe src="https://www.paytr.com/odeme/guvenli/<?php echo $paytr_token; ?>" id="paytriframe" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
-
 <?php endif  ?>
 
 <!-- New Product end -->

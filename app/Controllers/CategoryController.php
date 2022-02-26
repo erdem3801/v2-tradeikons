@@ -70,19 +70,20 @@ class CategoryController extends BaseController
             ->groupBy('manufacturer_id')
             ->join('category_to_product', 'product.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
             ->findAll();
-        $filter['varyant'] = $this->productOptionModel
-            ->select('name')
-            ->distinct()
-            ->join('category_to_product', 'product_option.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
+        $filter['varyant'] = $this->productOptionModel 
+            ->groupBy('name')
+            ->join('category_to_product', 'product_option.product_id = category_to_product.product_id ', 'left')
+            ->where('category_id', $categoryID)
+            ->whereNotIn('value',['standart','Tek Renk'] )
             ->findAll();
 
         foreach ($filter['varyant'] as $key => $filter_val) {
             $filters[$filter_val['name']] = $this->productOptionModel
                 ->select('value ,COUNT(value) as count')
                 ->groupBy('value')
-                ->where('name', $filter_val['name'])
-                ->where(['value !=' => 'Standart'])
+                ->where('name', $filter_val['name']) 
                 ->join('category_to_product', 'product_option.product_id = category_to_product.product_id ', 'left')->where('category_id', $categoryID)
+                ->whereNotIn('value',['standart','Tek Renk'] )
                 ->findAll();
         }
 

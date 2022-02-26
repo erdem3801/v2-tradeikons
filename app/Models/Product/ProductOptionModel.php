@@ -45,4 +45,15 @@ class ProductOptionModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    
+    public function getOptions($prodcutID){
+        $options = $this->select('name')->groupBy('name')->where(['product_id'=>$prodcutID])->whereNotIn('value',['Tek Renk' ,'Standart'])->findAll();
+        $optionValues = array();
+        foreach($options as $option){
+            $values = $this->select('value')->groupBy('value')->where(['product_id' => $prodcutID,'name' => $option['name']])->whereNotIn('value',['Tek Renk' ,'Standart'])->findAll();
+            $optionValues[$option['name']] = $values;
+        }
+        return $optionValues;
+    }
 }

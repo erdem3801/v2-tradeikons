@@ -260,7 +260,7 @@ function ecAccessCookie(cookieName) {
 
                     const price = $(`*[data-key=${productID}]`).find('.amount').text();
                     $(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span').text(parseFloat(QtynewVal * price).toFixed(2))
-                    console.log(' ss', $(`*[data-key=${productID}]`).find('.ec-cart-pro-subtotal span'));
+                    
 
 
                     $('.product-total-price').text(parseFloat(res.sum).toFixed(2))
@@ -322,8 +322,15 @@ function ecAccessCookie(cookieName) {
         var productID = $(this).closest('*[data-parent]').data('key');
         var quantity = $(this).closest('*[data-parent]').find('input.qty-input').val();
         var isCheckout = $(this).data('checkout');
-        console.log('isCheckout: ', isCheckout);
-        console.log('quantity: ', quantity);
+        var selectedOptions = $('.option-item.active')
+        var options = [];
+        selectedOptions.each((index,element) => {
+            const option = $(element).data('option');
+            const value = $(element).data('value');
+            options.push({option : option , value : value});
+        })
+        console.log('selectedOprions: ', options);
+        
         let data = {
             'productID': productID,
             'quantity': quantity ? quantity : 1,
@@ -359,7 +366,7 @@ function ecAccessCookie(cookieName) {
                 QtynewVal = 1;
             }
         }
-        console.log('QtynewVal: ', QtynewVal);
+        
         $qtybutton.closest('.qty-plus-minus').find("input").val(QtynewVal);
 
     });
@@ -473,13 +480,13 @@ function ecAccessCookie(cookieName) {
     $(window).resize(function () {
         if ($(window).width() < 850 && zoomActive){
             zoomActive = false;
-            console.log('zoomActive: ', zoomActive);
+            
             $('.zoom-image-hover').trigger('zoom.destroy');
         }
         else if($(window).width() > 850 && !zoomActive){
             $('.zoom-image-hover').zoom();
             zoomActive = true;
-            console.log('zoomActive: ', zoomActive);
+            
 
         }
 

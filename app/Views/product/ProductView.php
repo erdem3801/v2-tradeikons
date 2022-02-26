@@ -70,7 +70,7 @@
                                                 <div class="ec-pro-variation-content">
                                                     <ul>
                                                         <?php foreach ($values as $key => $value) :  ?>
-                                                            <li <?= $key ? '' : 'class="active"'  ?>><span><?= $value['value']  ?></span></li>
+                                                            <li class="option-item <?= $key ? '' : 'active'  ?>" data-option="<?= $title  ?>" data-value="<?= $value['value']  ?>" ><span><?= $value['value']  ?></span></li>
                                                         <?php endforeach  ?>
                                                     </ul>
                                                 </div>
@@ -88,9 +88,9 @@
                                     </div>
                                     <div class="ec-single-qty">
                                         <div class="qty-plus-minus">
-                                            <div class="dec ec_qtybtn_product" data-minus data-product>-</div>
+                                            <div class="dec ec_qtybtn ec_qtybtn_product" data-minus data-product>-</div>
                                             <input class="qty-input" type="text" name="ec_qtybtn" value="1" readonly>
-                                            <div class="inc ec_qtybtn_product" data-plus data-product>+</div>
+                                            <div class="inc ec_qtybtn ec_qtybtn_product" data-plus data-product>+</div>
                                         </div>
                                     </div>
 
@@ -276,7 +276,7 @@
                                 <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
                                 <div class="ec-pro-actions">
                                     <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
-                                    <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Add To Cart</button>
+                                    <button title="Sepete Ekle" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
                                     <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                 </div>
                             </div>

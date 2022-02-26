@@ -22977,7 +22977,7 @@ h4.ec-faq-title::after,
   border: medium none;
   color: #444444;
   float: left;
-  font-size: 15px;
+  font-size: 1.4rem;
   height: auto;
   margin: 0;
   padding: 0;
@@ -33207,4 +33207,8 @@ input[type="email"]:focus::-webkit-input-placeholder {
 .img-thumbnail {
    
   height: 75px;
+}
+
+.inc.ec_qtybtn_product {
+  font-size: 32px;
 }
