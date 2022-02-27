@@ -34,11 +34,7 @@
                  </div>
                  <div class="col-lg-3 col-md-12 d-none d-sm-none d-md-none  d-lg-block m-0 p-0">
                      <div id="<?= $row['id']  ?>" class="carousel slide" data-bs-ride="carousel">
-                         <div class="carousel-indicators">
-                             <button type="button" data-bs-target="#<?= $row['id']  ?>" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                             <button type="button" data-bs-target="#<?= $row['id']  ?>" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                             <button type="button" data-bs-target="#<?= $row['id']  ?>" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                         </div>
+                        
                          <div class="carousel-inner">
                              <?php foreach ($row['urunler'] as $key => $value) : ?>
                                  <div class="carousel-item pngbanner <?= $key == 0 ? "active" : null ?>" style="background-image: url('<?= $value["urun_gorsel_url"] ?>');">

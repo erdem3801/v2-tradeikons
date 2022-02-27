@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Controllers\Api;
- 
+
+use App\Models\Product\ProductModel;
 use CodeIgniter\RESTful\ResourceController;
 use Codeigniter\HTTP\ResponseInterface;
 
@@ -11,9 +12,9 @@ class ProductResource extends ResourceController
     private $imageModel;
     public function __construct()
     {
-        
-       
-        $this->productModel = model('product/ProductModel');
+
+
+        $this->productModel = new ProductModel();
     }
     /**
      * Return an array of resource objects, themselves in array format
@@ -22,27 +23,51 @@ class ProductResource extends ResourceController
      */
     public function index()
     {
-        $categoryToProductModel = model('CategoryToProduct');
-
-        $offset = (int)$this->request->getVar('offset') ;
+        $orderClass = array(
+            'enyeni' => ['orderBy' => 'date_added', 'order' => 'DESC'],
+            'urunpuani' => ['orderBy' => 'points', 'order' => 'DESC'],
+            'adanz' =>  ['orderBy' => 'name', 'order' => 'ASC'],
+            'zdena'  =>  ['orderBy' => 'name', 'order' => 'DESC'],
+            'azlanfiyat'  =>  ['orderBy' => 'price', 'order' => 'DESC'],
+            'artanfiyat'  =>  ['orderBy' => 'price', 'order' => 'ASC'],
+        );
+        $offset = (int)$this->request->getVar('offset');
         $limit = $this->request->getVar('limit');
         $categoryID = $this->request->getVar('category');
-        
-      
+        $order = $this->request->getVar('order') ?? '';
+        $manufacturer = $this->request->getVar('Marka') ?? '';
+        $option = $this->request->getVar('option') ?? '';
 
-        $productList = $categoryToProductModel->getProductList($categoryID,$limit,$offset);
-        $product = $this->productModel->getProductByIDs($productList);
-            //
-          
-            if ($product){ 
+        $manufacturer = str_replace('--', '&', $manufacturer);
+        $manufacturer = $manufacturer ? explode('|', $manufacturer) : '';
+        $option = $option ? explode('|', $option) : '';
+
+        $data = [
+            'categoryID' => $categoryID,
+        ];
+        if ($order && isset($orderClass[$order]))
+            $data['order'] = $orderClass[$order];
+        if ($manufacturer)
+            $data['manufacturer'] = $manufacturer;
+        if ($option)
+            $data['option'] = $option;
+
+        $product = $this->productModel->getProductByIDs($data, $limit, $offset);
+
+        //
+        if ($this->request->isAJAX()) {
+
+            if ($product) {
                 $response = array(
                     'status' => true,
-                    'product' => $product, 
+                    'product' => $product,
                 );
                 return $this->respond($response, ResponseInterface::HTTP_OK);
-
             }
-        return $this->failNotFound();
+            return $this->failNotFound();
+        }
+        print_a($product);
+
         //
     }
     /**
@@ -50,25 +75,59 @@ class ProductResource extends ResourceController
      *
      * @return mixed
      */
+    public function search()
+    {
+        $orderClass = array(
+            'enyeni' => ['orderBy' => 'date_added', 'order' => 'DESC'],
+            'urunpuani' => ['orderBy' => 'points', 'order' => 'DESC'],
+            'adanz' =>  ['orderBy' => 'name', 'order' => 'ASC'],
+            'zdena'  =>  ['orderBy' => 'name', 'order' => 'DESC'],
+            'azlanfiyat'  =>  ['orderBy' => 'price', 'order' => 'DESC'],
+            'artanfiyat'  =>  ['orderBy' => 'price', 'order' => 'ASC'],
+        );
+
+        $query =  $this->request->getVar('q');
+        $order =  $this->request->getVar('order');
+        $limit =  $this->request->getVar('limit') ?? 10;
+        $offset =  $this->request->getVar('offset') ?? 0;
+
+        
+        $data['query'] = $query ? $query : '';
+        
+        if ($order && isset($orderClass[$order]))
+            $data['order'] = $orderClass[$order];
+
+
+        $product = $this->productModel->search($data, $limit, $offset);
+        $count = $this->productModel->searchCount($query);
+
+        if ($this->request->isAJAX()) {
+            $responseData = [
+                'data' => $product ?? [],
+                'count' => $count ?? 0
+            ];
+            return $this->respond($responseData, ResponseInterface::HTTP_OK);
+        }
+        print_a($count);
+        print_a($product);
+    }
     public function show($id = null)
     {
         $product = $this->productModel
             ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
             ->join('product_description', 'product_description.product_id = product.product_id', 'right')
             ->find($id);
-            //
-            
-            if ($product){
-             
-                $response = array(
-                    'status' => true,
-                    'product' => $product, 
-                );
-                return $this->respond($response, ResponseInterface::HTTP_OK);
+        //
 
-            }
+        if ($product) {
+
+            $response = array(
+                'status' => true,
+                'product' => $product,
+            );
+            return $this->respond($response, ResponseInterface::HTTP_OK);
+        }
         return $this->failNotFound();
-
     }
     /**
      * Return a new resource object, with default properties

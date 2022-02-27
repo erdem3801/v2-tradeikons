@@ -1,13 +1,12 @@
 <?php
 
 namespace App\Controllers;
-
-use App\Models\CategoriesModel;
-use App\Models\ProductModel;
+ 
 use CodeIgniter\RESTful\ResourceController;
 use App\Libraries\Slug;   // use the Slug Library
-use App\Models\Product\ProductModel as ProductProductModel;
-use App\Models\Product\ProductToImageModel;
+use App\Models\Product\ProdcutPriceModel;
+use App\Models\Product\ProdcutStockModel;
+use App\Models\Product\ProductModel;
 
 class ApiController extends ResourceController
 {
@@ -19,21 +18,7 @@ class ApiController extends ResourceController
     public function __construct()
     {
 
-
-
-        // if (!$categories = $cache->get('categories')) {
-        //$categories = $this->settingsModel->getCategories();
-        // Save into the cache for 5 minutes
-        //     $cache->save('categories', $categories, 3000);
-        // }
-        //$this->viewData['categories'] =    $categories;
-        // if (!$product = $cache->get('product')) {
-        //     $product = $this->settingsModel->getProduct();
-        //     // Save into the cache for 5 minutes
-        //     $cache->save('product', $product, 3000);
-        // }
-        // print_d($product[0]);
-        // $this->viewData['product'] =    $product;
+ 
 
     }
     /**
@@ -44,24 +29,19 @@ class ApiController extends ResourceController
     public function index()
     {
 
-        $productModel = model('product/ProductModel');
-        $categoryModel = model('CategoryToproduct');
-        $products =  $productModel->getProducts();
-        foreach ($products as $key => $product) {
-            $Slug = new Slug([
-                'field' => 'slug',
-                'title' => 'name',
-                'table' => 'product',
-                'id'     => 'product_id',
-            ]);
-            // get the new slug 
-            $queryData = [
-                'slug' =>  $Slug->create_uri(['name' => $product['name']]) ?? '',
+        $priceModel = new ProdcutPriceModel();
+        $stockModel = new  ProdcutStockModel();
+        $productModel = new ProductModel();
 
+        $price = $priceModel->select('product_id')->distinct()->select('price_sell')->findAll();
+    
+        foreach ($price as $key => $stock) {
+            $queryData = [
+                'price' => $stock['price_sell'],
             ];
-          
-            $productModel->update($product['product_id'],$queryData);
+            $productModel->update( $stock['product_id'],$queryData);
         }
+        
     }
     public function create()
     {

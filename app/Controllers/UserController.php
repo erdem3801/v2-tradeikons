@@ -1,10 +1,12 @@
 <?php
+
 namespace App\Controllers;
+
 use App\Controllers\BaseController;
-use CodeIgniter\Validation\Exceptions\ValidationException;
-use Config\Services;
+
 use Exception;
-use Firebase\JWT\JWT;
+
+use function PHPUnit\Framework\throwException;
 
 class UserController extends BaseController
 {
@@ -27,7 +29,7 @@ class UserController extends BaseController
     public function auth()
     {
         helper(['form']);
-        if($this->request->getMethod()== 'post'){
+        if ($this->request->getMethod() == 'post') {
             $rules = [
                 'email' => 'required|min_length[3]|max_length[50]|valid_email',
                 'password' => 'required|min_length[4]|max_length[50]|validateUser[email, password]|hasPermission[mail,password]',
@@ -44,10 +46,10 @@ class UserController extends BaseController
             $data = $this->request->getPost();
             if ($this->validateRequest($data, $rules, $errors)) {
                 $token = $this->getJWTForUser($data['email']);
-                session()->set('user',$token);
-                return redirect()->to(base_url()."?token={$token['access_token']}");
+                session()->set('user', $token);
+                return redirect()->to(base_url() . "?token={$token['access_token']}");
             }
-            $this->viewData['errors'] = $this->validator->getErrors(); 
+            $this->viewData['errors'] = $this->validator->getErrors();
         }
         return view('user/login', $this->viewData);
     }
@@ -58,58 +60,69 @@ class UserController extends BaseController
      */
     public function Register()
     {
-        helper(['form','genarator']); 
+        helper(['form', 'genarator']);
         if ($this->request->getMethod(true) == 'POST') {
-            $rules = [ 
-                'firstname' => 'required|min_length[3]|max_length[32]',
-                'lastname' => 'required|min_length[3]|max_length[32]',
-                'email' => 'required|min_length[6]|max_length[50]|valid_email',
-                'password' => 'required|min_length[4]|max_length[20]',
-                'phonenumber' => 'required',
-            ];
-            $errors = [
-                'firstname' => [
-                    'required' => 'Ad  bilginizi girin',
-                    'min_length' => 'Ad alanı en az 3 karakter olmalı',
-                    'max_length' => 'Ad alanı en fazla 32 karakter olmalı',
-                ],
-                'lastname' => [
-                    'required' => 'Soyad  bilginizi girin',
-                    'min_length' => 'Soyad alanı en az 3 karakter olmalı',
-                    'max_length' => 'Soyad alanı en fazla 32 karakter olmalı',
-                ],
-                'email' => [
-                    'required' => 'Email bilgisini girin',
-                    'min_length' => 'Email alanı en az 9 karakter olmalı',
-                    'max_length' => 'Email alanı en fazla 32 karakter olmalı',
-                    'valid_email' => 'Email alanı formatı doğru değil',
-                ],
-                'phonenumber' => 'Telefon numarası zorunlu'
-            ];
+
             $data = $this->request->getPost();
-            if (!$this->validateRequest($data, $rules, $errors,)) {
-                $this->viewData['errors'] = $this->validator->getErrors();
+            try {
+                $this->register_user($data);
+                $token = $this->getJWTForUser($data['email']);
+                session()->set('user', $token);
+                return redirect()->to(base_url() . "?token={$token['access_token']}");
+            } catch (\Throwable $th) {
+                $this->viewData['errors'] = unserialize($th->getMessage());
             }
-            else{
-                $aktivasyon_kodu = activationCode();
-                $queryData = [ 
-                    'user_business_name' => $data['firstname'],
-                    'user_name_surname' => $data['lastname'],
-                    'user_mail' => $data['email'],
-                    'user_phone' => $data['phonenumber'],
-                    'user_adress' => $data['ec_select_city'] ?? '',
-                    'user_county' => $data['ec_select_country'] ?? '', 
-                    'user_reference_code' => $data['postalcode'] ?? '',
-                    'user_activation_code' => $aktivasyon_kodu,
-                    'user_pass' => $data['password'],
-                ];
-                $this->model->insert($queryData);
-                // TODO kullanıcı kaydı başarılı biryere yönledir
-                die('kullanıcı kayıt edildi');
-            }
+           
         }
         return view('user/register', $this->viewData);
         //
+    }
+    public function register_user($data)
+    {
+        $rules = [
+            'firstname' => 'required|min_length[3]|max_length[32]',
+            'lastname' => 'required|min_length[3]|max_length[32]',
+            'email' => 'required|min_length[6]|max_length[50]|valid_email',
+            'password' => 'required|min_length[4]|max_length[20]',
+            'phonenumber' => 'required',
+        ];
+        $errors = [
+            'firstname' => [
+                'required' => 'Ad  bilginizi girin',
+                'min_length' => 'Ad alanı en az 3 karakter olmalı',
+                'max_length' => 'Ad alanı en fazla 32 karakter olmalı',
+            ],
+            'lastname' => [
+                'required' => 'Soyad  bilginizi girin',
+                'min_length' => 'Soyad alanı en az 3 karakter olmalı',
+                'max_length' => 'Soyad alanı en fazla 32 karakter olmalı',
+            ],
+            'email' => [
+                'required' => 'Email bilgisini girin',
+                'min_length' => 'Email alanı en az 9 karakter olmalı',
+                'max_length' => 'Email alanı en fazla 32 karakter olmalı',
+                'valid_email' => 'Email alanı formatı doğru değil',
+            ],
+            'phonenumber' => 'Telefon numarası zorunlu'
+        ];
+        if (!$this->validateRequest($data, $rules, $errors,)) {
+                throw new Exception(serialize($this->validator->getErrors()));
+        } else {
+            $activationCode = activationCode();
+            $queryData = [
+                'user_name' => $data['firstname'],
+                'user_surname' => $data['lastname'],
+                'user_mail' => $data['email'],
+                'user_phone' => $data['phonenumber'],
+                'user_adress' => $data['ec_select_city'] ?? '',
+                'user_county' => $data['ec_select_country'] ?? '',
+                'user_reference_code' => $data['postalcode'] ?? '',
+                'user_activation_code' => $activationCode,
+                'user_pass' => $data['password'],
+            ];
+            $userID = $this->model->insert($queryData); 
+            return $userID;
+        }
     }
     /**
      * Add or update a model resource, from "posted" properties
@@ -130,26 +143,7 @@ class UserController extends BaseController
     {
         $this->model->delete($id);
     }
-    private function validateRequest($input, array $rules, array $messages = [])
-    {
-        $this->validator = Services::Validation()->setRules($rules);
-        // If you replace the $rules array with the name of the group
-        if (is_string($rules)) {
-            $validation = config('Validation');
-            // If the rule wasn't found in the \Config\Validation, we
-            // should throw an exception so the developer can find it.
-            if (!isset($validation->$rules)) {
-                throw ValidationException::forRuleNotFound($rules);
-            }
-            // If no error message is defined, use the error message in the Config\Validation file
-            if (!$messages) {
-                $errorName = $rules . '_errors';
-                $messages = $validation->$errorName ?? [];
-            }
-            $rules = $validation->$rules;
-        }
-        return $this->validator->setRules($rules, $messages)->run($input);
-    }
+
     private function getJWTForUser(string $user)
     {
         try {

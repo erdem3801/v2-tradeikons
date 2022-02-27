@@ -1,5 +1,9 @@
 <?= $this->extend('temp/tempHome')  ?>
 
+<?= $this->section('script')  ?>
+
+<script src="<?= base_url('public')  ?>/assets/js/product.js"></script>
+<?= $this->endSection()  ?>
 <?= $this->section('content')  ?>
 <!-- Sart Single product -->
 <section class="ec-page-content section-space-p">
@@ -8,7 +12,7 @@
             <div class="ec-pro-rightside ec-common-rightside col-lg-12 col-md-12">
 
                 <!-- Single product content Start -->
-                <div class="single-pro-block">
+                <div class="single-pro-block" data-parent data-key="<?= $product['product_id']  ?>>
                     <div class="single-pro-inner">
                         <div class="row">
                             <div class="single-pro-img single-pro-img-no-sidebar">
@@ -16,9 +20,9 @@
                                     <div class="single-product-cover">
                                         <?php
 
-use Faker\Provider\Base;
+                                        use Faker\Provider\Base;
 
- foreach ($images as $image) : ?>
+                                        foreach ($images as $image) : ?>
                                             <div class="single-slide zoom-image-hover">
                                                 <img class="img-responsive" src="<?= $image['image']  ?>" alt="img-<?= $image['product_image_id']  ?>">
                                             </div>
@@ -52,25 +56,27 @@ use Faker\Provider\Base;
                                     <div class="ec-single-price-stoke">
                                         <div class="ec-single-price">
                                             <span class="ec-single-ps-title">En Uygun Fiyat</span>
-                                            <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
+                                            <span class="new-price"><?= $product['price']  ?> ₺</span>
                                         </div>
                                         <div class="ec-single-stoke">
                                             <span class="ec-single-ps-title">Stok Kodu</span>
                                             <span class="ec-single-sku"><?= $product['seller_code']  ?></span>
                                         </div>
                                     </div>
-                                    <!-- <div class="ec-pro-variation">
-                                        <div class="ec-pro-variation-inner ec-pro-variation-size">
-                                            <span>SIZE</span>
-                                            <div class="ec-pro-variation-content">
-                                                <ul>
-                                                    <li class="active"><span>7</span></li>
-                                                    <li><span>8</span></li>
-                                                    <li><span>9</span></li>
-                                                </ul>
+                                    <div class="ec-pro-variation">
+                                        <?php foreach ($options as $title => $values) : ?>
+                                            <div class="ec-pro-variation-inner ec-pro-variation-size">
+                                                <span><?= $title  ?></span>
+                                                <div class="ec-pro-variation-content">
+                                                    <ul>
+                                                        <?php foreach ($values as $key => $value) :  ?>
+                                                            <li class="option-item <?= $key ? '' : 'active'  ?>" data-option="<?= $title  ?>" data-value="<?= $value['value']  ?>" ><span><?= $value['value']  ?></span></li>
+                                                        <?php endforeach  ?>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="ec-pro-variation-inner ec-pro-variation-color">
+                                        <?php endforeach  ?>
+                                        <!-- <div class="ec-pro-variation-inner ec-pro-variation-color">
                                             <span>Color</span>
                                             <div class="ec-pro-variation-content">
                                                 <ul>
@@ -78,24 +84,26 @@ use Faker\Provider\Base;
                                                     <li><span style="background-color:#000;"></span></li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                    </div> -->
+                                        </div> -->
+                                    </div>
                                     <div class="ec-single-qty">
                                         <div class="qty-plus-minus">
-                                            <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
+                                            <div class="dec ec_qtybtn ec_qtybtn_product" data-minus data-product>-</div>
+                                            <input class="qty-input" type="text" name="ec_qtybtn" value="1" readonly>
+                                            <div class="inc ec_qtybtn ec_qtybtn_product" data-plus data-product>+</div>
                                         </div>
                                     </div>
 
                                     <div class="ec-single-qty">
 
                                         <div class="ec-single-cart mb-2">
-                                            <button class="btn btn-primary">Sepete Ekle</button>
+                                            <button class="btn btn-primary add-to-cart">Sepete Ekle</button>
                                         </div>
                                         <div class="ec-single-cart mb-2">
-                                            <button class="btn btn-success">Hemen Al</button>
+                                            <button class="btn btn-success add-to-cart" data-checkout>Hemen Al</button>
                                         </div>
                                         <div class="ec-single-wishlist">
-                                            <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                            <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                         </div>
 
                                         <div class="ec-single-social mt-1">
@@ -149,7 +157,7 @@ use Faker\Provider\Base;
                                     <!-- <div class="ec-t-review-wrapper">
                                         <div class="ec-t-review-item">
                                             <div class="ec-t-review-avtar">
-                                                <img src="<?= base_url('public') ?>/assets/images/review-image/1.jpg" alt="" />
+                                                <img src="<?= base_url('public') ?>/assets/images/review-image/1.jpg" alt="review" />
                                             </div>
                                             <div class="ec-t-review-content">
                                                 <div class="ec-t-review-top">
@@ -174,7 +182,7 @@ use Faker\Provider\Base;
                                         </div>
                                         <div class="ec-t-review-item">
                                             <div class="ec-t-review-avtar">
-                                                <img src="<?= base_url('public') ?>/assets/images/review-image/2.jpg" alt="" />
+                                                <img src="<?= base_url('public') ?>/assets/images/review-image/2.jpg" alt="review" />
                                             </div>
                                             <div class="ec-t-review-content">
                                                 <div class="ec-t-review-top">
@@ -258,18 +266,18 @@ use Faker\Provider\Base;
                         <div class="ec-pro-image-outer">
                             <div class="ec-pro-image">
                                 <a href="<?= base_url($product['slug'])  ?>" class="image">
-                                    <img class="main-image" src="<?= $product['image'] ?>" alt="Product"   style="width: 100%; height: 250px; object-fit: scale-down;"/>
-                                    <img class="hover-image" src="<?= $product['image'] ?>" alt="Product"  style="width: 100%; height: 250px; object-fit: scale-down;" />
+                                    <img class="main-image" src="<?= $product['image'] ?>" alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
+                                    <img class="hover-image" src="<?= $product['image'] ?>" alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                 </a>
                                 <span class="percentage">20%</span>
                                 <span class="flags">
                                     <span class="new">New</span>
                                 </span>
-                                <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" /></a>
+                                <a href="#" class="quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#ec_quickview_modal"><img src="<?= base_url('public') ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" /></a>
                                 <div class="ec-pro-actions">
-                                    <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                    <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                    <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                    <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public') ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
+                                    <button title="Sepete Ekle" class=" add-to-cart"><img src="<?= base_url('public') ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
+                                    <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public') ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                 </div>
                             </div>
                         </div>
@@ -283,8 +291,8 @@ use Faker\Provider\Base;
                                 <i class="ecicon eci-star"></i>
                             </div>
                             <div class="ec-pro-list-desc"><?= $product['description']  ?></div>
-                            <span class="ec-price"> 
-                                <span class="new-price"><?= $product['price_sell']  ?> ₺</span>
+                            <span class="ec-price">
+                                <span class="new-price"><?= $product['price']  ?> ₺</span>
                             </span>
                             <!-- <div class="ec-pro-option">
                                 <div class="ec-pro-color">

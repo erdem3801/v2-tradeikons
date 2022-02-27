@@ -2,12 +2,21 @@
 
 namespace App\Controllers;
 
+use App\Models\CartModel;
+use App\Models\CategoryModel;
+use App\Models\SettingsModel;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
+
+
+use CodeIgniter\Validation\Exceptions\ValidationException;
+use Config\Services;
+use Exception;
+use Faker\Core\Number;
 
 /**
  * Class BaseController
@@ -49,17 +58,22 @@ class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+    public $basket;
+    public $sum;
+    public $count;
 
-    public function getDefaults(){
+    public function getDefaults()
+    {
         $cache = \Config\Services::cache();
-        $settingsModel = model('SettingsModel');
-        $categoryModel = model('CategoriesModel');
+        $settingsModel = new SettingsModel();
+        $categoryModel = new CategoryModel();
+        $cartModel = new CartModel();
         if (!$categories = $cache->get('categories')) {
             $category = $categoryModel->orderBy('category_parent', 'ASC')->findAll();
             $categories = $categoryModel->getCategoryTree($category);
             $cache->save('categories', $categories);
         }
-      
+
         if (!$settings = $cache->get('settings')) {
             $settings = $settingsModel->first();
             // Save into the cache for 5 minutes
@@ -67,6 +81,35 @@ class BaseController extends Controller
         }
         $returnData['settings'] =    $settings;
         $returnData['categories'] =  $categories;
+
+        $this->basket = $cartModel->getCart();
+        $this->sum = $cartModel->getCartSum();
+        $this->count = $cartModel->getCartCount();
+
+
+        $returnData['cartData'] = $this->basket;
+        $returnData['totalPrice'] = $this->sum;
+        $returnData['basketCount'] = $this->count;
         return $returnData;
+    }
+    public function validateRequest($input, array $rules, array $messages = [])
+    {
+        $this->validator = Services::Validation()->setRules($rules);
+        // If you replace the $rules array with the name of the group
+        if (is_string($rules)) {
+            $validation = config('Validation');
+            // If the rule wasn't found in the \Config\Validation, we
+            // should throw an exception so the developer can find it.
+            if (!isset($validation->$rules)) {
+                throw ValidationException::forRuleNotFound($rules);
+            }
+            // If no error message is defined, use the error message in the Config\Validation file
+            if (!$messages) {
+                $errorName = $rules . '_errors';
+                $messages = $validation->$errorName ?? [];
+            }
+            $rules = $validation->$rules;
+        }
+        return $this->validator->setRules($rules, $messages)->run($input);
     }
 }

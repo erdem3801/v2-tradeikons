@@ -6,8 +6,10 @@
 <?= $this->endSection()  ?>
 
 <?= $this->section('script')  ?>
+<script src="<?= base_url('public')  ?>/assets/js/category.js"></script>
 <script src="<?= base_url('public')  ?>/assets/js/plugins/nouislider.js"></script>
 <?= $this->endSection()  ?>
+
 <?= $this->section('content')  ?>
 <!-- Page detail section -->
 <section class="ec-bnr-detail mb-5 section-space-pt d-none d-sm-none d-md-none  d-lg-block">
@@ -16,10 +18,10 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-around">
                     <div class="ec-cat-bnr">
-                        <a href="product-left-sidebar.html"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="" class="img-fluid"></a>
+                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/$mainbannerImg") ?>" alt="mainbannerImg" class="img-fluid"></a>
                     </div>
                     <div class="ec-cat-bnr">
-                        <a href="product-left-sidebar.html"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="" class="img-fluid"></a>
+                        <a href="<?= base_url()  ?>"> <img src="<?= base_url("public/assets/images/menu-banner/$bannerImg") ?>" alt="banner" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
@@ -36,36 +38,35 @@
                 <div class="ec-pro-list-top d-flex">
                     <div class="col-md-6 ec-grid-list">
                         <div class="ec-gl-btn">
-                            <button class="btn btn-grid active"><img src="<?= base_url('public')  ?>/assets/images/icons/grid.svg" class="svg_img gl_svg" alt="" /></button>
-                            <button class="btn btn-list"><img src="<?= base_url('public')  ?>/assets/images/icons/list.svg" class="svg_img gl_svg" alt="" /></button>
+                            <button class="btn btn-grid active"><img src="<?= base_url('public')  ?>/assets/images/icons/grid.svg" class="svg_img gl_svg" alt="grid" /></button>
+                            <button class="btn btn-list"><img src="<?= base_url('public')  ?>/assets/images/icons/list.svg" class="svg_img gl_svg" alt="list" /></button>
                         </div>
                     </div>
                     <div class="col-md-6 ec-sort-select">
-                        <span class="sort-by">Sort by</span>
+                        <span class="sort-by">Sıralama</span>
                         <div class="ec-select-inner">
                             <select name="ec-select" id="ec-select">
                                 <option selected disabled>Sıralama</option>
-                                <option value="2"> A dan Z ye</option>
-                                <option value="3"> Z den A ya</option>
-                                <option value="4"> Fiyat, azalan</option>
-                                <option value="5"> Fiyat, artan</option>
-                                <option value="5"> Eskiden Yeniye</option>
-                                <option value="5"> Yeniden Eskiye</option>
+                                <option value="enyeni"> En yeni</option>
+                                <option value="urunpuani"> Ürün Puanı</option>
+                                <option value="adanz" data-order="asc"> A dan Z ye</option>
+                                <option value="zdena" data-order="desc"> Z den A ya</option>
+                                <option value="azlanfiyat"> Fiyat, azalan</option>
+                                <option value="artanfiyat"> Fiyat, artan</option>
                             </select>
                         </div>
                     </div>
                 </div>
                 <!-- Shop Top End -->
                 <!-- Shop content Start -->
-                <div class="shop-pro-content" data-category="<?= $categoryID  ?>">
+                <div class="shop-pro-content" data-category="<?= $categoryID ?>">
                     <div class="shop-pro-inner">
                         <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-key="0">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content hidden" data-parent data-key="0">
                                 <div class="ec-product-inner">
                                     <div class="ec-pro-image-outer">
                                         <div class="ec-pro-image">
-                                            <a href="product-left-sidebar.html" class="image">
+                                            <a href="" class="image">
                                                 <img class="main-image" src=" " alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                                 <img class="hover-image" src=" " alt="Product" style="width: 100%; height: 250px; object-fit: scale-down;" />
                                             </a>
@@ -73,12 +74,12 @@
                                                 <span class="new">Yeni</span>
                                             </span>
                                             <a href="#" class="quickview" data-link-action="quickview" data-product="">
-                                                <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="" />
+                                                <img src="<?= base_url('public')  ?>/assets/images/icons/quickview.svg" class="svg_img pro_svg" alt="quickview" />
                                             </a>
                                             <div class="ec-pro-actions">
-                                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="" /></a>
-                                                <button title="Add To Cart" class=" add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="" /> Add To Cart</button>
-                                                <a class="ec-btn-group wishlist" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="" /></a>
+                                                <a href="compare.html" class="ec-btn-group compare" title="Compare"><img src="<?= base_url('public')  ?>/assets/images/icons/compare.svg" class="svg_img pro_svg" alt="compare" /></a>
+                                                <button title="Sepete Ekle" class="add-to-cart"><img src="<?= base_url('public')  ?>/assets/images/icons/cart.svg" class="svg_img pro_svg" alt="cart" /> Sepete Ekle</button>
+                                                <a class="ec-btn-group wishlist" href="#" title="Wishlist"><img src="<?= base_url('public')  ?>/assets/images/icons/wishlist.svg" class="svg_img pro_svg" alt="istek listesi" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -94,6 +95,7 @@
                                         <div class="ec-pro-list-desc"> </div>
                                         <span class="ec-price">
                                             <span class="new-price"> </span>
+                                            <span class="new-price-currentcy"> ₺ </span>
                                         </span>
 
                                     </div>
@@ -104,6 +106,25 @@
                     </div>
                     <!-- Ec Pagination Start -->
                     <!-- Ec Pagination End -->
+                    <div class="loader loader--style5" title="4">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                            <rect x="0" y="0" width="4" height="10" fill="#333">
+                                <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                            <rect x="10" y="0" width="4" height="10" fill="#333">
+                                <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.2s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                            <rect x="20" y="0" width="4" height="10" fill="#333">
+                                <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.4s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                        </svg>
+                    </div>
+                    <div class="error-message-category" style="display: none;">
+                        <div class="alert alert-primary" role="alert">
+                            Ürün Bulunamadı...
+                        </div>
+                    </div>
+
                 </div>
                 <!--Shop content End -->
             </div>
@@ -115,113 +136,47 @@
                     </div>
                     <div class="ec-sidebar-wrap">
                         <!-- Sidebar Category Block -->
-                        <div class="ec-sidebar-block">
-                            <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Marka</h3>
-                            </div>
-                            <div class="ec-sb-block-content">
-                                <ul>
-                                    <?php $drop = false;
-                                    foreach ($filters as $key => $filter) :  ?>
-                                        <?php if ($key == 5) : $drop = true; ?>
-                                            <li id="ec-more-toggle-content" style="padding: 0; display: none;">
-                                                <ul>
-                                                <?php endif  ?>
+
+                        <?php foreach ($filters as $index => $filter) :  ?>
+                            <div class="ec-sidebar-block">
+                                <div class="ec-sb-title">
+                                    <?php if (count($filter)) : ?>
+                                        <h3 class="ec-sidebar-title"><?= $index  ?></h3>
+                                    <?php endif  ?>
+                                </div>
+                                <div class="ec-sb-block-content">
+                                    <ul>
+                                        <?php $drop = false; ?>
+
+                                        <?php foreach ($filter as $key => $values) : ?>
+                                            <?php if ($key == 5) : $drop = true; ?>
+                                                <li id="ec-more-toggle-content" class="ec-more-toggle-content" style="padding: 0; display: none;">
+                                                    <ul>
+                                                    <?php endif  ?>
+                                                    <li>
+                                                        <div class="ec-sidebar-block-item">
+                                                            <input type="checkbox" class="filter" value="<?= $values['value']  ?>" data-filter="<?= $index  ?>" /> <a href="#"> <?= $values['value']  ?> <?= '' // TODO $values['count'] 
+                                                                                                                                                                                                            ?> </a><span class="checked"></span>
+                                                        </div>
+                                                    </li>
+                                                    <?php if ($key == count($filter) - 1 && $drop) :  ?>
+                                                    </ul>
+                                                </li>
                                                 <li>
-                                                    <div class="ec-sidebar-block-item">
-                                                        <input type="checkbox" /> <a href="#"> <?= $filter['manufacturer_id']  ?> </a><span class="checked"></span>
+                                                    <div class="ec-sidebar-block-item ec-more-toggle">
+                                                        <span class="checked"></span><span id="ec-more-toggle" class="ec-more-toggle-span">Daha Fazla...</span>
                                                     </div>
                                                 </li>
-                                                <?php if ($key == count($filters) - 1 && $drop) :  ?>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <div class="ec-sidebar-block-item ec-more-toggle">
-                                                    <span class="checked"></span><span id="ec-more-toggle">Daha Fazla...</span>
-                                                </div>
-                                            </li>
-                                        <?php endif  ?>
-                                    <?php endforeach  ?>
-                                </ul>
+                                            <?php endif  ?>
+                                        <?php endforeach  ?>
+
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Sidebar Size Block -->
-                        <div class="ec-sidebar-block">
-                            <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Beden</h3>
-                            </div>
-                            <div class="ec-sb-block-content">
-                                <ul>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" checked /><a href="#">S</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /><a href="#">M</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /> <a href="#">L</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /><a href="#">XL</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item">
-                                            <input type="checkbox" value="" /><a href="#">XXL</a><span class="checked"></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Sidebar Color item -->
-                        <div class="ec-sidebar-block ec-sidebar-block-clr">
-                            <div class="ec-sb-title">
-                                <h3 class="ec-sidebar-title">Renk</h3>
-                            </div>
-                            <div class="ec-sb-block-content">
-                                <ul>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#c4d6f9;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#ff748b;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#000000;"></span></div>
-                                    </li>
-                                    <li class="active">
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#2bff4a;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#ff7c5e;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#f155ff;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#ffef00;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#c89fff;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#7bfffa;"></span></div>
-                                    </li>
-                                    <li>
-                                        <div class="ec-sidebar-block-item"><span style="background-color:#56ffc1;"></span></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <?php endforeach  ?>
+
                         <!-- Sidebar Price Block -->
-                        <div class="ec-sidebar-block">
+                        <!-- <div class="ec-sidebar-block">
                             <div class="ec-sb-title">
                                 <h3 class="ec-sidebar-title">Fiyat</h3>
                             </div>
@@ -235,7 +190,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

@@ -4,6 +4,9 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\CategoryToProduct;
+use App\Models\Product\ProductModel;
+use App\Models\Product\ProductOptionModel;
+use App\Models\Product\ProductToImageModel;
 
 class ProductController extends BaseController
 {
@@ -11,11 +14,13 @@ class ProductController extends BaseController
     private $productModel;
     private $categoryToProductModel;
     private $imageModel;
+    private $productOptionModel;
     public function __construct()
     {
-        $this->imageModel = model('product/ProductToImageModel');
-        $this->productModel = model('product/ProductModel');
-        $this->categoryToProductModel = model('CategoryToProduct');
+        $this->imageModel = new ProductToImageModel();
+        $this->productModel = new ProductModel();
+        $this->categoryToProductModel = new CategoryToProduct();
+        $this->productOptionModel = new ProductOptionModel();
         $this->viewData = $this->getDefaults();
     }
     public function detail($slug = null)
@@ -26,17 +31,25 @@ class ProductController extends BaseController
         $breadcrump[] =   [
             'url' => base_url($product['slug']),
             'title' => $product['name']
-        ]; 
-        
-        $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
-        $productCategory = $this->categoryToProductModel->where('product_id',$product['product_id'])->first();
-        $productList = $this->categoryToProductModel->getProductList($productCategory['category_id'],4);
-        $similarProduct = $this->productModel->getProductByIDs($productList);
+        ];
 
+        $images =  $this->imageModel->where('product_id', $product['product_id'])->findAll();
+
+
+
+
+        $productCategory = $this->categoryToProductModel->where('product_id', $product['product_id'])->first();
+        if ($productCategory)
+            $similarProduct = $this->productModel->getProductByIDs(['categoryID' => $productCategory['category_id']], 4, 0);
+
+        $options = $this->productOptionModel->getOptions($product['product_id']);
+        $this->viewData['options'] = $options;
         $this->viewData['product'] = $product;
-        $this->viewData['similarProduct'] = $similarProduct;
+        $this->viewData['similarProduct'] = $similarProduct ?? array();
         $this->viewData['images'] = $images;
         $this->viewData['baslik'] = $breadcrump;
+
+
 
         return view('product/ProductView', $this->viewData);
     }

@@ -17,6 +17,8 @@ class ProductModel extends Model
     protected $allowedFields    = [
         'product_id',
         'slug',
+        'price',
+        'quantity',
         'gtin',
         'market_place_id',
         'barcode_id',
@@ -63,34 +65,60 @@ class ProductModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    public function getProductByIDs($IDs)
+    public function getProductByIDs($data, $limit, $offset)
     {
-        $results = $this
-            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
-            ->find($IDs);
+        if (isset($data['order']))
+            $this->orderBy($data['order']['orderBy'], $data['order']['order']);
+        if (isset($data['manufacturer'])) {
+            $this->whereIn('manufacturer_id', $data['manufacturer']);
+        }
+        if (isset($data['option']))
+            $this->join('product_option', 'product.product_id = product_option.product_id ', 'left')->whereIn('product_option.value', $data['option'])->groupBy('value');
 
+        $this->join('category_to_product', 'product.product_id = category_to_product.product_id ', 'left')->where('category_id', $data['categoryID']);
+
+        $this->join('product_description', 'product.product_id = product_description.product_id', 'left');
+
+        $results = $this->findAll($limit, $offset);
         return $results;
     }
     public function getProductBySlug($slug)
     {
         $results = $this
-            ->join('product_stock', 'product_stock.product_id = product.product_id', 'right')
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
-            ->where('slug',$slug)
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
+            ->where('slug', $slug)
             ->first();
 
         return $results;
     }
-    
+    public function search($data, $limit = 10, $offset = 0)
+    {
+        if (isset($data['order']))
+            $this->orderBy($data['order']['orderBy'], $data['order']['order']);
+        $results = $this
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
+            ->groupBy('product.product_id')
+            ->like('name', $data['query'])
+            ->findAll($limit, $offset);
 
+        return $results;
+    }
+    public function searchCount($search)
+    {
+        $results = $this
+            ->selectCount('name')
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
+
+            ->like('name', $search)
+            ->findAll();
+        return $results[0]['name'];
+    }
     public function getProducts()
     {
-        $results = $this 
-            ->where('slug',null)
-            ->join('product_description', 'product_description.product_id = product.product_id', 'right')
+        $results = $this
+            ->where('slug', null)
+            ->join('product_description', 'product_description.product_id = product.product_id', 'left')
             ->findAll();
         return $results;
     }
-
 }
